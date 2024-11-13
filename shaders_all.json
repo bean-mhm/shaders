@@ -1,14 +1,14 @@
 {
  "userName": "beans_please",
- "date": "2024-10-07T20:51:05.010Z",
- "numShaders": 57,
+ "date": "2024-11-13T15:39:54.177Z",
+ "numShaders": 59,
  "shaders": [
   {
    "ver": "0.1",
    "info": {
     "id": "dsjcRR",
     "date": "1687371539",
-    "viewed": 406,
+    "viewed": 414,
     "name": "PBR with Ray Marching (WIP)",
     "description": "* Drag -> Look around\n* WASD -> Move\n* Shift -> Sprint\n* Alt -> Stealth?\n* R -> Reset\n",
     "likes": 6,
@@ -162,10 +162,10 @@
    "info": {
     "id": "dd2yDz",
     "date": "1687622059",
-    "viewed": 551,
+    "viewed": 609,
     "name": "flim - Filmic Color Transform",
     "description": "Experimental Port of flim (Film Emulation Transform)\n\nOriginal Repo:\nhttps://github.com/bean-mhm/flim\n",
-    "likes": 13,
+    "likes": 14,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -206,7 +206,7 @@
    "info": {
     "id": "mdScW1",
     "date": "1687653267",
-    "viewed": 316,
+    "viewed": 330,
     "name": "Interactive 2D Wave Simulation",
     "description": "*Drag your mouse, make a spiral or something.\n\nThis is a port of my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py\n",
     "likes": 6,
@@ -342,7 +342,7 @@
    "info": {
     "id": "md2yWh",
     "date": "1687678448",
-    "viewed": 152,
+    "viewed": 154,
     "name": "experimenting with colormaps",
     "description": "will use this in another shader of mine",
     "likes": 4,
@@ -374,7 +374,7 @@
    "info": {
     "id": "mdByWW",
     "date": "1687704350",
-    "viewed": 168,
+    "viewed": 170,
     "name": "Discrete Land",
     "description": "Playing with integer coordinates",
     "likes": 5,
@@ -417,10 +417,10 @@
    "info": {
     "id": "mdBcz3",
     "date": "1688036284",
-    "viewed": 463,
+    "viewed": 475,
     "name": "3D Wave Simulation",
     "description": "Check out my Interactive 2D Wave Simulation:\nhttps://www.shadertoy.com/view/mdScW1\n\nCheck out my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py",
-    "likes": 21,
+    "likes": 22,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -572,7 +572,7 @@
    "info": {
     "id": "csjfDh",
     "date": "1689671017",
-    "viewed": 177,
+    "viewed": 180,
     "name": "2D Occlusion Test",
     "description": "Drag to move the middle circle",
     "likes": 4,
@@ -669,7 +669,7 @@
    "info": {
     "id": "dsjBDy",
     "date": "1690140863",
-    "viewed": 406,
+    "viewed": 426,
     "name": "2D Fourier Transform",
     "description": "(Not so fast) 2D Fourier Transform implemented in glsl\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the FFT resolution in the Common tab.",
     "likes": 2,
@@ -738,7 +738,7 @@
    "info": {
     "id": "mdjBWK",
     "date": "1690217266",
-    "viewed": 233,
+    "viewed": 236,
     "name": "Triangle Barycentric Coordinates",
     "description": "This started as a 4 AM question: \"How do vertex attributes get interpolated in a fragment shader?\"\nThe Wikipedia page for Barycentric Coordinates was too complicated for me, so hopefully this is easier to und.\nhttps://www.desmos.com/calculator/8g8xjejuox\n",
     "likes": 3,
@@ -784,7 +784,7 @@
    "info": {
     "id": "msjfDt",
     "date": "1690292056",
-    "viewed": 286,
+    "viewed": 290,
     "name": "Moving White Point",
     "description": "Random experiment\n\n- Drag to move the white point",
     "likes": 6,
@@ -827,7 +827,7 @@
    "info": {
     "id": "mlscWr",
     "date": "1690662251",
-    "viewed": 331,
+    "viewed": 346,
     "name": "Blinn-Phong Shading",
     "description": "Sphere",
     "likes": 5,
@@ -872,7 +872,7 @@
    "info": {
     "id": "dlfcD8",
     "date": "1692139870",
-    "viewed": 264,
+    "viewed": 278,
     "name": "Path Tracing name already in use",
     "description": "Good old naive path tracing",
     "likes": 7,
@@ -1014,7 +1014,7 @@
    "info": {
     "id": "ctfcD7",
     "date": "1690805466",
-    "viewed": 143,
+    "viewed": 144,
     "name": "colorful thing",
     "description": "random shader (i was bored)",
     "likes": 2,
@@ -1056,7 +1056,7 @@
    "info": {
     "id": "mlsyDj",
     "date": "1691237601",
-    "viewed": 210,
+    "viewed": 214,
     "name": "Balls Simulated (updated)",
     "description": "This is my first physics simulation, and I just followed my gut, so feel free to comment on how this can be improved\n\nUpdate: Implemented suggestions by @fenix (no more jittering + general improvements)",
     "likes": 12,
@@ -1231,7 +1231,7 @@
    "info": {
     "id": "mtScWm",
     "date": "1691841683",
-    "viewed": 297,
+    "viewed": 299,
     "name": "Blue Noise Dithering vs OETF 2.2",
     "description": "Try commenting out the OETF to see how the dithered version and the clean version don't match in brightness anymore",
     "likes": 9,
@@ -1282,7 +1282,7 @@
    "info": {
     "id": "mtjyDw",
     "date": "1691962447",
-    "viewed": 150,
+    "viewed": 154,
     "name": "1D Continuous Function Graphing",
     "description": "Basically sample points on the function and connect them with line segments",
     "likes": 6,
@@ -1340,7 +1340,7 @@
    "info": {
     "id": "cljczd",
     "date": "1692189706",
-    "viewed": 101,
+    "viewed": 102,
     "name": "Mod of 01000001's FXAA Shader",
     "description": "Original shader: https://www.shadertoy.com/view/mljyzc",
     "likes": 1,
@@ -1551,10 +1551,10 @@
    "info": {
     "id": "mlfBR4",
     "date": "1692737129",
-    "viewed": 130,
+    "viewed": 139,
     "name": "Boids + Packed Voronoi Tracking",
     "description": "Finally learned Voronoi Tracking, read the explanations in Buffer A.",
-    "likes": 1,
+    "likes": 3,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -1740,7 +1740,7 @@
    "info": {
     "id": "dlsBDM",
     "date": "1693112135",
-    "viewed": 207,
+    "viewed": 210,
     "name": "Inverse Square Fourier Transform",
     "description": "0 = Input\n1 = 2D FFT\n2 = Inverse FFT\n\nSee use_sq at the top of Common.",
     "likes": 3,
@@ -1899,7 +1899,7 @@
    "info": {
     "id": "DtSfzR",
     "date": "1693654314",
-    "viewed": 251,
+    "viewed": 258,
     "name": "Beach (Volume Absorption)",
     "description": "More or less: [code]col *= pow(absorption_col, depth)[/code]",
     "likes": 5,
@@ -1934,10 +1934,10 @@
    "info": {
     "id": "ctjfDc",
     "date": "1694574459",
-    "viewed": 335,
+    "viewed": 347,
     "name": "Fork Discoteq 3 (+ flim)",
     "description": "Discoteq 3\nadded flim ( https://www.shadertoy.com/view/dd2yDz )",
-    "likes": 6,
+    "likes": 7,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -2021,7 +2021,7 @@
    "info": {
     "id": "DdcyRf",
     "date": "1695281747",
-    "viewed": 190,
+    "viewed": 191,
     "name": "Exponential Colormap",
     "description": "See the Desmos graphs, play with v",
     "likes": 6,
@@ -2053,7 +2053,7 @@
    "info": {
     "id": "ds3fDM",
     "date": "1697312887",
-    "viewed": 300,
+    "viewed": 306,
     "name": "XPBD Rope",
     "description": "Finally implemented XPBD!\nWatch this amazing video: https://youtube.com/watch?v=jrociOAYqxA\n\n* Drag to move the tail\n\n* Long ish compile time (22 seconds for me), so be patient\n\n* Does not work well on my phone, presumably because of 16-bit floats.",
     "likes": 14,
@@ -2140,7 +2140,7 @@
    "info": {
     "id": "DsGBDy",
     "date": "1698577359",
-    "viewed": 132,
+    "viewed": 136,
     "name": "angle in [0, 2pi)",
     "description": "the",
     "likes": 3,
@@ -2172,7 +2172,7 @@
    "info": {
     "id": "Mcf3Dj",
     "date": "1703544197",
-    "viewed": 201,
+    "viewed": 206,
     "name": "FBM Voronoi",
     "description": "i like voronoi",
     "likes": 2,
@@ -2217,7 +2217,7 @@
    "info": {
     "id": "4fSGzR",
     "date": "1705547653",
-    "viewed": 63,
+    "viewed": 65,
     "name": "FBM Perlin",
     "description": "i like perlin noise",
     "likes": 0,
@@ -2306,7 +2306,7 @@
    "info": {
     "id": "lclXWs",
     "date": "1705932695",
-    "viewed": 151,
+    "viewed": 161,
     "name": "Quantum physics or something",
     "description": "Extremely slow, use shadertoy browser extension to increase the number of iters/frame (paint calls) to 512 ish with inspect element!\n\nHelp: How do I calculate max dt (before it breaks) based on the parameters?\n\nhttps://www.desmos.com/calculator/ery45h4dzl",
     "likes": 1,
@@ -2395,7 +2395,7 @@
    "info": {
     "id": "MXSXRm",
     "date": "1710373949",
-    "viewed": 216,
+    "viewed": 219,
     "name": "3D Function/Volume Visualizer",
     "description": "just raymarching through a box and averaging the values we sampled along the way\n",
     "likes": 10,
@@ -2532,7 +2532,7 @@
    "info": {
     "id": "lXBXWz",
     "date": "1710447505",
-    "viewed": 172,
+    "viewed": 175,
     "name": "8-bit Blue Noise Dithering",
     "description": "dithering",
     "likes": 2,
@@ -2584,7 +2584,7 @@
    "info": {
     "id": "XX2XDd",
     "date": "1711246176",
-    "viewed": 155,
+    "viewed": 157,
     "name": "Run at 120+ Hz if possible",
     "description": "Alternating between red and cyan, which looks gray. Try moving your eyes across the screen really quickly to see the pattern (in full screen).",
     "likes": 1,
@@ -2775,7 +2775,7 @@
    "info": {
     "id": "McdSzr",
     "date": "1713529681",
-    "viewed": 222,
+    "viewed": 228,
     "name": "Subpixel Anti-Aliasing",
     "description": "looks kinda weird tbh, am I doing something wrong?",
     "likes": 4,
@@ -2818,7 +2818,7 @@
    "info": {
     "id": "M3dGz8",
     "date": "1716107523",
-    "viewed": 60,
+    "viewed": 66,
     "name": "2x Temporal Upscaling",
     "description": "read my comments, the character limit is too low ..............................................................................................................................................................................................................",
     "likes": 1,
@@ -3216,7 +3216,7 @@
    "info": {
     "id": "lXy3zK",
     "date": "1717887783",
-    "viewed": 513,
+    "viewed": 532,
     "name": "Daft Punk (Audio Data Packing)",
     "description": "8-bit audio samples packed into ivec4 array(s) using a Python script, with some vinyl pixel art I made",
     "likes": 22,
@@ -3275,7 +3275,7 @@
    "info": {
     "id": "M3VGRK",
     "date": "1717936266",
-    "viewed": 175,
+    "viewed": 184,
     "name": "Attack-Decay-Sustain-Release",
     "description": "The ADSR curve is a fundamental tool used in all audio synthesizers.\nFeel free to play with the values (see custom_adsr_curve_1() in Common).\n\nRead more: [url]https://en.wikipedia.org/wiki/Envelope_(music)[/url]\n",
     "likes": 8,
@@ -3324,7 +3324,7 @@
    "info": {
     "id": "X3y3Rc",
     "date": "1717962362",
-    "viewed": 87,
+    "viewed": 93,
     "name": "Whole buncha utility",
     "description": "Helper functions/structs/defines divided into sections.\nUse whichever section(s) you need:\n- math & integer utils\n- pseudo-random number generator\n- keyboard\n- flim\n",
     "likes": 0,
@@ -3408,7 +3408,7 @@
    "info": {
     "id": "M3tXWn",
     "date": "1718891537",
-    "viewed": 658,
+    "viewed": 665,
     "name": "Digital Logic Simulation",
     "description": "[url=https://www.shadertoy.com/view/X33XDN]UPDATE: NEW VERSION[/url]\nSee the first comment for tutorial and description.\n",
     "likes": 47,
@@ -3673,7 +3673,7 @@
    "info": {
     "id": "X33XDN",
     "date": "1719435553",
-    "viewed": 569,
+    "viewed": 583,
     "name": "DLS + Wire Cross + Clock + Rot",
     "description": "See the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\n",
     "likes": 22,
@@ -4070,10 +4070,10 @@
    "info": {
     "id": "M3ySRK",
     "date": "1720202475",
-    "viewed": 353,
+    "viewed": 407,
     "name": "Parallax Occlusion Mapping X",
     "description": "layer count depends on the ray-surface angle\n",
-    "likes": 18,
+    "likes": 19,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -4148,7 +4148,7 @@
    "info": {
     "id": "XcBBWW",
     "date": "1724905810",
-    "viewed": 101,
+    "viewed": 119,
     "name": "Follow Edge Antialiasing?",
     "description": "idk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison",
     "likes": 1,
@@ -4262,7 +4262,7 @@
    "info": {
     "id": "MfjBDV",
     "date": "1725542638",
-    "viewed": 80,
+    "viewed": 84,
     "name": "Pretty Colormap (-1, +1)",
     "description": "See the Desmos graphs, play with v",
     "likes": 5,
@@ -4405,10 +4405,10 @@
    "info": {
     "id": "XXlBDH",
     "date": "1728333908",
-    "viewed": 5,
+    "viewed": 103,
     "name": "Diffraction Through 5 Slits",
     "description": "inspired by 3b1b's new video",
-    "likes": 0,
+    "likes": 4,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -4431,6 +4431,161 @@
      "name": "Image",
      "description": "",
      "type": "image"
+    }
+   ]
+  },
+  {
+   "ver": "0.1",
+   "info": {
+    "id": "XccyW2",
+    "date": "0",
+    "viewed": 0,
+    "name": "Oscillations",
+    "description": "Hello",
+    "likes": 0,
+    "published": "Private",
+    "usePreview": 0,
+    "tags": [
+     "procedural",
+     "2d",
+     "oscilloscope",
+     "sound",
+     "music",
+     "audio",
+     "crt",
+     "progression",
+     "laser",
+     "song",
+     "chord"
+    ]
+   },
+   "renderpass": [
+    {
+     "inputs": [
+      {
+       "id": "XsBSR3",
+       "filepath": "/media/a/cb49c003b454385aa9975733aff4571c62182ccdda480aaba9a8d250014f00ec.png",
+       "type": "texture",
+       "channel": 0,
+       "sampler": {
+        "filter": "mipmap",
+        "wrap": "repeat",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4dfGRr",
+       "channel": 0
+      }
+     ],
+     "code": "// input signal (2-channel)\nvec2 signal(float t)\n{\n    return audio_signal(t);\n    float l = 0.;\n    float r = 0.;\n    \n    l += .8 * cos_taylor(TAU * 200. * t);\n    r += .8 * sin_taylor(TAU * 400. * t);\n    \n    return vec2(l, r);\n}\n\nfloat sd_segment(vec2 p, vec2 a, vec2 b)\n{\n    vec2 pa = p - a;\n    vec2 ba = b - a;\n    float h = clamp(dot(pa, ba) / dot(ba, ba), 0., 1.);\n    return length(pa - ba * h);\n}\n\nvec3 render_pointer(vec2 uv, vec2 pointer_pos)\n{\n    float dist2 = dist_sq(uv, pointer_pos);\n    \n    const float standard_deviation = .006;\n    const float inv2dev2 = .5 / (standard_deviation * standard_deviation);\n    const float gaussian_scale = 1. / (standard_deviation * sqrt(TAU));\n    \n    float fac = gaussian_scale * exp(-dist2 * inv2dev2);\n    fac += .0001 / (100. * dist2 * dist2 + .001) * smoothstep(.06, .0, dist2);\n    return 7. * fac * vec3(.22, 1, .02);\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // pseudo-random number generator\n    prng_init(vec3(frag_coord, iFrame));\n    \n    // UV and initial color\n    vec2 uv = (2. * frag_coord - iResolution.xy) / min(iResolution.x, iResolution.y);\n    vec3 col = vec3(0);\n    \n    // how much the pointer gets blurred over time\n    const float temporal_persistance = .02;\n    \n    #define SEGMENT_OPTIMIZATION 0\n    #if SEGMENT_OPTIMIZATION\n    \n        // how the optimization works:\n        // we're gonna divide the entire time range [iTime - temporal_persistance]\n        // into n_segments line segments. for each linge segment, if uv is too far\n        // away from it (farther than segment_dist_threshold) then we won't sample\n        // from that time range at all. otherwise, we'll take n_samples_per_segment\n        // samples from the time range associated with that segment.\n        const int n_segments = 128;\n        const int n_samples_per_segment = 8;\n        const float segment_dist_threshold = .25;\n        \n        // go through the segments\n        for (int i = 0; i < n_segments; i++)\n        {\n            // calculate the time range for this segment\n            float time_range_start = mix(\n                iTime - temporal_persistance,\n                iTime,\n                float(i) / float(n_segments)\n            );\n            float time_range_end = mix(\n                iTime - temporal_persistance,\n                iTime,\n                float(i + 1) / float(n_segments)\n            );\n            \n            // get the endpoints of the line segment directly from the output of\n            // signal() at the endpoints of the corresponding time range.\n            vec2 endpoint0 = signal(time_range_start);\n            vec2 endpoint1 = signal(time_range_end);\n            \n            // if uv is too far away from the segment, skip this segment.\n            if (sd_segment(uv, endpoint0, endpoint1) > segment_dist_threshold)\n            {\n                continue;\n            }\n            \n            // take random samples within the corresponding time range\n            for (int j = 0; j < n_samples_per_segment; j++)\n            {\n                float sample_time = mix(\n                    time_range_start,\n                    time_range_end,\n                    random()\n                );\n                col += render_pointer(uv, signal(sample_time));\n            }\n        }\n        \n        // average out the samples\n        col /= float(n_segments * n_samples_per_segment);\n    \n    #else\n    \n        // this is the normal method with no optimizations.\n        // just randomly sample the entire time range.\n        const int n_samples = 48;\n        for (int i = 0; i < n_samples; i++)\n        {\n            float sample_time = iTime - random() * temporal_persistance;\n            col += render_pointer(uv, signal(sample_time));\n        }\n        col /= float(n_samples);\n    \n    #endif\n    \n    // background\n    col += vec3(0, .017, .044);\n    \n    // vignette\n    col *= exp(-.05 * length_sq(uv));\n\n    // flim and output\n    col = flim_transform(col, 0., true);\n    frag_col = vec4(col, 1);\n}\n",
+     "name": "Image",
+     "description": "",
+     "type": "image"
+    },
+    {
+     "inputs": [],
+     "outputs": [],
+     "code": "/*___________ math & integer utils ____________*/\n\nconst float PI = 3.141592653589793238462643383;\nconst float TAU = 6.283185307179586476925286767;\nconst float HALF_PI = 1.570796326794896619231321692;\nconst float THREE_PI_HALF = 4.7123889803846898576939650749193;\nconst float INV_PI = .318309886183790671537767527;\nconst float INV_TAU = .159154943091895335768883763;\n\n#define FUNC_WRAP(T) \\\nT wrap(T v, float start, float end) \\\n{ \\\n    return start + mod(v - start, end - start); \\\n}\n\n#define FUNC_REMAP(T) \\\nT remap(T v, float inp_start, float inp_end, float out_start, float out_end) \\\n{ \\\n    return out_start \\\n        + ((out_end - out_start) / (inp_end - inp_start)) * (v - inp_start); \\\n}\n\n#define FUNC_REMAP_CLAMP(T) \\\nT remap_clamp( \\\n    T v, \\\n    float inp_start, \\\n    float inp_end, \\\n    float out_start, \\\n    float out_end \\\n) \\\n{ \\\n    T t = clamp((v - inp_start) / (inp_end - inp_start), 0., 1.); \\\n    return out_start + t * (out_end - out_start); \\\n}\n\n#define FUNC_REMAP01(T) \\\nT remap01(T v, float inp_start, float inp_end) \\\n{ \\\n    return clamp((v - inp_start) / (inp_end - inp_start), 0., 1.); \\\n}\n\n#define FUNC_LENGTH_SQ(T) \\\nfloat length_sq(T v) \\\n{ \\\n    return dot(v, v); \\\n}\n\n#define FUNC_DIST_SQ(T) \\\nfloat dist_sq(T a, T b) \\\n{ \\\n    a -= b; \\\n    return dot(a, a); \\\n}\n\nFUNC_WRAP(float)\nFUNC_WRAP(vec2)\nFUNC_WRAP(vec3)\nFUNC_WRAP(vec4)\n\nFUNC_REMAP(float)\nFUNC_REMAP(vec2)\nFUNC_REMAP(vec3)\nFUNC_REMAP(vec4)\n\nFUNC_REMAP_CLAMP(float)\nFUNC_REMAP_CLAMP(vec2)\nFUNC_REMAP_CLAMP(vec3)\nFUNC_REMAP_CLAMP(vec4)\n\nFUNC_REMAP01(float)\nFUNC_REMAP01(vec2)\nFUNC_REMAP01(vec3)\nFUNC_REMAP01(vec4)\n\nFUNC_LENGTH_SQ(vec2)\nFUNC_LENGTH_SQ(vec3)\nFUNC_LENGTH_SQ(vec4)\n\nFUNC_DIST_SQ(vec2)\nFUNC_DIST_SQ(vec3)\nFUNC_DIST_SQ(vec4)\n\nfloat cos_taylor_imprecise(float x)\n{\n    const float INV_2FAC = .5;\n    const float INV_4FAC = .04166666666666666666666666666667;\n    const float INV_6FAC = .00138888888888888888888888888889;\n    const float INV_8FAC = 2.4801587301587301587301587301587e-5;\n    const float INV_10FAC = 2.7557319223985890652557319223986e-7;\n\n    float x2 = x * x;\n    float x4 = x2 * x2;\n    float x6 = x4 * x2;\n    float x8 = x6 * x2;\n    //float x10 = x8 * x2;\n    \n    return 1. - (x2 * INV_2FAC) + (x4 * INV_4FAC) - (x6 * INV_6FAC) + (x8 * INV_8FAC) /*- (x10 * INV_10FAC)*/;\n}\n\nfloat cos_taylor(float x)\n{\n    x = mod(x, TAU);\n    if (x > THREE_PI_HALF) return cos_taylor_imprecise(TAU - x);\n    if (x > PI) return -cos_taylor_imprecise(x - PI);\n    if (x > HALF_PI) return -cos_taylor_imprecise(PI - x);\n    return cos_taylor_imprecise(x);\n}\n\nfloat sin_taylor(float x)\n{\n    x = mod(x, TAU);\n    if (x > THREE_PI_HALF) return -cos_taylor_imprecise(x - THREE_PI_HALF);\n    if (x > PI) return -cos_taylor_imprecise(THREE_PI_HALF - x);\n    if (x > HALF_PI) return cos_taylor_imprecise(x-  HALF_PI);\n    return cos_taylor_imprecise(HALF_PI - x);\n}\n\nfloat tri_wave(float x)\n{\n    x *= INV_PI;\n    return float(int(x) % 2 * 2 - 1) * (abs(mod(x, 2.)) - 1.) * -2. + 1.;\n}\n\n\n\n/*_______ pseudo-random number generator ______*/\n// source: https://www.shadertoy.com/view/WdSSRt\n// (heavily modified)\n\n/* usage example:\n    void mainImage(out vec4 frag_col, in vec2 frag_coord)\n    {\n        // initialize PRNG\n        prng_init(vec3(frag_coord / iResolution.y, iTime));\n    \n        // use the function\n        float a = random();\n        vec3 b = vec3(random(), random(), random());\n        \n        ...\n    }\n*/\n\nuint prng_state[2];\n\nuint prng_rot(uint x, int k)\n{\n    return (x << k) | (x >> (32 - k));\n}\n\n// random uint from 0 to 2^32-1\nuint randomui()\n{\n    uint s0 = prng_state[0];\n    uint s1 = prng_state[1];\n    uint result = prng_rot(s0 * 2654435771u, 5) * 5u;\n    s1 ^= s0;\n    prng_state[0] = prng_rot(s0, 26) ^ s1 ^ (s1 << 9);\n    prng_state[1] = prng_rot(s1, 13);\n    return result;\n}\n\n// random int from 0 to 2^31-1\nint randomi()\n{\n    return int(randomui() % 0x7FFFFFFFu);\n}\n\n// random float from 0 to 1\nfloat random()\n{\n    return float(randomui()) / float(0xffffffffu);\n}\n\n// generate two normally distributed random numbers using the\n// Box-Muller transform\n// https://www.baeldung.com/cs/uniform-to-normal-distribution\nvec2 random_gauss()\n{\n    float u1 = random();\n    float u2 = random() * TAU;\n    float temp = sqrt(-2. * log(u1));\n    return temp * vec2(cos(u2), sin(u2));\n    \n    // unoptimized version\n    //float u1 = random();\n    //float u2 = random();\n    //return vec2(cos(TAU * u2), sin(TAU * u2)) * sqrt(-2. * log(u1));\n}\n\nvec2 random_on_circle()\n{\n    vec2 v = vec2(1);\n    float lensqr;\n\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec2(2. * random() - 1., 2. * random() - 1.);\n        lensqr = dot(v, v);\n        if (lensqr == 0.)\n            i--;\n        else if (lensqr <= 1.)\n            break;\n    }\n    return v / sqrt(lensqr);\n}\n\nvec3 random_on_sphere()\n{\n    vec3 v = vec3(1);\n    float lensqr;\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec3(2. * random() - 1., 2. * random() - 1., 2. * random() - 1.);\n        lensqr = dot(v, v);\n        if (lensqr == 0.)\n            i--;\n        else if (lensqr <= 1.)\n            break;\n    }\n    return v / sqrt(lensqr);\n}\n\nvec2 random_in_circle()\n{\n    vec2 v = vec2(1);\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec2(2. * random() - 1., 2. * random() - 1.);\n        if (dot(v, v) <= 1.)\n            return v;\n    }\n    return v;\n}\n\nvec3 random_in_sphere()\n{\n    vec3 v = vec3(1);\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec3(2. * random() - 1., 2. * random() - 1., 2. * random() - 1.);\n        if (dot(v, v) <= 1.)\n            return v;\n    }\n    return v;\n}\n\nvec3 random_on_hemisphere(vec3 normal)\n{\n    vec3 v = random_on_sphere();\n    return v * sign(dot(v, normal));\n}\n\nvec3 random_in_hemisphere(vec3 normal)\n{\n    vec3 v = random_in_sphere();\n    return v * sign(dot(v, normal));\n}\n\n// initialize with uvec2\nvoid prng_init(uvec2 seed)\n{\n    seed += uvec2(1317, 944573125);\n    seed *= 464973573u;\n    prng_state[0] = seed.x;\n    prng_state[1] = seed.y;\n    randomi();\n}\n\n// initialize with uint\nvoid prng_init(uint seed)\n{\n    prng_init(uvec2(seed, 1));\n}\n\n// initialize with vec3\nvoid prng_init(vec3 seed)\n{\n    seed += 3.49276101561702;\n    seed.xy *= (seed.z + 10.258);\n    prng_state[0] = floatBitsToUint(seed.x);\n    prng_state[1] = floatBitsToUint(seed.y);\n    randomui();\n}\n\n// initialize with vec2\nvoid prng_init(vec2 seed)\n{\n    prng_init(vec3(seed, 1));\n}\n\n// initialize with float\nvoid prng_init(float seed)\n{\n    prng_init(vec3(seed, 1, 1));\n}\n\n\n\n/*___________________ audio ___________________*/\n// https://www.shadertoy.com/view/M3VGRK\n\n// C0 = 0, C5 = 60\nfloat note_to_freq(float note)\n{\n    const float a = 440.;\n    return (a / 32.) * pow(2., (note - 9.) / 12.);\n}\n\nconst float NOTE_C0 = 0.;\nconst float NOTE_CS0 = 1.;\nconst float NOTE_D0 = 2.;\nconst float NOTE_DS0 = 3.;\nconst float NOTE_E0 = 4.;\nconst float NOTE_F0 = 5.;\nconst float NOTE_FS0 = 6.;\nconst float NOTE_G0 = 7.;\nconst float NOTE_GS0 = 8.;\nconst float NOTE_A0 = 9.;\nconst float NOTE_AS0 = 10.;\nconst float NOTE_B0 = 11.;\nconst float NOTE_C1 = 12.;\nconst float NOTE_CS1 = 13.;\nconst float NOTE_D1 = 14.;\nconst float NOTE_DS1 = 15.;\nconst float NOTE_E1 = 16.;\nconst float NOTE_F1 = 17.;\nconst float NOTE_FS1 = 18.;\nconst float NOTE_G1 = 19.;\nconst float NOTE_GS1 = 20.;\nconst float NOTE_A1 = 21.;\nconst float NOTE_AS1 = 22.;\nconst float NOTE_B1 = 23.;\nconst float NOTE_C2 = 24.;\nconst float NOTE_CS2 = 25.;\nconst float NOTE_D2 = 26.;\nconst float NOTE_DS2 = 27.;\nconst float NOTE_E2 = 28.;\nconst float NOTE_F2 = 29.;\nconst float NOTE_FS2 = 30.;\nconst float NOTE_G2 = 31.;\nconst float NOTE_GS2 = 32.;\nconst float NOTE_A2 = 33.;\nconst float NOTE_AS2 = 34.;\nconst float NOTE_B2 = 35.;\nconst float NOTE_C3 = 36.;\nconst float NOTE_CS3 = 37.;\nconst float NOTE_D3 = 38.;\nconst float NOTE_DS3 = 39.;\nconst float NOTE_E3 = 40.;\nconst float NOTE_F3 = 41.;\nconst float NOTE_FS3 = 42.;\nconst float NOTE_G3 = 43.;\nconst float NOTE_GS3 = 44.;\nconst float NOTE_A3 = 45.;\nconst float NOTE_AS3 = 46.;\nconst float NOTE_B3 = 47.;\nconst float NOTE_C4 = 48.;\nconst float NOTE_CS4 = 49.;\nconst float NOTE_D4 = 50.;\nconst float NOTE_DS4 = 51.;\nconst float NOTE_E4 = 52.;\nconst float NOTE_F4 = 53.;\nconst float NOTE_FS4 = 54.;\nconst float NOTE_G4 = 55.;\nconst float NOTE_GS4 = 56.;\nconst float NOTE_A4 = 57.;\nconst float NOTE_AS4 = 58.;\nconst float NOTE_B4 = 59.;\nconst float NOTE_C5 = 60.;\nconst float NOTE_CS5 = 61.;\nconst float NOTE_D5 = 62.;\nconst float NOTE_DS5 = 63.;\nconst float NOTE_E5 = 64.;\nconst float NOTE_F5 = 65.;\nconst float NOTE_FS5 = 66.;\nconst float NOTE_G5 = 67.;\nconst float NOTE_GS5 = 68.;\nconst float NOTE_A5 = 69.;\nconst float NOTE_AS5 = 70.;\nconst float NOTE_B5 = 71.;\nconst float NOTE_C6 = 72.;\nconst float NOTE_CS6 = 73.;\nconst float NOTE_D6 = 74.;\nconst float NOTE_DS6 = 75.;\nconst float NOTE_E6 = 76.;\nconst float NOTE_F6 = 77.;\nconst float NOTE_FS6 = 78.;\nconst float NOTE_G6 = 79.;\nconst float NOTE_GS6 = 80.;\nconst float NOTE_A6 = 81.;\nconst float NOTE_AS6 = 82.;\nconst float NOTE_B6 = 83.;\nconst float NOTE_C7 = 84.;\nconst float NOTE_CS7 = 85.;\nconst float NOTE_D7 = 86.;\nconst float NOTE_DS7 = 87.;\nconst float NOTE_E7 = 88.;\nconst float NOTE_F7 = 89.;\nconst float NOTE_FS7 = 90.;\nconst float NOTE_G7 = 91.;\nconst float NOTE_GS7 = 92.;\nconst float NOTE_A7 = 93.;\nconst float NOTE_AS7 = 94.;\nconst float NOTE_B7 = 95.;\nconst float NOTE_C8 = 96.;\nconst float NOTE_CS8 = 97.;\nconst float NOTE_D8 = 98.;\nconst float NOTE_DS8 = 99.;\nconst float NOTE_E8 = 100.;\nconst float NOTE_F8 = 101.;\nconst float NOTE_FS8 = 102.;\nconst float NOTE_G8 = 103.;\nconst float NOTE_GS8 = 104.;\nconst float NOTE_A8 = 105.;\nconst float NOTE_AS8 = 106.;\nconst float NOTE_B8 = 107.;\nconst float NOTE_C9 = 108.;\nconst float NOTE_CS9 = 109.;\nconst float NOTE_D9 = 110.;\nconst float NOTE_DS9 = 111.;\nconst float NOTE_E9 = 112.;\nconst float NOTE_F9 = 113.;\nconst float NOTE_FS9 = 114.;\nconst float NOTE_G9 = 115.;\nconst float NOTE_GS9 = 116.;\nconst float NOTE_A9 = 117.;\nconst float NOTE_AS9 = 118.;\nconst float NOTE_B9 = 119.;\nconst float NOTE_C10 = 120.;\nconst float NOTE_CS10 = 121.;\nconst float NOTE_D10 = 122.;\nconst float NOTE_DS10 = 123.;\nconst float NOTE_E10 = 124.;\nconst float NOTE_F10 = 125.;\nconst float NOTE_FS10 = 126.;\nconst float NOTE_G10 = 127.;\nconst float NOTE_GS10 = 128.;\nconst float NOTE_A10 = 129.;\nconst float NOTE_AS10 = 130.;\nconst float NOTE_B10 = 131.;\n\nfloat db_to_mul(float db)\n{\n    return pow(10., .05 * db);\n}\n\nfloat mul_to_db(float mul)\n{\n    return 8.68588963808 * log(mul);\n}\n\n// curve similar to ones used in automation and envelope curves in most VSTs and\n// DAWs\n// https://www.desmos.com/calculator/kvkzogpxjk\nfloat expow(float t, float p)\n{\n    t = clamp(t, 0., 1.);\n    if (p >= 0.)\n    {\n        return pow(t, pow(2., p));\n    }\n    return 1. - pow(1. - t, pow(2., -p));\n}\n\nstruct Adsr\n{\n    float delay;        // >=0\n    float attack;       // >=0\n    float attack_pow;   // any\n    float hold;         // >=0\n    float decay;        // >=0\n    float decay_pow;    // any\n    float sustain;      // 0-1\n    float release;      // >=0\n    float release_pow;  // any\n};\n\nfloat Adsr_internal_ads(in Adsr self, float t)\n{\n    if (t < 0.)\n    {\n        return 0.;\n    }\n    if (t < self.attack)\n    {\n        return expow(t / self.attack, -self.attack_pow);\n    }\n    t -= self.attack;\n    if (t < self.hold)\n    {\n        return 1.;\n    }\n    t -= self.hold;\n    if (t < self.decay)\n    {\n        return remap(\n            expow(t / self.decay, self.decay_pow),\n            0., 1.,\n            1., self.sustain\n        );\n    }\n    return self.sustain;\n}\n\nfloat Adsr_internal_release(in Adsr self, float t, float v_before_release)\n{\n    if (t < self.release)\n    {\n        return remap(\n            expow(t / self.release, self.release_pow),\n            0., 1.,\n            v_before_release, 0.\n        );\n    }\n    return 0.;\n}\n\nfloat Adsr_eval(in Adsr self, float t, float note_length)\n{\n    t -= self.delay;\n    note_length -= self.delay;\n    if (t < note_length)\n    {\n        return Adsr_internal_ads(self, t);\n    }\n    else\n    {\n        float t_before_release = min(\n            note_length,\n            self.delay + self.attack + self.hold + self.decay\n        );\n        float v_before_release = Adsr_internal_ads(\n            self,\n            t_before_release\n        );\n        return Adsr_internal_release(\n            self,\n            t - note_length,\n            v_before_release\n        );\n    }\n}\n\nfloat adsr_1(float t, float note_length)\n{\n    Adsr adsr;\n    adsr.delay = 0.02;      // start with 20 ms of delay\n    adsr.attack = .03;      // rise to full volume in 30 ms\n    adsr.attack_pow = 0.;   // rise to full volume linearly\n    adsr.hold = 0.05;       // stay at full volume for 50 ms\n    adsr.decay = .5;        // decay to 65% volume in 0.5 s\n    adsr.decay_pow = -.9;   // start decaying quickly and then slow down\n    adsr.sustain = .65;     // volume to decay to: 65%\n    adsr.release = .2;      // when the key is released, go to 0% in 200 ms\n    adsr.release_pow = -1.; // start going to 0% quickly and then slow down\n\n    return Adsr_eval(\n        adsr,\n        t,\n        note_length\n    );\n}\n\nfloat adsr_2(float t, float note_length)\n{\n    Adsr adsr;\n    adsr.delay = 0.0;      // start with 20 ms of delay\n    adsr.attack = .01;      // rise to full volume in 30 ms\n    adsr.attack_pow = 0.;   // rise to full volume linearly\n    adsr.hold = 0.;       // stay at full volume for 50 ms\n    adsr.decay = .18;        // decay to 65% volume in 0.5 s\n    adsr.decay_pow = -.9;   // start decaying quickly and then slow down\n    adsr.sustain = .65;     // volume to decay to: 65%\n    adsr.release = .1;      // when the key is released, go to 0% in 200 ms\n    adsr.release_pow = -1.; // start going to 0% quickly and then slow down\n\n    return Adsr_eval(\n        adsr,\n        t,\n        note_length\n    );\n}\n\nfloat inst1(float t, float note, float phase)\n{\n    float a = TAU * note_to_freq(note) * t + radians(phase);\n    return sin_taylor(a);\n}\n\nfloat inst2(float t, float note, float phase)\n{\n    float a = TAU * note_to_freq(note) * t + radians(phase);\n    return tri_wave(a);\n}\n\nconst float KEY = 60.;\nconst float BPM = 130.;\nconst float BEAT_LENGTH = 60. / BPM;\n\nconst int N_CHORDS = 4;\nconst vec4 CHORDS[N_CHORDS] = vec4[](\n    vec4(NOTE_B3, NOTE_FS4, NOTE_B4, NOTE_DS5),\n    vec4(NOTE_DS4, NOTE_GS4, NOTE_B4, NOTE_DS5),\n    vec4(NOTE_DS4, NOTE_FS4, NOTE_AS4, NOTE_DS5),\n    vec4(NOTE_F4, NOTE_GS4, NOTE_CS5, NOTE_DS5)\n);\n\nconst int N_TRI_NOTES = 5;\nconst vec4 TRI_NOTES[N_TRI_NOTES] = vec4[](\n    // note, starting beat, length (seconds), gain\n    vec4(NOTE_DS5, 0., .16, 1.),\n    vec4(NOTE_FS5, 3. / 4., .16, 1.),\n    vec4(NOTE_GS5, 6. / 4., .16, 1.),\n    vec4(NOTE_CS5, 10. / 4., .16, 1.),\n    vec4(NOTE_CS5, 14. / 4., .16, 1.)\n);\n\nvec2 pattern_chords(float t)\n{\n    float beat = t / BEAT_LENGTH;\n    float beat_t = mod(t, BEAT_LENGTH);\n\n    vec4 chord = CHORDS[int(beat) / 4 % N_CHORDS];\n    \n    vec2 lr = vec2(.12, 0.) * inst1(t, chord.x, 0.);\n    lr += vec2(0., .12) * inst1(t, chord.y, 90.);\n    lr += vec2(.12, 0.) * inst1(t, chord.z, 180.);\n    lr += vec2(0., .12) * inst1(t, chord.w, 270.);\n    lr *= adsr_1(beat_t, .32);\n    \n    return lr;\n}\n\nvec2 pattern_counter(float t)\n{\n    float beat = t / BEAT_LENGTH;\n    float beat_t = mod(t, BEAT_LENGTH);\n    \n    vec2 lr = vec2(0);\n    for (int i = 0; i < N_TRI_NOTES; i++)\n    {\n        vec4 note_data = TRI_NOTES[i];\n        float note = note_data.x;\n        float start_beat = note_data.y;\n        float note_len = note_data.z;\n        float gain = note_data.w;\n        \n        if (beat < start_beat\n            || t > (start_beat * BEAT_LENGTH + note_len + .3))\n        {\n            continue;\n        }\n        \n        vec2 pan_fac = mix(\n            vec2(i % 2, (i + 1) % 2),\n            vec2(.5),\n            .3\n        );\n        \n        lr +=\n            .18\n            * pan_fac\n            * inst2(t, note, 0.)\n            * adsr_2(t - start_beat * BEAT_LENGTH, note_len);\n    }\n    return lr;\n}\n\nvec2 audio_signal(float t)\n{    \n    vec2 lr = vec2(0);\n    lr += pattern_chords(t);\n    lr += pattern_counter(t) + .5 * pattern_counter(t - BEAT_LENGTH / 2.);\n    return lr;\n}\n\n\n\n/*-----------------------------------------------\n\nflim - Filmic Color Transform\n\nInput Color Space:   Linear BT.709 I-D65\nOutput Color Space:  Linear BT.709 I-D65 / sRGB 2.2 (depends on arguments)\n\nDescription:\n  Experimental port of flim for GLSL/Shadertoy\n  matching flim v1.1.0.\n\nAuthor:\n  Bean (beans_please on Shadertoy)\n\nOriginal Repo:\n  https://github.com/bean-mhm/flim\n\nOriginal Shader:\n  https://www.shadertoy.com/view/dd2yDz\n\n-----------------------------------------------*/\n\n// parameters\n\nconst float flim_pre_exposure = 4.3;\nconst vec3 flim_pre_formation_filter = vec3(1.);\nconst float flim_pre_formation_filter_strength = 0.;\n\nconst float flim_extended_gamut_red_scale = 1.05;\nconst float flim_extended_gamut_green_scale = 1.12;\nconst float flim_extended_gamut_blue_scale = 1.045;\nconst float flim_extended_gamut_red_rot = .5;\nconst float flim_extended_gamut_green_rot = 2.;\nconst float flim_extended_gamut_blue_rot = .1;\nconst float flim_extended_gamut_red_mul = 1.;\nconst float flim_extended_gamut_green_mul = 1.;\nconst float flim_extended_gamut_blue_mul = 1.;\n\nconst float flim_sigmoid_log2_min = -10.;\nconst float flim_sigmoid_log2_max = 22.;\nconst float flim_sigmoid_toe_x = .44;\nconst float flim_sigmoid_toe_y = .28;\nconst float flim_sigmoid_shoulder_x = .591;\nconst float flim_sigmoid_shoulder_y = .779;\n\nconst float flim_negative_film_exposure = 6.;\nconst float flim_negative_film_density = 5.;\n\nconst vec3 flim_print_backlight = vec3(1);\nconst float flim_print_film_exposure = 6.;\nconst float flim_print_film_density = 27.5;\n\nconst float flim_black_point = -1.; // -1 = auto\nconst vec3 flim_post_formation_filter = vec3(1);\nconst float flim_post_formation_filter_strength = 0.;\nconst float flim_midtone_saturation = 1.02;\n\n// color space conversions\n// the matrices below represent data in row-major, but GLSL matrices are in\n// column-major, so we need to multiply a vec3 by a matrix rather than\n// multiplying a matrix by a vec3.\n\nconst mat3 mat_bt2020_to_xyz = mat3(\n     0.6369580483,  0.1446169036,  0.1688809752,\n     0.2627002120,  0.6779980715,  0.0593017165,\n     0.0000000000,  0.0280726930,  1.0609850577\n);\n\nconst mat3 mat_xyz_to_bt2020 = mat3(\n     1.7166511880, -0.3556707838, -0.2533662814,\n    -0.6666843518,  1.6164812366,  0.0157685458,\n     0.0176398574, -0.0427706133,  0.9421031212\n);\n\nconst mat3 mat_bt709_to_xyz = mat3(\n     0.4123907993,  0.3575843394,  0.1804807884,\n     0.2126390059,  0.7151686788,  0.0721923154,\n     0.0193308187,  0.1191947798,  0.9505321522\n);\n\nconst mat3 mat_xyz_to_bt709 = mat3(\n     3.2409699419, -1.5373831776, -0.4986107603,\n    -0.9692436363,  1.8759675015,  0.0415550574,\n     0.0556300797, -0.2039769589,  1.0569715142\n);\n\nconst mat3 mat_dcip3_to_xyz = mat3(\n     0.4451698156,  0.2771344092,  0.1722826698,\n     0.2094916779,  0.7215952542,  0.0689130679,\n     0.0000000000,  0.0470605601,  0.9073553944\n);\n\nconst mat3 mat_xyz_to_dcip3 = mat3(\n     2.7253940305, -1.0180030062, -0.4401631952,\n    -0.7951680258,  1.6897320548,  0.0226471906,\n     0.0412418914, -0.0876390192,  1.1009293786\n);\n\nvec3 oetf_pow(vec3 col, float power)\n{\n    return pow(col, vec3(1. / power));\n}\n\nvec3 eotf_pow(vec3 col, float power)\n{\n    return pow(col, vec3(power));\n}\n\n// flim's utility functions\n\nfloat flim_wrap(float v, float start, float end)\n{\n    return start + mod(v - start, end - start);\n}\n\nfloat flim_remap(\n    float v,\n    float inp_start,\n    float inp_end,\n    float out_start,\n    float out_end\n)\n{\n    return out_start\n        + ((out_end - out_start) / (inp_end - inp_start)) * (v - inp_start);\n}\n\nfloat flim_remap_clamp(\n    float v,\n    float inp_start,\n    float inp_end,\n    float out_start,\n    float out_end\n)\n{\n    float t = clamp((v - inp_start) / (inp_end - inp_start), 0., 1.);\n    return out_start + t * (out_end - out_start);\n}\n\nfloat flim_remap01(\n    float v,\n    float inp_start,\n    float inp_end\n)\n{\n    return clamp((v - inp_start) / (inp_end - inp_start), 0., 1.);\n}\n\nvec3 flim_blender_rgb_to_hsv(vec3 rgb)\n{\n    float cmax, cmin, h, s, v, cdelta;\n    vec3 c;\n\n    cmax = max(rgb[0], max(rgb[1], rgb[2]));\n    cmin = min(rgb[0], min(rgb[1], rgb[2]));\n    cdelta = cmax - cmin;\n\n    v = cmax;\n    if (cmax != 0.)\n    {\n        s = cdelta / cmax;\n    }\n    else\n    {\n        s = 0.;\n        h = 0.;\n    }\n\n    if (s == 0.)\n    {\n        h = 0.;\n    }\n    else\n    {\n        c = (vec3(cmax) - rgb.xyz) / cdelta;\n\n        if (rgb.x == cmax)\n        {\n            h = c[2] - c[1];\n        }\n        else if (rgb.y == cmax)\n        {\n            h = 2. + c[0] - c[2];\n        }\n        else\n        {\n            h = 4. + c[1] - c[0];\n        }\n\n        h /= 6.;\n\n        if (h < 0.)\n        {\n            h += 1.;\n        }\n    }\n\n    return vec3(h, s, v);\n}\n\nvec3 flim_blender_hsv_to_rgb(vec3 hsv)\n{\n    float f, p, q, t, h, s, v;\n    vec3 rgb;\n\n    h = hsv[0];\n    s = hsv[1];\n    v = hsv[2];\n\n    if (s == 0.)\n    {\n        rgb = vec3(v, v, v);\n    }\n    else\n    {\n        if (h == 1.)\n        {\n            h = 0.;\n        }\n\n        h *= 6.;\n        int i = int(floor(h));\n        f = h - float(i);\n        rgb = vec3(f, f, f);\n        p = v * (1. - s);\n        q = v * (1. - (s * f));\n        t = v * (1. - (s * (1. - f)));\n\n        if (i == 0)\n        {\n            rgb = vec3(v, t, p);\n        }\n        else if (i == 1)\n        {\n            rgb = vec3(q, v, p);\n        }\n        else if (i == 2)\n        {\n            rgb = vec3(p, v, t);\n        }\n        else if (i == 3)\n        {\n            rgb = vec3(p, q, v);\n        }\n        else if (i == 4)\n        {\n            rgb = vec3(t, p, v);\n        }\n        else\n        {\n            rgb = vec3(v, p, q);\n        }\n    }\n\n    return rgb;\n}\n\nvec3 flim_blender_hue_sat(vec3 col, float hue, float sat, float value)\n{\n    vec3 hsv = flim_blender_rgb_to_hsv(col);\n\n    hsv[0] = fract(hsv[0] + hue + .5);\n    hsv[1] = clamp(hsv[1] * sat, 0., 1.);\n    hsv[2] = hsv[2] * value;\n\n    return flim_blender_hsv_to_rgb(hsv);\n}\n\nfloat flim_rgb_avg(vec3 col)\n{\n    return (col.x + col.y + col.z) / 3.;\n}\n\nfloat flim_rgb_sum(vec3 col)\n{\n    return col.x + col.y + col.z;\n}\n\nfloat flim_rgb_max(vec3 col)\n{\n    return max(max(col.x, col.y), col.z);\n}\n\nfloat flim_rgb_min(vec3 col)\n{\n    return min(min(col.x, col.y), col.z);\n}\n\nvec3 flim_rgb_uniform_offset(vec3 col, float black_point, float white_point)\n{\n    float mono = flim_rgb_avg(col);\n    float mono2 = flim_remap01(\n        mono, black_point / 1000.,\n        1. - (white_point / 1000.)\n    );\n    return col * (mono2 / mono);\n}\n\nvec3 flim_rgb_sweep(float hue)\n{\n    hue = flim_wrap(hue * 360., 0., 360.);\n\n    vec3 col = vec3(1, 0, 0);\n    col = mix(col, vec3(1, 1, 0), flim_remap01(hue, 0., 60.));\n    col = mix(col, vec3(0, 1, 0), flim_remap01(hue, 60., 120.));\n    col = mix(col, vec3(0, 1, 1), flim_remap01(hue, 120., 180.));\n    col = mix(col, vec3(0, 0, 1), flim_remap01(hue, 180., 240.));\n    col = mix(col, vec3(1, 0, 1), flim_remap01(hue, 240., 300.));\n    col = mix(col, vec3(1, 0, 0), flim_remap01(hue, 300., 360.));\n    \n    return col;\n}\n\nvec3 flim_rgb_exposure_sweep_test(vec2 uv0to1)\n{\n    float hue = 1. - uv0to1.y;\n    float exposure = flim_remap(uv0to1.x, 0., 1., -5., 10.);\n    return flim_rgb_sweep(hue) * pow(2., exposure);\n}\n\n// https://www.desmos.com/calculator/khkztixyeu\nfloat flim_super_sigmoid(\n    float v,\n    float toe_x,\n    float toe_y,\n    float shoulder_x,\n    float shoulder_y\n)\n{\n    // clip\n    v = clamp(v, 0., 1.);\n    toe_x = clamp(toe_x, 0., 1.);\n    toe_y = clamp(toe_y, 0., 1.);\n    shoulder_x = clamp(shoulder_x, 0., 1.);\n    shoulder_y = clamp(shoulder_y, 0., 1.);\n\n    // calculate straight line slope\n    float slope = (shoulder_y - toe_y) / (shoulder_x - toe_x);\n\n    // toe\n    if (v < toe_x)\n    {\n        float toe_pow = slope * toe_x / toe_y;\n        return toe_y * pow(v / toe_x, toe_pow);\n    }\n\n    // straight line\n    if (v < shoulder_x)\n    {\n        float intercept = toe_y - (slope * toe_x);\n        return slope * v + intercept;\n    }\n\n    // shoulder\n    float shoulder_pow =\n        -slope / (\n            ((shoulder_x - 1.) / pow(1. - shoulder_x, 2.))\n            * (1. - shoulder_y)\n        );\n    return\n        (1. - pow(1. - (v - shoulder_x) / (1. - shoulder_x), shoulder_pow))\n        * (1. - shoulder_y)\n        + shoulder_y;\n}\n\nfloat flim_dye_mix_factor(float mono, float max_density)\n{\n    // log2 and map range\n    float offset = pow(2., flim_sigmoid_log2_min);\n    float fac = flim_remap01(\n        log2(mono + offset),\n        flim_sigmoid_log2_min,\n        flim_sigmoid_log2_max\n    );\n\n    // calculate amount of exposure from 0 to 1\n    fac = flim_super_sigmoid(\n        fac,\n        flim_sigmoid_toe_x,\n        flim_sigmoid_toe_y,\n        flim_sigmoid_shoulder_x,\n        flim_sigmoid_shoulder_y\n    );\n\n    // calculate dye density\n    fac *= max_density;\n\n    // mix factor\n    fac = pow(2., -fac);\n\n    // clip and return\n    return clamp(fac, 0., 1.);\n}\n\nvec3 flim_rgb_color_layer(\n    vec3 col,\n    vec3 sensitivity_tone,\n    vec3 dye_tone,\n    float max_density\n)\n{\n    // normalize\n    vec3 sensitivity_tone_norm =\n        sensitivity_tone / flim_rgb_sum(sensitivity_tone);\n    vec3 dye_tone_norm = dye_tone / flim_rgb_max(dye_tone);\n\n    // dye mix factor\n    float mono = dot(col, sensitivity_tone_norm);\n    float mix_fac = flim_dye_mix_factor(mono, max_density);\n\n    // dye mixing\n    return mix(dye_tone_norm, vec3(1), mix_fac);\n}\n\nvec3 flim_rgb_develop(vec3 col, float exposure, float max_density)\n{\n    // exposure\n    col *= pow(2., exposure);\n\n    // blue-sensitive layer\n    vec3 result = flim_rgb_color_layer(\n        col,\n        vec3(0, 0, 1),\n        vec3(1, 1, 0),\n        max_density\n    );\n\n    // green-sensitive layer\n    result *= flim_rgb_color_layer(\n        col,\n        vec3(0, 1, 0),\n        vec3(1, 0, 1),\n        max_density\n    );\n\n    // red-sensitive layer\n    result *= flim_rgb_color_layer(\n        col,\n        vec3(1, 0, 0),\n        vec3(0, 1, 1),\n        max_density\n    );\n\n    return result;\n}\n\nvec3 flim_gamut_extension_mat_row(\n    float primary_hue,\n    float scale,\n    float rotate,\n    float mul\n)\n{\n    vec3 result = flim_blender_hsv_to_rgb(vec3(\n        flim_wrap(primary_hue + (rotate / 360.), 0., 1.),\n        1. / scale,\n        1.\n    ));\n    result /= flim_rgb_sum(result);\n    result *= mul;\n    return result;\n}\n\nmat3 flim_gamut_extension_mat(\n    float red_scale,\n    float green_scale,\n    float blue_scale,\n    float red_rot,\n    float green_rot,\n    float blue_rot,\n    float red_mul,\n    float green_mul,\n    float blue_mul\n)\n{\n    mat3 m;\n    m[0] = flim_gamut_extension_mat_row(\n        0.,\n        red_scale,\n        red_rot,\n        red_mul\n    );\n    m[1] = flim_gamut_extension_mat_row(\n        1. / 3.,\n        green_scale,\n        green_rot,\n        green_mul\n    );\n    m[2] = flim_gamut_extension_mat_row(\n        2. / 3.,\n        blue_scale,\n        blue_rot,\n        blue_mul\n    );\n    return m;\n}\n\nvec3 negative_and_print(vec3 col, vec3 backlight_ext)\n{\n    // develop negative\n    col = flim_rgb_develop(\n        col,\n        flim_negative_film_exposure,\n        flim_negative_film_density\n    );\n\n    // backlight\n    col *= backlight_ext;\n\n    // develop print\n    col = flim_rgb_develop(\n        col,\n        flim_print_film_exposure,\n        flim_print_film_density\n    );\n\n    return col;\n}\n\n// the flim transform\n\nvec3 flim_transform(vec3 col, float exposure, bool convert_to_srgb)\n{\n    // eliminate negative values\n    col = max(col, 0.);\n\n    // pre-Exposure\n    col *= pow(2., flim_pre_exposure + exposure);\n\n    // clip very large values for float precision issues\n    col = min(col, 5000.);\n\n    // gamut extension matrix (Linear BT.709)\n    mat3 extend_mat = flim_gamut_extension_mat(\n        flim_extended_gamut_red_scale,\n        flim_extended_gamut_green_scale,\n        flim_extended_gamut_blue_scale,\n        flim_extended_gamut_red_rot,\n        flim_extended_gamut_green_rot,\n        flim_extended_gamut_blue_rot,\n        flim_extended_gamut_red_mul,\n        flim_extended_gamut_green_mul,\n        flim_extended_gamut_blue_mul\n    );\n    mat3 extend_mat_inv = inverse(extend_mat);\n\n    // backlight in the extended gamut\n    vec3 backlight_ext = flim_print_backlight * extend_mat;\n\n    // upper limit in the print (highlight cap)\n    const float big = 10000000.;\n    vec3 white_cap = negative_and_print(vec3(big, big, big), backlight_ext);\n\n    // pre-formation filter\n    col = mix(\n        col,\n        col * flim_pre_formation_filter,\n        flim_pre_formation_filter_strength\n    );\n\n    // convert to the extended gamut\n    col *= extend_mat;\n\n    // negative & print\n    col = negative_and_print(col, backlight_ext);\n\n    // convert from the extended gamut\n    col *= extend_mat_inv;\n\n    // eliminate negative values\n    col = max(col, 0.);\n\n    // white cap\n    col /= white_cap;\n\n    // black cap (-1 = auto)\n    if (flim_black_point == -1.)\n    {\n        vec3 black_cap = negative_and_print(vec3(0.), backlight_ext);\n        black_cap /= white_cap;\n        col = flim_rgb_uniform_offset(\n            col,\n            flim_rgb_avg(black_cap) * 1000.,\n            0.\n        );\n    }\n    else\n    {\n        col = flim_rgb_uniform_offset(col, flim_black_point, 0.);\n    }\n\n    // post-formation filter\n    col = mix(\n        col,\n        col * flim_post_formation_filter,\n        flim_post_formation_filter_strength\n    );\n\n    // clip\n    col = clamp(col, 0., 1.);\n\n    // midtone saturation\n    float mono = flim_rgb_avg(col);\n    float mix_fac =\n        (mono < .5)\n        ? flim_remap01(mono, .05, .5)\n        : flim_remap01(mono, .95, .5);\n    col = mix(\n        col,\n        flim_blender_hue_sat(col, .5, flim_midtone_saturation, 1.),\n        mix_fac\n    );\n\n    // clip\n    col = clamp(col, 0., 1.);\n\n    // OETF\n    if (convert_to_srgb)\n    {\n        col = oetf_pow(col, 2.2);\n    }\n\n    return col;\n}\n\n/*____________________ end ____________________*/\n",
+     "name": "Common",
+     "description": "",
+     "type": "common"
+    },
+    {
+     "inputs": [],
+     "outputs": [],
+     "code": "vec2 mainSound(int samp, float t)\n{\n    return audio_signal(t);\n}\n",
+     "name": "Sound",
+     "description": "",
+     "type": "sound"
+    }
+   ]
+  },
+  {
+   "ver": "0.1",
+   "info": {
+    "id": "4cVcR1",
+    "date": "1731504376",
+    "viewed": 10,
+    "name": "Color Transformation Utilities",
+    "description": "The \"Image\" tab simply alternates between mixing different colors in Oklab vs Linear BT.709 I-D65.\n\nThe \"Common\" tab contains transformations for common gamuts, white points, and transfer functions. Also includes Oklab.\n",
+    "likes": 0,
+    "published": "Public API",
+    "usePreview": 0,
+    "tags": [
+     "color",
+     "rgb",
+     "function",
+     "gamma",
+     "linear",
+     "xyz",
+     "matrix",
+     "transform",
+     "srgb",
+     "p3",
+     "transfer",
+     "rec709",
+     "bt2020",
+     "rec",
+     "709",
+     "bt709"
+    ]
+   },
+   "renderpass": [
+    {
+     "inputs": [
+      {
+       "id": "4dXGRn",
+       "filepath": "/media/a/10eb4fe0ac8a7dc348a2cc282ca5df1759ab8bf680117e4047728100969e7b43.jpg",
+       "type": "texture",
+       "channel": 0,
+       "sampler": {
+        "filter": "mipmap",
+        "wrap": "repeat",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      },
+      {
+       "id": "4dfGRn",
+       "filepath": "/media/a/8de3a3924cb95bd0e95a443fff0326c869f9d4979cd1d5b6e94e2a01f5be53e9.jpg",
+       "type": "texture",
+       "channel": 1,
+       "sampler": {
+        "filter": "mipmap",
+        "wrap": "repeat",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4dfGRr",
+       "channel": 0
+      }
+     ],
+     "code": "void mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    vec2 uv01 = frag_coord / iResolution.xy;\n\n    vec3 a_bt709 = mix(\n        vec3(1, 0, 1),\n        vec3(0, 0, 1),\n        step(1. / 6., uv01.x)\n    );\n    a_bt709 = mix(a_bt709, vec3(1, 0, 0), step(2. / 6., uv01.x));\n    a_bt709 = mix(a_bt709, vec3(0, 1, 0), step(3. / 6., uv01.x));\n    a_bt709 = mix(a_bt709, vec3(1, 1, 0), step(4. / 6., uv01.x));\n    a_bt709 = mix(a_bt709, vec3(1, 0, 0), step(5. / 6., uv01.x));\n    \n    vec3 b_bt709 = mix(\n        vec3(0, 0, 1),\n        vec3(1),\n        step(1. / 6., uv01.x)\n    );\n    b_bt709 = mix(b_bt709, vec3(1, 0, 1), step(2. / 6., uv01.x));\n    b_bt709 = mix(b_bt709, vec3(1), step(3. / 6., uv01.x));\n    b_bt709 = mix(b_bt709, vec3(0, 0, 1), step(4. / 6., uv01.x));\n    b_bt709 = mix(b_bt709, vec3(0, 1, 1), step(5. / 6., uv01.x));\n    \n    float mix_fac = smoothstep(.05, .95, uv01.y);\n    \n    vec3 col_bt709 = vec3(0);\n    if (mod(iTime, 1.8) > .9)\n    {\n        // mix in Linear BT.709 I-D65\n        col_bt709 = mix(a_bt709, b_bt709, mix_fac);\n    }\n    else\n    {\n        // mix in Oklab\n        \n        vec3 a_oklab = linear_xyz_id65_to_oklab(\n            a_bt709 * bt709_id65_to_xyz_id65\n        );\n        \n        vec3 b_oklab = linear_xyz_id65_to_oklab(\n            b_bt709 * bt709_id65_to_xyz_id65\n        );\n        \n        vec3 col_oklab = mix(\n            a_oklab,\n            b_oklab,\n            mix_fac\n        );\n        \n        col_bt709 =\n            oklab_to_linear_xyz_id65(col_oklab)\n            * xyz_id65_to_bt709_id65;\n    }\n    \n    vec3 col_srgb = linear_bt709_id65_to_srgb(col_bt709);\n    frag_col = vec4(col_srgb, 1);\n}\n",
+     "name": "Image",
+     "description": "",
+     "type": "image"
+    },
+    {
+     "inputs": [],
+     "outputs": [],
+     "code": "// color transformation utilities\n// source: https://www.shadertoy.com/view/4cVcR1\n// ------------------------------------------------------------\n\n// transformation matrices between gamuts or whitepoints\n// * these matrices are row-major but GLSL and OpenGL use\n//   column-major. to fix this you can just multiply your\n//   vector by the matrix (v * mat) instead of the opposite\n//   (mat * v).\n// ------------------------------------------------------------\n\n// Linear BT.709 I-D65 <-> Linear CIE-XYZ I-D65\nconst mat3 xyz_id65_to_bt709_id65 = mat3(\n    3.2410032329763587, -1.5373989694887855, -.4986158819963629,\n    -.9692242522025164, 1.8759299836951759, .0415542263400847,\n    .0556394198519755, -.2040112061239099, 1.0571489771875333\n);\nconst mat3 bt709_id65_to_xyz_id65 = inverse(xyz_id65_to_bt709_id65);\n\n// Linear BT.709 I-E <-> Linear CIE-XYZ I-E\nconst mat3 xyz_ie_to_bt709_ie = mat3(\n    2.6896551724137931, -1.2758620689655173, -.4137931034482757,\n    -1.0221081721279115, 1.9782866166600865, .0438215554678247,\n    .0612244897959184, -.2244897959183672, 1.1632653061224481\n);\nconst mat3 bt709_ie_to_xyz_ie = inverse(xyz_ie_to_bt709_ie);\n\n// Linear Linear DCI-P3 I-D65 <-> Linear CIE-XYZ I-D65\nconst mat3 xyz_id65_to_dcip3_id65 = mat3(\n    2.4935091239346101, -.9313881794047790, -.4027127567416516,\n    -.8294732139295544, 1.7626305796003032, .0236242371055886,\n    .0358512644339181, -.0761839369220759, .9570295866943110\n);\nconst mat3 dcip3_id65_to_xyz_id65 = inverse(xyz_id65_to_dcip3_id65);\n\n// Linear Linear DCI-P3 I-E <-> Linear CIE-XYZ I-E\nconst mat3 xyz_ie_to_dcip3_ie = mat3(\n    2.1506740681998422, -.8033306899286285, -.3473433782712135,\n    -.8669410150891632, 1.8422496570644722, .0246913580246913,\n    .0391091797935906, -.0831070070613798, 1.0439978272677890\n);\nconst mat3 dcip3_ie_to_xyz_ie = inverse(xyz_ie_to_dcip3_ie);\n\n// Linear BT.2020 I-D65 <-> Linear CIE-XYZ I-D65\nconst mat3 xyz_id65_to_bt2020_id65 = mat3(\n    1.7166634277958805, -.3556733197301399, -.2533680878902478,\n    -.6666738361988869, 1.6164557398246981, .0157682970961337,\n    .0176424817849772, -.0427769763827532, .9422432810184308\n);\nconst mat3 bt2020_id65_to_xyz_id65 = inverse(xyz_id65_to_bt2020_id65);\n\n// Linear BT.2020 I-E <-> Linear CIE-XYZ I-E\nconst mat3 xyz_ie_to_bt2020_ie = mat3(\n    1.5498639396171363, -.3211143451931252, -.2287495944240111,\n    -.6904600461999933, 1.6741291531150519, .0163308930849413,\n    .0192370654890717, -.0466432957748727, 1.0274062302858002\n);\nconst mat3 bt2020_ie_to_xyz_ie = inverse(xyz_ie_to_bt2020_ie);\n\n// Linear CIE-XYZ I-D65 <-> Linear CIE-XYZ I-E\nconst mat3 xyz_id65_to_xyz_ie = mat3(\n    1.0502616, .0270757, -.0232523,\n    .0390650, .9729502, -.0092579,\n    -.0024047,.0026446, .9180873\n);\nconst mat3 xyz_ie_to_xyz_id65 = inverse(xyz_id65_to_xyz_ie);\n\n// transfer functions for non-linear color spaces:\n// opto-electronic transfer function (OETF) to go from scene\n// to display, and electro-optical transfer function (EOTF) for\n// the opposite.\n// ------------------------------------------------------------\n\n// OETF: Linear BT.709 I-D65 -> sRGB\nvec3 linear_bt709_id65_to_srgb(vec3 v)\n{\n    v = clamp(v, 0., 1.);\n    return mix(\n        12.92 * v,\n        pow(v, vec3(1. / 2.4) * 1.055 - .055),\n        step(.0031308, v)\n    );\n}\n\n// EOTF: sRGB -> Linear BT.709 I-D65\nvec3 srgb_to_linear_bt709_id65(vec3 v)\n{\n    v = clamp(v, 0., 1.);\n    return mix(\n        v * .07739938080495356,\n        pow((v + .055) * .9478672985781990521327, vec3(2.4)),\n        step(.040449936, v)\n    );\n}\n\n// OETF: Linear DCI-P3 I-D65 -> Display P3\nvec3 linear_dcip3_id65_to_displayp3(vec3 v)\n{\n    return linear_bt709_id65_to_srgb(v);\n}\n\n// EOTF: Display P3 -> Linear DCI-P3 I-D65\nvec3 displayp3_to_linear_dcip3_id65(vec3 v)\n{\n    return srgb_to_linear_bt709_id65(v);\n}\n\n// OETF: Linear BT.2020 I-D65 -> BT.2020\nvec3 linear_bt2020_id65_to_bt2020(vec3 v)\n{\n    const float alpha = 1.09929682680944;\n    const float beta = .018053968510807;\n    \n    v = clamp(v, 0., 1.);\n    return mix(\n        4.5 * v,\n        alpha * pow(v, vec3(.45)) - (alpha - 1.),\n        step(beta, v)\n    );\n}\n\n// EOTF: BT.2020 -> Linear BT.2020 I-D65\nvec3 bt2020_to_linear_bt2020_id65(vec3 v)\n{\n    const float alpha = 1.09929682680944;\n    const float beta = .018053968510807;\n    \n    v = clamp(v, 0., 1.);\n    return mix(\n        v / 4.5,\n        pow((v + alpha - 1.) / alpha, vec3(1. / .45)),\n        step(4.5 * beta, v)\n    );\n}\n\n// Oklab: perceptual color space for image processing\n// https://bottosson.github.io/posts/oklab/\n// ------------------------------------------------------------\n\n// Linear CIE-XYZ I-D65 -> Oklab\nvec3 linear_xyz_id65_to_oklab(vec3 v)\n{\n    const mat3 m1 = mat3(\n        .8189330101, .3618667424, -.1288597137,\n        .0329845436, .9293118715, .0361456387,\n        .0482003018, .2643662691, .6338517070\n    );\n    \n    const mat3 m2 = mat3(\n        .2104542553, .7936177850, -.0040720468,\n        1.9779984951, -2.4285922050, .4505937099,\n        .0259040371, .7827717662, -.8086757660\n    );\n    \n    return pow(v * m1, vec3(1. / 3.)) * m2;\n}\n\n// Oklab -> Linear CIE-XYZ I-D65\nvec3 oklab_to_linear_xyz_id65(vec3 v)\n{\n    const mat3 m1_inv = mat3(\n        1.22701, -.5578, .281256,\n        -.0405802, 1.11226, -.0716767,\n        -.0763813, -.421482, 1.58616\n    );\n    \n    const mat3 m2_inv = mat3(\n        1., .396338, .215804,\n        1., -.105561, -.0638542,\n        1., -.0894842, -1.29149\n    );\n    \n    return pow(v * m2_inv, vec3(3.)) * m1_inv;\n}\n\n// end of color transformation utilities\n// ------------------------------------------------------------\n",
+     "name": "Common",
+     "description": "",
+     "type": "common"
     }
    ]
   }
