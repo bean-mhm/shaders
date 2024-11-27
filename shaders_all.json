@@ -1,17 +1,17 @@
 {
  "userName": "beans_please",
- "date": "2024-11-13T15:39:54.177Z",
- "numShaders": 59,
+ "date": "2024-11-27T07:47:17.172Z",
+ "numShaders": 60,
  "shaders": [
   {
    "ver": "0.1",
    "info": {
     "id": "dsjcRR",
     "date": "1687371539",
-    "viewed": 414,
+    "viewed": 416,
     "name": "PBR with Ray Marching (WIP)",
     "description": "* Drag -> Look around\n* WASD -> Move\n* Shift -> Sprint\n* Alt -> Stealth?\n* R -> Reset\n",
-    "likes": 6,
+    "likes": 7,
     "published": "Public API",
     "usePreview": 1,
     "tags": [
@@ -162,10 +162,10 @@
    "info": {
     "id": "dd2yDz",
     "date": "1687622059",
-    "viewed": 609,
+    "viewed": 646,
     "name": "flim - Filmic Color Transform",
     "description": "Experimental Port of flim (Film Emulation Transform)\n\nOriginal Repo:\nhttps://github.com/bean-mhm/flim\n",
-    "likes": 14,
+    "likes": 17,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -206,7 +206,7 @@
    "info": {
     "id": "mdScW1",
     "date": "1687653267",
-    "viewed": 330,
+    "viewed": 339,
     "name": "Interactive 2D Wave Simulation",
     "description": "*Drag your mouse, make a spiral or something.\n\nThis is a port of my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py\n",
     "likes": 6,
@@ -417,10 +417,10 @@
    "info": {
     "id": "mdBcz3",
     "date": "1688036284",
-    "viewed": 475,
+    "viewed": 483,
     "name": "3D Wave Simulation",
     "description": "Check out my Interactive 2D Wave Simulation:\nhttps://www.shadertoy.com/view/mdScW1\n\nCheck out my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py",
-    "likes": 22,
+    "likes": 23,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -572,10 +572,10 @@
    "info": {
     "id": "csjfDh",
     "date": "1689671017",
-    "viewed": 180,
+    "viewed": 183,
     "name": "2D Occlusion Test",
     "description": "Drag to move the middle circle",
-    "likes": 4,
+    "likes": 5,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -669,10 +669,10 @@
    "info": {
     "id": "dsjBDy",
     "date": "1690140863",
-    "viewed": 426,
+    "viewed": 439,
     "name": "2D Fourier Transform",
     "description": "(Not so fast) 2D Fourier Transform implemented in glsl\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the FFT resolution in the Common tab.",
-    "likes": 2,
+    "likes": 3,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -827,7 +827,7 @@
    "info": {
     "id": "mlscWr",
     "date": "1690662251",
-    "viewed": 346,
+    "viewed": 352,
     "name": "Blinn-Phong Shading",
     "description": "Sphere",
     "likes": 5,
@@ -872,7 +872,7 @@
    "info": {
     "id": "dlfcD8",
     "date": "1692139870",
-    "viewed": 278,
+    "viewed": 281,
     "name": "Path Tracing name already in use",
     "description": "Good old naive path tracing",
     "likes": 7,
@@ -1056,7 +1056,7 @@
    "info": {
     "id": "mlsyDj",
     "date": "1691237601",
-    "viewed": 214,
+    "viewed": 215,
     "name": "Balls Simulated (updated)",
     "description": "This is my first physics simulation, and I just followed my gut, so feel free to comment on how this can be improved\n\nUpdate: Implemented suggestions by @fenix (no more jittering + general improvements)",
     "likes": 12,
@@ -1156,7 +1156,7 @@
    "info": {
     "id": "cl2cRD",
     "date": "1691530674",
-    "viewed": 76,
+    "viewed": 77,
     "name": "Fixed FPS Experiment",
     "description": "Adjusting the amount of computation in order to keep the FPS constant.\nMight take up to 20 seconds to reach the target FPS.\nDoesn't work well on my phone, probably because of 16 bit precision.",
     "likes": 1,
@@ -1282,7 +1282,7 @@
    "info": {
     "id": "mtjyDw",
     "date": "1691962447",
-    "viewed": 154,
+    "viewed": 155,
     "name": "1D Continuous Function Graphing",
     "description": "Basically sample points on the function and connect them with line segments",
     "likes": 6,
@@ -1340,7 +1340,7 @@
    "info": {
     "id": "cljczd",
     "date": "1692189706",
-    "viewed": 102,
+    "viewed": 103,
     "name": "Mod of 01000001's FXAA Shader",
     "description": "Original shader: https://www.shadertoy.com/view/mljyzc",
     "likes": 1,
@@ -1480,7 +1480,7 @@
    "info": {
     "id": "DlfBzN",
     "date": "1692651978",
-    "viewed": 162,
+    "viewed": 164,
     "name": "Square Fourier Transform?",
     "description": "What if we used square waves instead of (co)sine waves in Fourier transforms?\nSee sqsin() and sqcos() at the end of Common.\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the resolution in the Common tab.",
     "likes": 5,
@@ -1551,7 +1551,7 @@
    "info": {
     "id": "mlfBR4",
     "date": "1692737129",
-    "viewed": 139,
+    "viewed": 145,
     "name": "Boids + Packed Voronoi Tracking",
     "description": "Finally learned Voronoi Tracking, read the explanations in Buffer A.",
     "likes": 3,
@@ -1706,7 +1706,7 @@
    "info": {
     "id": "clXBW4",
     "date": "1692902788",
-    "viewed": 80,
+    "viewed": 82,
     "name": "Fork polygon :D beans_plea 404",
     "description": "challenge shader",
     "likes": 0,
@@ -1899,10 +1899,10 @@
    "info": {
     "id": "DtSfzR",
     "date": "1693654314",
-    "viewed": 258,
+    "viewed": 260,
     "name": "Beach (Volume Absorption)",
     "description": "More or less: [code]col *= pow(absorption_col, depth)[/code]",
-    "likes": 5,
+    "likes": 6,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -1934,10 +1934,10 @@
    "info": {
     "id": "ctjfDc",
     "date": "1694574459",
-    "viewed": 347,
+    "viewed": 348,
     "name": "Fork Discoteq 3 (+ flim)",
     "description": "Discoteq 3\nadded flim ( https://www.shadertoy.com/view/dd2yDz )",
-    "likes": 7,
+    "likes": 8,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -2053,10 +2053,10 @@
    "info": {
     "id": "ds3fDM",
     "date": "1697312887",
-    "viewed": 306,
+    "viewed": 314,
     "name": "XPBD Rope",
     "description": "Finally implemented XPBD!\nWatch this amazing video: https://youtube.com/watch?v=jrociOAYqxA\n\n* Drag to move the tail\n\n* Long ish compile time (22 seconds for me), so be patient\n\n* Does not work well on my phone, presumably because of 16-bit floats.",
-    "likes": 14,
+    "likes": 16,
     "published": "Public API",
     "usePreview": 1,
     "tags": [
@@ -2306,7 +2306,7 @@
    "info": {
     "id": "lclXWs",
     "date": "1705932695",
-    "viewed": 161,
+    "viewed": 162,
     "name": "Quantum physics or something",
     "description": "Extremely slow, use shadertoy browser extension to increase the number of iters/frame (paint calls) to 512 ish with inspect element!\n\nHelp: How do I calculate max dt (before it breaks) based on the parameters?\n\nhttps://www.desmos.com/calculator/ery45h4dzl",
     "likes": 1,
@@ -2395,10 +2395,10 @@
    "info": {
     "id": "MXSXRm",
     "date": "1710373949",
-    "viewed": 219,
+    "viewed": 224,
     "name": "3D Function/Volume Visualizer",
     "description": "just raymarching through a box and averaging the values we sampled along the way\n",
-    "likes": 10,
+    "likes": 11,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -2532,10 +2532,10 @@
    "info": {
     "id": "lXBXWz",
     "date": "1710447505",
-    "viewed": 175,
+    "viewed": 183,
     "name": "8-bit Blue Noise Dithering",
     "description": "dithering",
-    "likes": 2,
+    "likes": 3,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -2584,7 +2584,7 @@
    "info": {
     "id": "XX2XDd",
     "date": "1711246176",
-    "viewed": 157,
+    "viewed": 158,
     "name": "Run at 120+ Hz if possible",
     "description": "Alternating between red and cyan, which looks gray. Try moving your eyes across the screen really quickly to see the pattern (in full screen).",
     "likes": 1,
@@ -2775,7 +2775,7 @@
    "info": {
     "id": "McdSzr",
     "date": "1713529681",
-    "viewed": 228,
+    "viewed": 230,
     "name": "Subpixel Anti-Aliasing",
     "description": "looks kinda weird tbh, am I doing something wrong?",
     "likes": 4,
@@ -3216,10 +3216,10 @@
    "info": {
     "id": "lXy3zK",
     "date": "1717887783",
-    "viewed": 532,
+    "viewed": 542,
     "name": "Daft Punk (Audio Data Packing)",
     "description": "8-bit audio samples packed into ivec4 array(s) using a Python script, with some vinyl pixel art I made",
-    "likes": 22,
+    "likes": 23,
     "published": "Public API",
     "usePreview": 1,
     "tags": [
@@ -3275,10 +3275,10 @@
    "info": {
     "id": "M3VGRK",
     "date": "1717936266",
-    "viewed": 184,
+    "viewed": 190,
     "name": "Attack-Decay-Sustain-Release",
     "description": "The ADSR curve is a fundamental tool used in all audio synthesizers.\nFeel free to play with the values (see custom_adsr_curve_1() in Common).\n\nRead more: [url]https://en.wikipedia.org/wiki/Envelope_(music)[/url]\n",
-    "likes": 8,
+    "likes": 9,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -3408,10 +3408,10 @@
    "info": {
     "id": "M3tXWn",
     "date": "1718891537",
-    "viewed": 665,
+    "viewed": 670,
     "name": "Digital Logic Simulation",
     "description": "[url=https://www.shadertoy.com/view/X33XDN]UPDATE: NEW VERSION[/url]\nSee the first comment for tutorial and description.\n",
-    "likes": 47,
+    "likes": 48,
     "published": "Public API",
     "usePreview": 1,
     "tags": [
@@ -3673,10 +3673,10 @@
    "info": {
     "id": "X33XDN",
     "date": "1719435553",
-    "viewed": 583,
+    "viewed": 592,
     "name": "DLS + Wire Cross + Clock + Rot",
     "description": "See the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\n",
-    "likes": 22,
+    "likes": 23,
     "published": "Public API",
     "usePreview": 1,
     "tags": [
@@ -4070,10 +4070,10 @@
    "info": {
     "id": "M3ySRK",
     "date": "1720202475",
-    "viewed": 407,
+    "viewed": 425,
     "name": "Parallax Occlusion Mapping X",
     "description": "layer count depends on the ray-surface angle\n",
-    "likes": 19,
+    "likes": 22,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -4148,10 +4148,10 @@
    "info": {
     "id": "XcBBWW",
     "date": "1724905810",
-    "viewed": 119,
+    "viewed": 127,
     "name": "Follow Edge Antialiasing?",
     "description": "idk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison",
-    "likes": 1,
+    "likes": 2,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -4262,7 +4262,7 @@
    "info": {
     "id": "MfjBDV",
     "date": "1725542638",
-    "viewed": 84,
+    "viewed": 86,
     "name": "Pretty Colormap (-1, +1)",
     "description": "See the Desmos graphs, play with v",
     "likes": 5,
@@ -4405,7 +4405,7 @@
    "info": {
     "id": "XXlBDH",
     "date": "1728333908",
-    "viewed": 103,
+    "viewed": 105,
     "name": "Diffraction Through 5 Slits",
     "description": "inspired by 3b1b's new video",
     "likes": 4,
@@ -4511,10 +4511,10 @@
    "info": {
     "id": "4cVcR1",
     "date": "1731504376",
-    "viewed": 10,
+    "viewed": 70,
     "name": "Color Transformation Utilities",
     "description": "The \"Image\" tab simply alternates between mixing different colors in Oklab vs Linear BT.709 I-D65.\n\nThe \"Common\" tab contains transformations for common gamuts, white points, and transfer functions. Also includes Oklab.\n",
-    "likes": 0,
+    "likes": 2,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -4586,6 +4586,98 @@
      "name": "Common",
      "description": "",
      "type": "common"
+    }
+   ]
+  },
+  {
+   "ver": "0.1",
+   "info": {
+    "id": "lctBRn",
+    "date": "1732646179",
+    "viewed": 78,
+    "name": "Springy Ball (Pos Vel Acc Jerk)",
+    "description": "drag mouse.\nplay with INTEGRATION_MODE in Buffer A.",
+    "likes": 3,
+    "published": "Public API",
+    "usePreview": 0,
+    "tags": [
+     "mouse",
+     "fun",
+     "ball",
+     "derivative",
+     "position",
+     "velocity",
+     "spring",
+     "integration",
+     "euler",
+     "acceleration",
+     "springy"
+    ]
+   },
+   "renderpass": [
+    {
+     "inputs": [
+      {
+       "id": "4dXGR8",
+       "filepath": "/media/previz/buffer00.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4dfGRr",
+       "channel": 0
+      }
+     ],
+     "code": "const vec3 col_bg = vec3(.95, .8, .6);\nconst vec3 col_ball = vec3(.8, .06, .04);\nconst float ball_radius = .18;\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // UV\n    vec2 uv = (2. * frag_coord - iResolution.xy) / min(iResolution.x, iResolution.y);\n    float uv2px = 2. / min(iResolution.x, iResolution.y);\n    \n    // get ball position\n    vec2 ball_pos = texelFetch(iChannel0, ivec2(0, 0), 0).xy;\n    \n    // render\n    float sd = distance(uv, ball_pos) - ball_radius;\n    vec3 col = mix(col_bg, col_ball, remap01(sd, uv2px, 0.));\n    \n    // output\n    col = pow(col, vec3(1. / 2.2));\n    frag_col = vec4(col, 1);\n}\n",
+     "name": "Image",
+     "description": "",
+     "type": "image"
+    },
+    {
+     "inputs": [],
+     "outputs": [],
+     "code": "float remap01(float x, float start, float end)\n{\n    return clamp((x - start) / (end - start), 0., 1.);\n}\n",
+     "name": "Common",
+     "description": "",
+     "type": "common"
+    },
+    {
+     "inputs": [
+      {
+       "id": "4dXGR8",
+       "filepath": "/media/previz/buffer00.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4dXGR8",
+       "channel": 0
+      }
+     ],
+     "code": "// pixel (0, 0) stores ball position, (1, 0) stores velocity,\n// (2, 0) stores acceleration, (3, 0) stores jerk.\n\n// possible values for integration mode\n#define POS 0              /* 0th order */\n#define VELOCITY 1         /* 1st order */\n#define ACCELERATION 2     /* 2nd order */\n#define JERK 3             /* 3rd order */\n\n// change integration mode here\n#define INTEGRATION_MODE 3\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // reset to 0 in the first frame\n    if (iFrame < 2 || iTime < .02)\n    {\n        frag_col = vec4(0);\n        return;\n    }\n    \n    // skip out-of-bounds pixels\n    if (int(frag_coord.x) > 3 || int(frag_coord.y) > 0)\n    {\n        return;\n    }\n    \n    // retrieve previous values\n    vec2 pos = texelFetch(iChannel0, ivec2(0, 0), 0).xy;\n    vec2 vel = texelFetch(iChannel0, ivec2(1, 0), 0).xy;\n    vec2 acc = texelFetch(iChannel0, ivec2(2, 0), 0).xy;\n    vec2 jerk = texelFetch(iChannel0, ivec2(3, 0), 0).xy;\n    \n    // get mouse position, (0, 0) if mouse isn't pressed.\n    vec2 mouse_uv = vec2(0);\n    if (iMouse.z > .5)\n    {\n        mouse_uv = (2. * iMouse.xy - iResolution.xy) / min(iResolution.x, iResolution.y);\n    }\n    \n    // update and integrate\n    #if INTEGRATION_MODE == POS\n        pos = mouse_uv;\n    #elif INTEGRATION_MODE == VELOCITY\n        vel = 10. * (mouse_uv - pos);\n        pos += vel * iTimeDelta;\n    #elif INTEGRATION_MODE == ACCELERATION\n        acc = 80. * (mouse_uv - pos);\n        vel += acc * iTimeDelta;\n        vel *= pow(.01, iTimeDelta); // velocity damping\n        pos += vel * iTimeDelta;\n    #elif INTEGRATION_MODE == JERK\n        jerk = 1600. * (mouse_uv - pos);\n        acc += jerk * iTimeDelta;\n        acc *= pow(.000001, iTimeDelta); // acceleration damping\n        vel += acc * iTimeDelta;\n        vel *= pow(.0001, iTimeDelta); // velocity damping\n        pos += vel * iTimeDelta;\n    #endif\n    \n    // store new values\n    ivec2 icoord = ivec2(frag_coord);\n    if (icoord == ivec2(0, 0)) frag_col = vec4(pos, 0, 0);\n    if (icoord == ivec2(1, 0)) frag_col = vec4(vel, 0, 0);\n    if (icoord == ivec2(2, 0)) frag_col = vec4(acc, 0, 0);\n    if (icoord == ivec2(3, 0)) frag_col = vec4(jerk, 0, 0);\n}\n",
+     "name": "Buffer A",
+     "description": "",
+     "type": "buffer"
     }
    ]
   }
