@@ -1,14 +1,14 @@
 {
  "userName": "beans_please",
- "date": "2024-12-24T07:19:12.713Z",
- "numShaders": 62,
+ "date": "2024-12-26T18:47:23.358Z",
+ "numShaders": 64,
  "shaders": [
   {
    "ver": "0.1",
    "info": {
     "id": "dsjcRR",
     "date": "1687371539",
-    "viewed": 424,
+    "viewed": 425,
     "name": "PBR with Ray Marching (WIP)",
     "description": "* Drag -> Look around\n* WASD -> Move\n* Shift -> Sprint\n* Alt -> Stealth?\n* R -> Reset\n",
     "likes": 7,
@@ -162,7 +162,7 @@
    "info": {
     "id": "dd2yDz",
     "date": "1687622059",
-    "viewed": 666,
+    "viewed": 668,
     "name": "flim - Filmic Color Transform",
     "description": "Experimental Port of flim (Film Emulation Transform)\n\nOriginal Repo:\nhttps://github.com/bean-mhm/flim\n",
     "likes": 17,
@@ -206,7 +206,7 @@
    "info": {
     "id": "mdScW1",
     "date": "1687653267",
-    "viewed": 352,
+    "viewed": 353,
     "name": "Interactive 2D Wave Simulation",
     "description": "*Drag your mouse, make a spiral or something.\n\nThis is a port of my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py\n",
     "likes": 6,
@@ -292,7 +292,7 @@
    "info": {
     "id": "mdSyD1",
     "date": "1692566748",
-    "viewed": 10,
+    "viewed": 11,
     "name": "Daft Punk",
     "description": "Cover",
     "likes": 0,
@@ -417,7 +417,7 @@
    "info": {
     "id": "mdBcz3",
     "date": "1688036284",
-    "viewed": 496,
+    "viewed": 498,
     "name": "3D Wave Simulation",
     "description": "Check out my Interactive 2D Wave Simulation:\nhttps://www.shadertoy.com/view/mdScW1\n\nCheck out my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py",
     "likes": 23,
@@ -614,7 +614,7 @@
    "info": {
     "id": "cdjfRc",
     "date": "1689964097",
-    "viewed": 79,
+    "viewed": 80,
     "name": "Deprecated,Bean's Default Shader",
     "description": "- My starting point for a new shader.\n\n- Helper \"modules\" can be enabled/disabled separately in the Common tab.\n\n- Each tab starts with a description of itself to make it easier to store local backups.\n\n- Feel free to copy and reuse.  :)",
     "likes": 2,
@@ -669,7 +669,7 @@
    "info": {
     "id": "dsjBDy",
     "date": "1690140863",
-    "viewed": 465,
+    "viewed": 470,
     "name": "2D Fourier Transform",
     "description": "(Not so fast) 2D Fourier Transform implemented in glsl\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the FFT resolution in the Common tab.",
     "likes": 3,
@@ -827,7 +827,7 @@
    "info": {
     "id": "mlscWr",
     "date": "1690662251",
-    "viewed": 359,
+    "viewed": 360,
     "name": "Blinn-Phong Shading",
     "description": "Sphere",
     "likes": 5,
@@ -1399,7 +1399,7 @@
    "info": {
     "id": "DljyDG",
     "date": "1692469704",
-    "viewed": 197,
+    "viewed": 198,
     "name": "Breathing Fractal",
     "description": "Drag to explore the complex universe!\n",
     "likes": 6,
@@ -1551,7 +1551,7 @@
    "info": {
     "id": "mlfBR4",
     "date": "1692737129",
-    "viewed": 153,
+    "viewed": 154,
     "name": "Boids + Packed Voronoi Tracking",
     "description": "Finally learned Voronoi Tracking, read the explanations in Buffer A.",
     "likes": 3,
@@ -1934,7 +1934,7 @@
    "info": {
     "id": "ctjfDc",
     "date": "1694574459",
-    "viewed": 354,
+    "viewed": 356,
     "name": "Fork Discoteq 3 (+ flim)",
     "description": "Discoteq 3\nadded flim ( https://www.shadertoy.com/view/dd2yDz )",
     "likes": 8,
@@ -2021,7 +2021,7 @@
    "info": {
     "id": "DdcyRf",
     "date": "1695281747",
-    "viewed": 193,
+    "viewed": 194,
     "name": "Exponential Colormap",
     "description": "See the Desmos graphs, play with v",
     "likes": 6,
@@ -2053,7 +2053,7 @@
    "info": {
     "id": "ds3fDM",
     "date": "1697312887",
-    "viewed": 322,
+    "viewed": 323,
     "name": "XPBD Rope",
     "description": "Finally implemented XPBD!\nWatch this amazing video: https://youtube.com/watch?v=jrociOAYqxA\n\n* Drag to move the tail\n\n* Long ish compile time (22 seconds for me), so be patient\n\n* Does not work well on my phone, presumably because of 16-bit floats.",
     "likes": 16,
@@ -2395,7 +2395,7 @@
    "info": {
     "id": "MXSXRm",
     "date": "1710373949",
-    "viewed": 231,
+    "viewed": 233,
     "name": "3D Function/Volume Visualizer",
     "description": "just raymarching through a box and averaging the values we sampled along the way\n",
     "likes": 11,
@@ -2584,7 +2584,7 @@
    "info": {
     "id": "XX2XDd",
     "date": "1711246176",
-    "viewed": 163,
+    "viewed": 164,
     "name": "Run at 120+ Hz if possible",
     "description": "Alternating between red and cyan, which looks gray. Try moving your eyes across the screen really quickly to see the pattern (in full screen).",
     "likes": 1,
@@ -3216,7 +3216,7 @@
    "info": {
     "id": "lXy3zK",
     "date": "1717887783",
-    "viewed": 562,
+    "viewed": 566,
     "name": "Daft Punk (Audio Data Packing)",
     "description": "8-bit audio samples packed into ivec4 array(s) using a Python script, with some vinyl pixel art I made",
     "likes": 24,
@@ -3275,7 +3275,7 @@
    "info": {
     "id": "M3VGRK",
     "date": "1717936266",
-    "viewed": 205,
+    "viewed": 206,
     "name": "Attack-Decay-Sustain-Release",
     "description": "The ADSR curve is a fundamental tool used in all audio synthesizers.\nFeel free to play with the values (see custom_adsr_curve_1() in Common).\n\nRead more: [url]https://en.wikipedia.org/wiki/Envelope_(music)[/url]\n",
     "likes": 9,
@@ -3324,7 +3324,7 @@
    "info": {
     "id": "X3y3Rc",
     "date": "1717962362",
-    "viewed": 99,
+    "viewed": 101,
     "name": "Whole buncha utility",
     "description": "Helper functions/structs/defines divided into sections.\nUse whichever section(s) you need:\n- math & integer utils\n- pseudo-random number generator\n- keyboard\n- flim\n",
     "likes": 0,
@@ -3408,7 +3408,7 @@
    "info": {
     "id": "M3tXWn",
     "date": "1718891537",
-    "viewed": 680,
+    "viewed": 681,
     "name": "Digital Logic Simulation",
     "description": "[url=https://www.shadertoy.com/view/X33XDN]UPDATE: NEW VERSION[/url]\nSee the first comment for tutorial and description.\n",
     "likes": 49,
@@ -3673,7 +3673,7 @@
    "info": {
     "id": "X33XDN",
     "date": "1719435553",
-    "viewed": 613,
+    "viewed": 614,
     "name": "DLS + Wire Cross + Clock + Rot",
     "description": "See the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\n",
     "likes": 25,
@@ -4070,7 +4070,7 @@
    "info": {
     "id": "M3ySRK",
     "date": "1720202475",
-    "viewed": 480,
+    "viewed": 486,
     "name": "Parallax Occlusion Mapping X",
     "description": "layer count depends on the ray-surface angle\n",
     "likes": 22,
@@ -4148,9 +4148,9 @@
    "info": {
     "id": "XcBBWW",
     "date": "1724905810",
-    "viewed": 136,
-    "name": "Follow Edge Antialiasing?",
-    "description": "idk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison",
+    "viewed": 138,
+    "name": "Follow Edge Antialiasing? (Bad)",
+    "description": "[url=https://www.shadertoy.com/view/M33cD7]SEE BETTER VERSION[/url]\nidk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison\n",
     "likes": 2,
     "published": "Public API",
     "usePreview": 0,
@@ -4262,7 +4262,7 @@
    "info": {
     "id": "MfjBDV",
     "date": "1725542638",
-    "viewed": 89,
+    "viewed": 90,
     "name": "Pretty Colormap (-1, +1)",
     "description": "See the Desmos graphs, play with v",
     "likes": 5,
@@ -4405,7 +4405,7 @@
    "info": {
     "id": "XXlBDH",
     "date": "1728333908",
-    "viewed": 111,
+    "viewed": 112,
     "name": "Diffraction Through 5 Slits",
     "description": "inspired by 3b1b's new video",
     "likes": 4,
@@ -4511,7 +4511,7 @@
    "info": {
     "id": "4cVcR1",
     "date": "1731504376",
-    "viewed": 89,
+    "viewed": 91,
     "name": "Color Transformation Utilities",
     "description": "The \"Image\" tab simply alternates between mixing different colors in Oklab vs Linear BT.709 I-D65.\n\nThe \"Common\" tab contains transformations for common gamuts, white points, and transfer functions. Also includes Oklab.\n",
     "likes": 2,
@@ -4594,7 +4594,7 @@
    "info": {
     "id": "lctBRn",
     "date": "1732646179",
-    "viewed": 161,
+    "viewed": 163,
     "name": "Springy Ball (Pos Vel Acc Jerk)",
     "description": "drag mouse.\nplay with INTEGRATION_MODE in Buffer A.",
     "likes": 4,
@@ -4686,10 +4686,10 @@
    "info": {
     "id": "4cyfRV",
     "date": "1734325673",
-    "viewed": 1852,
+    "viewed": 2106,
     "name": "Neural Cat",
     "description": "deep neural network trained to produce cat meme video",
-    "likes": 25,
+    "likes": 27,
     "published": "Public API",
     "usePreview": 1,
     "tags": [
@@ -4733,7 +4733,7 @@
    "info": {
     "id": "XX3cRn",
     "date": "1734644701",
-    "viewed": 102,
+    "viewed": 114,
     "name": "Film Halation",
     "description": "film halation",
     "likes": 7,
@@ -4811,6 +4811,116 @@
      "name": "Common",
      "description": "",
      "type": "common"
+    }
+   ]
+  },
+  {
+   "ver": "0.1",
+   "info": {
+    "id": "M33cD7",
+    "date": "1735165058",
+    "viewed": 45,
+    "name": "FXAA-ish",
+    "description": "idk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison",
+    "likes": 1,
+    "published": "Public API",
+    "usePreview": 0,
+    "tags": [
+     "antialiasing",
+     "edge",
+     "aa",
+     "fxaa",
+     "smaa",
+     "mlaa"
+    ]
+   },
+   "renderpass": [
+    {
+     "inputs": [
+      {
+       "id": "4dXGR8",
+       "filepath": "/media/previz/buffer00.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      },
+      {
+       "id": "XsXGR8",
+       "filepath": "/media/previz/buffer01.png",
+       "type": "buffer",
+       "channel": 1,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4dfGRr",
+       "channel": 0
+      }
+     ],
+     "code": "float lum(vec3 col)\n{\n    return dot(col, vec3(.3, .5, .2));\n}\n\nvec3 fetch(vec2 coord)\n{\n    return texture(iChannel0, coord / iResolution.xy).rgb;\n}\n\n// FXAA-like antialiasing\nvec3 fxaa_ish(vec2 coord)\n{\n    // calculate the gradient\n    vec2 grad = vec2(\n        lum(fetch(coord + vec2(1, 0))) - lum(fetch(coord + vec2(-1, 0))),\n        lum(fetch(coord + vec2(0, 1))) - lum(fetch(coord + vec2(0, -1)))\n    );\n    \n    // skip if the gradient is too small\n    if (dot(grad, grad) < .0003)\n    {\n        return fetch(coord);\n    }\n    \n    // tangent (rotate the gradient 90 deg)\n    vec2 tang = vec2(-grad.y, grad.x);\n\n    // keep following the tangent on both sides and average out the\n    // colors along the path\n    vec3 col = vec3(0);\n    for (int i = -7; i <= 7; i++)\n    {\n        col += fetch(coord + float(i) * tang);\n    }\n    col /= 15.;\n    return col;\n}\n\nvec3 view_transform(vec3 col)\n{\n    // avoid any negative values before using power functions\n    col = max(col, 0.);\n    \n    // OETF (Linear BT.709 I-D65 to sRGB 2.2)\n    col = pow(col, vec3(1. / 2.2));\n    col = clamp(col, 0., 1.);\n\n    return col;\n}\n\nvec3 render(vec2 coord)\n{\n    // before / after divider\n    if (iMouse.z > .5)\n    {\n        if (abs(coord.x - iMouse.x) < 1.1)\n        {\n            return vec3(.8, .05, .02);\n        }\n        if (coord.x < iMouse.x)\n        {\n            return fetch(coord);\n        }\n    }\n    \n    return fxaa_ish(coord);\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    frag_col = vec4(view_transform(render(frag_coord)), 1);\n}\n",
+     "name": "Image",
+     "description": "",
+     "type": "image"
+    },
+    {
+     "inputs": [],
+     "outputs": [
+      {
+       "id": "4dXGR8",
+       "channel": 0
+      }
+     ],
+     "code": "// this buffer renders some basic 2D shapes with no AA\n\nvec3 render(vec2 coord)\n{\n    vec2 uv = (2. * coord - iResolution.xy) / min(iResolution.x, iResolution.y);\n    \n    vec3 col = vec3(.015, .02, .04);\n    if (abs(dot(uv, normalize(vec2(-.06, 1))) - .6) < .01)\n    {\n        col = vec3(.3, .5, .7);\n    }\n    if (abs(sin(uv.x * 6.2831853) - 32. * (uv.y - .1)) < .5)\n    {\n        col = vec3(.8, .6, .2);\n    }\n    \n    if (abs(dot(uv, uv) - .2) < .03)\n    {\n        col = vec3(.3, .6, .1);\n    }\n    if (max(abs(uv.x), abs(uv.y + .15)) < .15)\n    {\n        col = vec3(.8);\n    }\n    \n    return col;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    vec3 col = render(frag_coord);\n    frag_col = vec4(col, 1);\n}\n",
+     "name": "Buffer A",
+     "description": "",
+     "type": "buffer"
+    }
+   ]
+  },
+  {
+   "ver": "0.1",
+   "info": {
+    "id": "lX3cD7",
+    "date": "0",
+    "viewed": 0,
+    "name": "Grain Simulation",
+    "description": "film grain",
+    "likes": 0,
+    "published": "Private",
+    "usePreview": 0,
+    "tags": [
+     "film",
+     "grain"
+    ]
+   },
+   "renderpass": [
+    {
+     "inputs": [],
+     "outputs": [
+      {
+       "id": "4dfGRr",
+       "channel": 0
+      }
+     ],
+     "code": "const float TILE_SIZE = .1;\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // UV coordinates centered around the origin\n    vec2 uv = (2. * frag_coord - iResolution.xy) / min(iResolution.x, iResolution.y);\n    \n    // tile 2D index and bounds\n    ivec2 itile = ivec2(floor(uv / TILE_SIZE));\n    vec2 ftile = mod(uv, TILE_SIZE) / TILE_SIZE;\n    \n    vec3 col = vec3(abs(sin(vec2(itile) * 1.5707963)), .8 * ftile.y * ftile.x);\n\n    // output\n    col = pow(col, vec3(1. / 2.2));\n    frag_col = vec4(col, 1);\n}\n",
+     "name": "Image",
+     "description": "",
+     "type": "image"
     }
    ]
   }
