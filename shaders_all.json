@@ -1,6 +1,6 @@
 {
  "userName": "beans_please",
- "date": "2024-12-26T18:47:23.358Z",
+ "date": "2024-12-27T07:02:04.717Z",
  "numShaders": 64,
  "shaders": [
   {
@@ -162,7 +162,7 @@
    "info": {
     "id": "dd2yDz",
     "date": "1687622059",
-    "viewed": 668,
+    "viewed": 669,
     "name": "flim - Filmic Color Transform",
     "description": "Experimental Port of flim (Film Emulation Transform)\n\nOriginal Repo:\nhttps://github.com/bean-mhm/flim\n",
     "likes": 17,
@@ -3216,7 +3216,7 @@
    "info": {
     "id": "lXy3zK",
     "date": "1717887783",
-    "viewed": 566,
+    "viewed": 567,
     "name": "Daft Punk (Audio Data Packing)",
     "description": "8-bit audio samples packed into ivec4 array(s) using a Python script, with some vinyl pixel art I made",
     "likes": 24,
@@ -3408,7 +3408,7 @@
    "info": {
     "id": "M3tXWn",
     "date": "1718891537",
-    "viewed": 681,
+    "viewed": 683,
     "name": "Digital Logic Simulation",
     "description": "[url=https://www.shadertoy.com/view/X33XDN]UPDATE: NEW VERSION[/url]\nSee the first comment for tutorial and description.\n",
     "likes": 49,
@@ -3673,7 +3673,7 @@
    "info": {
     "id": "X33XDN",
     "date": "1719435553",
-    "viewed": 614,
+    "viewed": 616,
     "name": "DLS + Wire Cross + Clock + Rot",
     "description": "See the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\n",
     "likes": 25,
@@ -4070,7 +4070,7 @@
    "info": {
     "id": "M3ySRK",
     "date": "1720202475",
-    "viewed": 486,
+    "viewed": 488,
     "name": "Parallax Occlusion Mapping X",
     "description": "layer count depends on the ray-surface angle\n",
     "likes": 22,
@@ -4148,7 +4148,7 @@
    "info": {
     "id": "XcBBWW",
     "date": "1724905810",
-    "viewed": 138,
+    "viewed": 139,
     "name": "Follow Edge Antialiasing? (Bad)",
     "description": "[url=https://www.shadertoy.com/view/M33cD7]SEE BETTER VERSION[/url]\nidk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison\n",
     "likes": 2,
@@ -4686,7 +4686,7 @@
    "info": {
     "id": "4cyfRV",
     "date": "1734325673",
-    "viewed": 2106,
+    "viewed": 2128,
     "name": "Neural Cat",
     "description": "deep neural network trained to produce cat meme video",
     "likes": 27,
@@ -4733,7 +4733,7 @@
    "info": {
     "id": "XX3cRn",
     "date": "1734644701",
-    "viewed": 114,
+    "viewed": 117,
     "name": "Film Halation",
     "description": "film halation",
     "likes": 7,
@@ -4819,10 +4819,10 @@
    "info": {
     "id": "M33cD7",
     "date": "1735165058",
-    "viewed": 45,
+    "viewed": 55,
     "name": "FXAA-ish",
     "description": "idk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison",
-    "likes": 1,
+    "likes": 2,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -4872,7 +4872,7 @@
        "channel": 0
       }
      ],
-     "code": "float lum(vec3 col)\n{\n    return dot(col, vec3(.3, .5, .2));\n}\n\nvec3 fetch(vec2 coord)\n{\n    return texture(iChannel0, coord / iResolution.xy).rgb;\n}\n\n// FXAA-like antialiasing\nvec3 fxaa_ish(vec2 coord)\n{\n    // calculate the gradient\n    vec2 grad = vec2(\n        lum(fetch(coord + vec2(1, 0))) - lum(fetch(coord + vec2(-1, 0))),\n        lum(fetch(coord + vec2(0, 1))) - lum(fetch(coord + vec2(0, -1)))\n    );\n    \n    // skip if the gradient is too small\n    if (dot(grad, grad) < .0003)\n    {\n        return fetch(coord);\n    }\n    \n    // tangent (rotate the gradient 90 deg)\n    vec2 tang = vec2(-grad.y, grad.x);\n\n    // keep following the tangent on both sides and average out the\n    // colors along the path\n    vec3 col = vec3(0);\n    for (int i = -7; i <= 7; i++)\n    {\n        col += fetch(coord + float(i) * tang);\n    }\n    col /= 15.;\n    return col;\n}\n\nvec3 view_transform(vec3 col)\n{\n    // avoid any negative values before using power functions\n    col = max(col, 0.);\n    \n    // OETF (Linear BT.709 I-D65 to sRGB 2.2)\n    col = pow(col, vec3(1. / 2.2));\n    col = clamp(col, 0., 1.);\n\n    return col;\n}\n\nvec3 render(vec2 coord)\n{\n    // before / after divider\n    if (iMouse.z > .5)\n    {\n        if (abs(coord.x - iMouse.x) < 1.1)\n        {\n            return vec3(.8, .05, .02);\n        }\n        if (coord.x < iMouse.x)\n        {\n            return fetch(coord);\n        }\n    }\n    \n    return fxaa_ish(coord);\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    frag_col = vec4(view_transform(render(frag_coord)), 1);\n}\n",
+     "code": "float lum(vec3 col)\n{\n    return dot(col, vec3(.3, .5, .2));\n}\n\nvec3 fetch(vec2 coord)\n{\n    return texture(iChannel0, coord / iResolution.xy).rgb;\n}\n\n// FXAA-like antialiasing\nvec3 fxaa_ish(vec2 coord)\n{\n    // calculate the gradient\n    vec2 grad = vec2(\n        lum(fetch(coord + vec2(1, 0))) - lum(fetch(coord + vec2(-1, 0))),\n        lum(fetch(coord + vec2(0, 1))) - lum(fetch(coord + vec2(0, -1)))\n    );\n    \n    // skip if the gradient is too small\n    if (dot(grad, grad) < .0003)\n    {\n        return fetch(coord);\n    }\n    \n    // tangent (rotate the gradient 90 deg)\n    vec2 tang = vec2(-grad.y, grad.x);\n\n    // keep following the tangent on both sides and average out the\n    // colors along the path\n    vec3 col = vec3(0);\n    for (int i = -6; i <= 6; i++)\n    {\n        col += fetch(coord + float(i) * tang);\n    }\n    col /= 13.;\n    return col;\n}\n\nvec3 view_transform(vec3 col)\n{\n    // avoid any negative values before using power functions\n    col = max(col, 0.);\n    \n    // OETF (Linear BT.709 I-D65 to sRGB 2.2)\n    col = pow(col, vec3(1. / 2.2));\n    col = clamp(col, 0., 1.);\n\n    return col;\n}\n\nvec3 render(vec2 coord)\n{\n    // before / after divider\n    if (iMouse.z > .5)\n    {\n        if (abs(coord.x - iMouse.x) < 1.1)\n        {\n            return vec3(.8, .05, .02);\n        }\n        if (coord.x < iMouse.x)\n        {\n            return fetch(coord);\n        }\n    }\n    \n    return fxaa_ish(coord);\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    frag_col = vec4(view_transform(render(frag_coord)), 1);\n}\n",
      "name": "Image",
      "description": "",
      "type": "image"
@@ -4896,31 +4896,182 @@
    "ver": "0.1",
    "info": {
     "id": "lX3cD7",
-    "date": "0",
-    "viewed": 0,
-    "name": "Grain Simulation",
-    "description": "film grain",
+    "date": "1735261091",
+    "viewed": 7,
+    "name": "Film Emulation",
+    "description": "Full on film emulation. Detailed explanation in the Common tab + comments throughout the code.",
     "likes": 0,
-    "published": "Private",
+    "published": "Public API",
     "usePreview": 0,
     "tags": [
+     "emulation",
      "film",
-     "grain"
+     "grain",
+     "halation"
     ]
    },
    "renderpass": [
     {
-     "inputs": [],
+     "inputs": [
+      {
+       "id": "4sXGR8",
+       "filepath": "/media/previz/buffer02.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
      "outputs": [
       {
        "id": "4dfGRr",
        "channel": 0
       }
      ],
-     "code": "const float TILE_SIZE = .1;\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // UV coordinates centered around the origin\n    vec2 uv = (2. * frag_coord - iResolution.xy) / min(iResolution.x, iResolution.y);\n    \n    // tile 2D index and bounds\n    ivec2 itile = ivec2(floor(uv / TILE_SIZE));\n    vec2 ftile = mod(uv, TILE_SIZE) / TILE_SIZE;\n    \n    vec3 col = vec3(abs(sin(vec2(itile) * 1.5707963)), .8 * ftile.y * ftile.x);\n\n    // output\n    col = pow(col, vec3(1. / 2.2));\n    frag_col = vec4(col, 1);\n}\n",
+     "code": "void mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // read averaged value from the previous buffer\n    vec4 data = texelFetch(iChannel0, ivec2(frag_coord), 0);\n    vec3 col = data.rgb / max(1., data.w);\n    \n    // undo made-up gamut transformation\n    col *= inverse(gamut_extension_mat());\n\n    // OETF (Linear BT.709 I-D65 -> sRGB 2.2)\n    col = pow(col, vec3(1. / 2.2));\n\n    // output    \n    frag_col = vec4(col, 1);\n}\n",
      "name": "Image",
      "description": "",
      "type": "image"
+    },
+    {
+     "inputs": [],
+     "outputs": [],
+     "code": "// how this shader works\n//\n// 1. buffer A renders a custom image in Linear BT.709 I-D65.\n//\n// 2. buffer B reads from buffer A and renders tiny cyan, magenta,\n//    and yellow grains (disks) where the density of grains\n//    depends on the local brightness of red, green, and blue,\n//    respectively. this essentially simulates a developed\n//    negative film.\n//    it should be noted that, when reading from buffer A, we\n//    multiply a 3x3 matrix by the color to effectively convert to\n//    a made-up wide gamut color space. this transformation is\n//    undone in the Image tab. for more information, watch my\n//    video on film emulation, linked below.\n//\n// 3. buffer C reads from buffer B and does the same grain\n//    simulation process, just with slightly different parameters\n//    and different random seeds.\n//\n// 4. finally, the Image tab reads from buffer C, undoes the\n//    made-up gamut transformation, and applies the sRGB OETF.\n//\n// in buffers A, B, and C, the W channel stores the number of\n// accumulated samples, so when reading from them, we should\n// divide XYZ by W to get the averaged RGB triplet.\n//\n// my video on film emulation and digital color:\n// https://www.youtube.com/watch?v=okPzA04TLYM\n//\n// flim, my filmic color transform:\n// https://github.com/bean-mhm/flim\n\n\n\n// grain (disk) radius range\nconst float MIN_GRAIN_RADIUS = .00004;\nconst float MAX_GRAIN_RADIUS = .0003;\n\nconst float LOG_MIN_GRAIN_RADIUS = log(MIN_GRAIN_RADIUS);\nconst float LOG_MAX_GRAIN_RADIUS = log(MAX_GRAIN_RADIUS);\n\n// * MUST be larger than MAX_GRAIN_RADIUS\nconst float TILE_SIZE = .001;\nconst float HALF_TILE_SIZE = .5 * TILE_SIZE;\n\n// parameters for the made-up gamut\nconst float EXTENDED_GAMUT_RED_SCALE = 1.05;\nconst float EXTENDED_GAMUT_GREEN_SCALE = 1.12;\nconst float EXTENDED_GAMUT_BLUE_SCALE = 1.045;\nconst float EXTENDED_GAMUT_RED_ROT = .5;\nconst float EXTENDED_GAMUT_GREEN_ROT = 2.;\nconst float EXTENDED_GAMUT_BLUE_ROT = .1;\nconst float EXTENDED_GAMUT_RED_MUL = 1.;\nconst float EXTENDED_GAMUT_GREEN_MUL = 1.;\nconst float EXTENDED_GAMUT_BLUE_MUL = 1.;\n\n\n\n/*___________ math & integer utils ____________*/\n\nconst float PI = 3.141592653589793238462643383;\nconst float TAU = 6.283185307179586476925286767;\nconst float PI_OVER_2 = 1.570796326794896619231321692;\nconst float INV_PI = .318309886183790671537767527;\nconst float INV_TAU = .159154943091895335768883763;\n\n#define FUNC_WRAP(T) \\\nT wrap(T v, float start, float end) \\\n{ \\\n    return start + mod(v - start, end - start); \\\n}\n\n#define FUNC_REMAP(T) \\\nT remap(T v, float inp_start, float inp_end, float out_start, float out_end) \\\n{ \\\n    return out_start \\\n        + ((out_end - out_start) / (inp_end - inp_start)) * (v - inp_start); \\\n}\n\n#define FUNC_REMAP_CLAMP(T) \\\nT remap_clamp( \\\n    T v, \\\n    float inp_start, \\\n    float inp_end, \\\n    float out_start, \\\n    float out_end \\\n) \\\n{ \\\n    T t = clamp((v - inp_start) / (inp_end - inp_start), 0., 1.); \\\n    return out_start + t * (out_end - out_start); \\\n}\n\n#define FUNC_REMAP01(T) \\\nT remap01(T v, float inp_start, float inp_end) \\\n{ \\\n    return clamp((v - inp_start) / (inp_end - inp_start), 0., 1.); \\\n}\n\n#define FUNC_LENGTH_SQ(T) \\\nfloat length_sq(T v) \\\n{ \\\n    return dot(v, v); \\\n}\n\n#define FUNC_DIST_SQ(T) \\\nfloat dist_sq(T a, T b) \\\n{ \\\n    a -= b; \\\n    return dot(a, a); \\\n}\n\nFUNC_WRAP(float)\nFUNC_WRAP(vec2)\nFUNC_WRAP(vec3)\nFUNC_WRAP(vec4)\n\nFUNC_REMAP(float)\nFUNC_REMAP(vec2)\nFUNC_REMAP(vec3)\nFUNC_REMAP(vec4)\n\nFUNC_REMAP_CLAMP(float)\nFUNC_REMAP_CLAMP(vec2)\nFUNC_REMAP_CLAMP(vec3)\nFUNC_REMAP_CLAMP(vec4)\n\nFUNC_REMAP01(float)\nFUNC_REMAP01(vec2)\nFUNC_REMAP01(vec3)\nFUNC_REMAP01(vec4)\n\nFUNC_LENGTH_SQ(vec2)\nFUNC_LENGTH_SQ(vec3)\nFUNC_LENGTH_SQ(vec4)\n\nFUNC_DIST_SQ(vec2)\nFUNC_DIST_SQ(vec3)\nFUNC_DIST_SQ(vec4)\n\nfloat chebyshev_dist(vec2 a, vec2 b)\n{\n    return max(abs(a.x - b.x), abs(a.y - b.y));\n}\n\nfloat chebyshev_dist(vec3 a, vec3 b)\n{\n    return max(\n        max(abs(a.x - b.x), abs(a.y - b.y)),\n        abs(a.z - b.z)\n    );\n}\n\nfloat chebyshev_dist(vec4 a, vec4 b)\n{\n    return max(\n        max(\n            max(abs(a.x - b.x), abs(a.y - b.y)),\n            abs(a.z - b.z)\n        ),\n        abs(a.w - b.w)\n    );\n}\n\n#define idiv_ceil(a, b) ((a + b - 1) / b)\n\nint iabs(int v)\n{\n    if (v < 0)\n    {\n        return -v;\n    }\n    return v;\n}\n\nint imin(int a, int b)\n{\n    if (a < b)\n    {\n        return a;\n    }\n    return b;\n}\n\nint imax(int a, int b)\n{\n    if (a > b)\n    {\n        return a;\n    }\n    return b;\n}\n\nint iclamp(int v, int start, int end)\n{\n    if (v < start)\n    {\n        v = start;\n    }\n    if (v > end)\n    {\n        v = end;\n    }\n    return v;\n}\n\nfloat min_component(vec2 v)\n{\n    return min(v.x, v.y);\n}\n\nfloat min_component(vec3 v)\n{\n    return min(min(v.x, v.y), v.z);\n}\n\nfloat min_component(vec4 v)\n{\n    return min(min(min(v.x, v.y), v.z), v.w);\n}\n\nfloat max_component(vec2 v)\n{\n    return max(v.x, v.y);\n}\n\nfloat max_component(vec3 v)\n{\n    return max(max(v.x, v.y), v.z);\n}\n\nfloat max_component(vec4 v)\n{\n    return max(max(max(v.x, v.y), v.z), v.w);\n}\n\nfloat sum_components(vec2 v)\n{\n    return dot(v, vec2(1));\n}\n\nfloat sum_components(vec3 v)\n{\n    return dot(v, vec3(1));\n}\n\nfloat sum_components(vec4 v)\n{\n    return dot(v, vec4(1));\n}\n\nint min_component(ivec2 v)\n{\n    return imin(v.x, v.y);\n}\n\nint min_component(ivec3 v)\n{\n    return imin(imin(v.x, v.y), v.z);\n}\n\nint min_component(ivec4 v)\n{\n    return imin(imin(imin(v.x, v.y), v.z), v.w);\n}\n\nint max_component(ivec2 v)\n{\n    return imax(v.x, v.y);\n}\n\nint max_component(ivec3 v)\n{\n    return imax(imax(v.x, v.y), v.z);\n}\n\nint max_component(ivec4 v)\n{\n    return imax(imax(imax(v.x, v.y), v.z), v.w);\n}\n\nint sum_components(ivec2 v)\n{\n    return v.x + v.y;\n}\n\nint sum_components(ivec3 v)\n{\n    return v.x + v.y + v.z;\n}\n\nint sum_components(ivec4 v)\n{\n    return v.x + v.y + v.z + v.w;\n}\n\nfloat bilinear(\n    float val_bl,\n    float val_tl,\n    float val_tr,\n    float val_br,\n    vec2 offs\n)\n{\n    return mix(\n        mix(val_bl, val_br, offs.x),\n        mix(val_tl, val_tr, offs.x),\n        offs.y\n    );\n}\n\n// credits to AHSEN (https://www.shadertoy.com/user/01000001)\n// https://www.desmos.com/calculator/5d6ph151vi interactive :D\nfloat cubic_interp(float a, float b, float c, float d, float t)\n{\n    float one = t - 1.;\n    float two = t - 2.;\n    float three = t - 3.;\n    return (\n        (-one * two * three * a)\n        + (t * one * two * d)\n        + (3. * t * two * three * b)\n        - (3. * t * one * three * c)\n    ) / 6.;\n}\n\nfloat dist_along_line(vec2 p, vec2 line_start, vec2 line_end)\n{\n    vec2 dir = line_end - line_start;\n    \n    // normalize\n    float len_sqr = dot(dir, dir);\n    if (len_sqr < .0001)\n        return 1e9;\n    dir /= sqrt(len_sqr);\n    \n    return dot(\n        dir,\n        p - line_start\n    );\n}\n\nfloat relative_dist_along_line(vec2 p, vec2 line_start, vec2 line_end)\n{\n    vec2 dir = line_end - line_start;\n    return dot(\n        dir,\n        p - line_start\n    );\n}\n\n// |a| * |b| * sin(theta)\nfloat cross2d(vec2 a, vec2 b)\n{\n    return a.x * b.y - a.y * b.x;\n}\n\n// references for barycentric coordinates\n// https://www.desmos.com/calculator/8g8xjejuox\n// https://www.shadertoy.com/view/mdjBWK\n\nvec3 cartesian_to_barycentric(\n    vec2 p,\n    vec2 v0,\n    vec2 v1,\n    vec2 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        cross2d(v1 - p, v2 - p),\n        cross2d(v2 - p, v0 - p),\n        cross2d(v0 - p, v1 - p)\n    ) / cross2d(v1 - v0, v2 - v0);\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nvec3 cartesian_to_barycentric(\n    vec3 p,\n    vec3 v0,\n    vec3 v1,\n    vec3 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        length(cross(v1 - p, v2 - p)),\n        length(cross(v2 - p, v0 - p)),\n        length(cross(v0 - p, v1 - p))\n    ) / length(cross(v1 - v0, v2 - v0));\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nfloat barycentric_interpolate(vec3 b, float v0, float v1, float v2)\n{\n    return dot(b, vec3(v0, v1, v2));\n}\n\nvec2 barycentric_interpolate(vec3 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec3 barycentric_interpolate(vec3 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec4 barycentric_interpolate(vec3 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nfloat barycentric_interpolate(vec2 b, float v0, float v1, float v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec2 barycentric_interpolate(vec2 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec3 barycentric_interpolate(vec2 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec4 barycentric_interpolate(vec2 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\n// angle from 0 to TAU\nfloat get_angle(vec2 p)\n{\n    float a = atan(p.y, p.x);\n    if (a < 0.)\n    {\n        return a + TAU;\n    }\n    return a;\n}\n\nmat2 rotate_2d(float angle)\n{\n    float s = sin(angle);\n    float c = cos(angle);\n    return mat2(\n        c, s,\n        -s, c\n    );\n}\n\nvec2 perpendicular(vec2 v)\n{\n    return vec2(-v.y, v.x);\n}\n\n// s.x=theta\n// s.y=phi\n// (there's no r)\nvec3 spherical_to_cartesian(vec2 s)\n{\n    float sin_theta = sin(s.x);\n    return vec3(\n        sin_theta * cos(s.y),\n        sin_theta * sin(s.y),\n        cos(s.x)\n    );\n}\n\n// s.x=r\n// s.y=theta\n// s.z=phi\nvec3 spherical_to_cartesian(vec3 s)\n{\n    float sin_theta = sin(s.y);\n    return s.x * vec3(\n        sin_theta * cos(s.z),\n        sin_theta * sin(s.z),\n        cos(s.y)\n    );\n}\n\nvec2 screen_to_uv01(vec2 coord, vec2 res)\n{\n    return coord / res;\n}\n\nvec2 screen_to_uv_horizontal(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.x;\n}\n\nvec2 screen_to_uv_vertical(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.y;\n}\n\nvec2 screen_to_uv_fit(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / min_component(res);\n}\n\nvec2 screen_to_uv_fill(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / max_component(res);\n}\n\n// * idx starts at 1\nfloat halton(int base, int idx)\n{\n    float result = 0.;\n    float digit_weight = 1.;\n    while (idx > 0)\n    {\n        digit_weight /= float(base);\n        result += float(idx % base) * digit_weight;\n        idx /= base;\n    }\n    return result;\n}\n\n// * idx starts at 1\nvec2 halton_2d(int idx)\n{\n    return vec2(halton(2, idx), halton(3, idx));\n}\n\n// * idx starts at 1\nvec3 halton_3d(int idx)\n{\n    return vec3(halton(2, idx), halton(3, idx), halton(5, idx));\n}\n\n// * idx starts at 1\nvec4 halton_4d(int idx)\n{\n    return vec4(\n        halton(2, idx),\n        halton(3, idx),\n        halton(5, idx),\n        halton(7, idx)\n    );\n}\n\n// for some reason we can't use intBitsToFloat() or floatBitsToInt() to store\n// integers below this value in a buffer.\nconst int BUFFER_MIN_INTEGER = 8388608;\n\n// * x must not be higher than 4,286,578,688 (see BUFFER_MIN_INTEGER above)\n// * for your sanity, don't use negative values\nfloat encode_int_for_buffer(int v)\n{\n    return intBitsToFloat(v + BUFFER_MIN_INTEGER);\n}\n\nint decode_int_from_buffer(float v)\n{\n    return floatBitsToInt(v) - BUFFER_MIN_INTEGER;\n}\n\n// pack two 16-bit integers in a single 32-bit integer\n// * both arguments should be in the 0-65535 range\n// * a must be less than 65279 (see the functions above)\nint pack_i16(int a, int b)\n{\n    return (a << 16) | b;\n}\n\n// unpack two 16-bit integers from a single 32-bit integer\nvoid unpack_i16(int v, out int a, out int b)\n{\n    a = (v >> 16) & 65535;\n    b = v & 65535;\n}\n\n// unpack the first 16-bit integer from a 32-bit integer\nint unpack_i16_a(int v)\n{\n    return (v >> 16) & 65535;\n}\n\n// unpack the second 16-bit integer from a 32-bit integer\nint unpack_i16_b(int v)\n{\n    return v & 65535;\n}\n\nbool icoord_in_bounds(ivec2 icoord, ivec2 ires)\n{\n    return\n        icoord.x >= 0 &&\n        icoord.y >= 0 &&\n        icoord.x < ires.x &&\n        icoord.y < ires.y;\n}\n\nbool icoord_in_bounds(ivec3 icoord, ivec3 ires)\n{\n    return\n        icoord.x >= 0 &&\n        icoord.y >= 0 &&\n        icoord.z >= 0 &&\n        icoord.x < ires.x &&\n        icoord.y < ires.y &&\n        icoord.z < ires.z;\n}\n\nint icoord_to_idx(ivec2 icoord, ivec2 ires)\n{\n    return icoord.x + (icoord.y * ires.x);\n}\n\nint icoord_to_idx(ivec3 icoord, ivec3 ires)\n{\n    return icoord.x + (icoord.y * ires.x) + (icoord.z * ires.x * ires.y);\n}\n\nivec2 idx_to_icoord(int idx, ivec2 ires)\n{\n    return ivec2(idx % ires.x, idx / ires.x);\n}\n\nivec3 idx_to_icoord(int idx, ivec3 ires)\n{\n    return ivec3(\n        idx % ires.x,\n        (idx % (ires.x * ires.y)) / ires.x,\n        idx / (ires.x * ires.y)\n    );\n}\n\n// https://www.desmos.com/calculator/kfe07basy9\n\nint compress_float_to_int_linear(float f, float min_f, float max_f, int max_i)\n{\n    return int(floor(\n        float(max_i) * remap01(f, min_f, max_f)\n    ));\n}\n\nfloat decompress_float_from_int_linear(\n    int i,\n    int max_i,\n    float min_f,\n    float max_f\n)\n{\n    return remap_clamp(\n        float(i) / float(max_i),\n        0., 1.,\n        min_f, max_f\n    );\n}\n\nint compress_float_to_int_log(\n    float f,\n    float log2_zero_offset,\n    float max_log2_f,\n    int max_i\n)\n{\n    f = max(0., f);\n    f += pow(2., log2_zero_offset);\n    return int(floor(\n        float(max_i) * remap01(log2(f), log2_zero_offset, max_log2_f)\n    ));\n}\n\nfloat decompress_float_from_int_log(\n    int i,\n    int max_i,\n    float log2_zero_offset,\n    float max_log2_f\n)\n{\n    return pow(2., remap_clamp(\n        float(i) / float(max_i),\n        0., 1.,\n        log2_zero_offset, max_log2_f\n    )) - pow(2., log2_zero_offset);\n}\n\n\n\n/*_______ pseudo-random number generator ______*/\n// source: https://www.shadertoy.com/view/WdSSRt\n// (heavily modified)\n\n/* usage example:\n    void mainImage(out vec4 frag_col, in vec2 frag_coord)\n    {\n        // initialize PRNG\n        prng_init(vec3(frag_coord / iResolution.y, iTime));\n    \n        // use the function\n        float a = random();\n        vec3 b = vec3(random(), random(), random());\n        \n        ...\n    }\n*/\n\nuint prng_state[2];\n\nuint prng_rot(uint x, int k)\n{\n    return (x << k) | (x >> (32 - k));\n}\n\n// random uint from 0 to 2^32-1\nuint randomui()\n{\n    uint s0 = prng_state[0];\n    uint s1 = prng_state[1];\n    uint result = prng_rot(s0 * 2654435771u, 5) * 5u;\n    s1 ^= s0;\n    prng_state[0] = prng_rot(s0, 26) ^ s1 ^ (s1 << 9);\n    prng_state[1] = prng_rot(s1, 13);\n    return result;\n}\n\n// random int from 0 to 2^31-1\nint randomi()\n{\n    return int(randomui() % 0x7FFFFFFFu);\n}\n\n// random float from 0 to 1\nfloat random()\n{\n    return float(randomui()) / float(0xffffffffu);\n}\n\n// generate two normally distributed random numbers using the\n// Box-Muller transform\n// https://www.baeldung.com/cs/uniform-to-normal-distribution\nvec2 random_gauss()\n{\n    float u1 = random();\n    float u2 = random() * TAU;\n    float temp = sqrt(-2. * log(u1));\n    return temp * vec2(cos(u2), sin(u2));\n    \n    // unoptimized version\n    //float u1 = random();\n    //float u2 = random();\n    //return vec2(cos(TAU * u2), sin(TAU * u2)) * sqrt(-2. * log(u1));\n}\n\nvec2 random_on_circle()\n{\n    vec2 v = vec2(1);\n    float lensqr;\n\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec2(2. * random() - 1., 2. * random() - 1.);\n        lensqr = dot(v, v);\n        if (lensqr == 0.)\n            i--;\n        else if (lensqr <= 1.)\n            break;\n    }\n    return v / sqrt(lensqr);\n}\n\nvec3 random_on_sphere()\n{\n    vec3 v = vec3(1);\n    float lensqr;\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec3(2. * random() - 1., 2. * random() - 1., 2. * random() - 1.);\n        lensqr = dot(v, v);\n        if (lensqr == 0.)\n            i--;\n        else if (lensqr <= 1.)\n            break;\n    }\n    return v / sqrt(lensqr);\n}\n\nvec2 random_in_circle()\n{\n    vec2 v = vec2(1);\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec2(2. * random() - 1., 2. * random() - 1.);\n        if (dot(v, v) <= 1.)\n            return v;\n    }\n    return v;\n}\n\nvec3 random_in_sphere()\n{\n    vec3 v = vec3(1);\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec3(2. * random() - 1., 2. * random() - 1., 2. * random() - 1.);\n        if (dot(v, v) <= 1.)\n            return v;\n    }\n    return v;\n}\n\nvec3 random_on_hemisphere(vec3 normal)\n{\n    vec3 v = random_on_sphere();\n    return v * sign(dot(v, normal));\n}\n\nvec3 random_in_hemisphere(vec3 normal)\n{\n    vec3 v = random_in_sphere();\n    return v * sign(dot(v, normal));\n}\n\n// generate random integer with poisson distribution\nint random_poisson(float mean_rate)\n{\n    float exp_negative_mean_rate = exp(-mean_rate);\n\n    int n = 0;\n    float product = 1.;\n    while (product > exp_negative_mean_rate)\n    {\n        product *= random();\n        n++;\n    }\n    return n;\n}\n\n// initialize with uvec2\nvoid prng_init(uvec2 seed)\n{\n    seed += uvec2(1317, 944573125);\n    seed *= 464973573u;\n    prng_state[0] = seed.x;\n    prng_state[1] = seed.y;\n    randomi();\n}\n\n// initialize with uint\nvoid prng_init(uint seed)\n{\n    prng_init(uvec2(seed, 1));\n}\n\n// initialize with vec3\nvoid prng_init(vec3 seed)\n{\n    seed += 3.49276101561702;\n    seed.xy *= (seed.z + 10.258);\n    prng_state[0] = floatBitsToUint(seed.x);\n    prng_state[1] = floatBitsToUint(seed.y);\n    randomui();\n}\n\n// initialize with vec2\nvoid prng_init(vec2 seed)\n{\n    prng_init(vec3(seed, 1));\n}\n\n// initialize with float\nvoid prng_init(float seed)\n{\n    prng_init(vec3(seed, 1, 1));\n}\n\n\n\n// gamut extension matrix\n\nvec3 blender_hsv_to_rgb(vec3 hsv)\n{\n    float f, p, q, t, h, s, v;\n    vec3 rgb;\n\n    h = hsv[0];\n    s = hsv[1];\n    v = hsv[2];\n\n    if (s == 0.)\n    {\n        rgb = vec3(v, v, v);\n    }\n    else\n    {\n        if (h == 1.)\n        {\n            h = 0.;\n        }\n\n        h *= 6.;\n        int i = int(floor(h));\n        f = h - float(i);\n        rgb = vec3(f, f, f);\n        p = v * (1. - s);\n        q = v * (1. - (s * f));\n        t = v * (1. - (s * (1. - f)));\n\n        if (i == 0)\n        {\n            rgb = vec3(v, t, p);\n        }\n        else if (i == 1)\n        {\n            rgb = vec3(q, v, p);\n        }\n        else if (i == 2)\n        {\n            rgb = vec3(p, v, t);\n        }\n        else if (i == 3)\n        {\n            rgb = vec3(p, q, v);\n        }\n        else if (i == 4)\n        {\n            rgb = vec3(t, p, v);\n        }\n        else\n        {\n            rgb = vec3(v, p, q);\n        }\n    }\n\n    return rgb;\n}\n\nvec3 gamut_extension_mat_row(\n    float primary_hue,\n    float scale,\n    float rotate,\n    float mul\n)\n{\n    vec3 result = blender_hsv_to_rgb(vec3(\n        wrap(primary_hue + (rotate / 360.), 0., 1.),\n        1. / scale,\n        1.\n    ));\n    result /= sum_components(result);\n    result *= mul;\n    return result;\n}\n\nmat3 gamut_extension_mat()\n{\n    mat3 m;\n    m[0] = gamut_extension_mat_row(\n        0.,\n        EXTENDED_GAMUT_RED_SCALE,\n        EXTENDED_GAMUT_RED_ROT,\n        EXTENDED_GAMUT_RED_MUL\n    );\n    m[1] = gamut_extension_mat_row(\n        1. / 3.,\n        EXTENDED_GAMUT_GREEN_SCALE,\n        EXTENDED_GAMUT_GREEN_ROT,\n        EXTENDED_GAMUT_GREEN_MUL\n    );\n    m[2] = gamut_extension_mat_row(\n        2. / 3.,\n        EXTENDED_GAMUT_BLUE_SCALE,\n        EXTENDED_GAMUT_BLUE_ROT,\n        EXTENDED_GAMUT_BLUE_MUL\n    );\n    return m;\n}\n",
+     "name": "Common",
+     "description": "",
+     "type": "common"
+    },
+    {
+     "inputs": [
+      {
+       "id": "4dfGRn",
+       "filepath": "/media/a/8de3a3924cb95bd0e95a443fff0326c869f9d4979cd1d5b6e94e2a01f5be53e9.jpg",
+       "type": "texture",
+       "channel": 1,
+       "sampler": {
+        "filter": "mipmap",
+        "wrap": "repeat",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      },
+      {
+       "id": "4dXGR8",
+       "filepath": "/media/previz/buffer00.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4dXGR8",
+       "channel": 0
+      }
+     ],
+     "code": "float bar_brightness(float u)\n{\n    return pow(remap01(u, -1.4, 1.), 6.) * 140. * step(u, 1.);\n}\n\n// render the bars (original scene without halation)\nvec3 render(vec2 coord)\n{\n    // render texture from iChannnel1\n    #if 0\n        vec3 col = pow(texture(iChannel1, coord / iResolution.xy).rgb, vec3(2.2));\n        \n        // HDR-ize\n        return 2.7 * pow(col, vec3(1.32));\n    #endif\n    \n    vec2 uv = screen_to_uv_fit(coord, iResolution.xy);\n    if (abs(uv.y - .2) < .1)\n    {\n        return vec3(bar_brightness(uv.x));\n    }\n    else if (abs(uv.y + .2) < .1)\n    {\n        return vec3(bar_brightness(-uv.x));\n    }\n    return vec3(0);\n}\n\n// render the original scene with halation.\n// effectively just blur \"the deep orange channel\" and mix\n// the original image with that.\nvec3 render_with_halation(vec2 coord)\n{\n    vec3 col = render(coord);\n    vec3 col_blurred = render(\n        coord + random_gauss() * .006 * min(iResolution.x, iResolution.y)\n    );\n    return mix(col, col_blurred, .1 * vec3(.93, .07, 0));\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // the first pixel (0, 0) stores resolution\n    if (ivec2(frag_coord) == ivec2(0))\n    {\n        frag_col = vec4(iResolution.xy, 0, 0);\n        return;\n    }\n    \n    // fetch previous frame's resolution and see if it's changed\n    vec2 prev_res = texelFetch(iChannel0, ivec2(0), 0).xy;\n    bool res_changed = dist_sq(iResolution.xy, prev_res) > .9;\n    \n    // fetch previous frame's values\n    // (XYZ = RGB, W = number of samples accumulated)\n    vec4 prev_data = texelFetch(iChannel0, ivec2(frag_coord), 0);\n    \n    // reset previous data if we're on the first frame or when the\n    // resolution changes.\n    if (iFrame < 1 || iTime < .02 || prev_data.w < .9 || res_changed)\n    {\n        prev_data = vec4(0);\n    }\n    \n    // stop accumulating after some point\n    if (prev_data.w > 65.)\n    {\n        frag_col = prev_data;\n        return;\n    }\n    \n    // initialize PRNG\n    prng_init(vec3(frag_coord, iTime + float(iFrame + 1)));\n\n    // render with box jitter sampling\n    vec3 col = vec3(0);\n    const int N_SAMPLES = 1;\n    for (int i = 0; i < N_SAMPLES; i++)\n    {\n        vec2 offs = vec2(random(), random()) - .5;\n        col += render_with_halation(frag_coord + offs);\n    }\n    col /= float(N_SAMPLES);\n    \n    // add to the previously accumulated samples\n    frag_col = vec4(prev_data.rgb + col, prev_data.w + 1.);\n}\n",
+     "name": "Buffer A",
+     "description": "",
+     "type": "buffer"
+    },
+    {
+     "inputs": [
+      {
+       "id": "4dXGR8",
+       "filepath": "/media/previz/buffer00.png",
+       "type": "buffer",
+       "channel": 1,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      },
+      {
+       "id": "XsXGR8",
+       "filepath": "/media/previz/buffer01.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "XsXGR8",
+       "channel": 0
+      }
+     ],
+     "code": "// this is the range used to get the average rate of disks per tile\n// based on the log2 of the current color channel of the input.\nconst float MIN_LOG2_INPUT = -6.5;\nconst float MAX_LOG2_INPUT = 22.5;\n\n// 2 ^ MIN_LOG2_INPUT. we add this to the input color to avoid\n// clipping near zero.\nconst float EXP_MIN_LOG2_INPUT = pow(2., MIN_LOG2_INPUT);\n\n// maximum average rate of disks per tile\nconst float MAX_MEAN_RATE = 200.;\n\nvec3 render(vec2 coord)\n{\n    // UV coordinates centered around the origin\n    float min_res = min_component(iResolution.xy);\n    vec2 res = iResolution.xy;\n    vec2 uv = (2. * coord - res) / min_res;\n    \n    // tile 2D index\n    ivec2 itile = ivec2(floor(uv / TILE_SIZE));\n    \n    // gamut extension matrix (Linear BT.709)\n    mat3 extend_mat = gamut_extension_mat();\n    \n    // start with white (perfectly unexposed film)\n    vec3 col = vec3(1);\n    \n    // for each of the neighboring tiles and the current one\n    for (int ioffs_y = -1; ioffs_y <= 1; ioffs_y++)\n    {\n        for (int ioffs_x = -1; ioffs_x <= 1; ioffs_x++)\n        {\n            // current tile's 2D index\n            ivec2 curr_itile = itile + ivec2(ioffs_x, ioffs_y);\n            \n            // current tile's bounds\n            vec2 tile_bl = vec2(curr_itile) * TILE_SIZE;\n            vec2 tile_tl = tile_bl + TILE_SIZE;\n            vec2 tile_center = tile_bl + HALF_TILE_SIZE;\n            \n            // fetch input image color at tile center and convert it\n            // to the made-up gamut.\n            vec4 input_data = texture(\n                iChannel1,\n                (tile_center * min_res + res) / (2. * res)\n            );\n            vec3 input_col = input_data.rgb / max(1., input_data.w);\n            input_col *= extend_mat;\n            input_col += EXP_MIN_LOG2_INPUT;\n            \n            // for each color channel red, green, and blue, render a\n            // bunch of disks with the opposite color. the number of\n            // disks is calculated using a poisson random\n            // distribution.\n            for (int ch = 0; ch < 3; ch++)\n            {\n                // if we've already rendered a disk with the\n                // opposite color of the current channel, we\n                // don't need to do anything else.\n                if (col[ch] < .1)\n                {\n                    continue;\n                }\n            \n                // average rate of disks per tile which is based on\n                // log2(color channel intensity at tile center).\n                float mean_rate = MAX_MEAN_RATE * remap01(\n                    log2(input_col[ch]),\n                    MIN_LOG2_INPUT,\n                    MAX_LOG2_INPUT\n                );\n                \n                // initialize PRNG for the current tile and channel\n                // make sure this seed is different in buffer B\n                // and C.\n                prng_init(vec3(curr_itile + 0, ch + 0));\n                \n                // figure out the exact number of disks to render\n                // using a poisson distribution.\n                int n_disks = random_poisson(mean_rate);\n                \n                // render disks with the opposite color of the\n                // current color channel with multiplicative\n                // blending (just set the current channel to 0).\n                for (int i = 0; i < n_disks; i++)\n                {\n                    vec2 center = tile_bl + TILE_SIZE * vec2(random(), random());\n                    \n                    float log_radius = remap(\n                        random(),\n                        0., 1.,\n                        LOG_MIN_GRAIN_RADIUS, LOG_MAX_GRAIN_RADIUS\n                    );\n                    float radius = exp(log_radius);\n                    \n                    if (dist_sq(uv, center) < radius * radius)\n                    {\n                        col[ch] = 0.;\n                        break;\n                    }\n                }\n            }\n        }\n    }\n    \n    // visualize tiles for testing\n    #if 0\n        col.rg = abs(sin(vec2(itile) * PI_OVER_2));\n        col.b *= .5;\n    #endif\n    \n    return col;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // the first pixel (0, 0) stores resolution\n    if (ivec2(frag_coord) == ivec2(0))\n    {\n        frag_col = vec4(iResolution.xy, 0, 0);\n        return;\n    }\n    \n    // before doing anything, wait for buffer A to converge\n    vec4 prev_buf_data = texelFetch(iChannel1, ivec2(frag_coord), 0);\n    if (prev_buf_data.w < 65.)\n    {\n        frag_col = vec4(\n            prev_buf_data.rgb / max(1., prev_buf_data.w),\n            0\n        );\n        return;\n    }\n    \n    // fetch previous frame's resolution and see if it's changed\n    vec2 prev_res = texelFetch(iChannel0, ivec2(0), 0).xy;\n    bool res_changed = dist_sq(iResolution.xy, prev_res) > .9;\n\n    // fetch previous frame's values\n    // (XYZ = RGB, W = number of samples accumulated)\n    vec4 prev_data = texelFetch(iChannel0, ivec2(frag_coord), 0);\n    \n    // reset previous data if we're on the first frame or when the\n    // resolution changes.\n    if (iFrame < 1 || iTime < .02 || prev_data.w < .9 || res_changed)\n    {\n        prev_data = vec4(0);\n    }\n    \n    // stop accumulating after some point\n    if (prev_data.w > 100.)\n    {\n        frag_col = prev_data;\n        return;\n    }\n    \n    // initialize PRNG\n    prng_init(vec3(frag_coord, iTime + float(iFrame + 100)));\n    \n    // render with box jitter sampling\n    vec3 col = vec3(0);\n    const int N_SAMPLES = 1;\n    for (int i = 0; i < N_SAMPLES; i++)\n    {\n        vec2 offs = vec2(random(), random()) - .5;\n        col += render(frag_coord + offs);\n    }\n    col /= float(N_SAMPLES);\n    \n    // add to the previously accumulated samples\n    frag_col = vec4(prev_data.rgb + col, prev_data.w + 1.);\n}\n",
+     "name": "Buffer B",
+     "description": "",
+     "type": "buffer"
+    },
+    {
+     "inputs": [
+      {
+       "id": "XsXGR8",
+       "filepath": "/media/previz/buffer01.png",
+       "type": "buffer",
+       "channel": 1,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      },
+      {
+       "id": "4sXGR8",
+       "filepath": "/media/previz/buffer02.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4sXGR8",
+       "channel": 0
+      }
+     ],
+     "code": "// this is the range used to get the average rate of disks per tile\n// based on the log2 of the current color channel of the input.\nconst float MIN_LOG2_INPUT = -.5;\nconst float MAX_LOG2_INPUT = 20.;\n\n// 2 ^ MIN_LOG2_INPUT. we add this to the input color to avoid\n// clipping near zero.\nconst float EXP_MIN_LOG2_INPUT = pow(2., MIN_LOG2_INPUT);\n\n// maximum average rate of disks per tile\nconst float MAX_MEAN_RATE = 1400.;\n\nvec3 render(vec2 coord)\n{\n    // UV coordinates centered around the origin\n    float min_res = min_component(iResolution.xy);\n    vec2 res = iResolution.xy;\n    vec2 uv = (2. * coord - res) / min_res;\n    \n    // tile 2D index\n    ivec2 itile = ivec2(floor(uv / TILE_SIZE));\n    \n    // start with white (perfectly unexposed film)\n    vec3 col = vec3(1);\n    \n    // for each of the neighboring tiles and the current one\n    for (int ioffs_y = -1; ioffs_y <= 1; ioffs_y++)\n    {\n        for (int ioffs_x = -1; ioffs_x <= 1; ioffs_x++)\n        {\n            // current tile's 2D index\n            ivec2 curr_itile = itile + ivec2(ioffs_x, ioffs_y);\n            \n            // current tile's bounds\n            vec2 tile_bl = vec2(curr_itile) * TILE_SIZE;\n            vec2 tile_tl = tile_bl + TILE_SIZE;\n            vec2 tile_center = tile_bl + HALF_TILE_SIZE;\n            \n            // fetch input image color at tile center\n            vec4 input_data = texture(\n                iChannel1,\n                (tile_center * min_res + res) / (2. * res)\n            );\n            vec3 input_col = input_data.rgb / max(1., input_data.w);\n            input_col += EXP_MIN_LOG2_INPUT;\n            \n            // for each color channel red, green, and blue, render a\n            // bunch of disks with the opposite color. the number of\n            // disks is calculated using a poisson random\n            // distribution.\n            for (int ch = 0; ch < 3; ch++)\n            {\n                // if we've already rendered a disk with the\n                // opposite color of the current channel, we\n                // don't need to do anything else.\n                if (col[ch] < .1)\n                {\n                    continue;\n                }\n            \n                // average rate of disks per tile which is based on\n                // log2(color channel intensity at tile center).\n                float mean_rate = MAX_MEAN_RATE * remap01(\n                    log2(input_col[ch]),\n                    MIN_LOG2_INPUT,\n                    MAX_LOG2_INPUT\n                );\n                \n                // initialize PRNG for the current tile and channel\n                // make sure this seed is different in buffer B\n                // and C.\n                prng_init(vec3(curr_itile + 100, ch + 100));\n                \n                // figure out the exact number of disks to render\n                // using a poisson distribution.\n                int n_disks = random_poisson(mean_rate);\n                \n                // render disks with the opposite color of the\n                // current color channel with multiplicative\n                // blending (just set the current channel to 0).\n                for (int i = 0; i < n_disks; i++)\n                {\n                    vec2 center = tile_bl + TILE_SIZE * vec2(random(), random());\n                    \n                    float log_radius = remap(\n                        random(),\n                        0., 1.,\n                        LOG_MIN_GRAIN_RADIUS, LOG_MAX_GRAIN_RADIUS\n                    );\n                    float radius = exp(log_radius);\n                    \n                    if (dist_sq(uv, center) < radius * radius)\n                    {\n                        col[ch] = 0.;\n                        break;\n                    }\n                }\n            }\n        }\n    }\n    \n    // visualize tiles for testing\n    #if 0\n        col.rg = abs(sin(vec2(itile) * PI_OVER_2));\n        col.b *= .5;\n    #endif\n    \n    return col;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // the first pixel (0, 0) stores resolution\n    if (ivec2(frag_coord) == ivec2(0))\n    {\n        frag_col = vec4(iResolution.xy, 0, 0);\n        return;\n    }\n    \n    // before doing anything, wait for buffer B to converge\n    vec4 prev_buf_data = texelFetch(iChannel1, ivec2(frag_coord), 0);\n    if (prev_buf_data.w < 100.)\n    {\n        frag_col = vec4(\n            prev_buf_data.rgb / max(1., prev_buf_data.w),\n            0\n        );\n        return;\n    }\n    \n    // fetch previous frame's resolution and see if it's changed\n    vec2 prev_res = texelFetch(iChannel0, ivec2(0), 0).xy;\n    bool res_changed = dist_sq(iResolution.xy, prev_res) > .9;\n\n    // fetch previous frame's values\n    // (XYZ = RGB, W = number of samples accumulated)\n    vec4 prev_data = texelFetch(iChannel0, ivec2(frag_coord), 0);\n    \n    // reset previous data if we're on the first frame or when the\n    // resolution changes.\n    if (iFrame < 1 || iTime < .02 || prev_data.w < .9 || res_changed)\n    {\n        prev_data = vec4(0);\n    }\n    \n    // initialize PRNG\n    prng_init(vec3(frag_coord, iTime + float(iFrame + 200)));\n    \n    // render with box jitter sampling\n    vec3 col = vec3(0);\n    const int N_SAMPLES = 1;\n    for (int i = 0; i < N_SAMPLES; i++)\n    {\n        vec2 offs = vec2(random(), random()) - .5;\n        col += render(frag_coord + offs);\n    }\n    col /= float(N_SAMPLES);\n    \n    // add to the previously accumulated samples\n    frag_col = vec4(prev_data.rgb + col, prev_data.w + 1.);\n}\n",
+     "name": "Buffer C",
+     "description": "",
+     "type": "buffer"
     }
    ]
   }
