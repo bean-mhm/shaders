@@ -1,14 +1,14 @@
 {
  "userName": "beans_please",
- "date": "2025-01-07T13:22:54.050Z",
- "numShaders": 69,
+ "date": "2025-01-13T18:43:14.262Z",
+ "numShaders": 70,
  "shaders": [
   {
    "ver": "0.1",
    "info": {
     "id": "dsjcRR",
     "date": "1687371539",
-    "viewed": 431,
+    "viewed": 435,
     "name": "PBR with Ray Marching (WIP)",
     "description": "* Drag -> Look around\n* WASD -> Move\n* Shift -> Sprint\n* Alt -> Stealth?\n* R -> Reset\n",
     "likes": 7,
@@ -162,7 +162,7 @@
    "info": {
     "id": "dd2yDz",
     "date": "1687622059",
-    "viewed": 692,
+    "viewed": 697,
     "name": "flim - Filmic Color Transform",
     "description": "Experimental Port of flim (Film Emulation Transform)\n\nOriginal Repo:\nhttps://github.com/bean-mhm/flim\n",
     "likes": 17,
@@ -206,7 +206,7 @@
    "info": {
     "id": "mdScW1",
     "date": "1687653267",
-    "viewed": 356,
+    "viewed": 358,
     "name": "Interactive 2D Wave Simulation",
     "description": "*Drag your mouse, make a spiral or something.\n\nThis is a port of my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py\n",
     "likes": 6,
@@ -342,7 +342,7 @@
    "info": {
     "id": "md2yWh",
     "date": "1687678448",
-    "viewed": 156,
+    "viewed": 157,
     "name": "experimenting with colormaps",
     "description": "will use this in another shader of mine",
     "likes": 4,
@@ -374,7 +374,7 @@
    "info": {
     "id": "mdByWW",
     "date": "1687704350",
-    "viewed": 170,
+    "viewed": 171,
     "name": "Discrete Land",
     "description": "Playing with integer coordinates",
     "likes": 5,
@@ -417,7 +417,7 @@
    "info": {
     "id": "mdBcz3",
     "date": "1688036284",
-    "viewed": 502,
+    "viewed": 505,
     "name": "3D Wave Simulation",
     "description": "Check out my Interactive 2D Wave Simulation:\nhttps://www.shadertoy.com/view/mdScW1\n\nCheck out my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py",
     "likes": 23,
@@ -572,7 +572,7 @@
    "info": {
     "id": "csjfDh",
     "date": "1689671017",
-    "viewed": 188,
+    "viewed": 189,
     "name": "2D Occlusion Test",
     "description": "Drag to move the middle circle",
     "likes": 5,
@@ -669,7 +669,7 @@
    "info": {
     "id": "dsjBDy",
     "date": "1690140863",
-    "viewed": 479,
+    "viewed": 484,
     "name": "2D Fourier Transform",
     "description": "(Not so fast) 2D Fourier Transform implemented in glsl\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the FFT resolution in the Common tab.",
     "likes": 3,
@@ -738,7 +738,7 @@
    "info": {
     "id": "mdjBWK",
     "date": "1690217266",
-    "viewed": 241,
+    "viewed": 242,
     "name": "Triangle Barycentric Coordinates",
     "description": "This started as a 4 AM question: \"How do vertex attributes get interpolated in a fragment shader?\"\nThe Wikipedia page for Barycentric Coordinates was too complicated for me, so hopefully this is easier to und.\nhttps://www.desmos.com/calculator/8g8xjejuox\n",
     "likes": 3,
@@ -784,7 +784,7 @@
    "info": {
     "id": "msjfDt",
     "date": "1690292056",
-    "viewed": 293,
+    "viewed": 294,
     "name": "Moving White Point",
     "description": "Random experiment\n\n- Drag to move the white point",
     "likes": 6,
@@ -872,7 +872,7 @@
    "info": {
     "id": "dlfcD8",
     "date": "1692139870",
-    "viewed": 295,
+    "viewed": 296,
     "name": "Path Tracing name already in use",
     "description": "Good old naive path tracing",
     "likes": 7,
@@ -1056,7 +1056,7 @@
    "info": {
     "id": "mlsyDj",
     "date": "1691237601",
-    "viewed": 224,
+    "viewed": 225,
     "name": "Balls Simulated (updated)",
     "description": "This is my first physics simulation, and I just followed my gut, so feel free to comment on how this can be improved\n\nUpdate: Implemented suggestions by @fenix (no more jittering + general improvements)",
     "likes": 12,
@@ -1156,7 +1156,7 @@
    "info": {
     "id": "cl2cRD",
     "date": "1691530674",
-    "viewed": 79,
+    "viewed": 80,
     "name": "Fixed FPS Experiment",
     "description": "Adjusting the amount of computation in order to keep the FPS constant.\nMight take up to 20 seconds to reach the target FPS.\nDoesn't work well on my phone, probably because of 16 bit precision.",
     "likes": 1,
@@ -1231,7 +1231,7 @@
    "info": {
     "id": "mtScWm",
     "date": "1691841683",
-    "viewed": 303,
+    "viewed": 304,
     "name": "Blue Noise Dithering vs OETF 2.2",
     "description": "Try commenting out the OETF to see how the dithered version and the clean version don't match in brightness anymore",
     "likes": 9,
@@ -1282,7 +1282,7 @@
    "info": {
     "id": "mtjyDw",
     "date": "1691962447",
-    "viewed": 161,
+    "viewed": 162,
     "name": "1D Continuous Function Graphing",
     "description": "Basically sample points on the function and connect them with line segments",
     "likes": 6,
@@ -1399,7 +1399,7 @@
    "info": {
     "id": "DljyDG",
     "date": "1692469704",
-    "viewed": 199,
+    "viewed": 200,
     "name": "Breathing Fractal",
     "description": "Drag to explore the complex universe!\n",
     "likes": 6,
@@ -1934,7 +1934,7 @@
    "info": {
     "id": "ctjfDc",
     "date": "1694574459",
-    "viewed": 360,
+    "viewed": 365,
     "name": "Fork Discoteq 3 (+ flim)",
     "description": "Discoteq 3\nadded flim ( https://www.shadertoy.com/view/dd2yDz )",
     "likes": 8,
@@ -2021,7 +2021,7 @@
    "info": {
     "id": "DdcyRf",
     "date": "1695281747",
-    "viewed": 194,
+    "viewed": 195,
     "name": "Exponential Colormap",
     "description": "See the Desmos graphs, play with v",
     "likes": 6,
@@ -2053,7 +2053,7 @@
    "info": {
     "id": "ds3fDM",
     "date": "1697312887",
-    "viewed": 327,
+    "viewed": 333,
     "name": "XPBD Rope",
     "description": "Finally implemented XPBD!\nWatch this amazing video: https://youtube.com/watch?v=jrociOAYqxA\n\n* Drag to move the tail\n\n* Long ish compile time (22 seconds for me), so be patient\n\n* Does not work well on my phone, presumably because of 16-bit floats.",
     "likes": 16,
@@ -2140,7 +2140,7 @@
    "info": {
     "id": "DsGBDy",
     "date": "1698577359",
-    "viewed": 136,
+    "viewed": 137,
     "name": "angle in [0, 2pi)",
     "description": "the",
     "likes": 3,
@@ -2172,7 +2172,7 @@
    "info": {
     "id": "Mcf3Dj",
     "date": "1703544197",
-    "viewed": 211,
+    "viewed": 212,
     "name": "FBM Voronoi",
     "description": "i like voronoi",
     "likes": 2,
@@ -2217,7 +2217,7 @@
    "info": {
     "id": "4fSGzR",
     "date": "1705547653",
-    "viewed": 68,
+    "viewed": 69,
     "name": "FBM Perlin",
     "description": "i like perlin noise",
     "likes": 0,
@@ -2261,10 +2261,10 @@
    "info": {
     "id": "lf23zW",
     "date": "1736235885",
-    "viewed": 27,
+    "viewed": 66,
     "name": "🌟NOISE SHOW🌟",
     "description": "procedural noise",
-    "likes": 3,
+    "likes": 4,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -2306,7 +2306,7 @@
    "info": {
     "id": "lclXWs",
     "date": "1705932695",
-    "viewed": 165,
+    "viewed": 168,
     "name": "Quantum physics or something",
     "description": "Extremely slow, use shadertoy browser extension to increase the number of iters/frame (paint calls) to 512 ish with inspect element!\n\nHelp: How do I calculate max dt (before it breaks) based on the parameters?\n\nhttps://www.desmos.com/calculator/ery45h4dzl",
     "likes": 1,
@@ -2395,7 +2395,7 @@
    "info": {
     "id": "MXSXRm",
     "date": "1710373949",
-    "viewed": 233,
+    "viewed": 235,
     "name": "3D Function/Volume Visualizer",
     "description": "just raymarching through a box and averaging the values we sampled along the way\n",
     "likes": 11,
@@ -2584,7 +2584,7 @@
    "info": {
     "id": "XX2XDd",
     "date": "1711246176",
-    "viewed": 165,
+    "viewed": 167,
     "name": "Run at 120+ Hz if possible",
     "description": "Alternating between red and cyan, which looks gray. Try moving your eyes across the screen really quickly to see the pattern (in full screen).",
     "likes": 1,
@@ -2775,7 +2775,7 @@
    "info": {
     "id": "McdSzr",
     "date": "1713529681",
-    "viewed": 235,
+    "viewed": 239,
     "name": "Subpixel Anti-Aliasing",
     "description": "looks kinda weird tbh, am I doing something wrong?",
     "likes": 4,
@@ -2818,7 +2818,7 @@
    "info": {
     "id": "M3dGz8",
     "date": "1716107523",
-    "viewed": 72,
+    "viewed": 75,
     "name": "2x Temporal Upscaling",
     "description": "read my comments, the character limit is too low ..............................................................................................................................................................................................................",
     "likes": 1,
@@ -3275,7 +3275,7 @@
    "info": {
     "id": "M3VGRK",
     "date": "1717936266",
-    "viewed": 207,
+    "viewed": 209,
     "name": "Attack-Decay-Sustain-Release",
     "description": "The ADSR curve is a fundamental tool used in all audio synthesizers.\nFeel free to play with the values (see custom_adsr_curve_1() in Common).\n\nRead more: [url]https://en.wikipedia.org/wiki/Envelope_(music)[/url]\n",
     "likes": 9,
@@ -3324,7 +3324,7 @@
    "info": {
     "id": "X3y3Rc",
     "date": "1717962362",
-    "viewed": 102,
+    "viewed": 103,
     "name": "Whole buncha utility",
     "description": "Helper functions/structs/defines divided into sections.\nUse whichever section(s) you need:\n- math & integer utils\n- pseudo-random number generator\n- keyboard\n- flim\n",
     "likes": 0,
@@ -3408,7 +3408,7 @@
    "info": {
     "id": "M3tXWn",
     "date": "1718891537",
-    "viewed": 686,
+    "viewed": 687,
     "name": "Digital Logic Simulation",
     "description": "[url=https://www.shadertoy.com/view/X33XDN]UPDATE: NEW VERSION[/url]\nSee the first comment for tutorial and description.\n",
     "likes": 49,
@@ -3673,7 +3673,7 @@
    "info": {
     "id": "X33XDN",
     "date": "1719435553",
-    "viewed": 622,
+    "viewed": 623,
     "name": "DLS + Wire Cross + Clock + Rot",
     "description": "See the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\n",
     "likes": 25,
@@ -4070,7 +4070,7 @@
    "info": {
     "id": "M3ySRK",
     "date": "1720202475",
-    "viewed": 508,
+    "viewed": 514,
     "name": "Parallax Occlusion Mapping X",
     "description": "layer count depends on the ray-surface angle\n",
     "likes": 22,
@@ -4405,7 +4405,7 @@
    "info": {
     "id": "XXlBDH",
     "date": "1728333908",
-    "viewed": 114,
+    "viewed": 116,
     "name": "Diffraction Through 5 Slits",
     "description": "inspired by 3b1b's new video",
     "likes": 4,
@@ -4511,7 +4511,7 @@
    "info": {
     "id": "4cVcR1",
     "date": "1731504376",
-    "viewed": 96,
+    "viewed": 99,
     "name": "Color Transformation Utilities",
     "description": "The \"Image\" tab simply alternates between mixing different colors in Oklab vs Linear BT.709 I-D65.\n\nThe \"Common\" tab contains transformations for common gamuts, white points, and transfer functions. Also includes Oklab.\n",
     "likes": 4,
@@ -4594,7 +4594,7 @@
    "info": {
     "id": "lctBRn",
     "date": "1732646179",
-    "viewed": 167,
+    "viewed": 169,
     "name": "Springy Ball (Pos Vel Acc Jerk)",
     "description": "drag mouse.\nplay with INTEGRATION_MODE in Buffer A.",
     "likes": 4,
@@ -4686,10 +4686,10 @@
    "info": {
     "id": "4cyfRV",
     "date": "1734325673",
-    "viewed": 2516,
+    "viewed": 2652,
     "name": "Neural Cat",
     "description": "deep neural network trained to produce cat meme video",
-    "likes": 31,
+    "likes": 32,
     "published": "Public API",
     "usePreview": 1,
     "tags": [
@@ -4733,7 +4733,7 @@
    "info": {
     "id": "XX3cRn",
     "date": "1734644701",
-    "viewed": 135,
+    "viewed": 140,
     "name": "Film Halation",
     "description": "film halation",
     "likes": 9,
@@ -4819,7 +4819,7 @@
    "info": {
     "id": "M33cD7",
     "date": "1735165058",
-    "viewed": 94,
+    "viewed": 97,
     "name": "FXAA-ish",
     "description": "idk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison",
     "likes": 2,
@@ -4897,10 +4897,10 @@
    "info": {
     "id": "lX3cD7",
     "date": "1735261091",
-    "viewed": 104,
+    "viewed": 113,
     "name": "Film Emulation",
     "description": "Full on film emulation. Detailed explanation in the Common tab + comments throughout the code.",
-    "likes": 6,
+    "likes": 7,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -5080,7 +5080,7 @@
    "info": {
     "id": "XXcyDB",
     "date": "1735546355",
-    "viewed": 116,
+    "viewed": 125,
     "name": "Fork Fractal Explorer (+flim)",
     "description": " More fractal fun! This time with a single pass depth of field effect. MOUSE DRAG to turn WASD & cursor keys to move. SHIFT for speed up. SPACE for another speed up!\n",
     "likes": 1,
@@ -5249,7 +5249,7 @@
    "info": {
     "id": "lXGyDR",
     "date": "1736145027",
-    "viewed": 58,
+    "viewed": 78,
     "name": "Interleaved Gradient Noise ‌‍",
     "description": "Low discrepancy or something. I copied the formula form some article, I don't know how it's actually derived.",
     "likes": 3,
@@ -5282,7 +5282,7 @@
    "info": {
     "id": "l3GcWh",
     "date": "1736170686",
-    "viewed": 4,
+    "viewed": 6,
     "name": "Analytical Motion Blur of a Disk",
     "description": "Full derivation with explanations: https://www.desmos.com/calculator/rrlboiohwo",
     "likes": 0,
@@ -5316,7 +5316,7 @@
    "info": {
     "id": "X3KcDh",
     "date": "1736180148",
-    "viewed": 47,
+    "viewed": 69,
     "name": "High Pass White Noise -> Blue",
     "description": "Hm",
     "likes": 3,
@@ -5364,10 +5364,10 @@
    "info": {
     "id": "MXGyDD",
     "date": "1736256150",
-    "viewed": 1,
+    "viewed": 113,
     "name": "Perlinary",
     "description": "procedural noise",
-    "likes": 0,
+    "likes": 11,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -5391,7 +5391,7 @@
        "channel": 0
       }
      ],
-     "code": "// number of color palettes\nconst int N_PALETTES = 8;\n\n// number of colors in each palette\nconst int N_COLORS_IN_PALETTE = 5;\n\n// this array contains every color in every palette in order.\n// every N_COLORS_IN_PALETTE elements represent a palette.\nvec3 PALETTES[N_PALETTES * N_COLORS_IN_PALETTE] = vec3[](\n    vec3(.037, 0, .325),\n    vec3(.349, 0, .099),\n    vec3(1, 0, .087),\n    vec3(1, .087, 0),\n    vec3(1, .517, 0),\n    \n    vec3(.932, .014, .239),\n    vec3(.170, .001, .482),\n    vec3(.038, .001, .374),\n    vec3(.053, .119, .859),\n    vec3(.07, .592, .875),\n    \n    vec3(.02, .022, .051),\n    vec3(.272, .325, .431),\n    vec3(.851, .891, .908),\n    vec3(.867, .013, .041),\n    vec3(.701, 0, .018),\n    \n    vec3(0, .025, .064),\n    vec3(.68, .017, .017),\n    vec3(.932, .216, 0),\n    vec3(.974, .53, .064),\n    vec3(.828, .767, .482),\n\n    vec3(1, .251, .003),\n    vec3(.908, .639, .16),\n    vec3(1, .941, .875),\n    vec3(.344, .701, .652),\n    vec3(.037, .024, .101),\n    \n    vec3(0, 0, 0),\n    vec3(1, .049, .289),\n    vec3(.82, 0, .177),\n    vec3(.2, 0, .6),\n    vec3(1, .875, .19),\n    \n    vec3(.019, 0, .074),\n    vec3(.078, 0, .173),\n    vec3(.573, .013, 0),\n    vec3(.883, .066, 0),\n    vec3(1, .8, .1),\n    \n    vec3(1, .932, .646),\n    vec3(.263, .109, 1),\n    vec3(.145, .051, .548),\n    vec3(.05, .01, .339),\n    vec3(0)\n);\n\nfloat glitter(vec2 uv, int seed_offset)\n{\n    // tile size (we'll draw a bunch of disks inside every tile)\n    const float TILE_SIZE = .07;\n    \n    // number of disks in every tile\n    const int N_DISKS = 30;\n    \n    // radius of the disks\n    // should be a lot smaller than (TILE_SIZE / 2)\n    const float DISK_RADIUS = .0018;\n    const float DISK_RADIUS_SQ = DISK_RADIUS * DISK_RADIUS;\n    \n    // 2D index of the current tile\n    ivec2 itile = ivec2(floor(uv / TILE_SIZE));\n    \n    // bottom left and top right coordinates of the tile\n    vec2 tile_bl = vec2(itile) * TILE_SIZE;\n    vec2 tile_tr = tile_bl + TILE_SIZE;\n    \n    // re-seed PRNG with the tile index\n    prng_init(uvec2(itile + 115249 * seed_offset));\n    \n    // draw a bunch of disks inside the current tile\n    float v = 0.;\n    for (int i = 0; i < N_DISKS; i++)\n    {\n        vec2 center = vec2(\n            remap(\n                random(),\n                0.,\n                1.,\n                tile_bl.x + DISK_RADIUS,\n                tile_tr.x - DISK_RADIUS\n            ),\n            remap(\n                random(),\n                0.,\n                1.,\n                tile_bl.y + DISK_RADIUS,\n                tile_tr.y - DISK_RADIUS\n            )\n        );\n        \n        float brightness = random();\n        \n        if (dist_sq(uv, center) < DISK_RADIUS_SQ)\n        {\n            v = max(v, brightness);\n        }\n    }\n    return v;\n}\n\nvec3 render(vec2 coord)\n{\n    // 2D world-space UV coordinates\n    vec2 orig_uv = screen_to_uv(coord, iResolution.xy);\n    vec2 uv = orig_uv;\n\n    // translate UV\n    uv += vec2(.01 * iTime, -.02 * iTime);\n\n    // distort UV to create wobbly effect\n    uv += .11 * vec2(\n        perlin(1.4 * uv + 20. + .12 * iTime),\n        perlin(1.4 * uv - 20. + .06 * iTime)\n    );\n    \n    // sample noise\n    float v = smoothstep(-.45, .38, perlin_fractal(1.6 * uv, 2, -.15, 2.));\n    v = clamp(v, 0., 1.);\n    \n    // modulate v\n    v = fract(v - .03 * iTime);\n    \n    // choose palette index\n    int palette_idx = int(iTime / 4.) % N_PALETTES;\n    int first_color_idx = palette_idx * N_COLORS_IN_PALETTE;\n    \n    // put v into a colormap (gradient)\n    vec3 col = PALETTES[first_color_idx];\n    for (int i = 0; i < N_COLORS_IN_PALETTE - 1; i++)\n    {\n        col = mix(\n            col,\n            PALETTES[first_color_idx + i + 1],\n            step(\n                (float(i) + .5) / float(N_COLORS_IN_PALETTE - 1),\n                v\n            )\n        );\n    }\n    \n    // add noise texture\n    float col_lum = dot(col, vec3(.3, .5, .2));\n    col = mix(\n        col,\n        vec3(1),\n        glitter(orig_uv, int(iTime / .3)) * remap(col_lum, 0., 1., .07, .03)\n    );\n    \n    return col;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // render with grid multisampling\n    vec3 col = vec3(0);\n    for (int y = -1; y <= 1; y++)\n    {\n        for (int x = -1; x <= 1; x++)\n        {\n            col += render(frag_coord + .35 * vec2(x, y));\n        }\n    }\n    col /= 9.;\n    \n    // output\n    col = pow(col, vec3(1. / 2.2));\n    frag_col = vec4(col, 1);\n}\n",
+     "code": "// number of color palettes\nconst int N_PALETTES = 8;\n\n// number of colors in each palette\nconst int N_COLORS_IN_PALETTE = 5;\n\n// this array contains every color in every palette in order.\n// every N_COLORS_IN_PALETTE elements represent a palette.\nvec3 PALETTES[N_PALETTES * N_COLORS_IN_PALETTE] = vec3[](\n    vec3(.037, 0, .325),\n    vec3(.349, 0, .099),\n    vec3(1, 0, .087),\n    vec3(1, .087, 0),\n    vec3(1, .517, 0),\n    \n    vec3(.932, .014, .239),\n    vec3(.170, .001, .482),\n    vec3(.038, .001, .374),\n    vec3(.053, .119, .859),\n    vec3(.07, .592, .875),\n    \n    vec3(.02, .022, .051),\n    vec3(.272, .325, .431),\n    vec3(.851, .891, .908),\n    vec3(.867, .013, .041),\n    vec3(.701, 0, .018),\n    \n    vec3(0, .025, .064),\n    vec3(.68, .017, .017),\n    vec3(.932, .216, 0),\n    vec3(.974, .53, .064),\n    vec3(.828, .767, .482),\n\n    vec3(1, .251, .003),\n    vec3(.908, .639, .16),\n    vec3(1, .941, .875),\n    vec3(.344, .701, .652),\n    vec3(.037, .024, .101),\n    \n    vec3(0, 0, 0),\n    vec3(1, .049, .289),\n    vec3(.82, 0, .177),\n    vec3(.2, 0, .6),\n    vec3(1, .875, .19),\n    \n    vec3(.019, 0, .074),\n    vec3(.078, 0, .173),\n    vec3(.573, .013, 0),\n    vec3(.883, .066, 0),\n    vec3(1, .8, .1),\n    \n    vec3(1, .932, .646),\n    vec3(.263, .109, 1),\n    vec3(.145, .051, .548),\n    vec3(.05, .01, .339),\n    vec3(0)\n);\n\nfloat glitter(vec2 uv, int seed_offset)\n{\n    // tile size (we'll draw a bunch of disks inside every tile)\n    const float TILE_SIZE = .08;\n    \n    // number of disks in every tile\n    const int N_DISKS = 40;\n    \n    // radius of the disks\n    // should be a lot smaller than (TILE_SIZE / 2)\n    const float DISK_RADIUS = .003;\n    const float DISK_RADIUS_SQ = DISK_RADIUS * DISK_RADIUS;\n    \n    // 2D index of the current tile\n    ivec2 itile = ivec2(floor(uv / TILE_SIZE));\n    \n    // bottom left and top right coordinates of the tile\n    vec2 tile_bl = vec2(itile) * TILE_SIZE;\n    vec2 tile_tr = tile_bl + TILE_SIZE;\n    \n    // re-seed PRNG with the tile index\n    prng_init(uvec2(itile + 115249 * seed_offset));\n    \n    // draw a bunch of disks inside the current tile\n    float v = 0.;\n    for (int i = 0; i < N_DISKS; i++)\n    {\n        vec2 center = vec2(\n            remap(\n                random(),\n                0.,\n                1.,\n                tile_bl.x + DISK_RADIUS,\n                tile_tr.x - DISK_RADIUS\n            ),\n            remap(\n                random(),\n                0.,\n                1.,\n                tile_bl.y + DISK_RADIUS,\n                tile_tr.y - DISK_RADIUS\n            )\n        );\n        \n        float brightness = pow(random(), 7.);\n        \n        if (dist_sq(uv, center) < DISK_RADIUS_SQ)\n        {\n            v = max(v, brightness);\n        }\n    }\n    return v;\n}\n\nvec3 render(vec2 coord)\n{\n    // 2D world-space UV coordinates\n    vec2 orig_uv = screen_to_uv(coord, iResolution.xy);\n    vec2 uv = orig_uv;\n\n    // translate UV\n    uv += vec2(.01 * iTime, -.02 * iTime);\n\n    // distort UV to create wobbly effect\n    uv += .11 * vec2(\n        perlin(1.4 * uv + 20. + .12 * iTime),\n        perlin(1.4 * uv - 20. + .06 * iTime)\n    );\n    \n    // sample noise\n    float v = smoothstep(-.45, .38, perlin_fractal(1.6 * uv, 2, -.15, 2.));\n    v = clamp(v, 0., 1.);\n    \n    // modulate v\n    v = fract(v - .03 * iTime);\n    \n    // choose palette index\n    int palette_idx = int(iTime / 4.) % N_PALETTES;\n    int first_color_idx = palette_idx * N_COLORS_IN_PALETTE;\n    \n    // put v into a colormap (gradient)\n    vec3 col = PALETTES[first_color_idx];\n    for (int i = 0; i < N_COLORS_IN_PALETTE - 1; i++)\n    {\n        col = mix(\n            col,\n            PALETTES[first_color_idx + i + 1],\n            step(\n                (float(i) + .5) / float(N_COLORS_IN_PALETTE - 1),\n                v\n            )\n        );\n    }\n    \n    // add grain\n    float col_lum = dot(col, vec3(.3, .5, .2));\n    col = mix(\n        col,\n        vec3(1),\n        glitter(orig_uv, int(iTime / .3)) * remap(col_lum, 0., 1., .08, .04)\n    );\n    \n    return col;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // render with grid multisampling\n    vec3 col = vec3(0);\n    for (int y = -1; y <= 1; y++)\n    {\n        for (int x = -1; x <= 1; x++)\n        {\n            col += render(frag_coord + .35 * vec2(x, y));\n        }\n    }\n    col /= 9.;\n    \n    // output\n    col = pow(col, vec3(1. / 2.2));\n    frag_col = vec4(col, 1);\n}\n",
      "name": "Image",
      "description": "",
      "type": "image"
@@ -5400,6 +5400,50 @@
      "inputs": [],
      "outputs": [],
      "code": "/*_________________ Math Utils ________________*/\n\n#define PI 3.1415926535897932384626433832\n#define TAU 6.283185307179586476925286766\n#define PI_OVER_2 1.57079632679489661923132169163\n\n#define FUNC_LERP(T) \\\nT lerp(T a, T b, float t) \\\n{ \\\n    return a + t*(b-a); \\\n}\n\n#define FUNC_WRAP(T) \\\nT wrap(T inp, float start, float end) \\\n{ \\\n    return start + mod(inp - start, end - start); \\\n}\n\n#define FUNC_REMAP(T) \\\nT remap(T inp, float inp_start, float inp_end, float out_start, float out_end) \\\n{ \\\n    return out_start + ((out_end - out_start) / (inp_end - inp_start)) * (inp - inp_start); \\\n}\n\n#define FUNC_REMAP_CLAMP(T) \\\nT remap_clamp(T inp, float inp_start, float inp_end, float out_start, float out_end) \\\n{ \\\n    T t = clamp((inp - inp_start) / (inp_end - inp_start), 0.0, 1.0); \\\n    return out_start + t * (out_end - out_start); \\\n}\n\n#define FUNC_REMAP01(T) \\\nT remap01(T inp, float inp_start, float inp_end) \\\n{ \\\n    return clamp((inp - inp_start) / (inp_end - inp_start), 0.0, 1.0); \\\n}\n\nFUNC_LERP(float)\nFUNC_LERP(vec2)\nFUNC_LERP(vec3)\nFUNC_LERP(vec4)\n\nFUNC_WRAP(float)\nFUNC_WRAP(vec2)\nFUNC_WRAP(vec3)\nFUNC_WRAP(vec4)\n\nFUNC_REMAP(float)\nFUNC_REMAP(vec2)\nFUNC_REMAP(vec3)\nFUNC_REMAP(vec4)\n\nFUNC_REMAP_CLAMP(float)\nFUNC_REMAP_CLAMP(vec2)\nFUNC_REMAP_CLAMP(vec3)\nFUNC_REMAP_CLAMP(vec4)\n\nFUNC_REMAP01(float)\nFUNC_REMAP01(vec2)\nFUNC_REMAP01(vec3)\nFUNC_REMAP01(vec4)\n\nmat2 rotate_2d(float angle)\n{\n    return mat2(cos(angle), sin(angle), cos(angle + PI_OVER_2), sin(angle + PI_OVER_2));\n}\n\n/*____________________ End ____________________*/\n\n\n\n/*_______ Pseudo-Random Number Generator ______*/\n// Source: https://www.shadertoy.com/view/WdSSRt\n\n/* Usage Example:\n    void mainImage(out vec4 frag_col, in vec2 frag_coord)\n    {\n        // Initialize PRNG\n        prng_init(vec3(frag_coord / iResolution.y, iTime));\n    \n        // Using the function\n        float a = random();\n        vec3 b = vec3(random(), random(), random());\n        \n        ...\n    }\n*/\n\nuint prng_state[2];\n\nuint prng_rot(uint x, int k)\n{\n    return (x << k) | (x >> (32 - k));\n}\n\n// Random uint from 0 to 2^32-1\nuint randomui()\n{\n    uint s0 = prng_state[0];\n    uint s1 = prng_state[1];\n    uint result = prng_rot(s0 * 0x9e3779bbu, 5) * 5u;\n    s1 ^= s0;\n    prng_state[0] = prng_rot(s0, 26) ^ s1 ^ (s1 << 9);\n    prng_state[1] = prng_rot(s1, 13);\n    return result;\n}\n\n// Random int from 0 to 2^31-1\nint randomi()\n{\n    return int(randomui() % 0x7FFFFFFFu);\n}\n\n// Random float from 0 to 1\nfloat random()\n{\n    return float(randomui()) / float(0xffffffffu);\n}\n\n// Generate two normally distributed random numbers using the\n// Box-Muller Transform.\n// https://www.baeldung.com/cs/uniform-to-normal-distribution\nvec2 random_gauss()\n{\n    float u1 = random();\n    float u2 = random() * TAU;\n    float temp = sqrt(-2. * log(u1));\n    return temp * vec2(cos(u2), sin(u2));\n    \n    // Unoptimized version\n    //float u1 = random();\n    //float u2 = random();\n    //return vec2(cos(TAU * u2), sin(TAU * u2)) * sqrt(-2. * log(u1));\n}\n\nvec2 random_unit_vec2()\n{\n    vec2 v = vec2(1);\n    float lensqr;\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec2(2. * random() - 1., 2. * random() - 1.);\n        lensqr = dot(v, v);\n        if (lensqr == 0.)\n            i--;\n        else if (lensqr <= 1.)\n            break;\n    }\n    return v / sqrt(lensqr);\n}\n\nvec3 random_unit_vec3()\n{\n    vec3 v = vec3(1);\n    float lensqr;\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec3(2. * random() - 1., 2. * random() - 1., 2. * random() - 1.);\n        lensqr = dot(v, v);\n        if (lensqr == 0.)\n            i--;\n        else if (lensqr <= 1.)\n            break;\n    }\n    return v / sqrt(lensqr);\n}\n\nvec2 random_in_circle()\n{\n    vec2 v = vec2(1);\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec2(2. * random() - 1., 2. * random() - 1.);\n        if (dot(v, v) <= 1.)\n            return v;\n    }\n    return v;\n}\n\nvec3 random_in_sphere()\n{\n    vec3 v = vec3(1);\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec3(2. * random() - 1., 2. * random() - 1., 2. * random() - 1.);\n        if (dot(v, v) <= 1.)\n            return v;\n    }\n    return v;\n}\n\n// Initialize with uvec2\nvoid prng_init(uvec2 seed)\n{\n    seed += uvec2(1317, 944573125);\n    seed *= 464973573u;\n    prng_state[0] = seed.x;\n    prng_state[1] = seed.y;\n    randomi();\n}\n\n// Initialize with uint\nvoid prng_init(uint seed)\n{\n    prng_init(uvec2(seed, 1));\n}\n\n// Initialize with vec3\nvoid prng_init(vec3 seed)\n{\n    seed += 3.49276101561702;\n    seed.xy *= (seed.z + 10.258);\n    prng_state[0] = floatBitsToUint(seed.x);\n    prng_state[1] = floatBitsToUint(seed.y);\n    randomui();\n}\n\n// Initialize with vec2\nvoid prng_init(vec2 seed)\n{\n    prng_init(vec3(seed, 1));\n}\n\n// Initialize with float\nvoid prng_init(float seed)\n{\n    prng_init(vec3(seed, 1, 1));\n}\n\n/*____________________ End ____________________*/\n\n\n\n// https://www.shadertoy.com/view/Ml3Gz8\nfloat smoothmin(float a, float b, float k) {\n    float h = clamp(0.5 + 0.5*(a-b)/k, 0.0, 1.0);\n    return mix(a, b, h) - k*h*(1.0-h);\n}\n\nvec2 perpendicular(vec2 dir)\n{\n    return vec2(-dir.y, dir.x);\n}\n\nfloat dist_sq(vec2 a, vec2 b)\n{\n    vec2 temp = a - b;\n    return dot(temp, temp);\n}\n\nfloat dist_along_line(vec2 p, vec2 line_start, vec2 line_end)\n{\n    vec2 dir = line_end - line_start;\n    \n    // normalize\n    float len_sqr = dot(dir, dir);\n    if (len_sqr < .0001)\n        return 1e9;\n    dir /= sqrt(len_sqr);\n    \n    return dot(\n        dir,\n        p - line_start\n    );\n}\n\nfloat relative_dist_along_line(vec2 p, vec2 line_start, vec2 line_end)\n{\n    vec2 dir = line_end - line_start;\n    return dot(\n        dir,\n        p - line_start\n    );\n}\n\nvec2 screen_to_uv(vec2 coord, vec2 res)\n{\n    return 2. * (coord - .5 * res) / min(res.x, res.y);\n}\n\nfloat bilinear(\n    float val_bl,\n    float val_tl,\n    float val_tr,\n    float val_br,\n    vec2 offs\n)\n{\n    return mix(\n        mix(val_bl, val_br, offs.x),\n        mix(val_tl, val_tr, offs.x),\n        offs.y\n    );\n}\n\nfloat perlin(vec2 coord)\n{\n    // Cell indices\n    ivec2 icell = ivec2(floor(coord));\n    \n    // Cell corners\n    vec2 cell_bl = vec2(icell);\n    vec2 cell_tl = cell_bl + vec2(0, 1);\n    vec2 cell_tr = cell_bl + vec2(1, 1);\n    vec2 cell_br = cell_bl + vec2(1, 0);\n    \n    // Cell offset in [0, 1) range (vector pointing from the bottom\n    // left corner to coord)\n    vec2 cell_offs = coord - cell_bl;\n    \n    // Generate a random unit vector at each cell corner and take\n    // the distance that coord has traveled along that line\n    \n    prng_init(uvec2(icell));\n    vec2 grad_bl = random_unit_vec2();\n    \n    prng_init(uvec2(icell) + uvec2(0, 1));\n    vec2 grad_tl = random_unit_vec2();\n    \n    prng_init(uvec2(icell) + uvec2(1, 1));\n    vec2 grad_tr = random_unit_vec2();\n    \n    prng_init(uvec2(icell) + uvec2(1, 0));\n    vec2 grad_br = random_unit_vec2();\n    \n    float dist_bl = relative_dist_along_line(coord, cell_bl, cell_bl + grad_bl);\n    float dist_tl = relative_dist_along_line(coord, cell_tl, cell_tl + grad_tl);\n    float dist_tr = relative_dist_along_line(coord, cell_tr, cell_tr + grad_tr);\n    float dist_br = relative_dist_along_line(coord, cell_br, cell_br + grad_br);\n    \n    // Smoothstep the cell offset vector\n    cell_offs = smoothstep(0., 1., cell_offs);\n    \n    // Bilinear interpolation between the four distances\n    float val = bilinear(\n        dist_bl,\n        dist_tl,\n        dist_tr,\n        dist_br,\n        cell_offs\n    );\n    \n    return val;\n}\n\n// Random offset for a sample point inside a cell\nvec2 cell_corner_offs(ivec2 icell)\n{\n    prng_init(uvec2(icell));\n    return 1. *  (vec2(random(), random()) - .5);\n}\n\nfloat perlin_fractal(\n    vec2 coord,\n    int depth,\n    float roughness,\n    float lacunarity\n)\n{\n    float v = 0.;\n    float sum_fac = 0.;\n    \n    for (int i = 0; i < depth; i++)\n    {\n        // Factor (impact of the current layer)\n        float fac = 0.;\n        roughness = clamp(roughness, -1., 1.);\n        if (roughness < 0.)\n        {\n            // Roughness [-1, 0) will go from fully smooth to normal\n            fac = pow(\n                lacunarity / max(roughness + 1., .0001),\n                float(-i)\n            );\n        }\n        else\n        {\n            // Roughness [0, 1] will go from normal to fully rough\n            fac = pow(\n                mix(lacunarity, 1., roughness),\n                float(-i)\n            );\n        }\n        sum_fac += fac;\n        \n        // Scale of the current layer\n        float scale = pow(lacunarity, float(i));\n        \n        // Add sample\n        v += fac * perlin(coord * scale);\n        \n        // Move and rotate the next layer\n        coord += 100.;\n        coord *= rotate_2d(1.09956);\n    }\n    \n    return v / sum_fac;\n}\n",
+     "name": "Common",
+     "description": "",
+     "type": "common"
+    }
+   ]
+  },
+  {
+   "ver": "0.1",
+   "info": {
+    "id": "4XVcWc",
+    "date": "0",
+    "viewed": 0,
+    "name": "evenly distributed dots",
+    "description": "probably called startification",
+    "likes": 0,
+    "published": "Private",
+    "usePreview": 0,
+    "tags": [
+     "noise",
+     "random",
+     "blue",
+     "dots",
+     "spaced",
+     "evenly"
+    ]
+   },
+   "renderpass": [
+    {
+     "inputs": [],
+     "outputs": [
+      {
+       "id": "4dfGRr",
+       "channel": 0
+      }
+     ],
+     "code": "const float TILE_SIZE = .1;\nconst float DISK_RADIUS = .01;\nconst float DISK_RADIUS_SQ = DISK_RADIUS * DISK_RADIUS;\n\nvec3 render(vec2 coord)\n{\n    vec2 uv = screen_to_uv_fit(coord, iResolution.xy);\n    \n    // 2D index of the tile we're in (we = current pixel)\n    ivec2 itile_center = ivec2(floor(uv / TILE_SIZE));\n    \n    // iterate over the neighboring tiles (including the current one)\n    for (int y = -1; y <= 1; y++)\n    {\n        for (int x = -1; x <= 1; x++)\n        {\n            // 2D index of the current tiles\n            ivec2 itile = itile_center + ivec2(x, y);\n            \n            // reseed PRNG with the current tile index\n            prng_init(uvec2(itile));\n            \n            // current tile's bottom left and top right coords\n            vec2 itile_bl = vec2(itile) * TILE_SIZE;\n            vec2 itile_tr = itile_bl + TILE_SIZE;\n            \n            // draw disk randomly positioned inside the tile\n            vec2 disk_center = vec2(\n                remap(random(), 0., 1., itile_bl.x, itile_tr.x),\n                remap(random(), 0., 1., itile_bl.y, itile_tr.y)\n            );\n            disk_center += .5 * TILE_SIZE * vec2(\n                cos(TAU * 1. * iTime + float(itile.x)),\n                sin(TAU * 1. * iTime + float(itile.x))\n            );\n            \n            if (dist_sq(uv, disk_center) < DISK_RADIUS_SQ)\n            {\n                return vec3(0);\n            }\n        }\n    }\n    \n    return vec3(1, 1, 0);\n}\n\nvec3 view_transform(vec3 col)\n{\n    // avoid any negative values before using power functions\n    col = max(col, 0.);\n\n    // OETF (Linear BT.709 I-D65 to sRGB 2.2)\n    col = pow(col, vec3(1. / 2.2));\n    col = clamp(col, 0., 1.);\n\n    return col;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // render\n    vec3 col = render(frag_coord);\n\n    // view transform\n    col = view_transform(col);\n\n    // output\n    frag_col = vec4(col, 1);\n}\n",
+     "name": "Image",
+     "description": "",
+     "type": "image"
+    },
+    {
+     "inputs": [],
+     "outputs": [],
+     "code": "#define SHADERTOY 1\n\nprecision highp float;\nprecision highp int;\n\n\n\n/*___________ math & integer utils ____________*/\n\nconst float PI = 3.141592653589793238462643383;\nconst float TAU = 6.283185307179586476925286767;\nconst float PI_OVER_2 = 1.570796326794896619231321692;\nconst float INV_PI = .318309886183790671537767527;\nconst float INV_TAU = .159154943091895335768883763;\n\n#define FUNC_WRAP(T) \\\nT wrap(T v, float start, float end) \\\n{ \\\n    return start + mod(v - start, end - start); \\\n}\n\n#define FUNC_REMAP(T) \\\nT remap(T v, float inp_start, float inp_end, float out_start, float out_end) \\\n{ \\\n    return out_start \\\n        + ((out_end - out_start) / (inp_end - inp_start)) * (v - inp_start); \\\n}\n\n#define FUNC_REMAP_CLAMP(T) \\\nT remap_clamp( \\\n    T v, \\\n    float inp_start, \\\n    float inp_end, \\\n    float out_start, \\\n    float out_end \\\n) \\\n{ \\\n    T t = clamp((v - inp_start) / (inp_end - inp_start), 0., 1.); \\\n    return out_start + t * (out_end - out_start); \\\n}\n\n#define FUNC_REMAP01(T) \\\nT remap01(T v, float inp_start, float inp_end) \\\n{ \\\n    return clamp((v - inp_start) / (inp_end - inp_start), 0., 1.); \\\n}\n\n#define FUNC_LENGTH_SQ(T) \\\nfloat length_sq(T v) \\\n{ \\\n    return dot(v, v); \\\n}\n\n#define FUNC_DIST_SQ(T) \\\nfloat dist_sq(T a, T b) \\\n{ \\\n    a -= b; \\\n    return dot(a, a); \\\n}\n\nFUNC_WRAP(float)\nFUNC_WRAP(vec2)\nFUNC_WRAP(vec3)\nFUNC_WRAP(vec4)\n\nFUNC_REMAP(float)\nFUNC_REMAP(vec2)\nFUNC_REMAP(vec3)\nFUNC_REMAP(vec4)\n\nFUNC_REMAP_CLAMP(float)\nFUNC_REMAP_CLAMP(vec2)\nFUNC_REMAP_CLAMP(vec3)\nFUNC_REMAP_CLAMP(vec4)\n\nFUNC_REMAP01(float)\nFUNC_REMAP01(vec2)\nFUNC_REMAP01(vec3)\nFUNC_REMAP01(vec4)\n\nFUNC_LENGTH_SQ(vec2)\nFUNC_LENGTH_SQ(vec3)\nFUNC_LENGTH_SQ(vec4)\n\nFUNC_DIST_SQ(vec2)\nFUNC_DIST_SQ(vec3)\nFUNC_DIST_SQ(vec4)\n\nfloat chebyshev_dist(vec2 a, vec2 b)\n{\n    return max(abs(a.x - b.x), abs(a.y - b.y));\n}\n\nfloat chebyshev_dist(vec3 a, vec3 b)\n{\n    return max(\n        max(abs(a.x - b.x), abs(a.y - b.y)),\n        abs(a.z - b.z)\n    );\n}\n\nfloat chebyshev_dist(vec4 a, vec4 b)\n{\n    return max(\n        max(\n            max(abs(a.x - b.x), abs(a.y - b.y)),\n            abs(a.z - b.z)\n        ),\n        abs(a.w - b.w)\n    );\n}\n\n#define idiv_ceil(a, b) ((a + b - 1) / b)\n\nint iabs(int v)\n{\n    if (v < 0)\n    {\n        return -v;\n    }\n    return v;\n}\n\nint imin(int a, int b)\n{\n    if (a < b)\n    {\n        return a;\n    }\n    return b;\n}\n\nint imax(int a, int b)\n{\n    if (a > b)\n    {\n        return a;\n    }\n    return b;\n}\n\nint iclamp(int v, int start, int end)\n{\n    if (v < start)\n    {\n        v = start;\n    }\n    if (v > end)\n    {\n        v = end;\n    }\n    return v;\n}\n\nfloat min_component(vec2 v)\n{\n    return min(v.x, v.y);\n}\n\nfloat min_component(vec3 v)\n{\n    return min(min(v.x, v.y), v.z);\n}\n\nfloat min_component(vec4 v)\n{\n    return min(min(min(v.x, v.y), v.z), v.w);\n}\n\nfloat max_component(vec2 v)\n{\n    return max(v.x, v.y);\n}\n\nfloat max_component(vec3 v)\n{\n    return max(max(v.x, v.y), v.z);\n}\n\nfloat max_component(vec4 v)\n{\n    return max(max(max(v.x, v.y), v.z), v.w);\n}\n\nint min_component(ivec2 v)\n{\n    return imin(v.x, v.y);\n}\n\nint min_component(ivec3 v)\n{\n    return imin(imin(v.x, v.y), v.z);\n}\n\nint min_component(ivec4 v)\n{\n    return imin(imin(imin(v.x, v.y), v.z), v.w);\n}\n\nint max_component(ivec2 v)\n{\n    return imax(v.x, v.y);\n}\n\nint max_component(ivec3 v)\n{\n    return imax(imax(v.x, v.y), v.z);\n}\n\nint max_component(ivec4 v)\n{\n    return imax(imax(imax(v.x, v.y), v.z), v.w);\n}\n\nfloat bilinear(\n    float val_bl,\n    float val_tl,\n    float val_tr,\n    float val_br,\n    vec2 offs\n)\n{\n    return mix(\n        mix(val_bl, val_br, offs.x),\n        mix(val_tl, val_tr, offs.x),\n        offs.y\n    );\n}\n\n// credits to AHSEN (https://www.shadertoy.com/user/01000001)\n// https://www.desmos.com/calculator/5d6ph151vi interactive :D\nfloat cubic_interp(float a, float b, float c, float d, float t)\n{\n    float one = t - 1.;\n    float two = t - 2.;\n    float three = t - 3.;\n    return (\n        (-one * two * three * a)\n        + (t * one * two * d)\n        + (3. * t * two * three * b)\n        - (3. * t * one * three * c)\n    ) / 6.;\n}\n\nfloat dist_along_line(vec2 p, vec2 line_start, vec2 line_end)\n{\n    vec2 dir = line_end - line_start;\n    \n    // normalize\n    float len_sqr = dot(dir, dir);\n    if (len_sqr < .0001)\n        return 1e9;\n    dir /= sqrt(len_sqr);\n    \n    return dot(\n        dir,\n        p - line_start\n    );\n}\n\nfloat relative_dist_along_line(vec2 p, vec2 line_start, vec2 line_end)\n{\n    vec2 dir = line_end - line_start;\n    return dot(\n        dir,\n        p - line_start\n    );\n}\n\n// |a| * |b| * sin(theta)\nfloat cross2d(vec2 a, vec2 b)\n{\n    return a.x * b.y - a.y * b.x;\n}\n\n// references for barycentric coordinates\n// https://www.desmos.com/calculator/8g8xjejuox\n// https://www.shadertoy.com/view/mdjBWK\n\nvec3 cartesian_to_barycentric(\n    vec2 p,\n    vec2 v0,\n    vec2 v1,\n    vec2 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        cross2d(v1 - p, v2 - p),\n        cross2d(v2 - p, v0 - p),\n        cross2d(v0 - p, v1 - p)\n    ) / cross2d(v1 - v0, v2 - v0);\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nvec3 cartesian_to_barycentric(\n    vec3 p,\n    vec3 v0,\n    vec3 v1,\n    vec3 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        length(cross(v1 - p, v2 - p)),\n        length(cross(v2 - p, v0 - p)),\n        length(cross(v0 - p, v1 - p))\n    ) / length(cross(v1 - v0, v2 - v0));\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nfloat barycentric_interpolate(vec3 b, float v0, float v1, float v2)\n{\n    return dot(b, vec3(v0, v1, v2));\n}\n\nvec2 barycentric_interpolate(vec3 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec3 barycentric_interpolate(vec3 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec4 barycentric_interpolate(vec3 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nfloat barycentric_interpolate(vec2 b, float v0, float v1, float v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec2 barycentric_interpolate(vec2 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec3 barycentric_interpolate(vec2 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec4 barycentric_interpolate(vec2 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\n// angle from 0 to TAU\nfloat get_angle(vec2 p)\n{\n    float a = atan(p.y, p.x);\n    if (a < 0.)\n    {\n        return a + TAU;\n    }\n    return a;\n}\n\nmat2 rotate_2d(float angle)\n{\n    float s = sin(angle);\n    float c = cos(angle);\n    return mat2(\n        c, s,\n        -s, c\n    );\n}\n\nvec2 perpendicular(vec2 v)\n{\n    return vec2(-v.y, v.x);\n}\n\n// s.x=theta\n// s.y=phi\n// (there's no r)\nvec3 spherical_to_cartesian(vec2 s)\n{\n    float sin_theta = sin(s.x);\n    return vec3(\n        sin_theta * cos(s.y),\n        sin_theta * sin(s.y),\n        cos(s.x)\n    );\n}\n\n// s.x=r\n// s.y=theta\n// s.z=phi\nvec3 spherical_to_cartesian(vec3 s)\n{\n    float sin_theta = sin(s.y);\n    return s.x * vec3(\n        sin_theta * cos(s.z),\n        sin_theta * sin(s.z),\n        cos(s.y)\n    );\n}\n\nvec2 screen_to_uv01(vec2 coord, vec2 res)\n{\n    return coord / res;\n}\n\nvec2 screen_to_uv_horizontal(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.x;\n}\n\nvec2 screen_to_uv_vertical(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.y;\n}\n\nvec2 screen_to_uv_fit(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / min_component(res);\n}\n\nvec2 screen_to_uv_fill(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / max_component(res);\n}\n\n// * idx starts at 1\nfloat halton(int base, int idx)\n{\n    float result = 0.;\n    float digit_weight = 1.;\n    while (idx > 0)\n    {\n        digit_weight /= float(base);\n        result += float(idx % base) * digit_weight;\n        idx /= base;\n    }\n    return result;\n}\n\n// * idx starts at 1\nvec2 halton_2d(int idx)\n{\n    return vec2(halton(2, idx), halton(3, idx));\n}\n\n// * idx starts at 1\nvec3 halton_3d(int idx)\n{\n    return vec3(halton(2, idx), halton(3, idx), halton(5, idx));\n}\n\n// * idx starts at 1\nvec4 halton_4d(int idx)\n{\n    return vec4(\n        halton(2, idx),\n        halton(3, idx),\n        halton(5, idx),\n        halton(7, idx)\n    );\n}\n\n// for some reason we can't use intBitsToFloat() or floatBitsToInt() to store\n// integers below this value in a buffer.\nconst int BUFFER_MIN_INTEGER = 8388608;\n\n// * x must not be higher than 4,286,578,688 (see BUFFER_MIN_INTEGER above)\n// * for your sanity, don't use negative values\nfloat encode_int_for_buffer(int v)\n{\n    return intBitsToFloat(v + BUFFER_MIN_INTEGER);\n}\n\nint decode_int_from_buffer(float v)\n{\n    return floatBitsToInt(v) - BUFFER_MIN_INTEGER;\n}\n\n// pack two 16-bit integers in a single 32-bit integer\n// * both arguments should be in the 0-65535 range\n// * a must be less than 65279 (see the functions above)\nint pack_i16(int a, int b)\n{\n    return (a << 16) | b;\n}\n\n// unpack two 16-bit integers from a single 32-bit integer\nvoid unpack_i16(int v, out int a, out int b)\n{\n    a = (v >> 16) & 65535;\n    b = v & 65535;\n}\n\n// unpack the first 16-bit integer from a 32-bit integer\nint unpack_i16_a(int v)\n{\n    return (v >> 16) & 65535;\n}\n\n// unpack the second 16-bit integer from a 32-bit integer\nint unpack_i16_b(int v)\n{\n    return v & 65535;\n}\n\nbool icoord_in_bounds(ivec2 icoord, ivec2 ires)\n{\n    return\n        icoord.x >= 0 &&\n        icoord.y >= 0 &&\n        icoord.x < ires.x &&\n        icoord.y < ires.y;\n}\n\nbool icoord_in_bounds(ivec3 icoord, ivec3 ires)\n{\n    return\n        icoord.x >= 0 &&\n        icoord.y >= 0 &&\n        icoord.z >= 0 &&\n        icoord.x < ires.x &&\n        icoord.y < ires.y &&\n        icoord.z < ires.z;\n}\n\nint icoord_to_idx(ivec2 icoord, ivec2 ires)\n{\n    return icoord.x + (icoord.y * ires.x);\n}\n\nint icoord_to_idx(ivec3 icoord, ivec3 ires)\n{\n    return icoord.x + (icoord.y * ires.x) + (icoord.z * ires.x * ires.y);\n}\n\nivec2 idx_to_icoord(int idx, ivec2 ires)\n{\n    return ivec2(idx % ires.x, idx / ires.x);\n}\n\nivec3 idx_to_icoord(int idx, ivec3 ires)\n{\n    return ivec3(\n        idx % ires.x,\n        (idx % (ires.x * ires.y)) / ires.x,\n        idx / (ires.x * ires.y)\n    );\n}\n\n// https://www.desmos.com/calculator/kfe07basy9\n\nint compress_float_to_int_linear(float f, float min_f, float max_f, int max_i)\n{\n    return int(floor(\n        float(max_i) * remap01(f, min_f, max_f)\n    ));\n}\n\nfloat decompress_float_from_int_linear(\n    int i,\n    int max_i,\n    float min_f,\n    float max_f\n)\n{\n    return remap_clamp(\n        float(i) / float(max_i),\n        0., 1.,\n        min_f, max_f\n    );\n}\n\nint compress_float_to_int_log(\n    float f,\n    float log2_zero_offset,\n    float max_log2_f,\n    int max_i\n)\n{\n    f = max(0., f);\n    f += pow(2., log2_zero_offset);\n    return int(floor(\n        float(max_i) * remap01(log2(f), log2_zero_offset, max_log2_f)\n    ));\n}\n\nfloat decompress_float_from_int_log(\n    int i,\n    int max_i,\n    float log2_zero_offset,\n    float max_log2_f\n)\n{\n    return pow(2., remap_clamp(\n        float(i) / float(max_i),\n        0., 1.,\n        log2_zero_offset, max_log2_f\n    )) - pow(2., log2_zero_offset);\n}\n\n\n\n/*_______ pseudo-random number generator ______*/\n// source: https://www.shadertoy.com/view/WdSSRt\n// (heavily modified)\n\n/* usage example:\n    void mainImage(out vec4 frag_col, in vec2 frag_coord)\n    {\n        // initialize PRNG\n        prng_init(vec3(frag_coord / iResolution.y, iTime));\n    \n        // use the function\n        float a = random();\n        vec3 b = vec3(random(), random(), random());\n        \n        ...\n    }\n*/\n\nuint prng_state[2];\n\nuint prng_rot(uint x, int k)\n{\n    return (x << k) | (x >> (32 - k));\n}\n\n// random uint from 0 to 2^32-1\nuint randomui()\n{\n    uint s0 = prng_state[0];\n    uint s1 = prng_state[1];\n    uint result = prng_rot(s0 * 2654435771u, 5) * 5u;\n    s1 ^= s0;\n    prng_state[0] = prng_rot(s0, 26) ^ s1 ^ (s1 << 9);\n    prng_state[1] = prng_rot(s1, 13);\n    return result;\n}\n\n// random int from 0 to 2^31-1\nint randomi()\n{\n    return int(randomui() % 0x7FFFFFFFu);\n}\n\n// random float from 0 to 1\nfloat random()\n{\n    return float(randomui()) / float(0xffffffffu);\n}\n\n// generate two normally distributed random numbers using the\n// Box-Muller transform\n// https://www.baeldung.com/cs/uniform-to-normal-distribution\nvec2 random_gauss()\n{\n    float u1 = random();\n    float u2 = random() * TAU;\n    float temp = sqrt(-2. * log(u1));\n    return temp * vec2(cos(u2), sin(u2));\n    \n    // unoptimized version\n    //float u1 = random();\n    //float u2 = random();\n    //return vec2(cos(TAU * u2), sin(TAU * u2)) * sqrt(-2. * log(u1));\n}\n\nvec2 random_on_circle()\n{\n    vec2 v = vec2(1);\n    float lensqr;\n\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec2(2. * random() - 1., 2. * random() - 1.);\n        lensqr = dot(v, v);\n        if (lensqr == 0.)\n            i--;\n        else if (lensqr <= 1.)\n            break;\n    }\n    return v / sqrt(lensqr);\n}\n\nvec3 random_on_sphere()\n{\n    vec3 v = vec3(1);\n    float lensqr;\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec3(2. * random() - 1., 2. * random() - 1., 2. * random() - 1.);\n        lensqr = dot(v, v);\n        if (lensqr == 0.)\n            i--;\n        else if (lensqr <= 1.)\n            break;\n    }\n    return v / sqrt(lensqr);\n}\n\nvec2 random_in_circle()\n{\n    vec2 v = vec2(1);\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec2(2. * random() - 1., 2. * random() - 1.);\n        if (dot(v, v) <= 1.)\n            return v;\n    }\n    return v;\n}\n\nvec3 random_in_sphere()\n{\n    vec3 v = vec3(1);\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec3(2. * random() - 1., 2. * random() - 1., 2. * random() - 1.);\n        if (dot(v, v) <= 1.)\n            return v;\n    }\n    return v;\n}\n\nvec3 random_on_hemisphere(vec3 normal)\n{\n    vec3 v = random_on_sphere();\n    return v * sign(dot(v, normal));\n}\n\nvec3 random_in_hemisphere(vec3 normal)\n{\n    vec3 v = random_in_sphere();\n    return v * sign(dot(v, normal));\n}\n\n// initialize with uvec2\nvoid prng_init(uvec2 seed)\n{\n    seed += uvec2(1317, 944573125);\n    seed *= 464973573u;\n    prng_state[0] = seed.x;\n    prng_state[1] = seed.y;\n    randomi();\n}\n\n// initialize with uint\nvoid prng_init(uint seed)\n{\n    prng_init(uvec2(seed, 1));\n}\n\n// initialize with vec3\nvoid prng_init(vec3 seed)\n{\n    seed += 3.49276101561702;\n    seed.xy *= (seed.z + 10.258);\n    prng_state[0] = floatBitsToUint(seed.x);\n    prng_state[1] = floatBitsToUint(seed.y);\n    randomui();\n}\n\n// initialize with vec2\nvoid prng_init(vec2 seed)\n{\n    prng_init(vec3(seed, 1));\n}\n\n// initialize with float\nvoid prng_init(float seed)\n{\n    prng_init(vec3(seed, 1, 1));\n}\n",
      "name": "Common",
      "description": "",
      "type": "common"
