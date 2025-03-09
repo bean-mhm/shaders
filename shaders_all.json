@@ -1,7 +1,7 @@
 {
  "userName": "beans_please",
- "date": "2025-03-08T20:25:16.355Z",
- "numShaders": 80,
+ "date": "2025-03-09T20:01:10.894Z",
+ "numShaders": 81,
  "shaders": [
   {
    "ver": "0.1",
@@ -669,7 +669,7 @@
    "info": {
     "id": "dsjBDy",
     "date": "1690140863",
-    "viewed": 538,
+    "viewed": 539,
     "name": "2D Fourier Transform",
     "description": "(Not so fast) 2D Fourier Transform implemented in glsl\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the FFT resolution in the Common tab.",
     "likes": 3,
@@ -827,7 +827,7 @@
    "info": {
     "id": "mlscWr",
     "date": "1690662251",
-    "viewed": 373,
+    "viewed": 374,
     "name": "Blinn-Phong Shading",
     "description": "Sphere",
     "likes": 5,
@@ -1231,7 +1231,7 @@
    "info": {
     "id": "mtScWm",
     "date": "1691841683",
-    "viewed": 317,
+    "viewed": 318,
     "name": "Blue Noise Dithering vs OETF 2.2",
     "description": "Try commenting out the OETF to see how the dithered version and the clean version don't match in brightness anymore",
     "likes": 11,
@@ -1740,7 +1740,7 @@
    "info": {
     "id": "dlsBDM",
     "date": "1693112135",
-    "viewed": 229,
+    "viewed": 230,
     "name": "Inverse Square Fourier Transform",
     "description": "0 = Input\n1 = 2D FFT\n2 = Inverse FFT\n\nSee use_sq at the top of Common.",
     "likes": 3,
@@ -2053,7 +2053,7 @@
    "info": {
     "id": "ds3fDM",
     "date": "1697312887",
-    "viewed": 372,
+    "viewed": 373,
     "name": "XPBD Rope",
     "description": "Finally implemented XPBD!\nWatch this amazing video: https://youtube.com/watch?v=jrociOAYqxA\n\n* Drag to move the tail\n\n* Long ish compile time (22 seconds for me), so be patient\n\n* Does not work well on my phone, presumably because of 16-bit floats.",
     "likes": 19,
@@ -2217,7 +2217,7 @@
    "info": {
     "id": "4fSGzR",
     "date": "1705547653",
-    "viewed": 77,
+    "viewed": 78,
     "name": "FBM Perlin",
     "description": "i like perlin noise",
     "likes": 0,
@@ -2261,7 +2261,7 @@
    "info": {
     "id": "lf23zW",
     "date": "1736235885",
-    "viewed": 89,
+    "viewed": 90,
     "name": "🌟NOISE SHOW🌟",
     "description": "procedural noise",
     "likes": 4,
@@ -3324,7 +3324,7 @@
    "info": {
     "id": "X3y3Rc",
     "date": "1717962362",
-    "viewed": 121,
+    "viewed": 122,
     "name": "Bean's Starting Point",
     "description": "Helper functions/structs/defines divided into sections.\nUse whichever section(s) you need:\n- math & integer utils\n- pseudo-random number generator\n- keyboard\n- flim\n",
     "likes": 0,
@@ -4070,7 +4070,7 @@
    "info": {
     "id": "M3ySRK",
     "date": "1720202475",
-    "viewed": 609,
+    "viewed": 610,
     "name": "Parallax Occlusion Mapping X",
     "description": "layer count depends on the ray-surface angle\n",
     "likes": 23,
@@ -4405,7 +4405,7 @@
    "info": {
     "id": "XXlBDH",
     "date": "1728333908",
-    "viewed": 124,
+    "viewed": 125,
     "name": "Diffraction Through 5 Slits",
     "description": "inspired by 3b1b's new video",
     "likes": 4,
@@ -4686,7 +4686,7 @@
    "info": {
     "id": "4cyfRV",
     "date": "1734325673",
-    "viewed": 3348,
+    "viewed": 3357,
     "name": "Neural Cat",
     "description": "deep neural network trained to produce cat meme video",
     "likes": 35,
@@ -4733,7 +4733,7 @@
    "info": {
     "id": "XX3cRn",
     "date": "1734644701",
-    "viewed": 212,
+    "viewed": 213,
     "name": "Film Halation",
     "description": "film halation",
     "likes": 9,
@@ -5080,7 +5080,7 @@
    "info": {
     "id": "XXcyDB",
     "date": "1735546355",
-    "viewed": 170,
+    "viewed": 171,
     "name": "Fork Fractal Explorer (+flim)",
     "description": " More fractal fun! This time with a single pass depth of field effect. MOUSE DRAG to turn WASD & cursor keys to move. SHIFT for speed up. SPACE for another speed up!\n",
     "likes": 1,
@@ -5249,7 +5249,7 @@
    "info": {
     "id": "lXGyDR",
     "date": "1736145027",
-    "viewed": 115,
+    "viewed": 116,
     "name": "Interleaved Gradient Noise ‌‍",
     "description": "Low discrepancy or something. I copied the formula form some article, I don't know how it's actually derived.",
     "likes": 3,
@@ -5364,7 +5364,7 @@
    "info": {
     "id": "MXGyDD",
     "date": "1736256150",
-    "viewed": 165,
+    "viewed": 166,
     "name": "Perlinary",
     "description": "procedural noise",
     "likes": 11,
@@ -6515,6 +6515,161 @@
      "name": "Image",
      "description": "",
      "type": "image"
+    }
+   ]
+  },
+  {
+   "ver": "0.1",
+   "info": {
+    "id": "3cSSRR",
+    "date": "1741469568",
+    "viewed": 39,
+    "name": "Double-Pass DFT",
+    "description": "2D Discrete Fourier Transform\n\nhold mouse to see input\n",
+    "likes": 1,
+    "published": "Public API",
+    "usePreview": 0,
+    "tags": [
+     "2d",
+     "fourier",
+     "transform",
+     "dft"
+    ]
+   },
+   "renderpass": [
+    {
+     "inputs": [
+      {
+       "id": "4dXGR8",
+       "filepath": "/media/previz/buffer00.png",
+       "type": "buffer",
+       "channel": 1,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      },
+      {
+       "id": "4sXGR8",
+       "filepath": "/media/previz/buffer02.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4dfGRr",
+       "channel": 0
+      }
+     ],
+     "code": "vec3 view_transform(vec3 col)\n{\n    // avoid any negative values before using power functions\n    col = max(col, 0.);\n    \n    // flim\n    const float exposure = 0.;\n    col = flim_transform(col, exposure, false);\n\n    // OETF (Linear BT.709 I-D65 to sRGB 2.2)\n    col = pow(col, vec3(1. / 2.2));\n    col = clamp(col, 0., 1.);\n\n    return col;\n}\n\nvec3 render(vec2 coord)\n{\n    // show buffer A (original input) on mouse down\n    if (iMouse.z > .5)\n    {\n        return texelFetch(iChannel1, ivec2(coord), 0).rgb;\n    }\n    \n    // figure out shifted coordinates\n    ivec2 icoord = ivec2(coord);\n    ivec2 icoord_shifted = imod_positive(\n        icoord + ivec2(iResolution.xy) / 2,\n        ivec2(iResolution.xy)\n    );\n    \n    // read from buffer\n    vec2 complex = texelFetch(iChannel0, icoord_shifted, 0).rg;\n    \n    // normalize\n    complex /= sqrt(iResolution.x * iResolution.y);\n    \n    // return magnitude\n    return vec3(length(complex));\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // render\n    vec3 col = render(frag_coord);\n    \n    // view transform and output\n    col = view_transform(col);\n    frag_col = vec4(col, 1);\n}\n",
+     "name": "Image",
+     "description": "",
+     "type": "image"
+    },
+    {
+     "inputs": [],
+     "outputs": [],
+     "code": "const float TAU = 6.283185307179586476925286767;\n\n#define imod_positive(a, b) ((((a) % (b)) + (b)) % (b))\n\nvec2 screen_to_uv01(vec2 coord, vec2 res)\n{\n    return coord / res;\n}\n\nvec2 screen_to_uv_horizontal(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.x;\n}\n\nvec2 screen_to_uv_vertical(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.y;\n}\n\nvec2 screen_to_uv_fit(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / min(res.x, res.y);\n}\n\nvec2 screen_to_uv_fill(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / max(res.x, res.y);\n}\n\n\n\n/*-----------------------------------------------\n\nflim - Filmic Color Transform\n\nInput Color Space:   Linear BT.709 I-D65\nOutput Color Space:  Linear BT.709 I-D65 / sRGB 2.2 (depends on arguments)\n\nDescription:\n  Experimental port of flim for GLSL/Shadertoy\n  matching flim v1.1.0.\n\nAuthor:\n  Bean (beans_please on Shadertoy)\n\nOriginal Repo:\n  https://github.com/bean-mhm/flim\n\nOriginal Shader:\n  https://www.shadertoy.com/view/dd2yDz\n\n-----------------------------------------------*/\n\n// parameters\n\nconst float flim_pre_exposure = 4.3;\nconst vec3 flim_pre_formation_filter = vec3(1.);\nconst float flim_pre_formation_filter_strength = 0.;\n\nconst float flim_extended_gamut_red_scale = 1.05;\nconst float flim_extended_gamut_green_scale = 1.12;\nconst float flim_extended_gamut_blue_scale = 1.045;\nconst float flim_extended_gamut_red_rot = .5;\nconst float flim_extended_gamut_green_rot = 2.;\nconst float flim_extended_gamut_blue_rot = .1;\nconst float flim_extended_gamut_red_mul = 1.;\nconst float flim_extended_gamut_green_mul = 1.;\nconst float flim_extended_gamut_blue_mul = 1.;\n\nconst float flim_sigmoid_log2_min = -10.;\nconst float flim_sigmoid_log2_max = 22.;\nconst float flim_sigmoid_toe_x = .44;\nconst float flim_sigmoid_toe_y = .28;\nconst float flim_sigmoid_shoulder_x = .591;\nconst float flim_sigmoid_shoulder_y = .779;\n\nconst float flim_negative_film_exposure = 6.;\nconst float flim_negative_film_density = 5.;\n\nconst vec3 flim_print_backlight = vec3(1);\nconst float flim_print_film_exposure = 6.;\nconst float flim_print_film_density = 27.5;\n\nconst float flim_black_point = -1.; // -1 = auto\nconst vec3 flim_post_formation_filter = vec3(1);\nconst float flim_post_formation_filter_strength = 0.;\nconst float flim_midtone_saturation = 1.02;\n\n// color space conversions\n// the matrices below represent data in row-major, but GLSL matrices are in\n// column-major, so we need to multiply a vec3 by a matrix rather than\n// multiplying a matrix by a vec3.\n\nconst mat3 mat_bt2020_to_xyz = mat3(\n     0.6369580483,  0.1446169036,  0.1688809752,\n     0.2627002120,  0.6779980715,  0.0593017165,\n     0.0000000000,  0.0280726930,  1.0609850577\n);\n\nconst mat3 mat_xyz_to_bt2020 = mat3(\n     1.7166511880, -0.3556707838, -0.2533662814,\n    -0.6666843518,  1.6164812366,  0.0157685458,\n     0.0176398574, -0.0427706133,  0.9421031212\n);\n\nconst mat3 mat_bt709_to_xyz = mat3(\n     0.4123907993,  0.3575843394,  0.1804807884,\n     0.2126390059,  0.7151686788,  0.0721923154,\n     0.0193308187,  0.1191947798,  0.9505321522\n);\n\nconst mat3 mat_xyz_to_bt709 = mat3(\n     3.2409699419, -1.5373831776, -0.4986107603,\n    -0.9692436363,  1.8759675015,  0.0415550574,\n     0.0556300797, -0.2039769589,  1.0569715142\n);\n\nconst mat3 mat_dcip3_to_xyz = mat3(\n     0.4451698156,  0.2771344092,  0.1722826698,\n     0.2094916779,  0.7215952542,  0.0689130679,\n     0.0000000000,  0.0470605601,  0.9073553944\n);\n\nconst mat3 mat_xyz_to_dcip3 = mat3(\n     2.7253940305, -1.0180030062, -0.4401631952,\n    -0.7951680258,  1.6897320548,  0.0226471906,\n     0.0412418914, -0.0876390192,  1.1009293786\n);\n\nvec3 oetf_pow(vec3 col, float power)\n{\n    return pow(col, vec3(1. / power));\n}\n\nvec3 eotf_pow(vec3 col, float power)\n{\n    return pow(col, vec3(power));\n}\n\n// flim's utility functions\n\nfloat flim_wrap(float v, float start, float end)\n{\n    return start + mod(v - start, end - start);\n}\n\nfloat flim_remap(\n    float v,\n    float inp_start,\n    float inp_end,\n    float out_start,\n    float out_end\n)\n{\n    return out_start\n        + ((out_end - out_start) / (inp_end - inp_start)) * (v - inp_start);\n}\n\nfloat flim_remap_clamp(\n    float v,\n    float inp_start,\n    float inp_end,\n    float out_start,\n    float out_end\n)\n{\n    float t = clamp((v - inp_start) / (inp_end - inp_start), 0., 1.);\n    return out_start + t * (out_end - out_start);\n}\n\nfloat flim_remap01(\n    float v,\n    float inp_start,\n    float inp_end\n)\n{\n    return clamp((v - inp_start) / (inp_end - inp_start), 0., 1.);\n}\n\nvec3 flim_blender_rgb_to_hsv(vec3 rgb)\n{\n    float cmax, cmin, h, s, v, cdelta;\n    vec3 c;\n\n    cmax = max(rgb[0], max(rgb[1], rgb[2]));\n    cmin = min(rgb[0], min(rgb[1], rgb[2]));\n    cdelta = cmax - cmin;\n\n    v = cmax;\n    if (cmax != 0.)\n    {\n        s = cdelta / cmax;\n    }\n    else\n    {\n        s = 0.;\n        h = 0.;\n    }\n\n    if (s == 0.)\n    {\n        h = 0.;\n    }\n    else\n    {\n        c = (vec3(cmax) - rgb.xyz) / cdelta;\n\n        if (rgb.x == cmax)\n        {\n            h = c[2] - c[1];\n        }\n        else if (rgb.y == cmax)\n        {\n            h = 2. + c[0] - c[2];\n        }\n        else\n        {\n            h = 4. + c[1] - c[0];\n        }\n\n        h /= 6.;\n\n        if (h < 0.)\n        {\n            h += 1.;\n        }\n    }\n\n    return vec3(h, s, v);\n}\n\nvec3 flim_blender_hsv_to_rgb(vec3 hsv)\n{\n    float f, p, q, t, h, s, v;\n    vec3 rgb;\n\n    h = hsv[0];\n    s = hsv[1];\n    v = hsv[2];\n\n    if (s == 0.)\n    {\n        rgb = vec3(v, v, v);\n    }\n    else\n    {\n        if (h == 1.)\n        {\n            h = 0.;\n        }\n\n        h *= 6.;\n        int i = int(floor(h));\n        f = h - float(i);\n        rgb = vec3(f, f, f);\n        p = v * (1. - s);\n        q = v * (1. - (s * f));\n        t = v * (1. - (s * (1. - f)));\n\n        if (i == 0)\n        {\n            rgb = vec3(v, t, p);\n        }\n        else if (i == 1)\n        {\n            rgb = vec3(q, v, p);\n        }\n        else if (i == 2)\n        {\n            rgb = vec3(p, v, t);\n        }\n        else if (i == 3)\n        {\n            rgb = vec3(p, q, v);\n        }\n        else if (i == 4)\n        {\n            rgb = vec3(t, p, v);\n        }\n        else\n        {\n            rgb = vec3(v, p, q);\n        }\n    }\n\n    return rgb;\n}\n\nvec3 flim_blender_hue_sat(vec3 col, float hue, float sat, float value)\n{\n    vec3 hsv = flim_blender_rgb_to_hsv(col);\n\n    hsv[0] = fract(hsv[0] + hue + .5);\n    hsv[1] = clamp(hsv[1] * sat, 0., 1.);\n    hsv[2] = hsv[2] * value;\n\n    return flim_blender_hsv_to_rgb(hsv);\n}\n\nfloat flim_rgb_avg(vec3 col)\n{\n    return (col.x + col.y + col.z) / 3.;\n}\n\nfloat flim_rgb_sum(vec3 col)\n{\n    return col.x + col.y + col.z;\n}\n\nfloat flim_rgb_max(vec3 col)\n{\n    return max(max(col.x, col.y), col.z);\n}\n\nfloat flim_rgb_min(vec3 col)\n{\n    return min(min(col.x, col.y), col.z);\n}\n\nvec3 flim_rgb_uniform_offset(vec3 col, float black_point, float white_point)\n{\n    float mono = flim_rgb_avg(col);\n    float mono2 = flim_remap01(\n        mono, black_point / 1000.,\n        1. - (white_point / 1000.)\n    );\n    return col * (mono2 / mono);\n}\n\nvec3 flim_rgb_sweep(float hue)\n{\n    hue = flim_wrap(hue * 360., 0., 360.);\n\n    vec3 col = vec3(1, 0, 0);\n    col = mix(col, vec3(1, 1, 0), flim_remap01(hue, 0., 60.));\n    col = mix(col, vec3(0, 1, 0), flim_remap01(hue, 60., 120.));\n    col = mix(col, vec3(0, 1, 1), flim_remap01(hue, 120., 180.));\n    col = mix(col, vec3(0, 0, 1), flim_remap01(hue, 180., 240.));\n    col = mix(col, vec3(1, 0, 1), flim_remap01(hue, 240., 300.));\n    col = mix(col, vec3(1, 0, 0), flim_remap01(hue, 300., 360.));\n    \n    return col;\n}\n\nvec3 flim_rgb_exposure_sweep_test(vec2 uv0to1)\n{\n    float hue = 1. - uv0to1.y;\n    float exposure = flim_remap(uv0to1.x, 0., 1., -5., 10.);\n    return flim_rgb_sweep(hue) * pow(2., exposure);\n}\n\n// https://www.desmos.com/calculator/khkztixyeu\nfloat flim_super_sigmoid(\n    float v,\n    float toe_x,\n    float toe_y,\n    float shoulder_x,\n    float shoulder_y\n)\n{\n    // clip\n    v = clamp(v, 0., 1.);\n    toe_x = clamp(toe_x, 0., 1.);\n    toe_y = clamp(toe_y, 0., 1.);\n    shoulder_x = clamp(shoulder_x, 0., 1.);\n    shoulder_y = clamp(shoulder_y, 0., 1.);\n\n    // calculate straight line slope\n    float slope = (shoulder_y - toe_y) / (shoulder_x - toe_x);\n\n    // toe\n    if (v < toe_x)\n    {\n        float toe_pow = slope * toe_x / toe_y;\n        return toe_y * pow(v / toe_x, toe_pow);\n    }\n\n    // straight line\n    if (v < shoulder_x)\n    {\n        float intercept = toe_y - (slope * toe_x);\n        return slope * v + intercept;\n    }\n\n    // shoulder\n    float shoulder_pow =\n        -slope / (\n            ((shoulder_x - 1.) / pow(1. - shoulder_x, 2.))\n            * (1. - shoulder_y)\n        );\n    return\n        (1. - pow(1. - (v - shoulder_x) / (1. - shoulder_x), shoulder_pow))\n        * (1. - shoulder_y)\n        + shoulder_y;\n}\n\nfloat flim_dye_mix_factor(float mono, float max_density)\n{\n    // log2 and map range\n    float offset = pow(2., flim_sigmoid_log2_min);\n    float fac = flim_remap01(\n        log2(mono + offset),\n        flim_sigmoid_log2_min,\n        flim_sigmoid_log2_max\n    );\n\n    // calculate amount of exposure from 0 to 1\n    fac = flim_super_sigmoid(\n        fac,\n        flim_sigmoid_toe_x,\n        flim_sigmoid_toe_y,\n        flim_sigmoid_shoulder_x,\n        flim_sigmoid_shoulder_y\n    );\n\n    // calculate dye density\n    fac *= max_density;\n\n    // mix factor\n    fac = pow(2., -fac);\n\n    // clip and return\n    return clamp(fac, 0., 1.);\n}\n\nvec3 flim_rgb_color_layer(\n    vec3 col,\n    vec3 sensitivity_tone,\n    vec3 dye_tone,\n    float max_density\n)\n{\n    // normalize\n    vec3 sensitivity_tone_norm =\n        sensitivity_tone / flim_rgb_sum(sensitivity_tone);\n    vec3 dye_tone_norm = dye_tone / flim_rgb_max(dye_tone);\n\n    // dye mix factor\n    float mono = dot(col, sensitivity_tone_norm);\n    float mix_fac = flim_dye_mix_factor(mono, max_density);\n\n    // dye mixing\n    return mix(dye_tone_norm, vec3(1), mix_fac);\n}\n\nvec3 flim_rgb_develop(vec3 col, float exposure, float max_density)\n{\n    // exposure\n    col *= pow(2., exposure);\n\n    // blue-sensitive layer\n    vec3 result = flim_rgb_color_layer(\n        col,\n        vec3(0, 0, 1),\n        vec3(1, 1, 0),\n        max_density\n    );\n\n    // green-sensitive layer\n    result *= flim_rgb_color_layer(\n        col,\n        vec3(0, 1, 0),\n        vec3(1, 0, 1),\n        max_density\n    );\n\n    // red-sensitive layer\n    result *= flim_rgb_color_layer(\n        col,\n        vec3(1, 0, 0),\n        vec3(0, 1, 1),\n        max_density\n    );\n\n    return result;\n}\n\nvec3 flim_gamut_extension_mat_row(\n    float primary_hue,\n    float scale,\n    float rotate,\n    float mul\n)\n{\n    vec3 result = flim_blender_hsv_to_rgb(vec3(\n        flim_wrap(primary_hue + (rotate / 360.), 0., 1.),\n        1. / scale,\n        1.\n    ));\n    result /= flim_rgb_sum(result);\n    result *= mul;\n    return result;\n}\n\nmat3 flim_gamut_extension_mat(\n    float red_scale,\n    float green_scale,\n    float blue_scale,\n    float red_rot,\n    float green_rot,\n    float blue_rot,\n    float red_mul,\n    float green_mul,\n    float blue_mul\n)\n{\n    mat3 m;\n    m[0] = flim_gamut_extension_mat_row(\n        0.,\n        red_scale,\n        red_rot,\n        red_mul\n    );\n    m[1] = flim_gamut_extension_mat_row(\n        1. / 3.,\n        green_scale,\n        green_rot,\n        green_mul\n    );\n    m[2] = flim_gamut_extension_mat_row(\n        2. / 3.,\n        blue_scale,\n        blue_rot,\n        blue_mul\n    );\n    return m;\n}\n\nvec3 negative_and_print(vec3 col, vec3 backlight_ext)\n{\n    // develop negative\n    col = flim_rgb_develop(\n        col,\n        flim_negative_film_exposure,\n        flim_negative_film_density\n    );\n\n    // backlight\n    col *= backlight_ext;\n\n    // develop print\n    col = flim_rgb_develop(\n        col,\n        flim_print_film_exposure,\n        flim_print_film_density\n    );\n\n    return col;\n}\n\n// the flim transform\n\nvec3 flim_transform(vec3 col, float exposure, bool convert_to_srgb)\n{\n    // eliminate negative values\n    col = max(col, 0.);\n\n    // pre-Exposure\n    col *= pow(2., flim_pre_exposure + exposure);\n\n    // clip very large values for float precision issues\n    col = min(col, 5000.);\n\n    // gamut extension matrix (Linear BT.709)\n    mat3 extend_mat = flim_gamut_extension_mat(\n        flim_extended_gamut_red_scale,\n        flim_extended_gamut_green_scale,\n        flim_extended_gamut_blue_scale,\n        flim_extended_gamut_red_rot,\n        flim_extended_gamut_green_rot,\n        flim_extended_gamut_blue_rot,\n        flim_extended_gamut_red_mul,\n        flim_extended_gamut_green_mul,\n        flim_extended_gamut_blue_mul\n    );\n    mat3 extend_mat_inv = inverse(extend_mat);\n\n    // backlight in the extended gamut\n    vec3 backlight_ext = flim_print_backlight * extend_mat;\n\n    // upper limit in the print (highlight cap)\n    const float big = 10000000.;\n    vec3 white_cap = negative_and_print(vec3(big, big, big), backlight_ext);\n\n    // pre-formation filter\n    col = mix(\n        col,\n        col * flim_pre_formation_filter,\n        flim_pre_formation_filter_strength\n    );\n\n    // convert to the extended gamut\n    col *= extend_mat;\n\n    // negative & print\n    col = negative_and_print(col, backlight_ext);\n\n    // convert from the extended gamut\n    col *= extend_mat_inv;\n\n    // eliminate negative values\n    col = max(col, 0.);\n\n    // white cap\n    col /= white_cap;\n\n    // black cap (-1 = auto)\n    if (flim_black_point == -1.)\n    {\n        vec3 black_cap = negative_and_print(vec3(0.), backlight_ext);\n        black_cap /= white_cap;\n        col = flim_rgb_uniform_offset(\n            col,\n            flim_rgb_avg(black_cap) * 1000.,\n            0.\n        );\n    }\n    else\n    {\n        col = flim_rgb_uniform_offset(col, flim_black_point, 0.);\n    }\n\n    // post-formation filter\n    col = mix(\n        col,\n        col * flim_post_formation_filter,\n        flim_post_formation_filter_strength\n    );\n\n    // clip\n    col = clamp(col, 0., 1.);\n\n    // midtone saturation\n    float mono = flim_rgb_avg(col);\n    float mix_fac =\n        (mono < .5)\n        ? flim_remap01(mono, .05, .5)\n        : flim_remap01(mono, .95, .5);\n    col = mix(\n        col,\n        flim_blender_hue_sat(col, .5, flim_midtone_saturation, 1.),\n        mix_fac\n    );\n\n    // clip\n    col = clamp(col, 0., 1.);\n\n    // OETF\n    if (convert_to_srgb)\n    {\n        col = oetf_pow(col, 2.2);\n    }\n\n    return col;\n}\n\n/*____________________ end ____________________*/\n",
+     "name": "Common",
+     "description": "",
+     "type": "common"
+    },
+    {
+     "inputs": [
+      {
+       "id": "4dXGRr",
+       "filepath": "/presets/tex00.jpg",
+       "type": "keyboard",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4dXGR8",
+       "channel": 0
+      }
+     ],
+     "code": "void mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    vec2 uv = screen_to_uv_fit(frag_coord, iResolution.xy);\n    \n    float v = mix(\n        0.,\n        1.,\n        smoothstep(.23, .2, length(uv))\n    );\n    \n    frag_col = vec4(v);\n}\n",
+     "name": "Buffer A",
+     "description": "",
+     "type": "buffer"
+    },
+    {
+     "inputs": [
+      {
+       "id": "4dXGR8",
+       "filepath": "/media/previz/buffer00.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "XsXGR8",
+       "channel": 0
+      }
+     ],
+     "code": "// DFT pass 1\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // Y coordinate defines which row we take 1D DFT of,\n    // X defines which frequency component in that row.\n    ivec2 icoord = ivec2(frag_coord);\n    float freq = float(icoord.x);\n    \n    ivec2 ires = ivec2(iResolution.xy);\n    \n    // take 1D FFT of the current row\n    float real = 0.;\n    float imag = 0.;\n    for (int ix = 0; ix < ires.x; ix++)\n    {\n        float inp = texelFetch(iChannel0, ivec2(ix, icoord.y), 0).r;\n        \n        float a = TAU * freq * (float(ix) + .5) / iResolution.x;\n        real += inp * cos(a);\n        imag += inp * sin(a);\n    }\n    \n    // output\n    frag_col = vec4(real, imag, 0, 0);\n}\n",
+     "name": "Buffer B",
+     "description": "",
+     "type": "buffer"
+    },
+    {
+     "inputs": [
+      {
+       "id": "XsXGR8",
+       "filepath": "/media/previz/buffer01.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4sXGR8",
+       "channel": 0
+      }
+     ],
+     "code": "// DFT pass 2\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // X coordinate defines which column we take 1D DFT of,\n    // Y defines which frequency component in that column.\n    ivec2 icoord = ivec2(frag_coord);\n    float freq = float(icoord.y);\n    \n    ivec2 ires = ivec2(iResolution.xy);\n    \n    // take 1D FFT of the current column\n    float real = 0.;\n    float imag = 0.;\n    for (int iy = 0; iy < ires.y; iy++)\n    {\n        vec2 inp = texelFetch(iChannel0, ivec2(icoord.x, iy), 0).rg;\n        float inp_real = inp.x;\n        float inp_imag = inp.y;\n        \n        float a = TAU * freq * (float(iy) + .5) / iResolution.y;\n        float mul_real = cos(a);\n        float mul_imag = sin(a);\n        \n        float result_real = (inp_real * mul_real) - (inp_imag * mul_imag);\n        float result_imag = (inp_real * mul_imag) + (inp_imag * mul_real);\n        \n        real += result_real;\n        imag += result_imag;\n    }\n    \n    // output\n    frag_col = vec4(real, imag, 0, 0);\n}\n",
+     "name": "Buffer C",
+     "description": "",
+     "type": "buffer"
     }
    ]
   }
