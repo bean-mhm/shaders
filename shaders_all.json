@@ -1,6 +1,6 @@
 {
  "userName": "beans_please",
- "date": "2025-03-09T20:01:10.894Z",
+ "date": "2025-04-10T19:09:43.320Z",
  "numShaders": 81,
  "shaders": [
   {
@@ -8,7 +8,7 @@
    "info": {
     "id": "dsjcRR",
     "date": "1687371539",
-    "viewed": 446,
+    "viewed": 457,
     "name": "PBR with Ray Marching (WIP)",
     "description": "* Drag -> Look around\n* WASD -> Move\n* Shift -> Sprint\n* Alt -> Stealth?\n* R -> Reset\n",
     "likes": 7,
@@ -162,7 +162,7 @@
    "info": {
     "id": "dd2yDz",
     "date": "1687622059",
-    "viewed": 788,
+    "viewed": 810,
     "name": "flim - Filmic Color Transform",
     "description": "Experimental Port of flim (Film Emulation Transform)\n\nOriginal Repo:\nhttps://github.com/bean-mhm/flim\n",
     "likes": 18,
@@ -206,7 +206,7 @@
    "info": {
     "id": "mdScW1",
     "date": "1687653267",
-    "viewed": 377,
+    "viewed": 390,
     "name": "Interactive 2D Wave Simulation",
     "description": "*Drag your mouse, make a spiral or something.\n\nThis is a port of my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py\n",
     "likes": 6,
@@ -342,7 +342,7 @@
    "info": {
     "id": "md2yWh",
     "date": "1687678448",
-    "viewed": 165,
+    "viewed": 172,
     "name": "experimenting with colormaps",
     "description": "will use this in another shader of mine",
     "likes": 4,
@@ -374,7 +374,7 @@
    "info": {
     "id": "mdByWW",
     "date": "1687704350",
-    "viewed": 179,
+    "viewed": 184,
     "name": "Discrete Land",
     "description": "Playing with integer coordinates",
     "likes": 6,
@@ -417,7 +417,7 @@
    "info": {
     "id": "mdBcz3",
     "date": "1688036284",
-    "viewed": 529,
+    "viewed": 545,
     "name": "3D Wave Simulation",
     "description": "Check out my Interactive 2D Wave Simulation:\nhttps://www.shadertoy.com/view/mdScW1\n\nCheck out my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py",
     "likes": 23,
@@ -572,7 +572,7 @@
    "info": {
     "id": "csjfDh",
     "date": "1689671017",
-    "viewed": 197,
+    "viewed": 202,
     "name": "2D Occlusion Test",
     "description": "Drag to move the middle circle",
     "likes": 5,
@@ -614,7 +614,7 @@
    "info": {
     "id": "cdjfRc",
     "date": "1689964097",
-    "viewed": 85,
+    "viewed": 91,
     "name": "Deprecated,Bean's Default Shader",
     "description": "- My starting point for a new shader.\n\n- Helper \"modules\" can be enabled/disabled separately in the Common tab.\n\n- Each tab starts with a description of itself to make it easier to store local backups.\n\n- Feel free to copy and reuse.  :)",
     "likes": 2,
@@ -669,7 +669,7 @@
    "info": {
     "id": "dsjBDy",
     "date": "1690140863",
-    "viewed": 539,
+    "viewed": 572,
     "name": "2D Fourier Transform",
     "description": "(Not so fast) 2D Fourier Transform implemented in glsl\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the FFT resolution in the Common tab.",
     "likes": 3,
@@ -738,7 +738,7 @@
    "info": {
     "id": "mdjBWK",
     "date": "1690217266",
-    "viewed": 249,
+    "viewed": 253,
     "name": "Triangle Barycentric Coordinates",
     "description": "This started as a 4 AM question: \"How do vertex attributes get interpolated in a fragment shader?\"\nThe Wikipedia page for Barycentric Coordinates was too complicated for me, so hopefully this is easier to und.\nhttps://www.desmos.com/calculator/8g8xjejuox\n",
     "likes": 3,
@@ -784,7 +784,7 @@
    "info": {
     "id": "msjfDt",
     "date": "1690292056",
-    "viewed": 303,
+    "viewed": 307,
     "name": "Moving White Point",
     "description": "Random experiment\n\n- Drag to move the white point",
     "likes": 7,
@@ -827,7 +827,7 @@
    "info": {
     "id": "mlscWr",
     "date": "1690662251",
-    "viewed": 374,
+    "viewed": 382,
     "name": "Blinn-Phong Shading",
     "description": "Sphere",
     "likes": 5,
@@ -872,7 +872,7 @@
    "info": {
     "id": "dlfcD8",
     "date": "1692139870",
-    "viewed": 306,
+    "viewed": 310,
     "name": "Path Tracing name already in use",
     "description": "Good old naive path tracing",
     "likes": 7,
@@ -1014,7 +1014,7 @@
    "info": {
     "id": "ctfcD7",
     "date": "1690805466",
-    "viewed": 152,
+    "viewed": 156,
     "name": "colorful thing",
     "description": "random shader (i was bored)",
     "likes": 3,
@@ -1056,7 +1056,7 @@
    "info": {
     "id": "mlsyDj",
     "date": "1691237601",
-    "viewed": 241,
+    "viewed": 248,
     "name": "Balls Simulated (updated)",
     "description": "This is my first physics simulation, and I just followed my gut, so feel free to comment on how this can be improved\n\nUpdate: Implemented suggestions by @fenix (no more jittering + general improvements)",
     "likes": 12,
@@ -1156,7 +1156,7 @@
    "info": {
     "id": "cl2cRD",
     "date": "1691530674",
-    "viewed": 85,
+    "viewed": 88,
     "name": "Fixed FPS Experiment",
     "description": "Adjusting the amount of computation in order to keep the FPS constant.\nMight take up to 20 seconds to reach the target FPS.\nDoesn't work well on my phone, probably because of 16 bit precision.",
     "likes": 1,
@@ -1231,7 +1231,7 @@
    "info": {
     "id": "mtScWm",
     "date": "1691841683",
-    "viewed": 318,
+    "viewed": 322,
     "name": "Blue Noise Dithering vs OETF 2.2",
     "description": "Try commenting out the OETF to see how the dithered version and the clean version don't match in brightness anymore",
     "likes": 11,
@@ -1282,7 +1282,7 @@
    "info": {
     "id": "mtjyDw",
     "date": "1691962447",
-    "viewed": 180,
+    "viewed": 184,
     "name": "1D Continuous Function Graphing",
     "description": "Basically sample points on the function and connect them with line segments",
     "likes": 6,
@@ -1340,7 +1340,7 @@
    "info": {
     "id": "cljczd",
     "date": "1692189706",
-    "viewed": 108,
+    "viewed": 112,
     "name": "Mod of 01000001's FXAA Shader",
     "description": "Original shader: https://www.shadertoy.com/view/mljyzc",
     "likes": 1,
@@ -1399,7 +1399,7 @@
    "info": {
     "id": "DljyDG",
     "date": "1692469704",
-    "viewed": 205,
+    "viewed": 210,
     "name": "Breathing Fractal",
     "description": "Drag to explore the complex universe!\n",
     "likes": 6,
@@ -1438,7 +1438,7 @@
    "info": {
     "id": "DtfBRn",
     "date": "1692473050",
-    "viewed": 140,
+    "viewed": 143,
     "name": "Deprecated: My 2nd Def. Shader",
     "description": "My starting point for new shaders (not anymore)\nnew one coming soon",
     "likes": 1,
@@ -1480,7 +1480,7 @@
    "info": {
     "id": "DlfBzN",
     "date": "1692651978",
-    "viewed": 172,
+    "viewed": 175,
     "name": "Square Fourier Transform?",
     "description": "What if we used square waves instead of (co)sine waves in Fourier transforms?\nSee sqsin() and sqcos() at the end of Common.\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the resolution in the Common tab.",
     "likes": 5,
@@ -1551,7 +1551,7 @@
    "info": {
     "id": "mlfBR4",
     "date": "1692737129",
-    "viewed": 169,
+    "viewed": 175,
     "name": "Boids + Packed Voronoi Tracking",
     "description": "Finally learned Voronoi Tracking, read the explanations in Buffer A.",
     "likes": 3,
@@ -1706,7 +1706,7 @@
    "info": {
     "id": "clXBW4",
     "date": "1692902788",
-    "viewed": 91,
+    "viewed": 94,
     "name": "Fork polygon :D beans_plea 404",
     "description": "challenge shader",
     "likes": 0,
@@ -1740,7 +1740,7 @@
    "info": {
     "id": "dlsBDM",
     "date": "1693112135",
-    "viewed": 230,
+    "viewed": 236,
     "name": "Inverse Square Fourier Transform",
     "description": "0 = Input\n1 = 2D FFT\n2 = Inverse FFT\n\nSee use_sq at the top of Common.",
     "likes": 3,
@@ -1867,7 +1867,7 @@
    "info": {
     "id": "mtlfRs",
     "date": "1693363623",
-    "viewed": 146,
+    "viewed": 149,
     "name": "Local Sorting Challenge",
     "description": "What's the fastest way to sort a local float array? (in practice this array will be different for each pixel)\nKeep in mind we can't use recursion or dynamic memory allocation unless we emulate them which would probably slow things down more.",
     "likes": 1,
@@ -1899,7 +1899,7 @@
    "info": {
     "id": "DtSfzR",
     "date": "1693654314",
-    "viewed": 282,
+    "viewed": 289,
     "name": "Beach (Volume Absorption)",
     "description": "More or less: [code]col *= pow(absorption_col, depth)[/code]",
     "likes": 6,
@@ -1934,7 +1934,7 @@
    "info": {
     "id": "ctjfDc",
     "date": "1694574459",
-    "viewed": 387,
+    "viewed": 402,
     "name": "Fork Discoteq 3 (+ flim)",
     "description": "Discoteq 3\nadded flim ( https://www.shadertoy.com/view/dd2yDz )",
     "likes": 8,
@@ -2021,7 +2021,7 @@
    "info": {
     "id": "DdcyRf",
     "date": "1695281747",
-    "viewed": 204,
+    "viewed": 208,
     "name": "Exponential Colormap",
     "description": "See the Desmos graphs, play with v",
     "likes": 7,
@@ -2053,7 +2053,7 @@
    "info": {
     "id": "ds3fDM",
     "date": "1697312887",
-    "viewed": 373,
+    "viewed": 399,
     "name": "XPBD Rope",
     "description": "Finally implemented XPBD!\nWatch this amazing video: https://youtube.com/watch?v=jrociOAYqxA\n\n* Drag to move the tail\n\n* Long ish compile time (22 seconds for me), so be patient\n\n* Does not work well on my phone, presumably because of 16-bit floats.",
     "likes": 19,
@@ -2140,7 +2140,7 @@
    "info": {
     "id": "DsGBDy",
     "date": "1698577359",
-    "viewed": 142,
+    "viewed": 145,
     "name": "angle in [0, 2pi)",
     "description": "the",
     "likes": 3,
@@ -2172,7 +2172,7 @@
    "info": {
     "id": "Mcf3Dj",
     "date": "1703544197",
-    "viewed": 220,
+    "viewed": 223,
     "name": "FBM Voronoi",
     "description": "i like voronoi",
     "likes": 2,
@@ -2217,7 +2217,7 @@
    "info": {
     "id": "4fSGzR",
     "date": "1705547653",
-    "viewed": 78,
+    "viewed": 82,
     "name": "FBM Perlin",
     "description": "i like perlin noise",
     "likes": 0,
@@ -2261,7 +2261,7 @@
    "info": {
     "id": "lf23zW",
     "date": "1736235885",
-    "viewed": 90,
+    "viewed": 98,
     "name": "🌟NOISE SHOW🌟",
     "description": "procedural noise",
     "likes": 4,
@@ -2306,7 +2306,7 @@
    "info": {
     "id": "lclXWs",
     "date": "1705932695",
-    "viewed": 181,
+    "viewed": 189,
     "name": "Quantum physics or something",
     "description": "Extremely slow, use shadertoy browser extension to increase the number of iters/frame (paint calls) to 512 ish with inspect element!\n\nHelp: How do I calculate max dt (before it breaks) based on the parameters?\n\nhttps://www.desmos.com/calculator/ery45h4dzl",
     "likes": 1,
@@ -2395,7 +2395,7 @@
    "info": {
     "id": "MXSXRm",
     "date": "1710373949",
-    "viewed": 245,
+    "viewed": 251,
     "name": "3D Function/Volume Visualizer",
     "description": "just raymarching through a box and averaging the values we sampled along the way\n",
     "likes": 11,
@@ -2532,7 +2532,7 @@
    "info": {
     "id": "lXBXWz",
     "date": "1710447505",
-    "viewed": 207,
+    "viewed": 210,
     "name": "8-bit Blue Noise Dithering",
     "description": "dithering",
     "likes": 3,
@@ -2584,7 +2584,7 @@
    "info": {
     "id": "XX2XDd",
     "date": "1711246176",
-    "viewed": 179,
+    "viewed": 184,
     "name": "Run at 120+ Hz if possible",
     "description": "Alternating between red and cyan, which looks gray. Try moving your eyes across the screen really quickly to see the pattern (in full screen).",
     "likes": 1,
@@ -2775,7 +2775,7 @@
    "info": {
     "id": "McdSzr",
     "date": "1713529681",
-    "viewed": 253,
+    "viewed": 261,
     "name": "Subpixel Anti-Aliasing",
     "description": "looks kinda weird tbh, am I doing something wrong?",
     "likes": 5,
@@ -2818,7 +2818,7 @@
    "info": {
     "id": "M3dGz8",
     "date": "1716107523",
-    "viewed": 87,
+    "viewed": 94,
     "name": "2x Temporal Upscaling",
     "description": "read my comments, the character limit is too low ..............................................................................................................................................................................................................",
     "likes": 1,
@@ -3216,10 +3216,10 @@
    "info": {
     "id": "lXy3zK",
     "date": "1717887783",
-    "viewed": 617,
+    "viewed": 634,
     "name": "Daft Punk (Audio Data Packing)",
     "description": "8-bit audio samples packed into ivec4 array(s) using a Python script, with some vinyl pixel art I made",
-    "likes": 24,
+    "likes": 25,
     "published": "Public API",
     "usePreview": 1,
     "tags": [
@@ -3275,7 +3275,7 @@
    "info": {
     "id": "M3VGRK",
     "date": "1717936266",
-    "viewed": 232,
+    "viewed": 240,
     "name": "Attack-Decay-Sustain-Release",
     "description": "The ADSR curve is a fundamental tool used in all audio synthesizers.\nFeel free to play with the values (see custom_adsr_curve_1() in Common).\n\nRead more: [url]https://en.wikipedia.org/wiki/Envelope_(music)[/url]\n",
     "likes": 10,
@@ -3324,7 +3324,7 @@
    "info": {
     "id": "X3y3Rc",
     "date": "1717962362",
-    "viewed": 122,
+    "viewed": 129,
     "name": "Bean's Starting Point",
     "description": "Helper functions/structs/defines divided into sections.\nUse whichever section(s) you need:\n- math & integer utils\n- pseudo-random number generator\n- keyboard\n- flim\n",
     "likes": 0,
@@ -3408,7 +3408,7 @@
    "info": {
     "id": "M3tXWn",
     "date": "1718891537",
-    "viewed": 699,
+    "viewed": 706,
     "name": "Digital Logic Simulation",
     "description": "[url=https://www.shadertoy.com/view/X33XDN]UPDATE: NEW VERSION[/url]\nSee the first comment for tutorial and description.\n",
     "likes": 49,
@@ -3673,7 +3673,7 @@
    "info": {
     "id": "X33XDN",
     "date": "1719435553",
-    "viewed": 652,
+    "viewed": 670,
     "name": "DLS + Wire Cross + Clock + Rot",
     "description": "See the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\n",
     "likes": 27,
@@ -4070,7 +4070,7 @@
    "info": {
     "id": "M3ySRK",
     "date": "1720202475",
-    "viewed": 610,
+    "viewed": 648,
     "name": "Parallax Occlusion Mapping X",
     "description": "layer count depends on the ray-surface angle\n",
     "likes": 23,
@@ -4148,7 +4148,7 @@
    "info": {
     "id": "XcBBWW",
     "date": "1724905810",
-    "viewed": 158,
+    "viewed": 168,
     "name": "Follow Edge Antialiasing? (Bad)",
     "description": "[url=https://www.shadertoy.com/view/M33cD7]SEE BETTER VERSION[/url]\nidk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison\n",
     "likes": 2,
@@ -4262,7 +4262,7 @@
    "info": {
     "id": "MfjBDV",
     "date": "1725542638",
-    "viewed": 100,
+    "viewed": 103,
     "name": "Pretty Colormap (-1, +1)",
     "description": "See the Desmos graphs, play with v",
     "likes": 6,
@@ -4405,7 +4405,7 @@
    "info": {
     "id": "XXlBDH",
     "date": "1728333908",
-    "viewed": 125,
+    "viewed": 129,
     "name": "Diffraction Through 5 Slits",
     "description": "inspired by 3b1b's new video",
     "likes": 4,
@@ -4511,7 +4511,7 @@
    "info": {
     "id": "4cVcR1",
     "date": "1731504376",
-    "viewed": 129,
+    "viewed": 134,
     "name": "Color Transformation Utilities",
     "description": "The \"Image\" tab simply alternates between mixing different colors in Oklab vs Linear BT.709 I-D65.\n\nThe \"Common\" tab contains transformations for common gamuts, white points, and transfer functions. Also includes Oklab.\n",
     "likes": 4,
@@ -4594,7 +4594,7 @@
    "info": {
     "id": "lctBRn",
     "date": "1732646179",
-    "viewed": 182,
+    "viewed": 188,
     "name": "Springy Ball (Pos Vel Acc Jerk)",
     "description": "drag mouse.\nplay with INTEGRATION_MODE in Buffer A.",
     "likes": 5,
@@ -4686,7 +4686,7 @@
    "info": {
     "id": "4cyfRV",
     "date": "1734325673",
-    "viewed": 3357,
+    "viewed": 3640,
     "name": "Neural Cat",
     "description": "deep neural network trained to produce cat meme video",
     "likes": 35,
@@ -4733,7 +4733,7 @@
    "info": {
     "id": "XX3cRn",
     "date": "1734644701",
-    "viewed": 213,
+    "viewed": 243,
     "name": "Film Halation",
     "description": "film halation",
     "likes": 9,
@@ -4819,7 +4819,7 @@
    "info": {
     "id": "M33cD7",
     "date": "1735165058",
-    "viewed": 136,
+    "viewed": 151,
     "name": "FXAA-ish",
     "description": "idk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison",
     "likes": 2,
@@ -4897,7 +4897,7 @@
    "info": {
     "id": "lX3cD7",
     "date": "1735261091",
-    "viewed": 151,
+    "viewed": 174,
     "name": "Film Emulation",
     "description": "Full on film emulation. Detailed explanation in the Common tab + comments throughout the code.",
     "likes": 8,
@@ -5080,7 +5080,7 @@
    "info": {
     "id": "XXcyDB",
     "date": "1735546355",
-    "viewed": 171,
+    "viewed": 188,
     "name": "Fork Fractal Explorer (+flim)",
     "description": " More fractal fun! This time with a single pass depth of field effect. MOUSE DRAG to turn WASD & cursor keys to move. SHIFT for speed up. SPACE for another speed up!\n",
     "likes": 1,
@@ -5249,7 +5249,7 @@
    "info": {
     "id": "lXGyDR",
     "date": "1736145027",
-    "viewed": 116,
+    "viewed": 124,
     "name": "Interleaved Gradient Noise ‌‍",
     "description": "Low discrepancy or something. I copied the formula form some article, I don't know how it's actually derived.",
     "likes": 3,
@@ -5316,7 +5316,7 @@
    "info": {
     "id": "X3KcDh",
     "date": "1736180148",
-    "viewed": 90,
+    "viewed": 95,
     "name": "High Pass White Noise (Failed)",
     "description": "failed attempt to get blue noise from white noise\n\nsuccessful attempt: [url]https://www.shadertoy.com/view/lXycWt[/url]",
     "likes": 3,
@@ -5364,7 +5364,7 @@
    "info": {
     "id": "MXGyDD",
     "date": "1736256150",
-    "viewed": 166,
+    "viewed": 178,
     "name": "Perlinary",
     "description": "procedural noise",
     "likes": 11,
@@ -5455,7 +5455,7 @@
    "info": {
     "id": "lXycWt",
     "date": "1736801004",
-    "viewed": 117,
+    "viewed": 129,
     "name": "Getting Blue Noise from White",
     "description": "high passing white noise to get blue noise. one important detail is that you should map the original input from [0, 1] to [-1, +1] by performing [code](x * 2. - 1.)[/code] and undo it at the very end by doing [code](x * .5 + .5)[/code]",
     "likes": 6,
@@ -5626,7 +5626,7 @@
    "info": {
     "id": "MX3BR8",
     "date": "1736931744",
-    "viewed": 167,
+    "viewed": 174,
     "name": "Single Function Semi Blue Noise",
     "description": "Convolution with a white noise.\n\nHold mouse to see Shadertoy's default blue noise texture.",
     "likes": 9,
@@ -6252,7 +6252,7 @@
        "channel": 0
       }
      ],
-     "code": "#define CH_GBUF iChannel0\n#define CH_BLUE_NOISE iChannel1\n\n// how much to offset the hit position along the reflection ray\nconst float SSR_BIAS = .01;\n\n// maximum distance to march along the reflection ray (in world-space)\nconst float SSR_MAX_DISTANCE = .6;\n\n// step size (in pixels) for screen-space ray marching\nconst float SSR_MIN_STEP_SIZE_PX = 1.;\nconst float SSR_MAX_STEP_SIZE_PX = 3.;\n\n// the maximum depth slope along the reflection ray must be equal to\n// or greater than this value in order to avoid reflecting by just\n// sliding along a surface continuously. basically, there should be a\n// point where the depth changes really fast to indicate\n// discontinuities.\nconst float SSR_DEPTH_SLOPE_THRESHOLD = .004;\n\nconst float SSR_MAX_THICKNESS = .1;\n\nfloat blue_noise(ivec2 icoord, int idx)\n{\n    float bn = texelFetch(\n        CH_BLUE_NOISE,\n        icoord % textureSize(CH_BLUE_NOISE, 0),\n        0\n    ).x;\n    return mod(bn + float(idx) * PHI, 1.);\n}\n\nvec3 random_unit_vec3(ivec2 icoord, int idx)\n{\n    vec3 v;\n    for (int i = 0; i < 7; i++)\n    {\n        v = vec3(\n            blue_noise(icoord, (7 * 3 * idx) + (3 * i)),\n            blue_noise(icoord, (7 * 3 * idx) + (3 * i) + 1),\n            blue_noise(icoord, (7 * 3 * idx) + (3 * i) + 2)\n        ) * 2. - 1.;\n        if (dot(v, v) <= 1.)\n        {\n            return normalize(v);\n        }\n    }\n    return normalize(v);\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    GbufData g;\n    gbuf_fetch(CH_GBUF, ivec2(frag_coord), g);\n    \n    // if not hit, don't do anything\n    if (!g.hit)\n    {\n        frag_col = vec4(0);\n        return;\n    }\n    \n    // scene time\n    float time = scene_transform_time(iTime);\n    \n    // camera\n    Camera cam = scene_camera(RES, time);\n    \n    // generate ray\n    Ray r = Camera_gen_ray(cam, frag_coord / RES);\n    \n    // find p = world-space hit pos\n    vec3 p_nobias = r.orig + g.depth * r.dir;\n    \n    // reflect ray off of the surface, use roughness to randomize\n    // this in a cosine-weighted way.\n    vec3 refl = normalize(mix(\n        reflect(r.dir, g.normal),\n        normalize(g.normal + random_unit_vec3(ivec2(frag_coord), 0)),\n        cos(TAU * .1 * time) * -.5 + .5\n    ));\n    \n    // find p2 = p + SSR_MAX_DISTANCE * refl\n    vec3 p2 = p_nobias + SSR_MAX_DISTANCE * refl;\n    \n    // convert p2 back to pixel-space\n    vec2 p2_ss = Camera_retrieve_uv01_from_point(cam, p2) * RES;\n    \n    // make sure to add a bias to p to avoid hitting self\n    vec3 p = p_nobias + SSR_BIAS * refl;\n    \n    // convert p to pixel-space as well\n    vec2 p_ss = Camera_retrieve_uv01_from_point(cam, p) * RES;\n    \n    // move pixel by pixel from p_ss to p2_ss until the depth is\n    // closer or a lot farther away from the camera than the original.\n    \n    vec2 dir_ss = p2_ss - p_ss;\n    float dist = length(dir_ss);\n    dir_ss /= dist;\n    \n    // these variables are explained below in the loop\n    \n    vec3 refl_col = vec3(0);\n    bool found_reflectee = false;\n    \n    float total_marched_in_world = 0.;\n    float last_depth = g.depth;\n    float max_depth_slope = 0.;\n    \n    float step_size = mix(\n        SSR_MIN_STEP_SIZE_PX,\n        SSR_MAX_STEP_SIZE_PX,\n        blue_noise(ivec2(frag_coord), 43)\n    );\n    for (float d = 0.; d < ceil(dist + .001); d += step_size)\n    {\n        // calculate the current position to sample in pixel space\n        vec2 curr_coord = p_ss + d * dir_ss;\n        \n        // use bilinear interpolation\n        \n        ivec2 curr_icoord_bl = ivec2(floor(curr_coord));\n        \n        GbufData g_bl;\n        GbufData g_br;\n        GbufData g_tl;\n        GbufData g_tr;\n        \n        gbuf_fetch(CH_GBUF, curr_icoord_bl + ivec2(0, 0), g_bl);\n        gbuf_fetch(CH_GBUF, curr_icoord_bl + ivec2(1, 0), g_br);\n        gbuf_fetch(CH_GBUF, curr_icoord_bl + ivec2(0, 1), g_tl);\n        gbuf_fetch(CH_GBUF, curr_icoord_bl + ivec2(1, 1), g_tr);\n        \n        vec2 bilinear_offs = mod(curr_coord - .4999, 1.);\n        \n        bool curr_hit = g_bl.hit && g_br.hit && g_tl.hit && g_tr.hit;\n        \n        vec3 curr_shaded = vec3(0);\n        vec3 curr_normal = vec3(0);\n        float curr_depth = 0.;\n        if (curr_hit)\n        {\n            curr_shaded = mix(\n                mix(g_bl.shaded, g_br.shaded, bilinear_offs.x),\n                mix(g_tl.shaded, g_tr.shaded, bilinear_offs.x),\n                bilinear_offs.y\n            );\n            \n            curr_normal = normalize(mix(\n                mix(g_bl.normal, g_br.normal, bilinear_offs.x),\n                mix(g_tl.normal, g_tr.normal, bilinear_offs.x),\n                bilinear_offs.y\n            ));\n            \n            curr_depth = mix(\n                mix(g_bl.depth, g_br.depth, bilinear_offs.x),\n                mix(g_tl.depth, g_tr.depth, bilinear_offs.x),\n                bilinear_offs.y\n            );\n        }\n        \n        // convert curr_coord to world-space (using g.depth here is wrong but\n        // it's fixed below when we project onto the reflection ray).\n        Ray curr_ray = Camera_gen_ray(cam, curr_coord / RES);\n        vec3 curr_p_noproj = curr_ray.orig + g.depth * curr_ray.dir;\n        \n        // project curr_p back onto the reflection ray because just moving in\n        // pixel-space will knock it off along the depth in the wrong direction.\n        vec3 curr_p = p_nobias + refl * dot(curr_p_noproj - p_nobias, refl);\n        \n        // calculate the depth for curr_p\n        float curr_p_depth = dot(curr_p - curr_ray.orig, curr_ray.dir);\n        \n        // find how much the depth changed since the last step\n        float depth_change = abs(curr_depth - last_depth);\n        last_depth = curr_depth;\n        \n        // find the depth slope\n        float depth_slope = depth_change / (.001 * step_size * min(RES.x, RES.y));\n        max_depth_slope = max(max_depth_slope, depth_slope);\n        \n        // see if we hit something\n        float thickness = curr_p_depth - curr_depth;\n        if (curr_hit && thickness >= 0. && thickness < SSR_MAX_THICKNESS)\n        {\n            // record the distance between curr_p and the original hit position\n            // (how much we ray marched in world space in total).\n            total_marched_in_world = distance(curr_p, p_nobias);\n            \n            found_reflectee = true;\n            refl_col = curr_shaded;\n            break;\n        }\n    }\n    \n    vec3 sky_col = scene_sky(refl);\n    if (!found_reflectee)\n    {\n        refl_col = sky_col;\n    }\n    else\n    {\n        refl_col = mix(\n            refl_col,\n            sky_col,\n            remap01(\n                max_depth_slope,\n                1.2 * SSR_DEPTH_SLOPE_THRESHOLD,\n                SSR_DEPTH_SLOPE_THRESHOLD\n            )\n        );\n\n        refl_col = mix(\n            refl_col,\n            sky_col,\n            remap01(\n                total_marched_in_world,\n                .7 * SSR_MAX_DISTANCE,\n                SSR_MAX_DISTANCE\n            )\n        );\n    }\n    \n    // mix in reflection somehow\n    // ...\n    \n    frag_col = vec4(refl_col, 1);\n}\n",
+     "code": "#define CH_GBUF iChannel0\n#define CH_BLUE_NOISE iChannel1\n\n// how much to offset the hit position along the reflection ray\nconst float SSR_BIAS = .01;\n\n// maximum distance to march along the reflection ray (in world-space)\nconst float SSR_MAX_DISTANCE = .6;\n\n// step size (in pixels) for screen-space ray marching\nconst float SSR_MIN_STEP_SIZE_PX = 1.;\nconst float SSR_MAX_STEP_SIZE_PX = 3.;\n\n// the maximum depth slope along the reflection ray must be equal to\n// or greater than this value in order to avoid reflecting by just\n// sliding along a surface continuously. basically, there should be a\n// point where the depth changes really fast to indicate\n// discontinuities.\nconst float SSR_DEPTH_SLOPE_THRESHOLD = .004;\n\nconst float SSR_MAX_THICKNESS = .1;\n\nfloat blue_noise(ivec2 icoord, int idx)\n{\n    float bn = texelFetch(\n        CH_BLUE_NOISE,\n        icoord % textureSize(CH_BLUE_NOISE, 0),\n        0\n    ).x;\n    return mod(bn + float(idx) * PHI, 1.);\n}\n\nvec3 random_unit_vec3(ivec2 icoord, int idx)\n{\n    vec3 v;\n    for (int i = 0; i < 7; i++)\n    {\n        v = vec3(\n            blue_noise(icoord, (7 * 3 * idx) + (3 * i)),\n            blue_noise(icoord, (7 * 3 * idx) + (3 * i) + 1),\n            blue_noise(icoord, (7 * 3 * idx) + (3 * i) + 2)\n        ) * 2. - 1.;\n        if (abs(dot(v, v) - .501) <= .499)\n        {\n            return normalize(v);\n        }\n    }\n    return normalize(v);\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    GbufData g;\n    gbuf_fetch(CH_GBUF, ivec2(frag_coord), g);\n    \n    // if not hit, don't do anything\n    if (!g.hit)\n    {\n        frag_col = vec4(0);\n        return;\n    }\n    \n    // scene time\n    float time = scene_transform_time(iTime);\n    \n    // camera\n    Camera cam = scene_camera(RES, time);\n    \n    // generate ray\n    Ray r = Camera_gen_ray(cam, frag_coord / RES);\n    \n    // find p = world-space hit pos\n    vec3 p_nobias = r.orig + g.depth * r.dir;\n    \n    // reflect ray off of the surface, use roughness to randomize\n    // this in a cosine-weighted way.\n    vec3 refl = normalize(mix(\n        reflect(r.dir, g.normal),\n        normalize(g.normal + random_unit_vec3(ivec2(frag_coord), 0)),\n        cos(TAU * .1 * time) * -.5 + .5\n    ));\n    \n    // find p2 = p + SSR_MAX_DISTANCE * refl\n    vec3 p2 = p_nobias + SSR_MAX_DISTANCE * refl;\n    \n    // convert p2 back to pixel-space\n    vec2 p2_ss = Camera_retrieve_uv01_from_point(cam, p2) * RES;\n    \n    // make sure to add a bias to p to avoid hitting self\n    vec3 p = p_nobias + SSR_BIAS * refl;\n    \n    // convert p to pixel-space as well\n    vec2 p_ss = Camera_retrieve_uv01_from_point(cam, p) * RES;\n    \n    // move pixel by pixel from p_ss to p2_ss until the depth is\n    // closer or a lot farther away from the camera than the original.\n    \n    vec2 dir_ss = p2_ss - p_ss;\n    float dist = length(dir_ss);\n    dir_ss /= dist;\n    \n    // these variables are explained below in the loop\n    \n    vec3 refl_col = vec3(0);\n    bool found_reflectee = false;\n    \n    float total_marched_in_world = 0.;\n    float last_depth = g.depth;\n    float max_depth_slope = 0.;\n    \n    float step_size = mix(\n        SSR_MIN_STEP_SIZE_PX,\n        SSR_MAX_STEP_SIZE_PX,\n        blue_noise(ivec2(frag_coord), 43)\n    );\n    for (float d = 0.; d < ceil(dist + .001); d += step_size)\n    {\n        // calculate the current position to sample in pixel space\n        vec2 curr_coord = p_ss + d * dir_ss;\n        \n        // use bilinear interpolation\n        \n        ivec2 curr_icoord_bl = ivec2(floor(curr_coord));\n        \n        GbufData g_bl;\n        GbufData g_br;\n        GbufData g_tl;\n        GbufData g_tr;\n        \n        gbuf_fetch(CH_GBUF, curr_icoord_bl + ivec2(0, 0), g_bl);\n        gbuf_fetch(CH_GBUF, curr_icoord_bl + ivec2(1, 0), g_br);\n        gbuf_fetch(CH_GBUF, curr_icoord_bl + ivec2(0, 1), g_tl);\n        gbuf_fetch(CH_GBUF, curr_icoord_bl + ivec2(1, 1), g_tr);\n        \n        vec2 bilinear_offs = mod(curr_coord - .4999, 1.);\n        \n        bool curr_hit = g_bl.hit && g_br.hit && g_tl.hit && g_tr.hit;\n        \n        vec3 curr_shaded = vec3(0);\n        vec3 curr_normal = vec3(0);\n        float curr_depth = 0.;\n        if (curr_hit)\n        {\n            curr_shaded = mix(\n                mix(g_bl.shaded, g_br.shaded, bilinear_offs.x),\n                mix(g_tl.shaded, g_tr.shaded, bilinear_offs.x),\n                bilinear_offs.y\n            );\n            \n            curr_normal = normalize(mix(\n                mix(g_bl.normal, g_br.normal, bilinear_offs.x),\n                mix(g_tl.normal, g_tr.normal, bilinear_offs.x),\n                bilinear_offs.y\n            ));\n            \n            curr_depth = mix(\n                mix(g_bl.depth, g_br.depth, bilinear_offs.x),\n                mix(g_tl.depth, g_tr.depth, bilinear_offs.x),\n                bilinear_offs.y\n            );\n        }\n        \n        // convert curr_coord to world-space (using g.depth here is wrong but\n        // it's fixed below when we project onto the reflection ray).\n        Ray curr_ray = Camera_gen_ray(cam, curr_coord / RES);\n        vec3 curr_p_noproj = curr_ray.orig + g.depth * curr_ray.dir;\n        \n        // project curr_p back onto the reflection ray because just moving in\n        // pixel-space will knock it off along the depth in the wrong direction.\n        vec3 curr_p = p_nobias + refl * dot(curr_p_noproj - p_nobias, refl);\n        \n        // calculate the depth for curr_p\n        float curr_p_depth = dot(curr_p - curr_ray.orig, curr_ray.dir);\n        \n        // find how much the depth changed since the last step\n        float depth_change = abs(curr_depth - last_depth);\n        last_depth = curr_depth;\n        \n        // find the depth slope\n        float depth_slope = depth_change / (.001 * step_size * min(RES.x, RES.y));\n        max_depth_slope = max(max_depth_slope, depth_slope);\n        \n        // see if we hit something\n        float thickness = curr_p_depth - curr_depth;\n        if (curr_hit && thickness >= 0. && thickness < SSR_MAX_THICKNESS)\n        {\n            // record the distance between curr_p and the original hit position\n            // (how much we ray marched in world space in total).\n            total_marched_in_world = distance(curr_p, p_nobias);\n            \n            found_reflectee = true;\n            refl_col = curr_shaded;\n            break;\n        }\n    }\n    \n    vec3 sky_col = scene_sky(refl);\n    if (!found_reflectee)\n    {\n        refl_col = sky_col;\n    }\n    else\n    {\n        refl_col = mix(\n            refl_col,\n            sky_col,\n            remap01(\n                max_depth_slope,\n                1.2 * SSR_DEPTH_SLOPE_THRESHOLD,\n                SSR_DEPTH_SLOPE_THRESHOLD\n            )\n        );\n\n        refl_col = mix(\n            refl_col,\n            sky_col,\n            remap01(\n                total_marched_in_world,\n                .7 * SSR_MAX_DISTANCE,\n                SSR_MAX_DISTANCE\n            )\n        );\n    }\n    \n    // mix in reflection somehow\n    // ...\n    \n    frag_col = vec4(refl_col, 1);\n}\n",
      "name": "Buffer B",
      "description": "",
      "type": "buffer"
@@ -6432,7 +6432,7 @@
    "info": {
     "id": "WcsSRH",
     "date": "1740643773",
-    "viewed": 60,
+    "viewed": 73,
     "name": "Subpixel Anti-Aliasing 2",
     "description": "looks kinda weird tbh, am I doing something wrong?",
     "likes": 3,
@@ -6475,12 +6475,12 @@
    "info": {
     "id": "3clXzN",
     "date": "1740690643",
-    "viewed": 84,
+    "viewed": 97,
     "name": "smooth downscale without mipmap",
     "description": "needed this for a project",
     "likes": 0,
     "published": "Public API",
-    "usePreview": 0,
+    "usePreview": 1,
     "tags": [
      "utility",
      "functions",
@@ -6523,10 +6523,10 @@
    "info": {
     "id": "3cSSRR",
     "date": "1741469568",
-    "viewed": 39,
+    "viewed": 80,
     "name": "Double-Pass DFT",
     "description": "2D Discrete Fourier Transform\n\nhold mouse to see input\n",
-    "likes": 1,
+    "likes": 5,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
