@@ -1,6 +1,6 @@
 {
  "userName": "beans_please",
- "date": "2025-04-10T19:09:43.320Z",
+ "date": "2025-04-30T14:10:36.853Z",
  "numShaders": 81,
  "shaders": [
   {
@@ -8,7 +8,7 @@
    "info": {
     "id": "dsjcRR",
     "date": "1687371539",
-    "viewed": 457,
+    "viewed": 462,
     "name": "PBR with Ray Marching (WIP)",
     "description": "* Drag -> Look around\n* WASD -> Move\n* Shift -> Sprint\n* Alt -> Stealth?\n* R -> Reset\n",
     "likes": 7,
@@ -162,7 +162,7 @@
    "info": {
     "id": "dd2yDz",
     "date": "1687622059",
-    "viewed": 810,
+    "viewed": 820,
     "name": "flim - Filmic Color Transform",
     "description": "Experimental Port of flim (Film Emulation Transform)\n\nOriginal Repo:\nhttps://github.com/bean-mhm/flim\n",
     "likes": 18,
@@ -206,7 +206,7 @@
    "info": {
     "id": "mdScW1",
     "date": "1687653267",
-    "viewed": 390,
+    "viewed": 396,
     "name": "Interactive 2D Wave Simulation",
     "description": "*Drag your mouse, make a spiral or something.\n\nThis is a port of my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py\n",
     "likes": 6,
@@ -342,7 +342,7 @@
    "info": {
     "id": "md2yWh",
     "date": "1687678448",
-    "viewed": 172,
+    "viewed": 173,
     "name": "experimenting with colormaps",
     "description": "will use this in another shader of mine",
     "likes": 4,
@@ -374,7 +374,7 @@
    "info": {
     "id": "mdByWW",
     "date": "1687704350",
-    "viewed": 184,
+    "viewed": 185,
     "name": "Discrete Land",
     "description": "Playing with integer coordinates",
     "likes": 6,
@@ -417,7 +417,7 @@
    "info": {
     "id": "mdBcz3",
     "date": "1688036284",
-    "viewed": 545,
+    "viewed": 555,
     "name": "3D Wave Simulation",
     "description": "Check out my Interactive 2D Wave Simulation:\nhttps://www.shadertoy.com/view/mdScW1\n\nCheck out my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py",
     "likes": 23,
@@ -572,7 +572,7 @@
    "info": {
     "id": "csjfDh",
     "date": "1689671017",
-    "viewed": 202,
+    "viewed": 205,
     "name": "2D Occlusion Test",
     "description": "Drag to move the middle circle",
     "likes": 5,
@@ -614,7 +614,7 @@
    "info": {
     "id": "cdjfRc",
     "date": "1689964097",
-    "viewed": 91,
+    "viewed": 92,
     "name": "Deprecated,Bean's Default Shader",
     "description": "- My starting point for a new shader.\n\n- Helper \"modules\" can be enabled/disabled separately in the Common tab.\n\n- Each tab starts with a description of itself to make it easier to store local backups.\n\n- Feel free to copy and reuse.  :)",
     "likes": 2,
@@ -669,7 +669,7 @@
    "info": {
     "id": "dsjBDy",
     "date": "1690140863",
-    "viewed": 572,
+    "viewed": 586,
     "name": "2D Fourier Transform",
     "description": "(Not so fast) 2D Fourier Transform implemented in glsl\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the FFT resolution in the Common tab.",
     "likes": 3,
@@ -738,7 +738,7 @@
    "info": {
     "id": "mdjBWK",
     "date": "1690217266",
-    "viewed": 253,
+    "viewed": 256,
     "name": "Triangle Barycentric Coordinates",
     "description": "This started as a 4 AM question: \"How do vertex attributes get interpolated in a fragment shader?\"\nThe Wikipedia page for Barycentric Coordinates was too complicated for me, so hopefully this is easier to und.\nhttps://www.desmos.com/calculator/8g8xjejuox\n",
     "likes": 3,
@@ -784,7 +784,7 @@
    "info": {
     "id": "msjfDt",
     "date": "1690292056",
-    "viewed": 307,
+    "viewed": 308,
     "name": "Moving White Point",
     "description": "Random experiment\n\n- Drag to move the white point",
     "likes": 7,
@@ -827,7 +827,7 @@
    "info": {
     "id": "mlscWr",
     "date": "1690662251",
-    "viewed": 382,
+    "viewed": 385,
     "name": "Blinn-Phong Shading",
     "description": "Sphere",
     "likes": 5,
@@ -872,7 +872,7 @@
    "info": {
     "id": "dlfcD8",
     "date": "1692139870",
-    "viewed": 310,
+    "viewed": 313,
     "name": "Path Tracing name already in use",
     "description": "Good old naive path tracing",
     "likes": 7,
@@ -1014,7 +1014,7 @@
    "info": {
     "id": "ctfcD7",
     "date": "1690805466",
-    "viewed": 156,
+    "viewed": 157,
     "name": "colorful thing",
     "description": "random shader (i was bored)",
     "likes": 3,
@@ -1056,7 +1056,7 @@
    "info": {
     "id": "mlsyDj",
     "date": "1691237601",
-    "viewed": 248,
+    "viewed": 250,
     "name": "Balls Simulated (updated)",
     "description": "This is my first physics simulation, and I just followed my gut, so feel free to comment on how this can be improved\n\nUpdate: Implemented suggestions by @fenix (no more jittering + general improvements)",
     "likes": 12,
@@ -1156,7 +1156,7 @@
    "info": {
     "id": "cl2cRD",
     "date": "1691530674",
-    "viewed": 88,
+    "viewed": 89,
     "name": "Fixed FPS Experiment",
     "description": "Adjusting the amount of computation in order to keep the FPS constant.\nMight take up to 20 seconds to reach the target FPS.\nDoesn't work well on my phone, probably because of 16 bit precision.",
     "likes": 1,
@@ -1231,7 +1231,7 @@
    "info": {
     "id": "mtScWm",
     "date": "1691841683",
-    "viewed": 322,
+    "viewed": 327,
     "name": "Blue Noise Dithering vs OETF 2.2",
     "description": "Try commenting out the OETF to see how the dithered version and the clean version don't match in brightness anymore",
     "likes": 11,
@@ -1282,7 +1282,7 @@
    "info": {
     "id": "mtjyDw",
     "date": "1691962447",
-    "viewed": 184,
+    "viewed": 186,
     "name": "1D Continuous Function Graphing",
     "description": "Basically sample points on the function and connect them with line segments",
     "likes": 6,
@@ -1340,7 +1340,7 @@
    "info": {
     "id": "cljczd",
     "date": "1692189706",
-    "viewed": 112,
+    "viewed": 114,
     "name": "Mod of 01000001's FXAA Shader",
     "description": "Original shader: https://www.shadertoy.com/view/mljyzc",
     "likes": 1,
@@ -1399,7 +1399,7 @@
    "info": {
     "id": "DljyDG",
     "date": "1692469704",
-    "viewed": 210,
+    "viewed": 213,
     "name": "Breathing Fractal",
     "description": "Drag to explore the complex universe!\n",
     "likes": 6,
@@ -1438,7 +1438,7 @@
    "info": {
     "id": "DtfBRn",
     "date": "1692473050",
-    "viewed": 143,
+    "viewed": 144,
     "name": "Deprecated: My 2nd Def. Shader",
     "description": "My starting point for new shaders (not anymore)\nnew one coming soon",
     "likes": 1,
@@ -1480,7 +1480,7 @@
    "info": {
     "id": "DlfBzN",
     "date": "1692651978",
-    "viewed": 175,
+    "viewed": 177,
     "name": "Square Fourier Transform?",
     "description": "What if we used square waves instead of (co)sine waves in Fourier transforms?\nSee sqsin() and sqcos() at the end of Common.\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the resolution in the Common tab.",
     "likes": 5,
@@ -1551,7 +1551,7 @@
    "info": {
     "id": "mlfBR4",
     "date": "1692737129",
-    "viewed": 175,
+    "viewed": 178,
     "name": "Boids + Packed Voronoi Tracking",
     "description": "Finally learned Voronoi Tracking, read the explanations in Buffer A.",
     "likes": 3,
@@ -1706,7 +1706,7 @@
    "info": {
     "id": "clXBW4",
     "date": "1692902788",
-    "viewed": 94,
+    "viewed": 96,
     "name": "Fork polygon :D beans_plea 404",
     "description": "challenge shader",
     "likes": 0,
@@ -1740,7 +1740,7 @@
    "info": {
     "id": "dlsBDM",
     "date": "1693112135",
-    "viewed": 236,
+    "viewed": 238,
     "name": "Inverse Square Fourier Transform",
     "description": "0 = Input\n1 = 2D FFT\n2 = Inverse FFT\n\nSee use_sq at the top of Common.",
     "likes": 3,
@@ -1867,7 +1867,7 @@
    "info": {
     "id": "mtlfRs",
     "date": "1693363623",
-    "viewed": 149,
+    "viewed": 150,
     "name": "Local Sorting Challenge",
     "description": "What's the fastest way to sort a local float array? (in practice this array will be different for each pixel)\nKeep in mind we can't use recursion or dynamic memory allocation unless we emulate them which would probably slow things down more.",
     "likes": 1,
@@ -1899,7 +1899,7 @@
    "info": {
     "id": "DtSfzR",
     "date": "1693654314",
-    "viewed": 289,
+    "viewed": 293,
     "name": "Beach (Volume Absorption)",
     "description": "More or less: [code]col *= pow(absorption_col, depth)[/code]",
     "likes": 6,
@@ -1934,7 +1934,7 @@
    "info": {
     "id": "ctjfDc",
     "date": "1694574459",
-    "viewed": 402,
+    "viewed": 411,
     "name": "Fork Discoteq 3 (+ flim)",
     "description": "Discoteq 3\nadded flim ( https://www.shadertoy.com/view/dd2yDz )",
     "likes": 8,
@@ -2021,7 +2021,7 @@
    "info": {
     "id": "DdcyRf",
     "date": "1695281747",
-    "viewed": 208,
+    "viewed": 210,
     "name": "Exponential Colormap",
     "description": "See the Desmos graphs, play with v",
     "likes": 7,
@@ -2053,7 +2053,7 @@
    "info": {
     "id": "ds3fDM",
     "date": "1697312887",
-    "viewed": 399,
+    "viewed": 418,
     "name": "XPBD Rope",
     "description": "Finally implemented XPBD!\nWatch this amazing video: https://youtube.com/watch?v=jrociOAYqxA\n\n* Drag to move the tail\n\n* Long ish compile time (22 seconds for me), so be patient\n\n* Does not work well on my phone, presumably because of 16-bit floats.",
     "likes": 19,
@@ -2140,7 +2140,7 @@
    "info": {
     "id": "DsGBDy",
     "date": "1698577359",
-    "viewed": 145,
+    "viewed": 146,
     "name": "angle in [0, 2pi)",
     "description": "the",
     "likes": 3,
@@ -2172,7 +2172,7 @@
    "info": {
     "id": "Mcf3Dj",
     "date": "1703544197",
-    "viewed": 223,
+    "viewed": 225,
     "name": "FBM Voronoi",
     "description": "i like voronoi",
     "likes": 2,
@@ -2217,7 +2217,7 @@
    "info": {
     "id": "4fSGzR",
     "date": "1705547653",
-    "viewed": 82,
+    "viewed": 87,
     "name": "FBM Perlin",
     "description": "i like perlin noise",
     "likes": 0,
@@ -2261,7 +2261,7 @@
    "info": {
     "id": "lf23zW",
     "date": "1736235885",
-    "viewed": 98,
+    "viewed": 102,
     "name": "🌟NOISE SHOW🌟",
     "description": "procedural noise",
     "likes": 4,
@@ -2306,7 +2306,7 @@
    "info": {
     "id": "lclXWs",
     "date": "1705932695",
-    "viewed": 189,
+    "viewed": 191,
     "name": "Quantum physics or something",
     "description": "Extremely slow, use shadertoy browser extension to increase the number of iters/frame (paint calls) to 512 ish with inspect element!\n\nHelp: How do I calculate max dt (before it breaks) based on the parameters?\n\nhttps://www.desmos.com/calculator/ery45h4dzl",
     "likes": 1,
@@ -2395,7 +2395,7 @@
    "info": {
     "id": "MXSXRm",
     "date": "1710373949",
-    "viewed": 251,
+    "viewed": 254,
     "name": "3D Function/Volume Visualizer",
     "description": "just raymarching through a box and averaging the values we sampled along the way\n",
     "likes": 11,
@@ -2532,7 +2532,7 @@
    "info": {
     "id": "lXBXWz",
     "date": "1710447505",
-    "viewed": 210,
+    "viewed": 212,
     "name": "8-bit Blue Noise Dithering",
     "description": "dithering",
     "likes": 3,
@@ -2584,7 +2584,7 @@
    "info": {
     "id": "XX2XDd",
     "date": "1711246176",
-    "viewed": 184,
+    "viewed": 187,
     "name": "Run at 120+ Hz if possible",
     "description": "Alternating between red and cyan, which looks gray. Try moving your eyes across the screen really quickly to see the pattern (in full screen).",
     "likes": 1,
@@ -2775,7 +2775,7 @@
    "info": {
     "id": "McdSzr",
     "date": "1713529681",
-    "viewed": 261,
+    "viewed": 267,
     "name": "Subpixel Anti-Aliasing",
     "description": "looks kinda weird tbh, am I doing something wrong?",
     "likes": 5,
@@ -2818,7 +2818,7 @@
    "info": {
     "id": "M3dGz8",
     "date": "1716107523",
-    "viewed": 94,
+    "viewed": 97,
     "name": "2x Temporal Upscaling",
     "description": "read my comments, the character limit is too low ..............................................................................................................................................................................................................",
     "likes": 1,
@@ -3216,7 +3216,7 @@
    "info": {
     "id": "lXy3zK",
     "date": "1717887783",
-    "viewed": 634,
+    "viewed": 654,
     "name": "Daft Punk (Audio Data Packing)",
     "description": "8-bit audio samples packed into ivec4 array(s) using a Python script, with some vinyl pixel art I made",
     "likes": 25,
@@ -3275,7 +3275,7 @@
    "info": {
     "id": "M3VGRK",
     "date": "1717936266",
-    "viewed": 240,
+    "viewed": 245,
     "name": "Attack-Decay-Sustain-Release",
     "description": "The ADSR curve is a fundamental tool used in all audio synthesizers.\nFeel free to play with the values (see custom_adsr_curve_1() in Common).\n\nRead more: [url]https://en.wikipedia.org/wiki/Envelope_(music)[/url]\n",
     "likes": 10,
@@ -3324,7 +3324,7 @@
    "info": {
     "id": "X3y3Rc",
     "date": "1717962362",
-    "viewed": 129,
+    "viewed": 133,
     "name": "Bean's Starting Point",
     "description": "Helper functions/structs/defines divided into sections.\nUse whichever section(s) you need:\n- math & integer utils\n- pseudo-random number generator\n- keyboard\n- flim\n",
     "likes": 0,
@@ -3408,7 +3408,7 @@
    "info": {
     "id": "M3tXWn",
     "date": "1718891537",
-    "viewed": 706,
+    "viewed": 711,
     "name": "Digital Logic Simulation",
     "description": "[url=https://www.shadertoy.com/view/X33XDN]UPDATE: NEW VERSION[/url]\nSee the first comment for tutorial and description.\n",
     "likes": 49,
@@ -3673,7 +3673,7 @@
    "info": {
     "id": "X33XDN",
     "date": "1719435553",
-    "viewed": 670,
+    "viewed": 680,
     "name": "DLS + Wire Cross + Clock + Rot",
     "description": "See the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\n",
     "likes": 27,
@@ -4070,7 +4070,7 @@
    "info": {
     "id": "M3ySRK",
     "date": "1720202475",
-    "viewed": 648,
+    "viewed": 666,
     "name": "Parallax Occlusion Mapping X",
     "description": "layer count depends on the ray-surface angle\n",
     "likes": 23,
@@ -4148,7 +4148,7 @@
    "info": {
     "id": "XcBBWW",
     "date": "1724905810",
-    "viewed": 168,
+    "viewed": 175,
     "name": "Follow Edge Antialiasing? (Bad)",
     "description": "[url=https://www.shadertoy.com/view/M33cD7]SEE BETTER VERSION[/url]\nidk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison\n",
     "likes": 2,
@@ -4262,7 +4262,7 @@
    "info": {
     "id": "MfjBDV",
     "date": "1725542638",
-    "viewed": 103,
+    "viewed": 105,
     "name": "Pretty Colormap (-1, +1)",
     "description": "See the Desmos graphs, play with v",
     "likes": 6,
@@ -4405,7 +4405,7 @@
    "info": {
     "id": "XXlBDH",
     "date": "1728333908",
-    "viewed": 129,
+    "viewed": 130,
     "name": "Diffraction Through 5 Slits",
     "description": "inspired by 3b1b's new video",
     "likes": 4,
@@ -4511,7 +4511,7 @@
    "info": {
     "id": "4cVcR1",
     "date": "1731504376",
-    "viewed": 134,
+    "viewed": 141,
     "name": "Color Transformation Utilities",
     "description": "The \"Image\" tab simply alternates between mixing different colors in Oklab vs Linear BT.709 I-D65.\n\nThe \"Common\" tab contains transformations for common gamuts, white points, and transfer functions. Also includes Oklab.\n",
     "likes": 4,
@@ -4594,7 +4594,7 @@
    "info": {
     "id": "lctBRn",
     "date": "1732646179",
-    "viewed": 188,
+    "viewed": 193,
     "name": "Springy Ball (Pos Vel Acc Jerk)",
     "description": "drag mouse.\nplay with INTEGRATION_MODE in Buffer A.",
     "likes": 5,
@@ -4686,10 +4686,10 @@
    "info": {
     "id": "4cyfRV",
     "date": "1734325673",
-    "viewed": 3640,
+    "viewed": 3769,
     "name": "Neural Cat",
     "description": "deep neural network trained to produce cat meme video",
-    "likes": 35,
+    "likes": 36,
     "published": "Public API",
     "usePreview": 1,
     "tags": [
@@ -4733,7 +4733,7 @@
    "info": {
     "id": "XX3cRn",
     "date": "1734644701",
-    "viewed": 243,
+    "viewed": 260,
     "name": "Film Halation",
     "description": "film halation",
     "likes": 9,
@@ -4819,10 +4819,10 @@
    "info": {
     "id": "M33cD7",
     "date": "1735165058",
-    "viewed": 151,
+    "viewed": 158,
     "name": "FXAA-ish",
     "description": "idk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison",
-    "likes": 2,
+    "likes": 3,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -4897,10 +4897,10 @@
    "info": {
     "id": "lX3cD7",
     "date": "1735261091",
-    "viewed": 174,
+    "viewed": 183,
     "name": "Film Emulation",
     "description": "Full on film emulation. Detailed explanation in the Common tab + comments throughout the code.",
-    "likes": 8,
+    "likes": 9,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -5080,7 +5080,7 @@
    "info": {
     "id": "XXcyDB",
     "date": "1735546355",
-    "viewed": 188,
+    "viewed": 214,
     "name": "Fork Fractal Explorer (+flim)",
     "description": " More fractal fun! This time with a single pass depth of field effect. MOUSE DRAG to turn WASD & cursor keys to move. SHIFT for speed up. SPACE for another speed up!\n",
     "likes": 1,
@@ -5249,7 +5249,7 @@
    "info": {
     "id": "lXGyDR",
     "date": "1736145027",
-    "viewed": 124,
+    "viewed": 127,
     "name": "Interleaved Gradient Noise ‌‍",
     "description": "Low discrepancy or something. I copied the formula form some article, I don't know how it's actually derived.",
     "likes": 3,
@@ -5316,7 +5316,7 @@
    "info": {
     "id": "X3KcDh",
     "date": "1736180148",
-    "viewed": 95,
+    "viewed": 97,
     "name": "High Pass White Noise (Failed)",
     "description": "failed attempt to get blue noise from white noise\n\nsuccessful attempt: [url]https://www.shadertoy.com/view/lXycWt[/url]",
     "likes": 3,
@@ -5364,7 +5364,7 @@
    "info": {
     "id": "MXGyDD",
     "date": "1736256150",
-    "viewed": 178,
+    "viewed": 181,
     "name": "Perlinary",
     "description": "procedural noise",
     "likes": 11,
@@ -5455,7 +5455,7 @@
    "info": {
     "id": "lXycWt",
     "date": "1736801004",
-    "viewed": 129,
+    "viewed": 134,
     "name": "Getting Blue Noise from White",
     "description": "high passing white noise to get blue noise. one important detail is that you should map the original input from [0, 1] to [-1, +1] by performing [code](x * 2. - 1.)[/code] and undo it at the very end by doing [code](x * .5 + .5)[/code]",
     "likes": 6,
@@ -5626,7 +5626,7 @@
    "info": {
     "id": "MX3BR8",
     "date": "1736931744",
-    "viewed": 174,
+    "viewed": 181,
     "name": "Single Function Semi Blue Noise",
     "description": "Convolution with a white noise.\n\nHold mouse to see Shadertoy's default blue noise texture.",
     "likes": 9,
@@ -6263,12 +6263,12 @@
    "ver": "0.1",
    "info": {
     "id": "lXGfWt",
-    "date": "0",
-    "viewed": 0,
+    "date": "1745672318",
+    "viewed": 83,
     "name": "Pause Menu Background Effect",
     "description": "proof of concept for an idea I had for a pause menu background effect to use in video games",
-    "likes": 0,
-    "published": "Private",
+    "likes": 5,
+    "published": "Public API",
     "usePreview": 0,
     "tags": [
      "utility",
@@ -6314,7 +6314,7 @@
        "channel": 0
       }
      ],
-     "code": "#define CH_INPUT iChannel0\n#define CH_BLUE_NOISE iChannel1\n\n#define ENABLE_COLOR_ADJUSTMENTS 1\n\n// ASC CDL color grading\n// https://en.wikipedia.org/wiki/ASC_CDL\nvec3 asc_cdl(vec3 col, vec3 slope, vec3 offset, vec3 power)\n{\n    return pow(max(col, 0.) * slope + offset, power);\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    ivec2 icoord = ivec2(frag_coord);\n\n    // take maximum RGB values in a circle around every pixel\n    float radius = .005 * min(iResolution.x, iResolution.y);\n    int iradius = int(ceil(radius));\n    vec3 col = vec3(0);\n    for (int y_offs = -iradius; y_offs <= iradius; y_offs++)\n    {\n        for (int x_offs = -iradius; x_offs <= iradius; x_offs++)\n        {\n            float weight = remap01(length(vec2(x_offs, y_offs)), radius, .75 * radius);\n            col = max(col, weight * texelFetch(CH_INPUT, icoord + ivec2(x_offs, y_offs), 0).rgb);\n        }\n    }\n\n    // color grading\n    #if ENABLE_COLOR_ADJUSTMENTS\n    col = asc_cdl(\n        col,\n        vec3(.2, .5, 1),\n        vec3(0, .01, 0),\n        vec3(.97, 1, 1)\n    );\n    #endif\n    \n    // flim\n    const float exposure = 0.;\n    col = flim_transform(col, exposure, false);\n    \n    // darken\n    #if ENABLE_COLOR_ADJUSTMENTS\n    col *= .5;\n    #endif\n\n    // OETF (Linear BT.709 I-D65 to sRGB 2.2)\n    col = pow(col, vec3(1. / 2.2));\n    col = clamp(col, 0., 1.);\n\n    // blue noise dithering\n    float bn = texelFetch(\n        CH_BLUE_NOISE,\n        ivec2(frag_coord) % textureSize(CH_BLUE_NOISE, 0),\n        0\n    ).x * 2. - 1.;\n    col = clamp(col + bn / 254., 0., 1.);\n\n    // output\n    frag_col = vec4(col, 1);\n}\n",
+     "code": "#define CH_INPUT iChannel0\n#define CH_BLUE_NOISE iChannel1\n\n#define ENABLE_COLOR_ADJUSTMENTS 1\n\n// ASC CDL color grading\n// https://en.wikipedia.org/wiki/ASC_CDL\nvec3 asc_cdl(vec3 col, vec3 slope, vec3 offset, vec3 power)\n{\n    return pow(max(col, 0.) * slope + offset, power);\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    ivec2 icoord = ivec2(frag_coord);\n\n    // take maximum RGB values in a circle around every pixel\n    float radius = .005 * min(iResolution.x, iResolution.y);\n    int iradius = int(ceil(radius));\n    vec3 col = vec3(0);\n    for (int y_offs = -iradius; y_offs <= iradius; y_offs++)\n    {\n        for (int x_offs = -iradius; x_offs <= iradius; x_offs++)\n        {\n            float weight = remap01(length(vec2(x_offs, y_offs)), radius, .75 * radius);\n            col = max(col, weight * texelFetch(CH_INPUT, icoord + ivec2(x_offs, y_offs), 0).rgb);\n        }\n    }\n\n    // color grading\n    #if ENABLE_COLOR_ADJUSTMENTS\n    col = asc_cdl(\n        col,\n        vec3(.11, .38, 1),\n        vec3(0, .01, 0),\n        vec3(.97, 1, 1)\n    );\n    #endif\n    \n    // flim\n    const float exposure = 0.;\n    col = flim_transform(col, exposure, false);\n    \n    // darken\n    #if ENABLE_COLOR_ADJUSTMENTS\n    col *= .8;\n    #endif\n\n    // OETF (Linear BT.709 I-D65 to sRGB 2.2)\n    col = pow(col, vec3(1. / 2.2));\n    col = clamp(col, 0., 1.);\n\n    // blue noise dithering\n    float bn = texelFetch(\n        CH_BLUE_NOISE,\n        ivec2(frag_coord) % textureSize(CH_BLUE_NOISE, 0),\n        0\n    ).x * 2. - 1.;\n    col = clamp(col + bn / 254., 0., 1.);\n\n    // output\n    frag_col = vec4(col, 1);\n}\n",
      "name": "Image",
      "description": "",
      "type": "image"
@@ -6350,7 +6350,7 @@
        "channel": 0
       }
      ],
-     "code": "// this buffer \"erodes\" the input texture horizontally, meaning\n// it takes the minimum RGB values of the N horizontal neighbors\n// on each side.\n\n#define CH_INPUT iChannel0\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    ivec2 icoord = ivec2(frag_coord);\n    \n    int radius = int(ceil(.02 * min(iResolution.x, iResolution.y)));\n    vec3 col = vec3(1000);\n    for (int x_offs = -radius; x_offs <= radius; x_offs++)\n    {\n        col = min(\n            col,\n            fetch_fake_hdr(CH_INPUT, icoord + ivec2(x_offs, 0))\n        );\n    }\n\n    frag_col = vec4(col, 1);\n}\n",
+     "code": "// this buffer \"erodes\" the input texture horizontally, meaning\n// it takes the minimum RGB values of the N horizontal neighbors\n// on each side.\n\n#define CH_INPUT iChannel0\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    ivec2 icoord = ivec2(frag_coord);\n    \n    int radius = int(ceil(.025 * min(iResolution.x, iResolution.y)));\n    vec3 col = vec3(1000);\n    for (int x_offs = -radius; x_offs <= radius; x_offs++)\n    {\n        col = min(\n            col,\n            fetch_fake_hdr(CH_INPUT, icoord + ivec2(x_offs, 0))\n        );\n    }\n\n    frag_col = vec4(col, 1);\n}\n",
      "name": "Buffer A",
      "description": "",
      "type": "buffer"
@@ -6378,7 +6378,7 @@
        "channel": 0
       }
      ],
-     "code": "// this buffer \"dilates\" the input texture vertically, meaning it\n// takes the maximum RGB values of the N vertical neighbors on\n// each side.\n\n#define CH_INPUT iChannel0\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    ivec2 icoord = ivec2(frag_coord);\n    \n    int radius = int(ceil(.02 * min(iResolution.x, iResolution.y)));\n    vec3 col = vec3(0);\n    for (int y_offs = -radius; y_offs <= radius; y_offs++)\n    {\n        col = max(\n            col,\n            fetch_fake_hdr(CH_INPUT, icoord + ivec2(0, y_offs))\n        );\n    }\n\n    frag_col = vec4(col, 1);\n}\n",
+     "code": "// this buffer \"dilates\" the input texture vertically, meaning it\n// takes the maximum RGB values of the N vertical neighbors on\n// each side.\n\n#define CH_INPUT iChannel0\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    ivec2 icoord = ivec2(frag_coord);\n    \n    int radius = int(ceil(.025 * min(iResolution.x, iResolution.y)));\n    vec3 col = vec3(0);\n    for (int y_offs = -radius; y_offs <= radius; y_offs++)\n    {\n        col = max(\n            col,\n            fetch_fake_hdr(CH_INPUT, icoord + ivec2(0, y_offs))\n        );\n    }\n\n    frag_col = vec4(col, 1);\n}\n",
      "name": "Buffer B",
      "description": "",
      "type": "buffer"
@@ -6432,7 +6432,7 @@
    "info": {
     "id": "WcsSRH",
     "date": "1740643773",
-    "viewed": 73,
+    "viewed": 77,
     "name": "Subpixel Anti-Aliasing 2",
     "description": "looks kinda weird tbh, am I doing something wrong?",
     "likes": 3,
@@ -6475,7 +6475,7 @@
    "info": {
     "id": "3clXzN",
     "date": "1740690643",
-    "viewed": 97,
+    "viewed": 103,
     "name": "smooth downscale without mipmap",
     "description": "needed this for a project",
     "likes": 0,
@@ -6523,7 +6523,7 @@
    "info": {
     "id": "3cSSRR",
     "date": "1741469568",
-    "viewed": 80,
+    "viewed": 83,
     "name": "Double-Pass DFT",
     "description": "2D Discrete Fourier Transform\n\nhold mouse to see input\n",
     "likes": 5,
