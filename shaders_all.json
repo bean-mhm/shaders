@@ -1,14 +1,14 @@
 {
  "userName": "beans_please",
- "date": "2025-05-26T20:25:17.918Z",
- "numShaders": 83,
+ "date": "2025-06-11T11:08:49.667Z",
+ "numShaders": 85,
  "shaders": [
   {
    "ver": "0.1",
    "info": {
     "id": "dsjcRR",
     "date": "1687371539",
-    "viewed": 468,
+    "viewed": 470,
     "name": "PBR with Ray Marching (WIP)",
     "description": "* Drag -> Look around\n* WASD -> Move\n* Shift -> Sprint\n* Alt -> Stealth?\n* R -> Reset\n",
     "likes": 7,
@@ -162,10 +162,10 @@
    "info": {
     "id": "dd2yDz",
     "date": "1687622059",
-    "viewed": 841,
+    "viewed": 854,
     "name": "flim - Filmic Color Transform",
     "description": "Experimental Port of flim (Film Emulation Transform)\n\nOriginal Repo:\nhttps://github.com/bean-mhm/flim\n",
-    "likes": 18,
+    "likes": 19,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -206,7 +206,7 @@
    "info": {
     "id": "mdScW1",
     "date": "1687653267",
-    "viewed": 406,
+    "viewed": 414,
     "name": "Interactive 2D Wave Simulation",
     "description": "*Drag your mouse, make a spiral or something.\n\nThis is a port of my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py\n",
     "likes": 6,
@@ -342,7 +342,7 @@
    "info": {
     "id": "md2yWh",
     "date": "1687678448",
-    "viewed": 175,
+    "viewed": 178,
     "name": "experimenting with colormaps",
     "description": "will use this in another shader of mine",
     "likes": 4,
@@ -374,7 +374,7 @@
    "info": {
     "id": "mdByWW",
     "date": "1687704350",
-    "viewed": 187,
+    "viewed": 189,
     "name": "Discrete Land",
     "description": "Playing with integer coordinates",
     "likes": 6,
@@ -417,10 +417,10 @@
    "info": {
     "id": "mdBcz3",
     "date": "1688036284",
-    "viewed": 567,
+    "viewed": 574,
     "name": "3D Wave Simulation",
     "description": "Check out my Interactive 2D Wave Simulation:\nhttps://www.shadertoy.com/view/mdScW1\n\nCheck out my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py",
-    "likes": 23,
+    "likes": 24,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -572,7 +572,7 @@
    "info": {
     "id": "csjfDh",
     "date": "1689671017",
-    "viewed": 211,
+    "viewed": 214,
     "name": "2D Occlusion Test",
     "description": "Drag to move the middle circle",
     "likes": 5,
@@ -614,7 +614,7 @@
    "info": {
     "id": "cdjfRc",
     "date": "1689964097",
-    "viewed": 94,
+    "viewed": 96,
     "name": "Deprecated,Bean's Default Shader",
     "description": "- My starting point for a new shader.\n\n- Helper \"modules\" can be enabled/disabled separately in the Common tab.\n\n- Each tab starts with a description of itself to make it easier to store local backups.\n\n- Feel free to copy and reuse.  :)",
     "likes": 2,
@@ -669,7 +669,7 @@
    "info": {
     "id": "dsjBDy",
     "date": "1690140863",
-    "viewed": 600,
+    "viewed": 610,
     "name": "2D Fourier Transform",
     "description": "(Not so fast) 2D Fourier Transform implemented in glsl\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the FFT resolution in the Common tab.",
     "likes": 3,
@@ -738,7 +738,7 @@
    "info": {
     "id": "mdjBWK",
     "date": "1690217266",
-    "viewed": 264,
+    "viewed": 269,
     "name": "Triangle Barycentric Coordinates",
     "description": "This started as a 4 AM question: \"How do vertex attributes get interpolated in a fragment shader?\"\nThe Wikipedia page for Barycentric Coordinates was too complicated for me, so hopefully this is easier to und.\nhttps://www.desmos.com/calculator/8g8xjejuox\n",
     "likes": 3,
@@ -784,7 +784,7 @@
    "info": {
     "id": "msjfDt",
     "date": "1690292056",
-    "viewed": 310,
+    "viewed": 312,
     "name": "Moving White Point",
     "description": "Random experiment\n\n- Drag to move the white point",
     "likes": 7,
@@ -827,7 +827,7 @@
    "info": {
     "id": "mlscWr",
     "date": "1690662251",
-    "viewed": 388,
+    "viewed": 390,
     "name": "Blinn-Phong Shading",
     "description": "Sphere",
     "likes": 5,
@@ -872,7 +872,7 @@
    "info": {
     "id": "dlfcD8",
     "date": "1692139870",
-    "viewed": 316,
+    "viewed": 319,
     "name": "Path Tracing name already in use",
     "description": "Good old naive path tracing",
     "likes": 7,
@@ -1014,7 +1014,7 @@
    "info": {
     "id": "ctfcD7",
     "date": "1690805466",
-    "viewed": 159,
+    "viewed": 161,
     "name": "colorful thing",
     "description": "random shader (i was bored)",
     "likes": 3,
@@ -1056,7 +1056,7 @@
    "info": {
     "id": "mlsyDj",
     "date": "1691237601",
-    "viewed": 254,
+    "viewed": 257,
     "name": "Balls Simulated (updated)",
     "description": "This is my first physics simulation, and I just followed my gut, so feel free to comment on how this can be improved\n\nUpdate: Implemented suggestions by @fenix (no more jittering + general improvements)",
     "likes": 12,
@@ -1156,7 +1156,7 @@
    "info": {
     "id": "cl2cRD",
     "date": "1691530674",
-    "viewed": 90,
+    "viewed": 92,
     "name": "Fixed FPS Experiment",
     "description": "Adjusting the amount of computation in order to keep the FPS constant.\nMight take up to 20 seconds to reach the target FPS.\nDoesn't work well on my phone, probably because of 16 bit precision.",
     "likes": 1,
@@ -1231,7 +1231,7 @@
    "info": {
     "id": "mtScWm",
     "date": "1691841683",
-    "viewed": 330,
+    "viewed": 335,
     "name": "Blue Noise Dithering vs OETF 2.2",
     "description": "Try commenting out the OETF to see how the dithered version and the clean version don't match in brightness anymore",
     "likes": 11,
@@ -1282,7 +1282,7 @@
    "info": {
     "id": "mtjyDw",
     "date": "1691962447",
-    "viewed": 191,
+    "viewed": 195,
     "name": "1D Continuous Function Graphing",
     "description": "Basically sample points on the function and connect them with line segments",
     "likes": 6,
@@ -1340,7 +1340,7 @@
    "info": {
     "id": "cljczd",
     "date": "1692189706",
-    "viewed": 115,
+    "viewed": 116,
     "name": "Mod of 01000001's FXAA Shader",
     "description": "Original shader: https://www.shadertoy.com/view/mljyzc",
     "likes": 1,
@@ -1399,7 +1399,7 @@
    "info": {
     "id": "DljyDG",
     "date": "1692469704",
-    "viewed": 214,
+    "viewed": 217,
     "name": "Breathing Fractal",
     "description": "Drag to explore the complex universe!\n",
     "likes": 6,
@@ -1438,7 +1438,7 @@
    "info": {
     "id": "DtfBRn",
     "date": "1692473050",
-    "viewed": 145,
+    "viewed": 147,
     "name": "Deprecated: My 2nd Def. Shader",
     "description": "My starting point for new shaders (not anymore)\nnew one coming soon",
     "likes": 1,
@@ -1480,7 +1480,7 @@
    "info": {
     "id": "DlfBzN",
     "date": "1692651978",
-    "viewed": 180,
+    "viewed": 182,
     "name": "Square Fourier Transform?",
     "description": "What if we used square waves instead of (co)sine waves in Fourier transforms?\nSee sqsin() and sqcos() at the end of Common.\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the resolution in the Common tab.",
     "likes": 5,
@@ -1551,7 +1551,7 @@
    "info": {
     "id": "mlfBR4",
     "date": "1692737129",
-    "viewed": 180,
+    "viewed": 182,
     "name": "Boids + Packed Voronoi Tracking",
     "description": "Finally learned Voronoi Tracking, read the explanations in Buffer A.",
     "likes": 3,
@@ -1706,7 +1706,7 @@
    "info": {
     "id": "clXBW4",
     "date": "1692902788",
-    "viewed": 98,
+    "viewed": 100,
     "name": "Fork polygon :D beans_plea 404",
     "description": "challenge shader",
     "likes": 0,
@@ -1740,7 +1740,7 @@
    "info": {
     "id": "dlsBDM",
     "date": "1693112135",
-    "viewed": 239,
+    "viewed": 243,
     "name": "Inverse Square Fourier Transform",
     "description": "0 = Input\n1 = 2D FFT\n2 = Inverse FFT\n\nSee use_sq at the top of Common.",
     "likes": 3,
@@ -1867,7 +1867,7 @@
    "info": {
     "id": "mtlfRs",
     "date": "1693363623",
-    "viewed": 152,
+    "viewed": 154,
     "name": "Local Sorting Challenge",
     "description": "What's the fastest way to sort a local float array? (in practice this array will be different for each pixel)\nKeep in mind we can't use recursion or dynamic memory allocation unless we emulate them which would probably slow things down more.",
     "likes": 1,
@@ -1899,7 +1899,7 @@
    "info": {
     "id": "DtSfzR",
     "date": "1693654314",
-    "viewed": 299,
+    "viewed": 303,
     "name": "Beach (Volume Absorption)",
     "description": "More or less: [code]col *= pow(absorption_col, depth)[/code]",
     "likes": 6,
@@ -1934,7 +1934,7 @@
    "info": {
     "id": "ctjfDc",
     "date": "1694574459",
-    "viewed": 417,
+    "viewed": 423,
     "name": "Fork Discoteq 3 (+ flim)",
     "description": "Discoteq 3\nadded flim ( https://www.shadertoy.com/view/dd2yDz )",
     "likes": 9,
@@ -2021,7 +2021,7 @@
    "info": {
     "id": "DdcyRf",
     "date": "1695281747",
-    "viewed": 212,
+    "viewed": 216,
     "name": "Exponential Colormap",
     "description": "See the Desmos graphs, play with v",
     "likes": 7,
@@ -2053,7 +2053,7 @@
    "info": {
     "id": "ds3fDM",
     "date": "1697312887",
-    "viewed": 433,
+    "viewed": 438,
     "name": "XPBD Rope",
     "description": "Finally implemented XPBD!\nWatch this amazing video: https://youtube.com/watch?v=jrociOAYqxA\n\n* Drag to move the tail\n\n* Long ish compile time (22 seconds for me), so be patient\n\n* Does not work well on my phone, presumably because of 16-bit floats.",
     "likes": 19,
@@ -2140,7 +2140,7 @@
    "info": {
     "id": "DsGBDy",
     "date": "1698577359",
-    "viewed": 148,
+    "viewed": 151,
     "name": "angle in [0, 2pi)",
     "description": "the",
     "likes": 3,
@@ -2172,7 +2172,7 @@
    "info": {
     "id": "Mcf3Dj",
     "date": "1703544197",
-    "viewed": 227,
+    "viewed": 230,
     "name": "FBM Voronoi",
     "description": "i like voronoi",
     "likes": 2,
@@ -2217,7 +2217,7 @@
    "info": {
     "id": "4fSGzR",
     "date": "1705547653",
-    "viewed": 88,
+    "viewed": 91,
     "name": "FBM Perlin",
     "description": "i like perlin noise",
     "likes": 0,
@@ -2261,7 +2261,7 @@
    "info": {
     "id": "lf23zW",
     "date": "1736235885",
-    "viewed": 105,
+    "viewed": 108,
     "name": "🌟NOISE SHOW🌟",
     "description": "procedural noise",
     "likes": 4,
@@ -2306,7 +2306,7 @@
    "info": {
     "id": "lclXWs",
     "date": "1705932695",
-    "viewed": 197,
+    "viewed": 200,
     "name": "Quantum physics or something",
     "description": "Extremely slow, use shadertoy browser extension to increase the number of iters/frame (paint calls) to 512 ish with inspect element!\n\nHelp: How do I calculate max dt (before it breaks) based on the parameters?\n\nhttps://www.desmos.com/calculator/ery45h4dzl",
     "likes": 1,
@@ -2395,7 +2395,7 @@
    "info": {
     "id": "MXSXRm",
     "date": "1710373949",
-    "viewed": 257,
+    "viewed": 263,
     "name": "3D Function/Volume Visualizer",
     "description": "just raymarching through a box and averaging the values we sampled along the way\n",
     "likes": 11,
@@ -2532,7 +2532,7 @@
    "info": {
     "id": "lXBXWz",
     "date": "1710447505",
-    "viewed": 216,
+    "viewed": 218,
     "name": "8-bit Blue Noise Dithering",
     "description": "dithering",
     "likes": 3,
@@ -2584,7 +2584,7 @@
    "info": {
     "id": "XX2XDd",
     "date": "1711246176",
-    "viewed": 188,
+    "viewed": 191,
     "name": "Run at 120+ Hz if possible",
     "description": "Alternating between red and cyan, which looks gray. Try moving your eyes across the screen really quickly to see the pattern (in full screen).",
     "likes": 1,
@@ -2775,7 +2775,7 @@
    "info": {
     "id": "McdSzr",
     "date": "1713529681",
-    "viewed": 269,
+    "viewed": 274,
     "name": "Subpixel Anti-Aliasing",
     "description": "looks kinda weird tbh, am I doing something wrong?",
     "likes": 5,
@@ -2818,7 +2818,7 @@
    "info": {
     "id": "M3dGz8",
     "date": "1716107523",
-    "viewed": 100,
+    "viewed": 104,
     "name": "2x Temporal Upscaling",
     "description": "read my comments, the character limit is too low ..............................................................................................................................................................................................................",
     "likes": 1,
@@ -3216,7 +3216,7 @@
    "info": {
     "id": "lXy3zK",
     "date": "1717887783",
-    "viewed": 668,
+    "viewed": 675,
     "name": "Daft Punk (Audio Data Packing)",
     "description": "8-bit audio samples packed into ivec4 array(s) using a Python script, with some vinyl pixel art I made",
     "likes": 26,
@@ -3275,10 +3275,10 @@
    "info": {
     "id": "M3VGRK",
     "date": "1717936266",
-    "viewed": 253,
+    "viewed": 258,
     "name": "Attack-Decay-Sustain-Release",
     "description": "The ADSR curve is a fundamental tool used in all audio synthesizers.\nFeel free to play with the values (see custom_adsr_curve_1() in Common).\n\nRead more: [url]https://en.wikipedia.org/wiki/Envelope_(music)[/url]\n",
-    "likes": 10,
+    "likes": 11,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -3324,7 +3324,7 @@
    "info": {
     "id": "X3y3Rc",
     "date": "1717962362",
-    "viewed": 144,
+    "viewed": 151,
     "name": "Bean's Starting Point",
     "description": "Helper functions/structs/defines divided into sections.\nUse whichever section(s) you need:\n- math & integer utils\n- pseudo-random number generator\n- keyboard\n- flim\n",
     "likes": 0,
@@ -3408,10 +3408,10 @@
    "info": {
     "id": "M3tXWn",
     "date": "1718891537",
-    "viewed": 717,
+    "viewed": 724,
     "name": "Digital Logic Simulation",
     "description": "[url=https://www.shadertoy.com/view/X33XDN]UPDATE: NEW VERSION[/url]\nSee the first comment for tutorial and description.\n",
-    "likes": 49,
+    "likes": 50,
     "published": "Public API",
     "usePreview": 1,
     "tags": [
@@ -3673,7 +3673,7 @@
    "info": {
     "id": "X33XDN",
     "date": "1719435553",
-    "viewed": 694,
+    "viewed": 703,
     "name": "DLS + Wire Cross + Clock + Rot",
     "description": "See the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\n",
     "likes": 27,
@@ -4070,10 +4070,10 @@
    "info": {
     "id": "M3ySRK",
     "date": "1720202475",
-    "viewed": 711,
+    "viewed": 734,
     "name": "Parallax Occlusion Mapping X",
     "description": "layer count depends on the ray-surface angle\n",
-    "likes": 24,
+    "likes": 25,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -4148,7 +4148,7 @@
    "info": {
     "id": "XcBBWW",
     "date": "1724905810",
-    "viewed": 181,
+    "viewed": 196,
     "name": "Follow Edge Antialiasing? (Bad)",
     "description": "[url=https://www.shadertoy.com/view/M33cD7]SEE BETTER VERSION[/url]\nidk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison\n",
     "likes": 2,
@@ -4262,7 +4262,7 @@
    "info": {
     "id": "MfjBDV",
     "date": "1725542638",
-    "viewed": 106,
+    "viewed": 111,
     "name": "Pretty Colormap (-1, +1)",
     "description": "See the Desmos graphs, play with v",
     "likes": 6,
@@ -4405,10 +4405,10 @@
    "info": {
     "id": "XXlBDH",
     "date": "1728333908",
-    "viewed": 132,
+    "viewed": 139,
     "name": "Diffraction Through 5 Slits",
     "description": "inspired by 3b1b's new video",
-    "likes": 4,
+    "likes": 5,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -4511,7 +4511,7 @@
    "info": {
     "id": "4cVcR1",
     "date": "1731504376",
-    "viewed": 146,
+    "viewed": 153,
     "name": "Color Transformation Utilities",
     "description": "The \"Image\" tab simply alternates between mixing different colors in Oklab vs Linear BT.709 I-D65.\n\nThe \"Common\" tab contains transformations for common gamuts, white points, and transfer functions. Also includes Oklab.\n",
     "likes": 4,
@@ -4594,7 +4594,7 @@
    "info": {
     "id": "lctBRn",
     "date": "1732646179",
-    "viewed": 195,
+    "viewed": 199,
     "name": "Springy Ball (Pos Vel Acc Jerk)",
     "description": "drag mouse.\nplay with INTEGRATION_MODE in Buffer A.",
     "likes": 5,
@@ -4686,10 +4686,10 @@
    "info": {
     "id": "4cyfRV",
     "date": "1734325673",
-    "viewed": 3881,
+    "viewed": 3943,
     "name": "Neural Cat",
     "description": "deep neural network trained to produce cat meme video",
-    "likes": 38,
+    "likes": 39,
     "published": "Public API",
     "usePreview": 1,
     "tags": [
@@ -4733,7 +4733,7 @@
    "info": {
     "id": "XX3cRn",
     "date": "1734644701",
-    "viewed": 291,
+    "viewed": 308,
     "name": "Film Halation",
     "description": "film halation",
     "likes": 9,
@@ -4819,7 +4819,7 @@
    "info": {
     "id": "M33cD7",
     "date": "1735165058",
-    "viewed": 166,
+    "viewed": 176,
     "name": "FXAA-ish",
     "description": "idk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison",
     "likes": 3,
@@ -4897,10 +4897,10 @@
    "info": {
     "id": "lX3cD7",
     "date": "1735261091",
-    "viewed": 195,
+    "viewed": 205,
     "name": "Film Emulation",
     "description": "Full on film emulation. Detailed explanation in the Common tab + comments throughout the code.",
-    "likes": 9,
+    "likes": 10,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -5080,7 +5080,7 @@
    "info": {
     "id": "XXcyDB",
     "date": "1735546355",
-    "viewed": 239,
+    "viewed": 252,
     "name": "Fork Fractal Explorer (+flim)",
     "description": " More fractal fun! This time with a single pass depth of field effect. MOUSE DRAG to turn WASD & cursor keys to move. SHIFT for speed up. SPACE for another speed up!\n",
     "likes": 1,
@@ -5249,7 +5249,7 @@
    "info": {
     "id": "lXGyDR",
     "date": "1736145027",
-    "viewed": 137,
+    "viewed": 142,
     "name": "Interleaved Gradient Noise ‌‍",
     "description": "Low discrepancy or something. I copied the formula form some article, I don't know how it's actually derived.",
     "likes": 3,
@@ -5316,7 +5316,7 @@
    "info": {
     "id": "X3KcDh",
     "date": "1736180148",
-    "viewed": 99,
+    "viewed": 101,
     "name": "High Pass White Noise (Failed)",
     "description": "failed attempt to get blue noise from white noise\n\nsuccessful attempt: [url]https://www.shadertoy.com/view/lXycWt[/url]",
     "likes": 3,
@@ -5364,7 +5364,7 @@
    "info": {
     "id": "MXGyDD",
     "date": "1736256150",
-    "viewed": 187,
+    "viewed": 190,
     "name": "Perlinary",
     "description": "procedural noise",
     "likes": 11,
@@ -5455,7 +5455,7 @@
    "info": {
     "id": "lXycWt",
     "date": "1736801004",
-    "viewed": 136,
+    "viewed": 139,
     "name": "Getting Blue Noise from White",
     "description": "high passing white noise to get blue noise. one important detail is that you should map the original input from [0, 1] to [-1, +1] by performing [code](x * 2. - 1.)[/code] and undo it at the very end by doing [code](x * .5 + .5)[/code]",
     "likes": 6,
@@ -5626,7 +5626,7 @@
    "info": {
     "id": "MX3BR8",
     "date": "1736931744",
-    "viewed": 187,
+    "viewed": 190,
     "name": "Single Function Semi Blue Noise",
     "description": "Convolution with a white noise.\n\nHold mouse to see Shadertoy's default blue noise texture.",
     "likes": 9,
@@ -6264,7 +6264,7 @@
    "info": {
     "id": "lXGfWt",
     "date": "1745672318",
-    "viewed": 106,
+    "viewed": 109,
     "name": "Pause Menu Background Effect",
     "description": "proof of concept for an idea I had for a pause menu background effect to use in video games",
     "likes": 5,
@@ -6432,10 +6432,10 @@
    "info": {
     "id": "WcsSRH",
     "date": "1740643773",
-    "viewed": 82,
+    "viewed": 87,
     "name": "Subpixel Anti-Aliasing 2",
     "description": "looks kinda weird tbh, am I doing something wrong?",
-    "likes": 3,
+    "likes": 4,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -6475,7 +6475,7 @@
    "info": {
     "id": "3clXzN",
     "date": "1740690643",
-    "viewed": 109,
+    "viewed": 113,
     "name": "smooth downscale without mipmap",
     "description": "needed this for a project",
     "likes": 0,
@@ -6523,7 +6523,7 @@
    "info": {
     "id": "3cSSRR",
     "date": "1741469568",
-    "viewed": 88,
+    "viewed": 90,
     "name": "Double-Pass DFT",
     "description": "2D Discrete Fourier Transform\n\nhold mouse to see input\n",
     "likes": 5,
@@ -6717,10 +6717,10 @@
    "info": {
     "id": "Wfd3RX",
     "date": "1747980811",
-    "viewed": 106,
+    "viewed": 138,
     "name": "2D Vector Field Wave Sim",
     "description": "You could treat this as the electric field or the magnetic field on its own, the other one could also be simulated using the time derivative of this field.",
-    "likes": 10,
+    "likes": 11,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -6796,6 +6796,149 @@
       }
      ],
      "code": "// this is used to solve the 2D wave equation on a scalar field\n// using implicit Euler integration (i think). returns the new\n// value at the current cell.\nfloat solve_2d_wave_eq(\n    float val, // value of the current cell being processed at the current frame\n    float prev_val, // ... at the previous frame\n    float val_right, // current frame but use the neighbor to the right\n    float val_left,\n    float val_top,\n    float val_bottom\n)\n{\n    // i like to call this the velocity of val for better intuition\n    float du_dt = (val - prev_val) / DT;\n    \n    float d2u_dx2 =\n        ((val_right - val) - (val - val_left))\n        / CELL_SIZE_SQ;\n    \n    float d2u_dy2 =\n        ((val_top - val) - (val - val_bottom))\n        / CELL_SIZE_SQ;\n    \n    float laplacian = d2u_dx2 + d2u_dy2;\n    \n    // and i like to call this the acceleration of val\n    float d2u_dt2 = laplacian * WAVE_SPEED_SQ;\n    \n    // integrate \"acceleration\" to \"velocity\"\n    du_dt += d2u_dt2 * DT;\n    \n    // dampen the velocity\n    du_dt *= pow(WAVE_DAMP, -DT);\n    \n    // and finally integrate \"velocity\" to \"position\" (val)\n    val += du_dt * DT;\n    \n    return val;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    ivec2 icoord = ivec2(frag_coord);\n    \n    // skip out-of-bounds pixels\n    if (icoord.x >= SIM_GRID_RES.x || icoord.y >= SIM_GRID_RES.y)\n    {\n        discard;\n    }\n    \n    int n_iters = iFrame;\n    float sim_time = float(n_iters) * DT;\n    \n    // oscillate at the center\n    if (icoord == SIM_GRID_RES / 2)\n    {\n        float freq = .2 * WAVE_MAX_FREQUENCY;\n        float amplitude = .9 * cos_step(TAU * WAVE_MAX_FREQUENCY * sim_time);\n        \n        float angle = TAU * freq * sim_time;\n        vec2 val = amplitude * vec2(\n            cos(angle),\n            sin(angle)\n        );\n        \n        frag_col = WaveFieldCell_encode(WaveFieldCell_new(val, val));\n        return;\n    }\n    \n    // reset on the first frame\n    bool first_frame = iTime < .02 || iFrame < 2;\n    if (first_frame)\n    {\n        frag_col = WaveFieldCell_encode(\n            WaveFieldCell_new(vec2(0), vec2(0))\n        );\n        return;\n    }\n    \n    // read last frame's data at this pixel and at its neighbors\n    WaveFieldCell curr_cell = WaveFieldCell_fetch(iChannel0, icoord);\n    WaveFieldCell right_cell = WaveFieldCell_fetch(iChannel0, icoord + ivec2(1, 0));\n    WaveFieldCell left_cell = WaveFieldCell_fetch(iChannel0, icoord + ivec2(-1, 0));\n    WaveFieldCell top_cell = WaveFieldCell_fetch(iChannel0, icoord + ivec2(0, 1));\n    WaveFieldCell bottom_cell = WaveFieldCell_fetch(iChannel0, icoord + ivec2(0, -1));\n    \n    // make a backup of the current value\n    vec2 val_backup = curr_cell.val;\n    \n    // do a 2D scalar wave sim on just the X component\n    curr_cell.val.x = solve_2d_wave_eq(\n        curr_cell.val.x,\n        curr_cell.prev_val.x,\n        \n        right_cell.val.x,\n        left_cell.val.x,\n        top_cell.val.x,\n        bottom_cell.val.x\n    );\n    \n    // do a 2D scalar wave sim on just the Y component\n    curr_cell.val.y = solve_2d_wave_eq(\n        curr_cell.val.y,\n        curr_cell.prev_val.y,\n        \n        right_cell.val.y,\n        left_cell.val.y,\n        top_cell.val.y,\n        bottom_cell.val.y\n    );\n    \n    // use the backup to set prev_val\n    curr_cell.prev_val = val_backup;\n    \n    frag_col = WaveFieldCell_encode(curr_cell);\n}\n",
+     "name": "Buffer A",
+     "description": "",
+     "type": "buffer"
+    }
+   ]
+  },
+  {
+   "ver": "0.1",
+   "info": {
+    "id": "wf3XDH",
+    "date": "0",
+    "viewed": 0,
+    "name": "Send Text over Sound (LOUD)",
+    "description": "Transmit binary data over sound. This is supposed to be used with [url=https://www.shadertoy.com/view/tfdXW4]the receiver shader[/url] running on another device or browser tab.",
+    "likes": 0,
+    "published": "Private",
+    "usePreview": 0,
+    "tags": [
+     "audio",
+     "encoding",
+     "data",
+     "encode",
+     "decoding",
+     "decode",
+     "transmit",
+     "receive"
+    ]
+   },
+   "renderpass": [
+    {
+     "inputs": [],
+     "outputs": [
+      {
+       "id": "4dfGRr",
+       "channel": 0
+      }
+     ],
+     "code": "const vec3 BG_COL = vec3(.01, .03, .06);\n\n// calculate the general intensity of the wavy stuff\nfloat calc_visualizer_intensity(float time)\n{\n    time = max(time, 0.);\n\n    float intensity = .6 + .01 * cos(24. * time) + .03 * cos(18. * time);\n    \n    // fade in at the beginning\n    intensity *= 1. - exp(-8. * time);\n    \n    // fade out when transmission is finished\n    float clipped_transmit_duration = max(TOTAL_DURATION, .5);\n    if (time > clipped_transmit_duration)\n    {\n        intensity *= exp(-5. * (time - clipped_transmit_duration));\n    }\n    \n    // add constant bias\n    intensity += .2;\n    \n    return intensity;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // UV\n    vec2 uv = (frag_coord * 2. - RES) / min(RES.x, RES.y);\n    float px2uv = 2. / min(RES.x, RES.y);\n    float px2uv_half = px2uv * .5;\n    \n    // calculate the intensity of the wavy stuff\n    float intensity = calc_visualizer_intensity(iTime);\n    \n    // render wavy stuff (just a bunch of distorted transparent circles)\n    vec3 col = BG_COL;\n    {\n        vec2 uv_distorted = uv + vec2(\n            .01 * cos(10. * uv.y + 1.5 * iTime),\n            .02 * sin(7. * uv.x + 1.9 * iTime)\n        );\n        float radius = intensity * .8 + .015 * cos(2.3 * iTime);\n        \n        float d = length(uv_distorted) - radius;\n        col +=\n            vec3(.4, 0, .8)\n            * .75 * smoothstep(0., .5, intensity)\n            * smoothstep(px2uv, -px2uv, d);\n    }\n    {\n        vec2 uv_distorted = uv + vec2(\n            .02 * cos(7. * uv.y + 1.2 * iTime),\n            .015 * sin(13. * uv.x + 1.618 * iTime)\n        );\n        float radius = intensity * .8 + .01 * cos(2.73 * iTime);\n        \n        float d = length(uv_distorted) - 1. * radius;\n        col +=\n            vec3(.8, 0, .4)\n            * .75 * smoothstep(0., .5, intensity)\n            * smoothstep(px2uv, -px2uv, d);\n    }\n    {\n        vec2 uv_distorted = uv + vec2(\n            .03 * cos(6. * uv.y + .618 * iTime),\n            .03 * sin(5. * uv.x + 1.618 * iTime)\n        );\n        float radius = intensity * .78 + .015 * cos(2.5 * iTime);\n        \n        float d = length(uv_distorted) - 1. * radius;\n        col +=\n            vec3(0, .4, .4)\n            * .45 * smoothstep(0., .5, intensity)\n            * smoothstep(px2uv, -px2uv, d);\n    }\n    \n    // OETF (Linear BT.709 I-D65 -> sRGB 2.2)\n    col = pow(col, vec3(1. / 2.2));\n    \n    // output\n    frag_col = vec4(col, 1);\n}\n",
+     "name": "Image",
+     "description": "",
+     "type": "image"
+    },
+    {
+     "inputs": [],
+     "outputs": [],
+     "code": "#define RES iResolution.xy\n\nconst float PI = 3.14159265;\nconst float TAU = 6.28318530;\n\n// uppercase letters\nconst int A = 65;\nconst int B = 66;\nconst int C = 67;\nconst int D = 68;\nconst int E = 69;\nconst int F = 70;\nconst int G = 71;\nconst int H = 72;\nconst int I = 73;\nconst int J = 74;\nconst int K = 75;\nconst int L = 76;\nconst int M = 77;\nconst int N = 78;\nconst int O = 79;\nconst int P = 80;\nconst int Q = 81;\nconst int R = 82;\nconst int S = 83;\nconst int T = 84;\nconst int U = 85;\nconst int V = 86;\nconst int W = 87;\nconst int X = 88;\nconst int Y = 89;\nconst int Z = 90;\n\n// lowercase letters\nconst int a = 97;\nconst int b = 98;\nconst int c = 99;\nconst int d = 100;\nconst int e = 101;\nconst int f = 102;\nconst int g = 103;\nconst int h = 104;\nconst int i = 105;\nconst int j = 106;\nconst int k = 107;\nconst int l = 108;\nconst int m = 109;\nconst int n = 110;\nconst int o = 111;\nconst int p = 112;\nconst int q = 113;\nconst int r = 114;\nconst int s = 115;\nconst int t = 116;\nconst int u = 117;\nconst int v = 118;\nconst int w = 119;\nconst int x = 120;\nconst int y = 121;\nconst int z = 122;\n\n// digits\nconst int _0 = 48;\nconst int _1 = 49;\nconst int _2 = 50;\nconst int _3 = 51;\nconst int _4 = 52;\nconst int _5 = 53;\nconst int _6 = 54;\nconst int _7 = 55;\nconst int _8 = 56;\nconst int _9 = 57;\n\n// common punctuation\nconst int SPACE = 32;\nconst int EXCLAMATION = 33; // !\nconst int QUOTE = 34;       // \"\nconst int HASH = 35;        // #\nconst int DOLLAR = 36;      // $\nconst int PERCENT = 37;     // %\nconst int AMPERSAND = 38;   // &\nconst int APOSTROPHE = 39;  // '\nconst int LEFT_PAREN = 40;\nconst int RIGHT_PAREN = 41;\nconst int ASTERISK = 42;\nconst int PLUS = 43;\nconst int COMMA = 44;\nconst int MINUS = 45;\nconst int PERIOD = 46;\nconst int SLASH = 47;\n\nconst int COLON = 58;\nconst int SEMICOLON = 59;\nconst int LESS = 60;\nconst int EQUAL = 61;\nconst int GREATER = 62;\nconst int QUESTION = 63;\nconst int AT = 64;\n\nconst int LEFT_BRACKET = 91;\nconst int BACKSLASH = 92;\nconst int RIGHT_BRACKET = 93;\nconst int CARET = 94;\nconst int UNDERSCORE = 95;\nconst int BACKTICK = 96;\n\nconst int LEFT_BRACE = 123;\nconst int PIPE = 124;\nconst int RIGHT_BRACE = 125;\nconst int TILDE = 126;\n\n// --- TEXT MESSAGE TO SEND ---\nint CHARS[] = int[](\n    H,e,l,l,o, SPACE, W,o,r,l,d, EXCLAMATION\n);\n\n// number of characters and bits\nconst int N_CHARS = CHARS.length();\nconst int N_BITS = N_CHARS * 8;\n\n// how long to transmit each bit for (seconds)\nconst float SYMBOL_DURATION = .5;\n\n// which frequencies to use for 0 and 1 (Hz)\nconst float FREQ_LOW = 0.;\nconst float FREQ_HIGH = 0.;\n\n// which frequency to emit at the first bit of a character\nconst float FREQ_CHAR_START = 0.;\n\n// this frequency will alternate for each symbol\nconst float FREQ_ALTERNATE = 5500.;\n\n// total transmit duration (seconds)\nconst float TOTAL_DURATION = float(N_BITS) * SYMBOL_DURATION;\n\n// window function. basically fade in and out each symbol to avoid clicks.\nfloat window(float t)\n{\n    return min(\n        smoothstep(0., .1, t),\n        smoothstep(1., .9, t)\n    );\n}\n",
+     "name": "Common",
+     "description": "",
+     "type": "common"
+    },
+    {
+     "inputs": [],
+     "outputs": [],
+     "code": "vec2 mainSound(int samp, float time)\n{\n    // NOTE: we use samp and ignore time because a single-precision float\n    // does NOT have enough precision to represent time for a high\n    // frequency wave. to handle this, we mod samp by the number of\n    // samples in a single symbol and divide it by the sample rate to\n    // effectively get time mod symbol duration. since this is always\n    // kept between 0 and the symbol duration, it's always a small value\n    // and doesn't reach the precision limit of floats. if we use time\n    // directly, we'll get strong aliasing especially as time increases.\n\n    // number of samples in a symbol\n    int n_samps_in_sym = int(floor(SYMBOL_DURATION * iSampleRate));\n\n    // bit index\n    int bit_idx = samp / n_samps_in_sym;\n    if (bit_idx < 0 || bit_idx >= N_BITS)\n    {\n        return vec2(0);\n    }\n    \n    // character\n    int char_idx = bit_idx / 8;\n    int char = CHARS[char_idx];\n    \n    // bit\n    int local_bit_idx = bit_idx % 8;\n    int bit = (char >> local_bit_idx) & 1;\n    \n    // frequency\n    float freq = (bit == 1) ? FREQ_HIGH :FREQ_LOW;\n\n    // recalculate (time mod symbol duration) to avoid precision loss\n    float time_mod_sym_duration = float(samp % n_samps_in_sym) / iSampleRate;\n\n    // generate signal\n    vec2 v = vec2(cos(TAU * freq * time_mod_sym_duration));\n    \n    // emit a certain frequency at the first bit of a character\n    if (local_bit_idx == 0)\n    {\n        v += cos(TAU * FREQ_CHAR_START * time_mod_sym_duration);\n    }\n    \n    // emit another frequency at even bit indices\n    if (bit_idx % 2 == 0)\n    {\n        v += cos(TAU * FREQ_ALTERNATE * time_mod_sym_duration);\n    }\n    \n    // avoid clipping\n    v *= .33;\n    \n    // apply window\n    v *= window(time_mod_sym_duration / SYMBOL_DURATION);\n    \n    return v;\n}\n",
+     "name": "Sound",
+     "description": "",
+     "type": "sound"
+    }
+   ]
+  },
+  {
+   "ver": "0.1",
+   "info": {
+    "id": "tfdXW4",
+    "date": "0",
+    "viewed": 0,
+    "name": "Receive Text over Sound",
+    "description": "Receive binary data over sound. This is supposed to be used with [url=https://www.shadertoy.com/view/wf3XDH]the transmitter shader[/url] running on another device or browser tab.",
+    "likes": 0,
+    "published": "Private",
+    "usePreview": 0,
+    "tags": [
+     "audio",
+     "encoding",
+     "data",
+     "encode",
+     "decoding",
+     "decode",
+     "transmit",
+     "receive"
+    ]
+   },
+   "renderpass": [
+    {
+     "inputs": [
+      {
+       "id": "XdXGRr",
+       "filepath": "/presets/mic.png",
+       "type": "mic",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4dfGRr",
+       "channel": 0
+      }
+     ],
+     "code": "const vec3 BG_COL = vec3(.01, .03, .06);\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // number of audio samples\n    int n_audio_samples = textureSize(iChannel0, 0).x;\n    \n    // I think iSampleRate is for the Sound tab and not for the\n    // microphone input but there's no other option AFAIK.\n    float sample_rate = iSampleRate;\n    \n    // average energy\n    float energy_avg = 0.;\n    \n    // complex amplitudes of FREQ_LOW, FREQ_HIGH, FREQ_CHAR_START,\n    // and FREQ_ALTERNATE.\n    vec2 coeff_low = vec2(0.);\n    vec2 coeff_high = vec2(0.);\n    vec2 coeff_char_start = vec2(0.);\n    vec2 coeff_alternate = vec2(0.);\n    \n    // calculate information from the audio samples\n    for (int i = 0; i < n_audio_samples; i++)\n    {\n        // read audio sample at index i\n        float v = texelFetch(iChannel0, ivec2(i, 1), 0).r * 2. - 1.;\n        \n        // accumulate energy\n        energy_avg += abs(v);\n        \n        // sample time\n        float time = float(i) / sample_rate;\n        \n        // amplitudes and phases of important frequencies\n        \n        float angle = TAU * FREQ_LOW * time;\n        coeff_low += v * vec2(cos(angle), sin(angle));\n        \n        angle = TAU * FREQ_HIGH * time;\n        coeff_high += v * vec2(cos(angle), sin(angle));\n        \n        angle = TAU * FREQ_CHAR_START * time;\n        coeff_char_start += v * vec2(cos(angle), sin(angle));\n        \n        angle = TAU * FREQ_ALTERNATE * time;\n        coeff_alternate += v * vec2(cos(angle), sin(angle));\n    }\n    \n    // normalize average energy\n    energy_avg /= float(n_audio_samples);\n    \n    // energies of the important frequencies\n    float energy_low = length(coeff_low / float(n_audio_samples));\n    float energy_high = length(coeff_high / float(n_audio_samples));\n    float energy_char_start = length(coeff_char_start / float(n_audio_samples));\n    float energy_alternate = length(coeff_alternate / float(n_audio_samples));\n    \n    // check if energy_avg is lower than a threshold\n    bool energy_too_low = energy_avg < ENERGY_AVG_THRESHOLD;\n    \n    // artifically lower the average energy\n    energy_avg /= 20.;\n\n    // UV\n    vec2 uv = frag_coord / RES.x;\n    float px2uv = 1. / RES.x;\n    float px2uv_half = px2uv * .5;\n    \n    // render wavy stuff (just a bunch of distorted transparent circles)\n    vec3 col = BG_COL;\n    if (uv.x < .25)\n    {\n        if (energy_low > energy_avg && !energy_too_low)\n        {\n            col = vec3(1, 0, 0);\n        }\n    }\n    else if (uv.x < .5)\n    {\n        if (energy_high > energy_avg && !energy_too_low)\n        {\n            col = vec3(0, 1, 0);\n        }\n    }\n    else if (uv.x < .75)\n    {\n        if (energy_char_start > energy_avg && !energy_too_low)\n        {\n            col = vec3(0, 1, 1);\n        }\n    }\n    else\n    {\n        if (energy_alternate > energy_avg && !energy_too_low)\n        {\n            col = vec3(0, 0, 1);\n        }\n    }\n    \n    // OETF (Linear BT.709 I-D65 -> sRGB 2.2)\n    col = pow(col, vec3(1. / 2.2));\n    \n    // output\n    frag_col = vec4(col, 1);\n}\n",
+     "name": "Image",
+     "description": "",
+     "type": "image"
+    },
+    {
+     "inputs": [],
+     "outputs": [],
+     "code": "const float ENERGY_AVG_THRESHOLD = .01;\n\n\n\n// NOTE: below are the transmission settings. the values MUST\n// match with the transmitter shader.\n\n// which frequencies to use for 0 and 1 (Hz)\nconst float FREQ_LOW = 5500.;\nconst float FREQ_HIGH = 6000.;\n\n// which frequency to emit at the first bit of a character\nconst float FREQ_CHAR_START = 8000.;\n\n// this frequency will alternate for each symbol\nconst float FREQ_ALTERNATE = 4000.;\n\n#define RES iResolution.xy\n\n// uppercase letters\nconst int A = 65;\nconst int B = 66;\nconst int C = 67;\nconst int D = 68;\nconst int E = 69;\nconst int F = 70;\nconst int G = 71;\nconst int H = 72;\nconst int I = 73;\nconst int J = 74;\nconst int K = 75;\nconst int L = 76;\nconst int M = 77;\nconst int N = 78;\nconst int O = 79;\nconst int P = 80;\nconst int Q = 81;\nconst int R = 82;\nconst int S = 83;\nconst int T = 84;\nconst int U = 85;\nconst int V = 86;\nconst int W = 87;\nconst int X = 88;\nconst int Y = 89;\nconst int Z = 90;\n\n// lowercase letters\nconst int a = 97;\nconst int b = 98;\nconst int c = 99;\nconst int d = 100;\nconst int e = 101;\nconst int f = 102;\nconst int g = 103;\nconst int h = 104;\nconst int i = 105;\nconst int j = 106;\nconst int k = 107;\nconst int l = 108;\nconst int m = 109;\nconst int n = 110;\nconst int o = 111;\nconst int p = 112;\nconst int q = 113;\nconst int r = 114;\nconst int s = 115;\nconst int t = 116;\nconst int u = 117;\nconst int v = 118;\nconst int w = 119;\nconst int x = 120;\nconst int y = 121;\nconst int z = 122;\n\n// digits\nconst int _0 = 48;\nconst int _1 = 49;\nconst int _2 = 50;\nconst int _3 = 51;\nconst int _4 = 52;\nconst int _5 = 53;\nconst int _6 = 54;\nconst int _7 = 55;\nconst int _8 = 56;\nconst int _9 = 57;\n\n// common punctuation\nconst int SPACE = 32;\nconst int EXCLAMATION = 33; // !\nconst int QUOTE = 34;       // \"\nconst int HASH = 35;        // #\nconst int DOLLAR = 36;      // $\nconst int PERCENT = 37;     // %\nconst int AMPERSAND = 38;   // &\nconst int APOSTROPHE = 39;  // '\nconst int LEFT_PAREN = 40;\nconst int RIGHT_PAREN = 41;\nconst int ASTERISK = 42;\nconst int PLUS = 43;\nconst int COMMA = 44;\nconst int MINUS = 45;\nconst int PERIOD = 46;\nconst int SLASH = 47;\n\nconst int COLON = 58;\nconst int SEMICOLON = 59;\nconst int LESS = 60;\nconst int EQUAL = 61;\nconst int GREATER = 62;\nconst int QUESTION = 63;\nconst int AT = 64;\n\nconst int LEFT_BRACKET = 91;\nconst int BACKSLASH = 92;\nconst int RIGHT_BRACKET = 93;\nconst int CARET = 94;\nconst int UNDERSCORE = 95;\nconst int BACKTICK = 96;\n\nconst int LEFT_BRACE = 123;\nconst int PIPE = 124;\nconst int RIGHT_BRACE = 125;\nconst int TILDE = 126;\n\n\n\n/*___________ math & integer utils ____________*/\n\nconst float PI = 3.141592653589793238462643383;\nconst float TAU = 6.283185307179586476925286767;\nconst float PI_OVER_2 = 1.570796326794896619231321692;\nconst float INV_PI = .318309886183790671537767527;\nconst float INV_TAU = .159154943091895335768883763;\nconst float SQRT_2 = 1.414213562373095048801688724;\nconst float INV_SQRT_2 = .707106781186547524400844362;\nconst float PHI = 1.618033988749894848204586834;\n\n#define FUNC_WRAP(T) \\\nT wrap(T v, float start, float end) \\\n{ \\\n    return start + mod(v - start, end - start); \\\n}\n\n#define FUNC_REMAP(T) \\\nT remap(T v, float inp_start, float inp_end, float out_start, float out_end) \\\n{ \\\n    return out_start \\\n        + ((out_end - out_start) / (inp_end - inp_start)) * (v - inp_start); \\\n}\n\n#define FUNC_REMAP_CLAMP(T) \\\nT remap_clamp( \\\n    T v, \\\n    float inp_start, \\\n    float inp_end, \\\n    float out_start, \\\n    float out_end \\\n) \\\n{ \\\n    T t = clamp((v - inp_start) / (inp_end - inp_start), 0., 1.); \\\n    return out_start + t * (out_end - out_start); \\\n}\n\n#define FUNC_REMAP01(T) \\\nT remap01(T v, float inp_start, float inp_end) \\\n{ \\\n    return clamp((v - inp_start) / (inp_end - inp_start), 0., 1.); \\\n}\n\n#define FUNC_LENGTH_SQ(T) \\\nfloat length_sq(T v) \\\n{ \\\n    return dot(v, v); \\\n}\n\n#define FUNC_DIST_SQ(T) \\\nfloat dist_sq(T a, T b) \\\n{ \\\n    a -= b; \\\n    return dot(a, a); \\\n}\n\nFUNC_WRAP(float)\nFUNC_WRAP(vec2)\nFUNC_WRAP(vec3)\nFUNC_WRAP(vec4)\n\nFUNC_REMAP(float)\nFUNC_REMAP(vec2)\nFUNC_REMAP(vec3)\nFUNC_REMAP(vec4)\n\nFUNC_REMAP_CLAMP(float)\nFUNC_REMAP_CLAMP(vec2)\nFUNC_REMAP_CLAMP(vec3)\nFUNC_REMAP_CLAMP(vec4)\n\nFUNC_REMAP01(float)\nFUNC_REMAP01(vec2)\nFUNC_REMAP01(vec3)\nFUNC_REMAP01(vec4)\n\nFUNC_LENGTH_SQ(vec2)\nFUNC_LENGTH_SQ(vec3)\nFUNC_LENGTH_SQ(vec4)\n\nFUNC_DIST_SQ(vec2)\nFUNC_DIST_SQ(vec3)\nFUNC_DIST_SQ(vec4)\n\nfloat square(float v)\n{\n    return v * v;\n}\n\nfloat chebyshev_dist(vec2 a, vec2 b)\n{\n    return max(abs(a.x - b.x), abs(a.y - b.y));\n}\n\nfloat chebyshev_dist(vec3 a, vec3 b)\n{\n    return max(\n        max(abs(a.x - b.x), abs(a.y - b.y)),\n        abs(a.z - b.z)\n    );\n}\n\nfloat chebyshev_dist(vec4 a, vec4 b)\n{\n    return max(\n        max(\n            max(abs(a.x - b.x), abs(a.y - b.y)),\n            abs(a.z - b.z)\n        ),\n        abs(a.w - b.w)\n    );\n}\n\n#define idiv_ceil(a, b) (((a) + (b) - 1) / (b))\n#define imod_positive(a, b) ((((a) % (b)) + (b)) % (b))\n\nint iabs(int v)\n{\n    if (v < 0)\n    {\n        return -v;\n    }\n    return v;\n}\n\nint imin(int a, int b)\n{\n    if (a < b)\n    {\n        return a;\n    }\n    return b;\n}\n\nint imax(int a, int b)\n{\n    if (a > b)\n    {\n        return a;\n    }\n    return b;\n}\n\nint iclamp(int v, int start, int end)\n{\n    if (v < start)\n    {\n        v = start;\n    }\n    if (v > end)\n    {\n        v = end;\n    }\n    return v;\n}\n\nfloat min_component(vec2 v)\n{\n    return min(v.x, v.y);\n}\n\nfloat min_component(vec3 v)\n{\n    return min(min(v.x, v.y), v.z);\n}\n\nfloat min_component(vec4 v)\n{\n    return min(min(min(v.x, v.y), v.z), v.w);\n}\n\nfloat max_component(vec2 v)\n{\n    return max(v.x, v.y);\n}\n\nfloat max_component(vec3 v)\n{\n    return max(max(v.x, v.y), v.z);\n}\n\nfloat max_component(vec4 v)\n{\n    return max(max(max(v.x, v.y), v.z), v.w);\n}\n\nint min_component(ivec2 v)\n{\n    return imin(v.x, v.y);\n}\n\nint min_component(ivec3 v)\n{\n    return imin(imin(v.x, v.y), v.z);\n}\n\nint min_component(ivec4 v)\n{\n    return imin(imin(imin(v.x, v.y), v.z), v.w);\n}\n\nint max_component(ivec2 v)\n{\n    return imax(v.x, v.y);\n}\n\nint max_component(ivec3 v)\n{\n    return imax(imax(v.x, v.y), v.z);\n}\n\nint max_component(ivec4 v)\n{\n    return imax(imax(imax(v.x, v.y), v.z), v.w);\n}\n\n// error function (erf) approximation with max error: 1.5 * 10^-7\n// https://en.wikipedia.org/wiki/Error_function\nfloat erf(float v)\n{\n    const float p = .3275911;\n    const float a1 = .254829592;\n    const float a2 = -.284496736;\n    const float a3 = 1.421413741;\n    const float a4 = -1.453152027;\n    const float a5 = 1.061405429;\n    \n    float x = abs(v);\n    \n    float t = 1. / (1. + p * x);\n    float t2 = t * t;\n    float t3 = t2 * t;\n    float t4 = t3 * t;\n    float t5 = t4 * t;\n    \n    float positive_only = 1. - exp(-x * x) * ((a1 * t) + (a2 * t2) + (a3 * t3) + (a4 * t4) + (a5 * t5));\n    return sign(v) * positive_only;\n}\n\n// approx. CDF of normal / gaussian distribution with mean=0 and std=1\n// https://en.wikipedia.org/wiki/Normal_distribution\nfloat normal_cdf(float v)\n{\n    return erf(v * INV_SQRT_2) * .5 + .5;\n}\n\nfloat bilinear(\n    float val_bl,\n    float val_tl,\n    float val_tr,\n    float val_br,\n    vec2 offs\n)\n{\n    return mix(\n        mix(val_bl, val_br, offs.x),\n        mix(val_tl, val_tr, offs.x),\n        offs.y\n    );\n}\n\n// credits to AHSEN (https://www.shadertoy.com/user/01000001)\n// https://www.desmos.com/calculator/5d6ph151vi interactive :D\nfloat cubic_interp(float a, float b, float c, float d, float t)\n{\n    float one = t - 1.;\n    float two = t - 2.;\n    float three = t - 3.;\n    return (\n        (-one * two * three * a)\n        + (t * one * two * d)\n        + (3. * t * two * three * b)\n        - (3. * t * one * three * c)\n    ) / 6.;\n}\n\nfloat dist_along_line(vec2 p, vec2 line_start, vec2 line_end)\n{\n    vec2 dir = line_end - line_start;\n    \n    // normalize\n    float len_sqr = dot(dir, dir);\n    if (len_sqr < .0001)\n        return 1e9;\n    dir /= sqrt(len_sqr);\n    \n    return dot(\n        dir,\n        p - line_start\n    );\n}\n\nfloat relative_dist_along_line(vec2 p, vec2 line_start, vec2 line_end)\n{\n    vec2 dir = line_end - line_start;\n    return dot(\n        dir,\n        p - line_start\n    );\n}\n\n// |a| * |b| * sin(theta)\nfloat cross2d(vec2 a, vec2 b)\n{\n    return a.x * b.y - a.y * b.x;\n}\n\n// references for barycentric coordinates\n// https://www.desmos.com/calculator/8g8xjejuox\n// https://www.shadertoy.com/view/mdjBWK\n\nvec3 cartesian_to_barycentric(\n    vec2 p,\n    vec2 v0,\n    vec2 v1,\n    vec2 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        cross2d(v1 - p, v2 - p),\n        cross2d(v2 - p, v0 - p),\n        cross2d(v0 - p, v1 - p)\n    ) / cross2d(v1 - v0, v2 - v0);\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nvec3 cartesian_to_barycentric(\n    vec3 p,\n    vec3 v0,\n    vec3 v1,\n    vec3 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        length(cross(v1 - p, v2 - p)),\n        length(cross(v2 - p, v0 - p)),\n        length(cross(v0 - p, v1 - p))\n    ) / length(cross(v1 - v0, v2 - v0));\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nfloat barycentric_interpolate(vec3 b, float v0, float v1, float v2)\n{\n    return dot(b, vec3(v0, v1, v2));\n}\n\nvec2 barycentric_interpolate(vec3 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec3 barycentric_interpolate(vec3 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec4 barycentric_interpolate(vec3 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nfloat barycentric_interpolate(vec2 b, float v0, float v1, float v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec2 barycentric_interpolate(vec2 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec3 barycentric_interpolate(vec2 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec4 barycentric_interpolate(vec2 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\n// angle from 0 to TAU\nfloat get_angle(vec2 p)\n{\n    float a = atan(p.y, p.x);\n    if (a < 0.)\n    {\n        return a + TAU;\n    }\n    return a;\n}\n\nmat2 rotate_2d(float angle)\n{\n    float s = sin(angle);\n    float c = cos(angle);\n    return mat2(\n        c, s,\n        -s, c\n    );\n}\n\nvec2 perpendicular(vec2 v)\n{\n    return vec2(-v.y, v.x);\n}\n\n// s.x=theta\n// s.y=phi\n// (there's no r)\nvec3 spherical_to_cartesian(vec2 s)\n{\n    float sin_theta = sin(s.x);\n    return vec3(\n        sin_theta * cos(s.y),\n        sin_theta * sin(s.y),\n        cos(s.x)\n    );\n}\n\n// s.x=r\n// s.y=theta\n// s.z=phi\nvec3 spherical_to_cartesian(vec3 s)\n{\n    float sin_theta = sin(s.y);\n    return s.x * vec3(\n        sin_theta * cos(s.z),\n        sin_theta * sin(s.z),\n        cos(s.y)\n    );\n}\n\nvec2 screen_to_uv01(vec2 coord, vec2 res)\n{\n    return coord / res;\n}\n\nvec2 screen_to_uv_horizontal(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.x;\n}\n\nvec2 screen_to_uv_vertical(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.y;\n}\n\nvec2 screen_to_uv_fit(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / min_component(res);\n}\n\nvec2 screen_to_uv_fill(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / max_component(res);\n}\n\n// * idx starts at 1\nfloat halton(int base, int idx)\n{\n    float result = 0.;\n    float digit_weight = 1.;\n    while (idx > 0)\n    {\n        digit_weight /= float(base);\n        result += float(idx % base) * digit_weight;\n        idx /= base;\n    }\n    return result;\n}\n\n// * idx starts at 1\nvec2 halton_2d(int idx)\n{\n    return vec2(halton(2, idx), halton(3, idx));\n}\n\n// * idx starts at 1\nvec3 halton_3d(int idx)\n{\n    return vec3(halton(2, idx), halton(3, idx), halton(5, idx));\n}\n\n// * idx starts at 1\nvec4 halton_4d(int idx)\n{\n    return vec4(\n        halton(2, idx),\n        halton(3, idx),\n        halton(5, idx),\n        halton(7, idx)\n    );\n}\n\n// encode a 32-bit unsigned integer into a float that can be used in a vec4\n// to be stored in a buffer in Shadertoy. use buffer_decode() to undo this.\n//\n// IMPORTANT: 0 <= v <= 4,269,801,471\n// in some implementations, all NaNs and infinity values collapse to a single\n// value regardless of the original bit pattern. this makes it very hard to\n// store arbitrary integers in float buffers. this function automatically jumps\n// across those problematic values to avoid them at the cost of a lower maximum\n// value, so make sure your input doesn't go above it!\n//\n// these are the ranges we need to avoid:\n// \n// - subnormals\n//   0 -> 8,388,607\n//\n// - positive NaNs and infinity\n//   2,139,095,040 -> 2,147,483,647\n//\n// - negative NaNs and infinity\n//   4,286,578,688 -> 4,294,967,295\n//\n// the last problematic range is already handled since we limit the maximum\n// value.\n//\n// NOTE: Shadertoy appears to be using FP16 buffers in some mobile platforms,\n// but this function is only designed to work with 32-bit values, so it may\n// break in certain machines.\nfloat buffer_encode(uint v)\n{\n    if (v >= 2130706432u)\n    {\n        return uintBitsToFloat(v + 2u * 8388608u);\n    }\n    return uintBitsToFloat(v + 8388608u);\n}\n\n// decodes integers encoded by buffer_encode()\nuint buffer_decode(float v)\n{\n    uint x = floatBitsToUint(v);\n    if (x >= 2130706432u + 8388608u)\n    {\n        return x - 2u * 8388608u;\n    }\n    return x - 8388608u;\n}\n\nbool icoord_in_bounds(ivec2 icoord, ivec2 ires)\n{\n    return\n        icoord.x >= 0 &&\n        icoord.y >= 0 &&\n        icoord.x < ires.x &&\n        icoord.y < ires.y;\n}\n\nbool icoord_in_bounds(ivec3 icoord, ivec3 ires)\n{\n    return\n        icoord.x >= 0 &&\n        icoord.y >= 0 &&\n        icoord.z >= 0 &&\n        icoord.x < ires.x &&\n        icoord.y < ires.y &&\n        icoord.z < ires.z;\n}\n\nint icoord_to_idx(ivec2 icoord, ivec2 ires)\n{\n    return icoord.x + (icoord.y * ires.x);\n}\n\nint icoord_to_idx(ivec3 icoord, ivec3 ires)\n{\n    return icoord.x + (icoord.y * ires.x) + (icoord.z * ires.x * ires.y);\n}\n\nivec2 idx_to_icoord(int idx, ivec2 ires)\n{\n    return ivec2(idx % ires.x, idx / ires.x);\n}\n\nivec3 idx_to_icoord(int idx, ivec3 ires)\n{\n    return ivec3(\n        idx % ires.x,\n        (idx % (ires.x * ires.y)) / ires.x,\n        idx / (ires.x * ires.y)\n    );\n}\n\n// https://www.desmos.com/calculator/kfe07basy9\n\nuint compress_float_to_uint_linear(float f, float min_f, float max_f, uint max_i)\n{\n    return uint(floor(\n        float(max_i) * remap01(f, min_f, max_f)\n    ));\n}\n\nfloat decompress_float_from_uint_linear(\n    uint i,\n    uint max_i,\n    float min_f,\n    float max_f\n)\n{\n    return remap_clamp(\n        float(i) / float(max_i),\n        0., 1.,\n        min_f, max_f\n    );\n}\n\nuint compress_float_to_uint_log(\n    float f,\n    float log2_zero_offset,\n    float max_log2_f,\n    uint max_i\n)\n{\n    f = max(0., f);\n    f += pow(2., log2_zero_offset);\n    return uint(floor(\n        float(max_i) * remap01(log2(f), log2_zero_offset, max_log2_f)\n    ));\n}\n\nfloat decompress_float_from_uint_log(\n    uint i,\n    uint max_i,\n    float log2_zero_offset,\n    float max_log2_f\n)\n{\n    return pow(2., remap_clamp(\n        float(i) / float(max_i),\n        0., 1.,\n        log2_zero_offset, max_log2_f\n    )) - pow(2., log2_zero_offset);\n}\n\n\n\n/*\n\n\"127 bits per pixel\" by Theron Tarigo, www.shadertoy.com/user/ttg\n\nUtilizing all channels of an OpenGL 32-bit float buffer it is possible to store\n127 bits per pixel without using special float values\n(which become altered in buffers on some implementations).\n\n4x IEEE754 binary32 allows ((1<<24)*254)^4 distinct values or\n127.9547 bits of information.\n\nThe following implementations:\n  b127_ieee754_encode\n  b127_ieee754_decode\nare free for use, copying, and modification by anyone for any purpose,\nwithout restriction.\n\nAttribution should be included for providing clarity of the origin of these\nimplementations; including the original URL is sufficient attribution:\nhttps://www.shadertoy.com/view/wtKyR1\n\n*/\n\nvec4 b127_ieee754_encode (uvec4 v) {\n  v.w&=0x7FFFFFFFu;\n  uvec4 l = uvec4( v.xyz&0xFFFFFFu , v.x>>24 | v.y>>24<<8 | v.z>>24<<16 );\n  return uintBitsToFloat( (l&0x800000u)<<8 | l&0x7FFFFFu\n   | 1u+uvec4(v.w/uvec4(1,254,254*254,254*254*254))%254u <<23 );\n}\n\nvec4 b127_ieee754_encode (ivec4 v) {\n    return b127_ieee754_encode(uvec4(v));\n}\n\nuvec4 b127_ieee754_decode (vec4 f) {\n  uvec4 e = floatBitsToUint(f);\n  uvec4 l = (e&0x80000000u)>>8 | e&0x7FFFFFu;\n  uvec4 h = (e>>23&0xFFu)-1u;\n  return uvec4(\n    l.xyz | uvec3(l.w)>>uvec3(0,8,16)<<24,\n    h.x+254u*h.y+(254u*254u)*h.z+(254u*254u*254u)*h.w );\n}\n\nivec4 b127_ieee754_idecode (vec4 f) {\n    return ivec4(b127_ieee754_decode(f));\n}\n\n/*===========================================================================*/\n\nconst int STATE_NONE = 0;\nconst int STATE_READY = 1;\nconst int STATE_RECEIVING = 2;\nconst int STATE_DONE = 3;\n\nstruct CharInfo\n{\n    int char;\n    int n_bits_read;\n    int state;\n};\n\nCharInfo CharInfo_new()\n{\n    CharInfo c;\n    c.char = 0;\n    c.n_bits_read = 0;\n    c.state = STATE_NONE;\n    return c;\n}\n\nvec4 CharInfo_encode(in CharInfo c)\n{\n    return b127_ieee754_encode(ivec4(\n        c.char,\n        c.n_bits_read,\n        c.state,\n        0\n    ));\n}\n\nCharInfo CharInfo_decode(vec4 data)\n{\n    ivec4 idata = b127_ieee754_idecode(data);\n    \n    CharInfo c;\n    c.char = idata.x;\n    c.n_bits_read = idata.y;\n    c.state = idata.z;\n    return c;\n}\n\nCharInfo CharInfo_fetch(sampler2D tex, int idx)\n{\n    ivec2 tex_size = textureSize(tex, 0);\n    if (idx < 0 || idx >= (tex_size.x * tex_size.y))\n    {\n        return CharInfo_new();\n    }\n    \n    return CharInfo_decode(texelFetch(\n        tex,\n        idx_to_icoord(idx, tex_size),\n        0\n    ));\n}\n",
+     "name": "Common",
+     "description": "",
+     "type": "common"
+    },
+    {
+     "inputs": [
+      {
+       "id": "4dXGR8",
+       "filepath": "/media/previz/buffer00.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4dXGR8",
+       "channel": 0
+      }
+     ],
+     "code": "// the character buffer\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    int idx = icoord_to_idx(ivec2(frag_coord), ivec2(RES));\n    CharInfo c = CharInfo_fetch(iChannel0, idx);\n    CharInfo c_prev = CharInfo_fetch(iChannel0, idx - 1);\n    CharInfo c_next = CharInfo_fetch(iChannel0, idx + 1);\n    \n    // clear on the first few frames\n    if (iFrame < 2 || iTime < .02)\n    {\n        c = CharInfo_new();\n        \n        // mark the first one as ready to receive\n        if (idx == 0)\n        {\n            c.state = STATE_READY;\n        }\n        \n        frag_col = CharInfo_encode(c);\n        return;\n    }\n    \n    // if the previous neighbor is done reading and the next one is\n    // in STATE_NONE and the current one is also in STATE_NONE, set\n    // the current one to STATE_READY.\n    if (c_prev.state == STATE_DONE\n        && c_next.state == STATE_NONE\n        && c.state == STATE_NONE)\n    {\n        c.state = STATE_READY;\n    }\n    \n    if (c.state == STATE_READY)\n    {\n        // wait for start signal\n    }\n    else if (c.state == STATE_RECEIVING)\n    {\n        // keep reading\n    }\n    \n    frag_col = CharInfo_encode(c);\n}\n",
      "name": "Buffer A",
      "description": "",
      "type": "buffer"
