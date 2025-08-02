@@ -1,14 +1,14 @@
 {
  "userName": "beans_please",
- "date": "2025-06-13T08:08:32.843Z",
- "numShaders": 85,
+ "date": "2025-08-02T02:59:31.225Z",
+ "numShaders": 87,
  "shaders": [
   {
    "ver": "0.1",
    "info": {
     "id": "dsjcRR",
     "date": "1687371539",
-    "viewed": 470,
+    "viewed": 481,
     "name": "PBR with Ray Marching (WIP)",
     "description": "* Drag -> Look around\n* WASD -> Move\n* Shift -> Sprint\n* Alt -> Stealth?\n* R -> Reset\n",
     "likes": 7,
@@ -162,7 +162,7 @@
    "info": {
     "id": "dd2yDz",
     "date": "1687622059",
-    "viewed": 858,
+    "viewed": 896,
     "name": "flim - Filmic Color Transform",
     "description": "Experimental Port of flim (Film Emulation Transform)\n\nOriginal Repo:\nhttps://github.com/bean-mhm/flim\n",
     "likes": 19,
@@ -206,7 +206,7 @@
    "info": {
     "id": "mdScW1",
     "date": "1687653267",
-    "viewed": 415,
+    "viewed": 435,
     "name": "Interactive 2D Wave Simulation",
     "description": "*Drag your mouse, make a spiral or something.\n\nThis is a port of my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py\n",
     "likes": 6,
@@ -342,7 +342,7 @@
    "info": {
     "id": "md2yWh",
     "date": "1687678448",
-    "viewed": 178,
+    "viewed": 183,
     "name": "experimenting with colormaps",
     "description": "will use this in another shader of mine",
     "likes": 4,
@@ -374,7 +374,7 @@
    "info": {
     "id": "mdByWW",
     "date": "1687704350",
-    "viewed": 189,
+    "viewed": 194,
     "name": "Discrete Land",
     "description": "Playing with integer coordinates",
     "likes": 6,
@@ -417,7 +417,7 @@
    "info": {
     "id": "mdBcz3",
     "date": "1688036284",
-    "viewed": 574,
+    "viewed": 597,
     "name": "3D Wave Simulation",
     "description": "Check out my Interactive 2D Wave Simulation:\nhttps://www.shadertoy.com/view/mdScW1\n\nCheck out my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py",
     "likes": 24,
@@ -572,7 +572,7 @@
    "info": {
     "id": "csjfDh",
     "date": "1689671017",
-    "viewed": 214,
+    "viewed": 222,
     "name": "2D Occlusion Test",
     "description": "Drag to move the middle circle",
     "likes": 5,
@@ -614,7 +614,7 @@
    "info": {
     "id": "cdjfRc",
     "date": "1689964097",
-    "viewed": 96,
+    "viewed": 101,
     "name": "Deprecated,Bean's Default Shader",
     "description": "- My starting point for a new shader.\n\n- Helper \"modules\" can be enabled/disabled separately in the Common tab.\n\n- Each tab starts with a description of itself to make it easier to store local backups.\n\n- Feel free to copy and reuse.  :)",
     "likes": 2,
@@ -669,7 +669,7 @@
    "info": {
     "id": "dsjBDy",
     "date": "1690140863",
-    "viewed": 612,
+    "viewed": 635,
     "name": "2D Fourier Transform",
     "description": "(Not so fast) 2D Fourier Transform implemented in glsl\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the FFT resolution in the Common tab.",
     "likes": 3,
@@ -738,7 +738,7 @@
    "info": {
     "id": "mdjBWK",
     "date": "1690217266",
-    "viewed": 269,
+    "viewed": 277,
     "name": "Triangle Barycentric Coordinates",
     "description": "This started as a 4 AM question: \"How do vertex attributes get interpolated in a fragment shader?\"\nThe Wikipedia page for Barycentric Coordinates was too complicated for me, so hopefully this is easier to und.\nhttps://www.desmos.com/calculator/8g8xjejuox\n",
     "likes": 3,
@@ -784,7 +784,7 @@
    "info": {
     "id": "msjfDt",
     "date": "1690292056",
-    "viewed": 312,
+    "viewed": 318,
     "name": "Moving White Point",
     "description": "Random experiment\n\n- Drag to move the white point",
     "likes": 7,
@@ -827,7 +827,7 @@
    "info": {
     "id": "mlscWr",
     "date": "1690662251",
-    "viewed": 391,
+    "viewed": 407,
     "name": "Blinn-Phong Shading",
     "description": "Sphere",
     "likes": 5,
@@ -872,7 +872,7 @@
    "info": {
     "id": "dlfcD8",
     "date": "1692139870",
-    "viewed": 319,
+    "viewed": 327,
     "name": "Path Tracing name already in use",
     "description": "Good old naive path tracing",
     "likes": 7,
@@ -1014,7 +1014,7 @@
    "info": {
     "id": "ctfcD7",
     "date": "1690805466",
-    "viewed": 161,
+    "viewed": 166,
     "name": "colorful thing",
     "description": "random shader (i was bored)",
     "likes": 3,
@@ -1056,7 +1056,7 @@
    "info": {
     "id": "mlsyDj",
     "date": "1691237601",
-    "viewed": 257,
+    "viewed": 270,
     "name": "Balls Simulated (updated)",
     "description": "This is my first physics simulation, and I just followed my gut, so feel free to comment on how this can be improved\n\nUpdate: Implemented suggestions by @fenix (no more jittering + general improvements)",
     "likes": 12,
@@ -1156,7 +1156,7 @@
    "info": {
     "id": "cl2cRD",
     "date": "1691530674",
-    "viewed": 92,
+    "viewed": 97,
     "name": "Fixed FPS Experiment",
     "description": "Adjusting the amount of computation in order to keep the FPS constant.\nMight take up to 20 seconds to reach the target FPS.\nDoesn't work well on my phone, probably because of 16 bit precision.",
     "likes": 1,
@@ -1231,7 +1231,7 @@
    "info": {
     "id": "mtScWm",
     "date": "1691841683",
-    "viewed": 335,
+    "viewed": 341,
     "name": "Blue Noise Dithering vs OETF 2.2",
     "description": "Try commenting out the OETF to see how the dithered version and the clean version don't match in brightness anymore",
     "likes": 11,
@@ -1282,7 +1282,7 @@
    "info": {
     "id": "mtjyDw",
     "date": "1691962447",
-    "viewed": 195,
+    "viewed": 206,
     "name": "1D Continuous Function Graphing",
     "description": "Basically sample points on the function and connect them with line segments",
     "likes": 6,
@@ -1340,7 +1340,7 @@
    "info": {
     "id": "cljczd",
     "date": "1692189706",
-    "viewed": 117,
+    "viewed": 121,
     "name": "Mod of 01000001's FXAA Shader",
     "description": "Original shader: https://www.shadertoy.com/view/mljyzc",
     "likes": 1,
@@ -1399,7 +1399,7 @@
    "info": {
     "id": "DljyDG",
     "date": "1692469704",
-    "viewed": 217,
+    "viewed": 225,
     "name": "Breathing Fractal",
     "description": "Drag to explore the complex universe!\n",
     "likes": 6,
@@ -1438,7 +1438,7 @@
    "info": {
     "id": "DtfBRn",
     "date": "1692473050",
-    "viewed": 147,
+    "viewed": 151,
     "name": "Deprecated: My 2nd Def. Shader",
     "description": "My starting point for new shaders (not anymore)\nnew one coming soon",
     "likes": 1,
@@ -1480,7 +1480,7 @@
    "info": {
     "id": "DlfBzN",
     "date": "1692651978",
-    "viewed": 182,
+    "viewed": 188,
     "name": "Square Fourier Transform?",
     "description": "What if we used square waves instead of (co)sine waves in Fourier transforms?\nSee sqsin() and sqcos() at the end of Common.\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the resolution in the Common tab.",
     "likes": 5,
@@ -1551,7 +1551,7 @@
    "info": {
     "id": "mlfBR4",
     "date": "1692737129",
-    "viewed": 182,
+    "viewed": 192,
     "name": "Boids + Packed Voronoi Tracking",
     "description": "Finally learned Voronoi Tracking, read the explanations in Buffer A.",
     "likes": 3,
@@ -1706,7 +1706,7 @@
    "info": {
     "id": "clXBW4",
     "date": "1692902788",
-    "viewed": 100,
+    "viewed": 106,
     "name": "Fork polygon :D beans_plea 404",
     "description": "challenge shader",
     "likes": 0,
@@ -1740,7 +1740,7 @@
    "info": {
     "id": "dlsBDM",
     "date": "1693112135",
-    "viewed": 243,
+    "viewed": 251,
     "name": "Inverse Square Fourier Transform",
     "description": "0 = Input\n1 = 2D FFT\n2 = Inverse FFT\n\nSee use_sq at the top of Common.",
     "likes": 3,
@@ -1867,7 +1867,7 @@
    "info": {
     "id": "mtlfRs",
     "date": "1693363623",
-    "viewed": 154,
+    "viewed": 161,
     "name": "Local Sorting Challenge",
     "description": "What's the fastest way to sort a local float array? (in practice this array will be different for each pixel)\nKeep in mind we can't use recursion or dynamic memory allocation unless we emulate them which would probably slow things down more.",
     "likes": 1,
@@ -1899,10 +1899,10 @@
    "info": {
     "id": "DtSfzR",
     "date": "1693654314",
-    "viewed": 303,
+    "viewed": 316,
     "name": "Beach (Volume Absorption)",
     "description": "More or less: [code]col *= pow(absorption_col, depth)[/code]",
-    "likes": 6,
+    "likes": 7,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -1934,7 +1934,7 @@
    "info": {
     "id": "ctjfDc",
     "date": "1694574459",
-    "viewed": 423,
+    "viewed": 456,
     "name": "Fork Discoteq 3 (+ flim)",
     "description": "Discoteq 3\nadded flim ( https://www.shadertoy.com/view/dd2yDz )",
     "likes": 9,
@@ -2021,7 +2021,7 @@
    "info": {
     "id": "DdcyRf",
     "date": "1695281747",
-    "viewed": 216,
+    "viewed": 223,
     "name": "Exponential Colormap",
     "description": "See the Desmos graphs, play with v",
     "likes": 7,
@@ -2053,10 +2053,10 @@
    "info": {
     "id": "ds3fDM",
     "date": "1697312887",
-    "viewed": 438,
+    "viewed": 465,
     "name": "XPBD Rope",
     "description": "Finally implemented XPBD!\nWatch this amazing video: https://youtube.com/watch?v=jrociOAYqxA\n\n* Drag to move the tail\n\n* Long ish compile time (22 seconds for me), so be patient\n\n* Does not work well on my phone, presumably because of 16-bit floats.",
-    "likes": 19,
+    "likes": 20,
     "published": "Public API",
     "usePreview": 1,
     "tags": [
@@ -2140,7 +2140,7 @@
    "info": {
     "id": "DsGBDy",
     "date": "1698577359",
-    "viewed": 151,
+    "viewed": 158,
     "name": "angle in [0, 2pi)",
     "description": "the",
     "likes": 3,
@@ -2172,7 +2172,7 @@
    "info": {
     "id": "Mcf3Dj",
     "date": "1703544197",
-    "viewed": 230,
+    "viewed": 240,
     "name": "FBM Voronoi",
     "description": "i like voronoi",
     "likes": 2,
@@ -2217,7 +2217,7 @@
    "info": {
     "id": "4fSGzR",
     "date": "1705547653",
-    "viewed": 91,
+    "viewed": 97,
     "name": "FBM Perlin",
     "description": "i like perlin noise",
     "likes": 0,
@@ -2261,7 +2261,7 @@
    "info": {
     "id": "lf23zW",
     "date": "1736235885",
-    "viewed": 108,
+    "viewed": 118,
     "name": "🌟NOISE SHOW🌟",
     "description": "procedural noise",
     "likes": 4,
@@ -2306,7 +2306,7 @@
    "info": {
     "id": "lclXWs",
     "date": "1705932695",
-    "viewed": 200,
+    "viewed": 220,
     "name": "Quantum physics or something",
     "description": "Extremely slow, use shadertoy browser extension to increase the number of iters/frame (paint calls) to 512 ish with inspect element!\n\nHelp: How do I calculate max dt (before it breaks) based on the parameters?\n\nhttps://www.desmos.com/calculator/ery45h4dzl",
     "likes": 1,
@@ -2395,7 +2395,7 @@
    "info": {
     "id": "MXSXRm",
     "date": "1710373949",
-    "viewed": 263,
+    "viewed": 268,
     "name": "3D Function/Volume Visualizer",
     "description": "just raymarching through a box and averaging the values we sampled along the way\n",
     "likes": 11,
@@ -2532,7 +2532,7 @@
    "info": {
     "id": "lXBXWz",
     "date": "1710447505",
-    "viewed": 218,
+    "viewed": 226,
     "name": "8-bit Blue Noise Dithering",
     "description": "dithering",
     "likes": 3,
@@ -2584,7 +2584,7 @@
    "info": {
     "id": "XX2XDd",
     "date": "1711246176",
-    "viewed": 191,
+    "viewed": 196,
     "name": "Run at 120+ Hz if possible",
     "description": "Alternating between red and cyan, which looks gray. Try moving your eyes across the screen really quickly to see the pattern (in full screen).",
     "likes": 1,
@@ -2775,7 +2775,7 @@
    "info": {
     "id": "McdSzr",
     "date": "1713529681",
-    "viewed": 274,
+    "viewed": 282,
     "name": "Subpixel Anti-Aliasing",
     "description": "looks kinda weird tbh, am I doing something wrong?",
     "likes": 5,
@@ -2818,7 +2818,7 @@
    "info": {
     "id": "M3dGz8",
     "date": "1716107523",
-    "viewed": 104,
+    "viewed": 113,
     "name": "2x Temporal Upscaling",
     "description": "read my comments, the character limit is too low ..............................................................................................................................................................................................................",
     "likes": 1,
@@ -3216,7 +3216,7 @@
    "info": {
     "id": "lXy3zK",
     "date": "1717887783",
-    "viewed": 676,
+    "viewed": 711,
     "name": "Daft Punk (Audio Data Packing)",
     "description": "8-bit audio samples packed into ivec4 array(s) using a Python script, with some vinyl pixel art I made",
     "likes": 26,
@@ -3275,7 +3275,7 @@
    "info": {
     "id": "M3VGRK",
     "date": "1717936266",
-    "viewed": 258,
+    "viewed": 267,
     "name": "Attack-Decay-Sustain-Release",
     "description": "The ADSR curve is a fundamental tool used in all audio synthesizers.\nFeel free to play with the values (see custom_adsr_curve_1() in Common).\n\nRead more: [url]https://en.wikipedia.org/wiki/Envelope_(music)[/url]\n",
     "likes": 11,
@@ -3324,7 +3324,7 @@
    "info": {
     "id": "X3y3Rc",
     "date": "1717962362",
-    "viewed": 151,
+    "viewed": 166,
     "name": "Bean's Starting Point",
     "description": "Helper functions/structs/defines divided into sections.\nUse whichever section(s) you need:\n- math & integer utils\n- pseudo-random number generator\n- keyboard\n- flim\n",
     "likes": 0,
@@ -3408,7 +3408,7 @@
    "info": {
     "id": "M3tXWn",
     "date": "1718891537",
-    "viewed": 724,
+    "viewed": 736,
     "name": "Digital Logic Simulation",
     "description": "[url=https://www.shadertoy.com/view/X33XDN]UPDATE: NEW VERSION[/url]\nSee the first comment for tutorial and description.\n",
     "likes": 50,
@@ -3673,7 +3673,7 @@
    "info": {
     "id": "X33XDN",
     "date": "1719435553",
-    "viewed": 704,
+    "viewed": 723,
     "name": "DLS + Wire Cross + Clock + Rot",
     "description": "See the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\n",
     "likes": 27,
@@ -4070,7 +4070,7 @@
    "info": {
     "id": "M3ySRK",
     "date": "1720202475",
-    "viewed": 734,
+    "viewed": 779,
     "name": "Parallax Occlusion Mapping X",
     "description": "layer count depends on the ray-surface angle\n",
     "likes": 25,
@@ -4148,7 +4148,7 @@
    "info": {
     "id": "XcBBWW",
     "date": "1724905810",
-    "viewed": 196,
+    "viewed": 208,
     "name": "Follow Edge Antialiasing? (Bad)",
     "description": "[url=https://www.shadertoy.com/view/M33cD7]SEE BETTER VERSION[/url]\nidk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison\n",
     "likes": 2,
@@ -4262,7 +4262,7 @@
    "info": {
     "id": "MfjBDV",
     "date": "1725542638",
-    "viewed": 111,
+    "viewed": 117,
     "name": "Pretty Colormap (-1, +1)",
     "description": "See the Desmos graphs, play with v",
     "likes": 6,
@@ -4405,10 +4405,10 @@
    "info": {
     "id": "XXlBDH",
     "date": "1728333908",
-    "viewed": 139,
+    "viewed": 151,
     "name": "Diffraction Through 5 Slits",
     "description": "inspired by 3b1b's new video",
-    "likes": 5,
+    "likes": 6,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -4511,7 +4511,7 @@
    "info": {
     "id": "4cVcR1",
     "date": "1731504376",
-    "viewed": 153,
+    "viewed": 165,
     "name": "Color Transformation Utilities",
     "description": "The \"Image\" tab simply alternates between mixing different colors in Oklab vs Linear BT.709 I-D65.\n\nThe \"Common\" tab contains transformations for common gamuts, white points, and transfer functions. Also includes Oklab.\n",
     "likes": 4,
@@ -4594,7 +4594,7 @@
    "info": {
     "id": "lctBRn",
     "date": "1732646179",
-    "viewed": 199,
+    "viewed": 214,
     "name": "Springy Ball (Pos Vel Acc Jerk)",
     "description": "drag mouse.\nplay with INTEGRATION_MODE in Buffer A.",
     "likes": 5,
@@ -4686,7 +4686,7 @@
    "info": {
     "id": "4cyfRV",
     "date": "1734325673",
-    "viewed": 3944,
+    "viewed": 4069,
     "name": "Neural Cat",
     "description": "deep neural network trained to produce cat meme video",
     "likes": 39,
@@ -4733,10 +4733,10 @@
    "info": {
     "id": "XX3cRn",
     "date": "1734644701",
-    "viewed": 312,
+    "viewed": 377,
     "name": "Film Halation",
     "description": "film halation",
-    "likes": 9,
+    "likes": 10,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -4819,7 +4819,7 @@
    "info": {
     "id": "M33cD7",
     "date": "1735165058",
-    "viewed": 176,
+    "viewed": 194,
     "name": "FXAA-ish",
     "description": "idk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison",
     "likes": 3,
@@ -4897,7 +4897,7 @@
    "info": {
     "id": "lX3cD7",
     "date": "1735261091",
-    "viewed": 206,
+    "viewed": 228,
     "name": "Film Emulation",
     "description": "Full on film emulation. Detailed explanation in the Common tab + comments throughout the code.",
     "likes": 10,
@@ -5080,7 +5080,7 @@
    "info": {
     "id": "XXcyDB",
     "date": "1735546355",
-    "viewed": 252,
+    "viewed": 277,
     "name": "Fork Fractal Explorer (+flim)",
     "description": " More fractal fun! This time with a single pass depth of field effect. MOUSE DRAG to turn WASD & cursor keys to move. SHIFT for speed up. SPACE for another speed up!\n",
     "likes": 1,
@@ -5249,7 +5249,7 @@
    "info": {
     "id": "lXGyDR",
     "date": "1736145027",
-    "viewed": 142,
+    "viewed": 180,
     "name": "Interleaved Gradient Noise ‌‍",
     "description": "Low discrepancy or something. I copied the formula form some article, I don't know how it's actually derived.",
     "likes": 3,
@@ -5316,7 +5316,7 @@
    "info": {
     "id": "X3KcDh",
     "date": "1736180148",
-    "viewed": 101,
+    "viewed": 109,
     "name": "High Pass White Noise (Failed)",
     "description": "failed attempt to get blue noise from white noise\n\nsuccessful attempt: [url]https://www.shadertoy.com/view/lXycWt[/url]",
     "likes": 3,
@@ -5364,7 +5364,7 @@
    "info": {
     "id": "MXGyDD",
     "date": "1736256150",
-    "viewed": 190,
+    "viewed": 205,
     "name": "Perlinary",
     "description": "procedural noise",
     "likes": 11,
@@ -5455,7 +5455,7 @@
    "info": {
     "id": "lXycWt",
     "date": "1736801004",
-    "viewed": 139,
+    "viewed": 150,
     "name": "Getting Blue Noise from White",
     "description": "high passing white noise to get blue noise. one important detail is that you should map the original input from [0, 1] to [-1, +1] by performing [code](x * 2. - 1.)[/code] and undo it at the very end by doing [code](x * .5 + .5)[/code]",
     "likes": 6,
@@ -5626,7 +5626,7 @@
    "info": {
     "id": "MX3BR8",
     "date": "1736931744",
-    "viewed": 192,
+    "viewed": 203,
     "name": "Single Function Semi Blue Noise",
     "description": "Convolution with a white noise.\n\nHold mouse to see Shadertoy's default blue noise texture.",
     "likes": 9,
@@ -6264,7 +6264,7 @@
    "info": {
     "id": "lXGfWt",
     "date": "1745672318",
-    "viewed": 110,
+    "viewed": 123,
     "name": "Pause Menu Background Effect",
     "description": "proof of concept for an idea I had for a pause menu background effect to use in video games",
     "likes": 5,
@@ -6432,10 +6432,10 @@
    "info": {
     "id": "WcsSRH",
     "date": "1740643773",
-    "viewed": 87,
+    "viewed": 94,
     "name": "Subpixel Anti-Aliasing 2",
     "description": "looks kinda weird tbh, am I doing something wrong?",
-    "likes": 4,
+    "likes": 5,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -6475,7 +6475,7 @@
    "info": {
     "id": "3clXzN",
     "date": "1740690643",
-    "viewed": 113,
+    "viewed": 123,
     "name": "smooth downscale without mipmap",
     "description": "needed this for a project",
     "likes": 0,
@@ -6523,7 +6523,7 @@
    "info": {
     "id": "3cSSRR",
     "date": "1741469568",
-    "viewed": 90,
+    "viewed": 100,
     "name": "Double-Pass DFT",
     "description": "2D Discrete Fourier Transform\n\nhold mouse to see input\n",
     "likes": 5,
@@ -6678,11 +6678,11 @@
    "info": {
     "id": "Wc3GD4",
     "date": "1747077935",
-    "viewed": 3,
+    "viewed": 4,
     "name": "Water Optimizer",
     "description": "check out the Desmos graph for details:\n[url]https://www.desmos.com/calculator/eflrvqjufv[/url]\n",
     "likes": 0,
-    "published": "Unlisted",
+    "published": "Public API",
     "usePreview": 0,
     "tags": [
      "water"
@@ -6717,7 +6717,7 @@
    "info": {
     "id": "Wfd3RX",
     "date": "1747980811",
-    "viewed": 139,
+    "viewed": 162,
     "name": "2D Vector Field Wave Sim",
     "description": "You could treat this as the electric field or the magnetic field on its own, the other one could also be simulated using the time derivative of this field.",
     "likes": 11,
@@ -6939,7 +6939,7 @@
     {
      "inputs": [],
      "outputs": [],
-     "code": "// if the average energy of the audio samples is below this,\n// no symbol will be detected.\nconst float ENERGY_AVG_THRESHOLD = .002;\n\n// scale the energies of symbol frequencies by this value\nconst float SYMBOL_ENERGY_BOOST = 5.;\n\n// NOTE: below are the transmission settings. the values MUST\n// match with the transmitter shader.\n\n// which frequencies to use for 0 and 1 (Hz)\nconst float FREQ_LOW = 1200.;\nconst float FREQ_LOW_ALT = 1800.;\nconst float FREQ_HIGH = 2700.;\nconst float FREQ_HIGH_ALT = 4050.;\n\n// which frequency to emit at the first bit of a character\nconst float FREQ_CHAR_START = 6075.;\n\n#define RES iResolution.xy\n\n\n\n/*___________ math & integer utils ____________*/\n\nconst float PI = 3.141592653589793238462643383;\nconst float TAU = 6.283185307179586476925286767;\nconst float PI_OVER_2 = 1.570796326794896619231321692;\nconst float INV_PI = .318309886183790671537767527;\nconst float INV_TAU = .159154943091895335768883763;\nconst float SQRT_2 = 1.414213562373095048801688724;\nconst float INV_SQRT_2 = .707106781186547524400844362;\nconst float PHI = 1.618033988749894848204586834;\n\n#define FUNC_WRAP(T) \\\nT wrap(T v, float start, float end) \\\n{ \\\n    return start + mod(v - start, end - start); \\\n}\n\n#define FUNC_REMAP(T) \\\nT remap(T v, float inp_start, float inp_end, float out_start, float out_end) \\\n{ \\\n    return out_start \\\n        + ((out_end - out_start) / (inp_end - inp_start)) * (v - inp_start); \\\n}\n\n#define FUNC_REMAP_CLAMP(T) \\\nT remap_clamp( \\\n    T v, \\\n    float inp_start, \\\n    float inp_end, \\\n    float out_start, \\\n    float out_end \\\n) \\\n{ \\\n    T t = clamp((v - inp_start) / (inp_end - inp_start), 0., 1.); \\\n    return out_start + t * (out_end - out_start); \\\n}\n\n#define FUNC_REMAP01(T) \\\nT remap01(T v, float inp_start, float inp_end) \\\n{ \\\n    return clamp((v - inp_start) / (inp_end - inp_start), 0., 1.); \\\n}\n\n#define FUNC_LENGTH_SQ(T) \\\nfloat length_sq(T v) \\\n{ \\\n    return dot(v, v); \\\n}\n\n#define FUNC_DIST_SQ(T) \\\nfloat dist_sq(T a, T b) \\\n{ \\\n    a -= b; \\\n    return dot(a, a); \\\n}\n\nFUNC_WRAP(float)\nFUNC_WRAP(vec2)\nFUNC_WRAP(vec3)\nFUNC_WRAP(vec4)\n\nFUNC_REMAP(float)\nFUNC_REMAP(vec2)\nFUNC_REMAP(vec3)\nFUNC_REMAP(vec4)\n\nFUNC_REMAP_CLAMP(float)\nFUNC_REMAP_CLAMP(vec2)\nFUNC_REMAP_CLAMP(vec3)\nFUNC_REMAP_CLAMP(vec4)\n\nFUNC_REMAP01(float)\nFUNC_REMAP01(vec2)\nFUNC_REMAP01(vec3)\nFUNC_REMAP01(vec4)\n\nFUNC_LENGTH_SQ(vec2)\nFUNC_LENGTH_SQ(vec3)\nFUNC_LENGTH_SQ(vec4)\n\nFUNC_DIST_SQ(vec2)\nFUNC_DIST_SQ(vec3)\nFUNC_DIST_SQ(vec4)\n\nfloat square(float v)\n{\n    return v * v;\n}\n\nfloat chebyshev_dist(vec2 a, vec2 b)\n{\n    return max(abs(a.x - b.x), abs(a.y - b.y));\n}\n\nfloat chebyshev_dist(vec3 a, vec3 b)\n{\n    return max(\n        max(abs(a.x - b.x), abs(a.y - b.y)),\n        abs(a.z - b.z)\n    );\n}\n\nfloat chebyshev_dist(vec4 a, vec4 b)\n{\n    return max(\n        max(\n            max(abs(a.x - b.x), abs(a.y - b.y)),\n            abs(a.z - b.z)\n        ),\n        abs(a.w - b.w)\n    );\n}\n\n#define idiv_ceil(a, b) (((a) + (b) - 1) / (b))\n#define imod_positive(a, b) ((((a) % (b)) + (b)) % (b))\n\nint iabs(int v)\n{\n    if (v < 0)\n    {\n        return -v;\n    }\n    return v;\n}\n\nint imin(int a, int b)\n{\n    if (a < b)\n    {\n        return a;\n    }\n    return b;\n}\n\nint imax(int a, int b)\n{\n    if (a > b)\n    {\n        return a;\n    }\n    return b;\n}\n\nint iclamp(int v, int start, int end)\n{\n    if (v < start)\n    {\n        v = start;\n    }\n    if (v > end)\n    {\n        v = end;\n    }\n    return v;\n}\n\nfloat min_component(vec2 v)\n{\n    return min(v.x, v.y);\n}\n\nfloat min_component(vec3 v)\n{\n    return min(min(v.x, v.y), v.z);\n}\n\nfloat min_component(vec4 v)\n{\n    return min(min(min(v.x, v.y), v.z), v.w);\n}\n\nfloat max_component(vec2 v)\n{\n    return max(v.x, v.y);\n}\n\nfloat max_component(vec3 v)\n{\n    return max(max(v.x, v.y), v.z);\n}\n\nfloat max_component(vec4 v)\n{\n    return max(max(max(v.x, v.y), v.z), v.w);\n}\n\nint min_component(ivec2 v)\n{\n    return imin(v.x, v.y);\n}\n\nint min_component(ivec3 v)\n{\n    return imin(imin(v.x, v.y), v.z);\n}\n\nint min_component(ivec4 v)\n{\n    return imin(imin(imin(v.x, v.y), v.z), v.w);\n}\n\nint max_component(ivec2 v)\n{\n    return imax(v.x, v.y);\n}\n\nint max_component(ivec3 v)\n{\n    return imax(imax(v.x, v.y), v.z);\n}\n\nint max_component(ivec4 v)\n{\n    return imax(imax(imax(v.x, v.y), v.z), v.w);\n}\n\n// error function (erf) approximation with max error: 1.5 * 10^-7\n// https://en.wikipedia.org/wiki/Error_function\nfloat erf(float v)\n{\n    const float p = .3275911;\n    const float a1 = .254829592;\n    const float a2 = -.284496736;\n    const float a3 = 1.421413741;\n    const float a4 = -1.453152027;\n    const float a5 = 1.061405429;\n    \n    float x = abs(v);\n    \n    float t = 1. / (1. + p * x);\n    float t2 = t * t;\n    float t3 = t2 * t;\n    float t4 = t3 * t;\n    float t5 = t4 * t;\n    \n    float positive_only = 1. - exp(-x * x) * ((a1 * t) + (a2 * t2) + (a3 * t3) + (a4 * t4) + (a5 * t5));\n    return sign(v) * positive_only;\n}\n\n// approx. CDF of normal / gaussian distribution with mean=0 and std=1\n// https://en.wikipedia.org/wiki/Normal_distribution\nfloat normal_cdf(float v)\n{\n    return erf(v * INV_SQRT_2) * .5 + .5;\n}\n\nfloat bilinear(\n    float val_bl,\n    float val_tl,\n    float val_tr,\n    float val_br,\n    vec2 offs\n)\n{\n    return mix(\n        mix(val_bl, val_br, offs.x),\n        mix(val_tl, val_tr, offs.x),\n        offs.y\n    );\n}\n\n// credits to AHSEN (https://www.shadertoy.com/user/01000001)\n// https://www.desmos.com/calculator/5d6ph151vi interactive :D\nfloat cubic_interp(float a, float b, float c, float d, float t)\n{\n    float one = t - 1.;\n    float two = t - 2.;\n    float three = t - 3.;\n    return (\n        (-one * two * three * a)\n        + (t * one * two * d)\n        + (3. * t * two * three * b)\n        - (3. * t * one * three * c)\n    ) / 6.;\n}\n\nfloat dist_along_line(vec2 p, vec2 line_start, vec2 line_end)\n{\n    vec2 dir = line_end - line_start;\n    \n    // normalize\n    float len_sqr = dot(dir, dir);\n    if (len_sqr < .0001)\n        return 1e9;\n    dir /= sqrt(len_sqr);\n    \n    return dot(\n        dir,\n        p - line_start\n    );\n}\n\nfloat relative_dist_along_line(vec2 p, vec2 line_start, vec2 line_end)\n{\n    vec2 dir = line_end - line_start;\n    return dot(\n        dir,\n        p - line_start\n    );\n}\n\n// |a| * |b| * sin(theta)\nfloat cross2d(vec2 a, vec2 b)\n{\n    return a.x * b.y - a.y * b.x;\n}\n\n// references for barycentric coordinates\n// https://www.desmos.com/calculator/8g8xjejuox\n// https://www.shadertoy.com/view/mdjBWK\n\nvec3 cartesian_to_barycentric(\n    vec2 p,\n    vec2 v0,\n    vec2 v1,\n    vec2 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        cross2d(v1 - p, v2 - p),\n        cross2d(v2 - p, v0 - p),\n        cross2d(v0 - p, v1 - p)\n    ) / cross2d(v1 - v0, v2 - v0);\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nvec3 cartesian_to_barycentric(\n    vec3 p,\n    vec3 v0,\n    vec3 v1,\n    vec3 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        length(cross(v1 - p, v2 - p)),\n        length(cross(v2 - p, v0 - p)),\n        length(cross(v0 - p, v1 - p))\n    ) / length(cross(v1 - v0, v2 - v0));\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nfloat barycentric_interpolate(vec3 b, float v0, float v1, float v2)\n{\n    return dot(b, vec3(v0, v1, v2));\n}\n\nvec2 barycentric_interpolate(vec3 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec3 barycentric_interpolate(vec3 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec4 barycentric_interpolate(vec3 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nfloat barycentric_interpolate(vec2 b, float v0, float v1, float v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec2 barycentric_interpolate(vec2 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec3 barycentric_interpolate(vec2 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec4 barycentric_interpolate(vec2 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\n// angle from 0 to TAU\nfloat get_angle(vec2 p)\n{\n    float a = atan(p.y, p.x);\n    if (a < 0.)\n    {\n        return a + TAU;\n    }\n    return a;\n}\n\nmat2 rotate_2d(float angle)\n{\n    float s = sin(angle);\n    float c = cos(angle);\n    return mat2(\n        c, s,\n        -s, c\n    );\n}\n\nvec2 perpendicular(vec2 v)\n{\n    return vec2(-v.y, v.x);\n}\n\n// s.x=theta\n// s.y=phi\n// (there's no r)\nvec3 spherical_to_cartesian(vec2 s)\n{\n    float sin_theta = sin(s.x);\n    return vec3(\n        sin_theta * cos(s.y),\n        sin_theta * sin(s.y),\n        cos(s.x)\n    );\n}\n\n// s.x=r\n// s.y=theta\n// s.z=phi\nvec3 spherical_to_cartesian(vec3 s)\n{\n    float sin_theta = sin(s.y);\n    return s.x * vec3(\n        sin_theta * cos(s.z),\n        sin_theta * sin(s.z),\n        cos(s.y)\n    );\n}\n\nvec2 screen_to_uv01(vec2 coord, vec2 res)\n{\n    return coord / res;\n}\n\nvec2 screen_to_uv_horizontal(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.x;\n}\n\nvec2 screen_to_uv_vertical(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.y;\n}\n\nvec2 screen_to_uv_fit(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / min_component(res);\n}\n\nvec2 screen_to_uv_fill(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / max_component(res);\n}\n\n// * idx starts at 1\nfloat halton(int base, int idx)\n{\n    float result = 0.;\n    float digit_weight = 1.;\n    while (idx > 0)\n    {\n        digit_weight /= float(base);\n        result += float(idx % base) * digit_weight;\n        idx /= base;\n    }\n    return result;\n}\n\n// * idx starts at 1\nvec2 halton_2d(int idx)\n{\n    return vec2(halton(2, idx), halton(3, idx));\n}\n\n// * idx starts at 1\nvec3 halton_3d(int idx)\n{\n    return vec3(halton(2, idx), halton(3, idx), halton(5, idx));\n}\n\n// * idx starts at 1\nvec4 halton_4d(int idx)\n{\n    return vec4(\n        halton(2, idx),\n        halton(3, idx),\n        halton(5, idx),\n        halton(7, idx)\n    );\n}\n\n// encode a 32-bit unsigned integer into a float that can be used in a vec4\n// to be stored in a buffer in Shadertoy. use buffer_decode() to undo this.\n//\n// IMPORTANT: 0 <= v <= 4,269,801,471\n// in some implementations, all NaNs and infinity values collapse to a single\n// value regardless of the original bit pattern. this makes it very hard to\n// store arbitrary integers in float buffers. this function automatically jumps\n// across those problematic values to avoid them at the cost of a lower maximum\n// value, so make sure your input doesn't go above it!\n//\n// these are the ranges we need to avoid:\n// \n// - subnormals\n//   0 -> 8,388,607\n//\n// - positive NaNs and infinity\n//   2,139,095,040 -> 2,147,483,647\n//\n// - negative NaNs and infinity\n//   4,286,578,688 -> 4,294,967,295\n//\n// the last problematic range is already handled since we limit the maximum\n// value.\n//\n// NOTE: Shadertoy appears to be using FP16 buffers in some mobile platforms,\n// but this function is only designed to work with 32-bit values, so it may\n// break in certain machines.\nfloat buffer_encode(uint v)\n{\n    if (v >= 2130706432u)\n    {\n        return uintBitsToFloat(v + 2u * 8388608u);\n    }\n    return uintBitsToFloat(v + 8388608u);\n}\n\n// decodes integers encoded by buffer_encode()\nuint buffer_decode(float v)\n{\n    uint x = floatBitsToUint(v);\n    if (x >= 2130706432u + 8388608u)\n    {\n        return x - 2u * 8388608u;\n    }\n    return x - 8388608u;\n}\n\nbool icoord_in_bounds(ivec2 icoord, ivec2 ires)\n{\n    return\n        icoord.x >= 0 &&\n        icoord.y >= 0 &&\n        icoord.x < ires.x &&\n        icoord.y < ires.y;\n}\n\nbool icoord_in_bounds(ivec3 icoord, ivec3 ires)\n{\n    return\n        icoord.x >= 0 &&\n        icoord.y >= 0 &&\n        icoord.z >= 0 &&\n        icoord.x < ires.x &&\n        icoord.y < ires.y &&\n        icoord.z < ires.z;\n}\n\nint icoord_to_idx(ivec2 icoord, ivec2 ires)\n{\n    return icoord.x + (icoord.y * ires.x);\n}\n\nint icoord_to_idx(ivec3 icoord, ivec3 ires)\n{\n    return icoord.x + (icoord.y * ires.x) + (icoord.z * ires.x * ires.y);\n}\n\nivec2 idx_to_icoord(int idx, ivec2 ires)\n{\n    return ivec2(idx % ires.x, idx / ires.x);\n}\n\nivec3 idx_to_icoord(int idx, ivec3 ires)\n{\n    return ivec3(\n        idx % ires.x,\n        (idx % (ires.x * ires.y)) / ires.x,\n        idx / (ires.x * ires.y)\n    );\n}\n\n// https://www.desmos.com/calculator/kfe07basy9\n\nuint compress_float_to_uint_linear(float f, float min_f, float max_f, uint max_i)\n{\n    return uint(floor(\n        float(max_i) * remap01(f, min_f, max_f)\n    ));\n}\n\nfloat decompress_float_from_uint_linear(\n    uint i,\n    uint max_i,\n    float min_f,\n    float max_f\n)\n{\n    return remap_clamp(\n        float(i) / float(max_i),\n        0., 1.,\n        min_f, max_f\n    );\n}\n\nuint compress_float_to_uint_log(\n    float f,\n    float log2_zero_offset,\n    float max_log2_f,\n    uint max_i\n)\n{\n    f = max(0., f);\n    f += pow(2., log2_zero_offset);\n    return uint(floor(\n        float(max_i) * remap01(log2(f), log2_zero_offset, max_log2_f)\n    ));\n}\n\nfloat decompress_float_from_uint_log(\n    uint i,\n    uint max_i,\n    float log2_zero_offset,\n    float max_log2_f\n)\n{\n    return pow(2., remap_clamp(\n        float(i) / float(max_i),\n        0., 1.,\n        log2_zero_offset, max_log2_f\n    )) - pow(2., log2_zero_offset);\n}\n\n\n\n/*\n\n\"127 bits per pixel\" by Theron Tarigo, www.shadertoy.com/user/ttg\n\nUtilizing all channels of an OpenGL 32-bit float buffer it is possible to store\n127 bits per pixel without using special float values\n(which become altered in buffers on some implementations).\n\n4x IEEE754 binary32 allows ((1<<24)*254)^4 distinct values or\n127.9547 bits of information.\n\nThe following implementations:\n  b127_ieee754_encode\n  b127_ieee754_decode\nare free for use, copying, and modification by anyone for any purpose,\nwithout restriction.\n\nAttribution should be included for providing clarity of the origin of these\nimplementations; including the original URL is sufficient attribution:\nhttps://www.shadertoy.com/view/wtKyR1\n\n*/\n\nvec4 b127_ieee754_encode (uvec4 v) {\n  v.w&=0x7FFFFFFFu;\n  uvec4 l = uvec4( v.xyz&0xFFFFFFu , v.x>>24 | v.y>>24<<8 | v.z>>24<<16 );\n  return uintBitsToFloat( (l&0x800000u)<<8 | l&0x7FFFFFu\n   | 1u+uvec4(v.w/uvec4(1,254,254*254,254*254*254))%254u <<23 );\n}\n\nvec4 b127_ieee754_encode (ivec4 v) {\n    return b127_ieee754_encode(uvec4(v));\n}\n\nuvec4 b127_ieee754_decode (vec4 f) {\n  uvec4 e = floatBitsToUint(f);\n  uvec4 l = (e&0x80000000u)>>8 | e&0x7FFFFFu;\n  uvec4 h = (e>>23&0xFFu)-1u;\n  return uvec4(\n    l.xyz | uvec3(l.w)>>uvec3(0,8,16)<<24,\n    h.x+254u*h.y+(254u*254u)*h.z+(254u*254u*254u)*h.w );\n}\n\nivec4 b127_ieee754_idecode (vec4 f) {\n    return ivec4(b127_ieee754_decode(f));\n}\n\n/*===========================================================================*/\n\nconst int SYMBOL_NONE = 0;\nconst int SYMBOL_LOW = 1;\nconst int SYMBOL_LOW_ALT = 2;\nconst int SYMBOL_HIGH = 3;\nconst int SYMBOL_HIGH_ALT = 4;\nconst int SYMBOL_CHAR_START = 5;\n\nconst int STATE_NONE = 0;\nconst int STATE_READY = 1;\nconst int STATE_RECEIVING = 2;\nconst int STATE_DONE = 3;\n\nstruct CharInfo\n{\n    int char;\n    int n_bits_read;\n    int state;\n    int last_symbol;\n};\n\nCharInfo CharInfo_new()\n{\n    CharInfo c;\n    c.char = 0;\n    c.n_bits_read = 0;\n    c.state = STATE_NONE;\n    c.last_symbol = SYMBOL_NONE;\n    return c;\n}\n\nvec4 CharInfo_encode(in CharInfo c)\n{\n    return b127_ieee754_encode(ivec4(\n        c.char,\n        c.n_bits_read,\n        c.state,\n        c.last_symbol\n    ));\n}\n\nCharInfo CharInfo_decode(vec4 data)\n{\n    ivec4 idata = b127_ieee754_idecode(data);\n    \n    CharInfo c;\n    c.char = idata.x;\n    c.n_bits_read = idata.y;\n    c.state = idata.z;\n    c.last_symbol = idata.w;\n    return c;\n}\n\nCharInfo CharInfo_fetch(sampler2D tex, int idx)\n{\n    ivec2 tex_size = textureSize(tex, 0);\n    if (idx < 0 || idx >= (tex_size.x * tex_size.y))\n    {\n        return CharInfo_new();\n    }\n    \n    return CharInfo_decode(texelFetch(\n        tex,\n        idx_to_icoord(idx, tex_size),\n        0\n    ));\n}\n",
+     "code": "// if the magnitude of the peak frequency is below this, no\n// symbol will be detected.\nconst float MAGNITUDE_THRESHOLD = .001;\n\n// use this step size when scanning through frequencies\nconst float FREQ_SCAN_STEP = 90.;\n\n// NOTE: below are the transmission settings. the values MUST\n// match with the transmitter shader.\n\n// which frequencies to use for 0 and 1 (Hz)\nconst float FREQ_LOW = 1200.;\nconst float FREQ_LOW_ALT = 1800.;\nconst float FREQ_HIGH = 2700.;\nconst float FREQ_HIGH_ALT = 4050.;\n\n// which frequency to emit at the first bit of a character\nconst float FREQ_CHAR_START = 6075.;\n\n#define RES iResolution.xy\n\n\n\n/*___________ math & integer utils ____________*/\n\nconst float PI = 3.141592653589793238462643383;\nconst float TAU = 6.283185307179586476925286767;\nconst float PI_OVER_2 = 1.570796326794896619231321692;\nconst float INV_PI = .318309886183790671537767527;\nconst float INV_TAU = .159154943091895335768883763;\nconst float SQRT_2 = 1.414213562373095048801688724;\nconst float INV_SQRT_2 = .707106781186547524400844362;\nconst float PHI = 1.618033988749894848204586834;\n\n#define FUNC_WRAP(T) \\\nT wrap(T v, float start, float end) \\\n{ \\\n    return start + mod(v - start, end - start); \\\n}\n\n#define FUNC_REMAP(T) \\\nT remap(T v, float inp_start, float inp_end, float out_start, float out_end) \\\n{ \\\n    return out_start \\\n        + ((out_end - out_start) / (inp_end - inp_start)) * (v - inp_start); \\\n}\n\n#define FUNC_REMAP_CLAMP(T) \\\nT remap_clamp( \\\n    T v, \\\n    float inp_start, \\\n    float inp_end, \\\n    float out_start, \\\n    float out_end \\\n) \\\n{ \\\n    T t = clamp((v - inp_start) / (inp_end - inp_start), 0., 1.); \\\n    return out_start + t * (out_end - out_start); \\\n}\n\n#define FUNC_REMAP01(T) \\\nT remap01(T v, float inp_start, float inp_end) \\\n{ \\\n    return clamp((v - inp_start) / (inp_end - inp_start), 0., 1.); \\\n}\n\n#define FUNC_LENGTH_SQ(T) \\\nfloat length_sq(T v) \\\n{ \\\n    return dot(v, v); \\\n}\n\n#define FUNC_DIST_SQ(T) \\\nfloat dist_sq(T a, T b) \\\n{ \\\n    a -= b; \\\n    return dot(a, a); \\\n}\n\nFUNC_WRAP(float)\nFUNC_WRAP(vec2)\nFUNC_WRAP(vec3)\nFUNC_WRAP(vec4)\n\nFUNC_REMAP(float)\nFUNC_REMAP(vec2)\nFUNC_REMAP(vec3)\nFUNC_REMAP(vec4)\n\nFUNC_REMAP_CLAMP(float)\nFUNC_REMAP_CLAMP(vec2)\nFUNC_REMAP_CLAMP(vec3)\nFUNC_REMAP_CLAMP(vec4)\n\nFUNC_REMAP01(float)\nFUNC_REMAP01(vec2)\nFUNC_REMAP01(vec3)\nFUNC_REMAP01(vec4)\n\nFUNC_LENGTH_SQ(vec2)\nFUNC_LENGTH_SQ(vec3)\nFUNC_LENGTH_SQ(vec4)\n\nFUNC_DIST_SQ(vec2)\nFUNC_DIST_SQ(vec3)\nFUNC_DIST_SQ(vec4)\n\nfloat square(float v)\n{\n    return v * v;\n}\n\nfloat chebyshev_dist(vec2 a, vec2 b)\n{\n    return max(abs(a.x - b.x), abs(a.y - b.y));\n}\n\nfloat chebyshev_dist(vec3 a, vec3 b)\n{\n    return max(\n        max(abs(a.x - b.x), abs(a.y - b.y)),\n        abs(a.z - b.z)\n    );\n}\n\nfloat chebyshev_dist(vec4 a, vec4 b)\n{\n    return max(\n        max(\n            max(abs(a.x - b.x), abs(a.y - b.y)),\n            abs(a.z - b.z)\n        ),\n        abs(a.w - b.w)\n    );\n}\n\n#define idiv_ceil(a, b) (((a) + (b) - 1) / (b))\n#define imod_positive(a, b) ((((a) % (b)) + (b)) % (b))\n\nint iabs(int v)\n{\n    if (v < 0)\n    {\n        return -v;\n    }\n    return v;\n}\n\nint imin(int a, int b)\n{\n    if (a < b)\n    {\n        return a;\n    }\n    return b;\n}\n\nint imax(int a, int b)\n{\n    if (a > b)\n    {\n        return a;\n    }\n    return b;\n}\n\nint iclamp(int v, int start, int end)\n{\n    if (v < start)\n    {\n        v = start;\n    }\n    if (v > end)\n    {\n        v = end;\n    }\n    return v;\n}\n\nfloat min_component(vec2 v)\n{\n    return min(v.x, v.y);\n}\n\nfloat min_component(vec3 v)\n{\n    return min(min(v.x, v.y), v.z);\n}\n\nfloat min_component(vec4 v)\n{\n    return min(min(min(v.x, v.y), v.z), v.w);\n}\n\nfloat max_component(vec2 v)\n{\n    return max(v.x, v.y);\n}\n\nfloat max_component(vec3 v)\n{\n    return max(max(v.x, v.y), v.z);\n}\n\nfloat max_component(vec4 v)\n{\n    return max(max(max(v.x, v.y), v.z), v.w);\n}\n\nint min_component(ivec2 v)\n{\n    return imin(v.x, v.y);\n}\n\nint min_component(ivec3 v)\n{\n    return imin(imin(v.x, v.y), v.z);\n}\n\nint min_component(ivec4 v)\n{\n    return imin(imin(imin(v.x, v.y), v.z), v.w);\n}\n\nint max_component(ivec2 v)\n{\n    return imax(v.x, v.y);\n}\n\nint max_component(ivec3 v)\n{\n    return imax(imax(v.x, v.y), v.z);\n}\n\nint max_component(ivec4 v)\n{\n    return imax(imax(imax(v.x, v.y), v.z), v.w);\n}\n\n// error function (erf) approximation with max error: 1.5 * 10^-7\n// https://en.wikipedia.org/wiki/Error_function\nfloat erf(float v)\n{\n    const float p = .3275911;\n    const float a1 = .254829592;\n    const float a2 = -.284496736;\n    const float a3 = 1.421413741;\n    const float a4 = -1.453152027;\n    const float a5 = 1.061405429;\n    \n    float x = abs(v);\n    \n    float t = 1. / (1. + p * x);\n    float t2 = t * t;\n    float t3 = t2 * t;\n    float t4 = t3 * t;\n    float t5 = t4 * t;\n    \n    float positive_only = 1. - exp(-x * x) * ((a1 * t) + (a2 * t2) + (a3 * t3) + (a4 * t4) + (a5 * t5));\n    return sign(v) * positive_only;\n}\n\n// approx. CDF of normal / gaussian distribution with mean=0 and std=1\n// https://en.wikipedia.org/wiki/Normal_distribution\nfloat normal_cdf(float v)\n{\n    return erf(v * INV_SQRT_2) * .5 + .5;\n}\n\nfloat bilinear(\n    float val_bl,\n    float val_tl,\n    float val_tr,\n    float val_br,\n    vec2 offs\n)\n{\n    return mix(\n        mix(val_bl, val_br, offs.x),\n        mix(val_tl, val_tr, offs.x),\n        offs.y\n    );\n}\n\n// credits to AHSEN (https://www.shadertoy.com/user/01000001)\n// https://www.desmos.com/calculator/5d6ph151vi interactive :D\nfloat cubic_interp(float a, float b, float c, float d, float t)\n{\n    float one = t - 1.;\n    float two = t - 2.;\n    float three = t - 3.;\n    return (\n        (-one * two * three * a)\n        + (t * one * two * d)\n        + (3. * t * two * three * b)\n        - (3. * t * one * three * c)\n    ) / 6.;\n}\n\nfloat dist_along_line(vec2 p, vec2 line_start, vec2 line_end)\n{\n    vec2 dir = line_end - line_start;\n    \n    // normalize\n    float len_sqr = dot(dir, dir);\n    if (len_sqr < .0001)\n        return 1e9;\n    dir /= sqrt(len_sqr);\n    \n    return dot(\n        dir,\n        p - line_start\n    );\n}\n\nfloat relative_dist_along_line(vec2 p, vec2 line_start, vec2 line_end)\n{\n    vec2 dir = line_end - line_start;\n    return dot(\n        dir,\n        p - line_start\n    );\n}\n\n// |a| * |b| * sin(theta)\nfloat cross2d(vec2 a, vec2 b)\n{\n    return a.x * b.y - a.y * b.x;\n}\n\n// references for barycentric coordinates\n// https://www.desmos.com/calculator/8g8xjejuox\n// https://www.shadertoy.com/view/mdjBWK\n\nvec3 cartesian_to_barycentric(\n    vec2 p,\n    vec2 v0,\n    vec2 v1,\n    vec2 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        cross2d(v1 - p, v2 - p),\n        cross2d(v2 - p, v0 - p),\n        cross2d(v0 - p, v1 - p)\n    ) / cross2d(v1 - v0, v2 - v0);\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nvec3 cartesian_to_barycentric(\n    vec3 p,\n    vec3 v0,\n    vec3 v1,\n    vec3 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        length(cross(v1 - p, v2 - p)),\n        length(cross(v2 - p, v0 - p)),\n        length(cross(v0 - p, v1 - p))\n    ) / length(cross(v1 - v0, v2 - v0));\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nfloat barycentric_interpolate(vec3 b, float v0, float v1, float v2)\n{\n    return dot(b, vec3(v0, v1, v2));\n}\n\nvec2 barycentric_interpolate(vec3 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec3 barycentric_interpolate(vec3 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec4 barycentric_interpolate(vec3 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nfloat barycentric_interpolate(vec2 b, float v0, float v1, float v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec2 barycentric_interpolate(vec2 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec3 barycentric_interpolate(vec2 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec4 barycentric_interpolate(vec2 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\n// angle from 0 to TAU\nfloat get_angle(vec2 p)\n{\n    float a = atan(p.y, p.x);\n    if (a < 0.)\n    {\n        return a + TAU;\n    }\n    return a;\n}\n\nmat2 rotate_2d(float angle)\n{\n    float s = sin(angle);\n    float c = cos(angle);\n    return mat2(\n        c, s,\n        -s, c\n    );\n}\n\nvec2 perpendicular(vec2 v)\n{\n    return vec2(-v.y, v.x);\n}\n\n// s.x=theta\n// s.y=phi\n// (there's no r)\nvec3 spherical_to_cartesian(vec2 s)\n{\n    float sin_theta = sin(s.x);\n    return vec3(\n        sin_theta * cos(s.y),\n        sin_theta * sin(s.y),\n        cos(s.x)\n    );\n}\n\n// s.x=r\n// s.y=theta\n// s.z=phi\nvec3 spherical_to_cartesian(vec3 s)\n{\n    float sin_theta = sin(s.y);\n    return s.x * vec3(\n        sin_theta * cos(s.z),\n        sin_theta * sin(s.z),\n        cos(s.y)\n    );\n}\n\nvec2 screen_to_uv01(vec2 coord, vec2 res)\n{\n    return coord / res;\n}\n\nvec2 screen_to_uv_horizontal(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.x;\n}\n\nvec2 screen_to_uv_vertical(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.y;\n}\n\nvec2 screen_to_uv_fit(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / min_component(res);\n}\n\nvec2 screen_to_uv_fill(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / max_component(res);\n}\n\n// * idx starts at 1\nfloat halton(int base, int idx)\n{\n    float result = 0.;\n    float digit_weight = 1.;\n    while (idx > 0)\n    {\n        digit_weight /= float(base);\n        result += float(idx % base) * digit_weight;\n        idx /= base;\n    }\n    return result;\n}\n\n// * idx starts at 1\nvec2 halton_2d(int idx)\n{\n    return vec2(halton(2, idx), halton(3, idx));\n}\n\n// * idx starts at 1\nvec3 halton_3d(int idx)\n{\n    return vec3(halton(2, idx), halton(3, idx), halton(5, idx));\n}\n\n// * idx starts at 1\nvec4 halton_4d(int idx)\n{\n    return vec4(\n        halton(2, idx),\n        halton(3, idx),\n        halton(5, idx),\n        halton(7, idx)\n    );\n}\n\n// encode a 32-bit unsigned integer into a float that can be used in a vec4\n// to be stored in a buffer in Shadertoy. use buffer_decode() to undo this.\n//\n// IMPORTANT: 0 <= v <= 4,269,801,471\n// in some implementations, all NaNs and infinity values collapse to a single\n// value regardless of the original bit pattern. this makes it very hard to\n// store arbitrary integers in float buffers. this function automatically jumps\n// across those problematic values to avoid them at the cost of a lower maximum\n// value, so make sure your input doesn't go above it!\n//\n// these are the ranges we need to avoid:\n// \n// - subnormals\n//   0 -> 8,388,607\n//\n// - positive NaNs and infinity\n//   2,139,095,040 -> 2,147,483,647\n//\n// - negative NaNs and infinity\n//   4,286,578,688 -> 4,294,967,295\n//\n// the last problematic range is already handled since we limit the maximum\n// value.\n//\n// NOTE: Shadertoy appears to be using FP16 buffers in some mobile platforms,\n// but this function is only designed to work with 32-bit values, so it may\n// break in certain machines.\nfloat buffer_encode(uint v)\n{\n    if (v >= 2130706432u)\n    {\n        return uintBitsToFloat(v + 2u * 8388608u);\n    }\n    return uintBitsToFloat(v + 8388608u);\n}\n\n// decodes integers encoded by buffer_encode()\nuint buffer_decode(float v)\n{\n    uint x = floatBitsToUint(v);\n    if (x >= 2130706432u + 8388608u)\n    {\n        return x - 2u * 8388608u;\n    }\n    return x - 8388608u;\n}\n\nbool icoord_in_bounds(ivec2 icoord, ivec2 ires)\n{\n    return\n        icoord.x >= 0 &&\n        icoord.y >= 0 &&\n        icoord.x < ires.x &&\n        icoord.y < ires.y;\n}\n\nbool icoord_in_bounds(ivec3 icoord, ivec3 ires)\n{\n    return\n        icoord.x >= 0 &&\n        icoord.y >= 0 &&\n        icoord.z >= 0 &&\n        icoord.x < ires.x &&\n        icoord.y < ires.y &&\n        icoord.z < ires.z;\n}\n\nint icoord_to_idx(ivec2 icoord, ivec2 ires)\n{\n    return icoord.x + (icoord.y * ires.x);\n}\n\nint icoord_to_idx(ivec3 icoord, ivec3 ires)\n{\n    return icoord.x + (icoord.y * ires.x) + (icoord.z * ires.x * ires.y);\n}\n\nivec2 idx_to_icoord(int idx, ivec2 ires)\n{\n    return ivec2(idx % ires.x, idx / ires.x);\n}\n\nivec3 idx_to_icoord(int idx, ivec3 ires)\n{\n    return ivec3(\n        idx % ires.x,\n        (idx % (ires.x * ires.y)) / ires.x,\n        idx / (ires.x * ires.y)\n    );\n}\n\n// https://www.desmos.com/calculator/kfe07basy9\n\nuint compress_float_to_uint_linear(float f, float min_f, float max_f, uint max_i)\n{\n    return uint(floor(\n        float(max_i) * remap01(f, min_f, max_f)\n    ));\n}\n\nfloat decompress_float_from_uint_linear(\n    uint i,\n    uint max_i,\n    float min_f,\n    float max_f\n)\n{\n    return remap_clamp(\n        float(i) / float(max_i),\n        0., 1.,\n        min_f, max_f\n    );\n}\n\nuint compress_float_to_uint_log(\n    float f,\n    float log2_zero_offset,\n    float max_log2_f,\n    uint max_i\n)\n{\n    f = max(0., f);\n    f += pow(2., log2_zero_offset);\n    return uint(floor(\n        float(max_i) * remap01(log2(f), log2_zero_offset, max_log2_f)\n    ));\n}\n\nfloat decompress_float_from_uint_log(\n    uint i,\n    uint max_i,\n    float log2_zero_offset,\n    float max_log2_f\n)\n{\n    return pow(2., remap_clamp(\n        float(i) / float(max_i),\n        0., 1.,\n        log2_zero_offset, max_log2_f\n    )) - pow(2., log2_zero_offset);\n}\n\n\n\n/*\n\n\"127 bits per pixel\" by Theron Tarigo, www.shadertoy.com/user/ttg\n\nUtilizing all channels of an OpenGL 32-bit float buffer it is possible to store\n127 bits per pixel without using special float values\n(which become altered in buffers on some implementations).\n\n4x IEEE754 binary32 allows ((1<<24)*254)^4 distinct values or\n127.9547 bits of information.\n\nThe following implementations:\n  b127_ieee754_encode\n  b127_ieee754_decode\nare free for use, copying, and modification by anyone for any purpose,\nwithout restriction.\n\nAttribution should be included for providing clarity of the origin of these\nimplementations; including the original URL is sufficient attribution:\nhttps://www.shadertoy.com/view/wtKyR1\n\n*/\n\nvec4 b127_ieee754_encode (uvec4 v) {\n  v.w&=0x7FFFFFFFu;\n  uvec4 l = uvec4( v.xyz&0xFFFFFFu , v.x>>24 | v.y>>24<<8 | v.z>>24<<16 );\n  return uintBitsToFloat( (l&0x800000u)<<8 | l&0x7FFFFFu\n   | 1u+uvec4(v.w/uvec4(1,254,254*254,254*254*254))%254u <<23 );\n}\n\nvec4 b127_ieee754_encode (ivec4 v) {\n    return b127_ieee754_encode(uvec4(v));\n}\n\nuvec4 b127_ieee754_decode (vec4 f) {\n  uvec4 e = floatBitsToUint(f);\n  uvec4 l = (e&0x80000000u)>>8 | e&0x7FFFFFu;\n  uvec4 h = (e>>23&0xFFu)-1u;\n  return uvec4(\n    l.xyz | uvec3(l.w)>>uvec3(0,8,16)<<24,\n    h.x+254u*h.y+(254u*254u)*h.z+(254u*254u*254u)*h.w );\n}\n\nivec4 b127_ieee754_idecode (vec4 f) {\n    return ivec4(b127_ieee754_decode(f));\n}\n\n/*===========================================================================*/\n\nconst int SYMBOL_NONE = 0;\nconst int SYMBOL_LOW = 1;\nconst int SYMBOL_LOW_ALT = 2;\nconst int SYMBOL_HIGH = 3;\nconst int SYMBOL_HIGH_ALT = 4;\nconst int SYMBOL_CHAR_START = 5;\n\nconst int STATE_NONE = 0;\nconst int STATE_READY = 1;\nconst int STATE_RECEIVING = 2;\nconst int STATE_DONE = 3;\n\nstruct CharInfo\n{\n    int char;\n    int n_bits_read;\n    int state;\n    int last_symbol;\n};\n\nCharInfo CharInfo_new()\n{\n    CharInfo c;\n    c.char = 0;\n    c.n_bits_read = 0;\n    c.state = STATE_NONE;\n    c.last_symbol = SYMBOL_NONE;\n    return c;\n}\n\nvec4 CharInfo_encode(in CharInfo c)\n{\n    return b127_ieee754_encode(ivec4(\n        c.char,\n        c.n_bits_read,\n        c.state,\n        c.last_symbol\n    ));\n}\n\nCharInfo CharInfo_decode(vec4 data)\n{\n    ivec4 idata = b127_ieee754_idecode(data);\n    \n    CharInfo c;\n    c.char = idata.x;\n    c.n_bits_read = idata.y;\n    c.state = idata.z;\n    c.last_symbol = idata.w;\n    return c;\n}\n\nCharInfo CharInfo_fetch(sampler2D tex, int idx)\n{\n    ivec2 tex_size = textureSize(tex, 0);\n    if (idx < 0 || idx >= (tex_size.x * tex_size.y))\n    {\n        return CharInfo_new();\n    }\n    \n    return CharInfo_decode(texelFetch(\n        tex,\n        idx_to_icoord(idx, tex_size),\n        0\n    ));\n}\n",
      "name": "Common",
      "description": "",
      "type": "common"
@@ -6981,10 +6981,107 @@
        "channel": 0
       }
      ],
-     "code": "#define TEX_SELF iChannel0\n#define TEX_MICROPHONE iChannel1\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    int idx = icoord_to_idx(ivec2(frag_coord), ivec2(RES));\n    CharInfo c = CharInfo_fetch(TEX_SELF, idx);\n    CharInfo c_prev = CharInfo_fetch(TEX_SELF, idx - 1);\n    CharInfo c_next = CharInfo_fetch(TEX_SELF, idx + 1);\n    \n    // clear on the first few frames\n    if (iFrame < 2 || iTime < .02)\n    {\n        c = CharInfo_new();\n        \n        // mark the first one as ready to receive\n        if (idx == 0)\n        {\n            c.state = STATE_READY;\n        }\n        \n        frag_col = CharInfo_encode(c);\n        return;\n    }\n    \n    // if the previous neighbor is done reading and the next one is\n    // in STATE_NONE and the current one is also in STATE_NONE, set\n    // the current one to STATE_READY.\n    if (c_prev.state == STATE_DONE\n        && c_next.state == STATE_NONE\n        && c.state == STATE_NONE)\n    {\n        c.state = STATE_READY;\n    }\n    \n    // return if there's nothing to do\n    if (c.state != STATE_READY && c.state != STATE_RECEIVING)\n    {\n        frag_col = CharInfo_encode(c);\n        return;\n    }\n    \n    // number of audio samples\n    int n_audio_samples = textureSize(TEX_MICROPHONE, 0).x;\n    \n    // I think iSampleRate is for the Sound tab and not for the\n    // microphone input but there's no other option AFAIK.\n    float sample_rate = iSampleRate;\n    \n    // average energy\n    float energy_avg = 0.;\n    \n    // complex amplitudes of symbol frequencies\n    vec2 coeff_low = vec2(0.);\n    vec2 coeff_low_alt = vec2(0.);\n    vec2 coeff_high = vec2(0.);\n    vec2 coeff_high_alt = vec2(0.);\n    vec2 coeff_char_start = vec2(0.);\n    \n    // calculate information from the audio samples\n    for (int i = 0; i < n_audio_samples; i++)\n    {\n        // read audio sample at index i\n        float v = texelFetch(TEX_MICROPHONE, ivec2(i, 1), 0).r * 2. - 1.;\n        \n        // accumulate energy\n        energy_avg += v * v;\n        \n        // sample time\n        float time = float(i) / sample_rate;\n        \n        // magnitudes and phases of symbol frequencies\n        \n        float angle = TAU * FREQ_LOW * time;\n        coeff_low += v * vec2(cos(angle), sin(angle));\n        \n        angle = TAU * FREQ_LOW_ALT * time;\n        coeff_low_alt += v * vec2(cos(angle), sin(angle));\n        \n        angle = TAU * FREQ_HIGH * time;\n        coeff_high += v * vec2(cos(angle), sin(angle));\n        \n        angle = TAU * FREQ_HIGH_ALT * time;\n        coeff_high_alt += v * vec2(cos(angle), sin(angle));\n        \n        angle = TAU * FREQ_CHAR_START * time;\n        coeff_char_start += v * vec2(cos(angle), sin(angle));\n    }\n    \n    // normalize average energy\n    energy_avg /= float(n_audio_samples);\n    \n    // energies of symbol frequencies\n    float energy_low = length(coeff_low / float(n_audio_samples));\n    float energy_low_alt = length(coeff_low_alt / float(n_audio_samples));\n    float energy_high = length(coeff_high / float(n_audio_samples));\n    float energy_high_alt = length(coeff_high_alt / float(n_audio_samples));\n    float energy_char_start = length(coeff_char_start / float(n_audio_samples));\n    \n    // boost energies\n    energy_low *= SYMBOL_ENERGY_BOOST;\n    energy_low_alt *= SYMBOL_ENERGY_BOOST;\n    energy_high *= SYMBOL_ENERGY_BOOST;\n    energy_high_alt *= SYMBOL_ENERGY_BOOST;\n    energy_char_start *= SYMBOL_ENERGY_BOOST;\n    \n    // detect symbol\n    int symbol = SYMBOL_NONE;\n    if (energy_avg > ENERGY_AVG_THRESHOLD)\n    {\n        float loudest_energy = energy_avg;\n        if (energy_low > loudest_energy)\n        {\n            loudest_energy = energy_low;\n            symbol = SYMBOL_LOW;\n        }\n        if (energy_low_alt > loudest_energy)\n        {\n            loudest_energy = energy_low_alt;\n            symbol = SYMBOL_LOW_ALT;\n        }\n        if (energy_high > loudest_energy)\n        {\n            loudest_energy = energy_high;\n            symbol = SYMBOL_HIGH;\n        }\n        if (energy_high_alt > loudest_energy)\n        {\n            loudest_energy = energy_high_alt;\n            symbol = SYMBOL_HIGH_ALT;\n        }\n        if (energy_char_start > loudest_energy)\n        {\n            loudest_energy = energy_char_start;\n            symbol = SYMBOL_CHAR_START;\n        }\n    }\n    \n    if (c.state == STATE_READY && symbol == SYMBOL_CHAR_START)\n    {\n        // we just received a character start symbol so we should\n        // start reading bits from the next symbol.\n        c.state = STATE_RECEIVING;\n        c.last_symbol = symbol;\n    }\n    else if (c.state == STATE_RECEIVING && symbol != c.last_symbol && symbol != SYMBOL_NONE)\n    {\n        // read bits\n        if (symbol == SYMBOL_LOW || symbol == SYMBOL_LOW_ALT)\n        {\n            c.n_bits_read++;\n        }\n        else if (symbol == SYMBOL_HIGH || symbol == SYMBOL_HIGH_ALT)\n        {\n            c.char |= (1 << c.n_bits_read);\n            c.n_bits_read++;\n        }\n        \n        // mark as done after reading 8 bits\n        if (c.n_bits_read >= 8)\n        {\n            c.state = STATE_DONE;\n        }\n        \n        // update last symbol\n        c.last_symbol = symbol;\n    }\n    \n    frag_col = CharInfo_encode(c);\n}\n",
+     "code": "#define TEX_SELF iChannel0\n#define TEX_MICROPHONE iChannel1\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    int idx = icoord_to_idx(ivec2(frag_coord), ivec2(RES));\n    CharInfo c = CharInfo_fetch(TEX_SELF, idx);\n    CharInfo c_prev = CharInfo_fetch(TEX_SELF, idx - 1);\n    CharInfo c_next = CharInfo_fetch(TEX_SELF, idx + 1);\n    \n    // clear on the first few frames\n    if (iFrame < 2 || iTime < .02)\n    {\n        c = CharInfo_new();\n        \n        // mark the first one as ready to receive\n        if (idx == 0)\n        {\n            c.state = STATE_READY;\n        }\n        \n        frag_col = CharInfo_encode(c);\n        return;\n    }\n    \n    // if the previous neighbor is done reading and the next one is\n    // in STATE_NONE and the current one is also in STATE_NONE, set\n    // the current one to STATE_READY.\n    if (c_prev.state == STATE_DONE\n        && c_next.state == STATE_NONE\n        && c.state == STATE_NONE)\n    {\n        c.state = STATE_READY;\n    }\n    \n    // return if there's nothing to do\n    if (c.state != STATE_READY && c.state != STATE_RECEIVING)\n    {\n        frag_col = CharInfo_encode(c);\n        return;\n    }\n    \n    // number of audio samples\n    int n_audio_samples = textureSize(TEX_MICROPHONE, 0).x;\n    \n    // I think iSampleRate is for the Sound tab and not for the\n    // microphone input but there's no other option AFAIK.\n    float sample_rate = iSampleRate;\n    \n    // frequency scan range\n    float start_freq = min(min(min(min(FREQ_LOW, FREQ_LOW_ALT), FREQ_HIGH), FREQ_HIGH_ALT), FREQ_CHAR_START);\n    float end_freq = max(max(max(max(FREQ_LOW, FREQ_LOW_ALT), FREQ_HIGH), FREQ_HIGH_ALT), FREQ_CHAR_START);\n    start_freq = max(start_freq - FREQ_SCAN_STEP, 0.);\n    end_freq = min(end_freq + FREQ_SCAN_STEP, iSampleRate / 2.);\n    \n    // find the loudest frequency\n    float peak_frequency = 0.;\n    float peak_magnitude = 0.;\n    for (float freq = start_freq; freq <= end_freq; freq += FREQ_SCAN_STEP)\n    {\n        vec2 coeff = vec2(0);\n        for (int i = 0; i < n_audio_samples; i++)\n        {\n            // read audio sample at index i\n            float v = texelFetch(TEX_MICROPHONE, ivec2(i, 1), 0).r * 2. - 1.;\n            \n            // sample time\n            float time = float(i) / sample_rate;\n            \n            // accumulate complex coefficient\n            float angle = TAU * freq * time;\n            coeff += v * vec2(cos(angle), sin(angle));\n        }\n        coeff /= float(n_audio_samples);\n        \n        float mag = length(coeff);\n        if (mag > peak_magnitude)\n        {\n            peak_frequency = freq;\n            peak_magnitude = mag;\n        }\n    }\n    \n    // detect symbol\n    int symbol = SYMBOL_NONE;\n    if (peak_magnitude > MAGNITUDE_THRESHOLD)\n    {\n        if (abs(peak_frequency - FREQ_LOW) < .5 * FREQ_SCAN_STEP)\n        {\n            symbol = SYMBOL_LOW;\n        }\n        else if (abs(peak_frequency - FREQ_LOW_ALT) < .5 * FREQ_SCAN_STEP)\n        {\n            symbol = SYMBOL_LOW_ALT;\n        }\n        else if (abs(peak_frequency - FREQ_HIGH) < .5 * FREQ_SCAN_STEP)\n        {\n            symbol = SYMBOL_HIGH;\n        }\n        else if (abs(peak_frequency - FREQ_HIGH_ALT) < .5 * FREQ_SCAN_STEP)\n        {\n            symbol = SYMBOL_HIGH_ALT;\n        }\n        else if (abs(peak_frequency - FREQ_CHAR_START) < .5 * FREQ_SCAN_STEP)\n        {\n            symbol = SYMBOL_CHAR_START;\n        }\n    }\n    \n    if (c.state == STATE_READY && symbol == SYMBOL_CHAR_START)\n    {\n        // we just received a character start symbol so we should\n        // start reading bits from the next symbol.\n        c.state = STATE_RECEIVING;\n        c.last_symbol = symbol;\n    }\n    else if (c.state == STATE_RECEIVING && symbol != c.last_symbol && symbol != SYMBOL_NONE)\n    {\n        // read bits\n        if (symbol == SYMBOL_LOW || symbol == SYMBOL_LOW_ALT)\n        {\n            c.n_bits_read++;\n        }\n        else if (symbol == SYMBOL_HIGH || symbol == SYMBOL_HIGH_ALT)\n        {\n            c.char |= (1 << c.n_bits_read);\n            c.n_bits_read++;\n        }\n        \n        // mark as done after reading 8 bits\n        if (c.n_bits_read >= 8)\n        {\n            c.state = STATE_DONE;\n        }\n        \n        // update last symbol\n        c.last_symbol = symbol;\n    }\n    \n    frag_col = CharInfo_encode(c);\n}\n",
      "name": "Buffer A",
      "description": "",
      "type": "buffer"
+    }
+   ]
+  },
+  {
+   "ver": "0.1",
+   "info": {
+    "id": "wcKSRw",
+    "date": "0",
+    "viewed": 0,
+    "name": "Fork Poisson di beans_plea 758",
+    "description": "Using Poisson disk filtering to calculate texture mip-maps on the fly.\n\nThis is useful for UI textures that have no mipmaps but are too detailed to be displayed on a small screen.",
+    "likes": 0,
+    "published": "Private",
+    "usePreview": 0,
+    "tags": [
+     "filtering",
+     "poisson",
+     "disk"
+    ]
+   },
+   "renderpass": [
+    {
+     "inputs": [
+      {
+       "id": "XdX3Rn",
+       "filepath": "/media/a/52d2a8f514c4fd2d9866587f4d7b2a5bfa1a11a0e772077d7682deb8b3b517e5.jpg",
+       "type": "texture",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "repeat",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4dfGRr",
+       "channel": 0
+      }
+     ],
+     "code": "/*\n#define POISSON_DISK_SIZE 4\n\nvec2 poissonDisk[POISSON_DISK_SIZE] = vec2[](\n    vec2(-0.73,  0.15),\n    vec2( 0.42,  0.37),\n    vec2(-0.11, -0.52),\n    vec2( 0.65, -0.31)\n);\n*/\n\n\n#define POISSON_DISK_SIZE 8\n\nvec2 poissonDisk[POISSON_DISK_SIZE] = vec2[](\n    vec2(-0.94201624, -0.39906216),\n    vec2( 0.94558609, -0.76890725),\n    vec2(-0.09418410, -0.92938870),\n    vec2( 0.34495938,  0.29387760),\n    vec2(-0.91588581,  0.45771432),\n    vec2(-0.81544232, -0.87912464),\n    vec2(-0.38277543,  0.27676845),\n    vec2( 0.97484398,  0.75648379)\n);\n\n\nvec4 PoissonDiskFiltering(vec2 uv)\n{\n    vec2 pixelHalfSize = fwidth(uv) * 0.5;\n    \n    vec4 sum = vec4(0.0);\n    for (int i = 0; i < POISSON_DISK_SIZE; i++)\n        sum += textureLod(iChannel0, uv.xy + poissonDisk[i].xy * pixelHalfSize.xy, 0.0);\n    \n    return sum / float(POISSON_DISK_SIZE);\n}\n\nvec4 BilinearFiltering(vec2 uv)\n{\n    return textureLod(iChannel0, uv, 0.0);\n}\n\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n    vec2 uv = fragCoord.xy / 98.4 + iTime * 0.03;\n    \n    // Bilinear filtering for the left side of the screen\n    // Poisson disk filtering for the right side\n    vec4 color;\n    if (fragCoord.x < iResolution.x * 0.5)\n        color = BilinearFiltering(uv);\n    else\n        color = PoissonDiskFiltering(uv);    \n        \n    fragColor = vec4(color);\n}",
+     "name": "Image",
+     "description": "",
+     "type": "image"
+    }
+   ]
+  },
+  {
+   "ver": "0.1",
+   "info": {
+    "id": "3fySDG",
+    "date": "1750596185",
+    "viewed": 153,
+    "name": "1D String Impulse Response",
+    "description": "[url]https://www.desmos.com/calculator/vakt3kgbqa[/url]\n\nrealistically you would use a more interesting exciter sound (like plucking a guitar string or blowing or whatever else) instead of noise.\n",
+    "likes": 5,
+    "published": "Public API",
+    "usePreview": 0,
+    "tags": [
+     "utility",
+     "functions",
+     "helper"
+    ]
+   },
+   "renderpass": [
+    {
+     "inputs": [],
+     "outputs": [
+      {
+       "id": "4dfGRr",
+       "channel": 0
+      }
+     ],
+     "code": "vec3 render(vec2 coord)\n{\n    vec2 uv = (coord * 2. - iResolution.xy) / iResolution.x;\n    \n    float freq = resonant_frequnecy(iTime);\n    float bar_width = 60. / freq;\n    \n    return mix(\n        vec3(.01, .03, .06),\n        pow(vec3(1, .75, 0.4), vec3(.5 / bar_width)),\n        float(abs(uv.x) < bar_width) * float(abs(uv.y) < .01)\n    );\n}\n\nvec3 view_transform(vec3 col)\n{\n    // OETF (Linear BT.709 I-D65 to sRGB 2.2)\n    return pow(clamp(col, 0., 1.), vec3(1. / 2.2));\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    frag_col = vec4(view_transform(render(frag_coord)), 1);\n}\n",
+     "name": "Image",
+     "description": "",
+     "type": "image"
+    },
+    {
+     "inputs": [],
+     "outputs": [],
+     "code": "const float TAU = 6.283185307179586476925286767;\n\nfloat resonant_frequnecy(float time)\n{\n    return exp2(mix(\n        log2(80.),\n        log2(3000.),\n        1. - (cos(TAU * .05 * time) * .5 + .5)\n    ));\n}\n\n\n\n/*__________ hash function collection _________*/\n// sources: https://nullprogram.com/blog/2018/07/31/\n//          https://www.shadertoy.com/view/WttXWX\n\nuint triple32(uint x)\n{\n    x ^= x >> 17;\n    x *= 0xed5ad4bbU;\n    x ^= x >> 11;\n    x *= 0xac4c1b51U;\n    x ^= x >> 15;\n    x *= 0x31848babU;\n    x ^= x >> 14;\n    return x;\n}\n\n// uint -> uint\n\nuint hash(uint v)\n{\n    return triple32(v);\n}\n\nuint hash(uvec2 v)\n{\n    return triple32(v.x + triple32(v.y));\n}\n\nuint hash(uvec3 v)\n{\n    return triple32(v.x + triple32(v.y + triple32(v.z)));\n}\n\nuint hash(uvec4 v)\n{\n    return triple32(v.x + triple32(v.y + triple32(v.z + triple32(v.w))));\n}\n\n// int -> uint\n\nuint hash(int v)\n{\n    return triple32(uint(v));\n}\n\nuint hash(ivec2 v)\n{\n    return triple32(uint(v.x) + triple32(uint(v.y)));\n}\n\nuint hash(ivec3 v)\n{\n    return triple32(uint(v.x) + triple32(uint(v.y) + triple32(uint(v.z))));\n}\n\nuint hash(ivec4 v)\n{\n    return triple32(uint(v.x) + triple32(uint(v.y) + triple32(uint(v.z) + triple32(uint(v.w)))));\n}\n\n// float -> uint\n\nuint hash(float v)\n{\n    return triple32(floatBitsToUint(v));\n}\n\nuint hash(vec2 v)\n{\n    return triple32(floatBitsToUint(v.x) + triple32(floatBitsToUint(v.y)));\n}\n\nuint hash(vec3 v)\n{\n    return triple32(floatBitsToUint(v.x) + triple32(floatBitsToUint(v.y) + triple32(floatBitsToUint(v.z))));\n}\n\nuint hash(vec4 v)\n{\n    return triple32(floatBitsToUint(v.x) + triple32(floatBitsToUint(v.y) + triple32(floatBitsToUint(v.z) + triple32(floatBitsToUint(v.w)))));\n}\n\n// any -> int\n#define hashi(v) int(hash(v))\n\n// any -> float\n#define hashf(v) (float(hash(v)) / 4294967295.)\n",
+     "name": "Common",
+     "description": "",
+     "type": "common"
+    },
+    {
+     "inputs": [],
+     "outputs": [],
+     "code": "const float DECAY = 20.;\n\nfloat samp_to_time(int samp)\n{\n    return float(samp) / iSampleRate;\n}\n\nint time_to_samp(float time)\n{\n    return int(floor(time * iSampleRate));\n}\n\nfloat pinkish_noise(int samp, int channel)\n{\n    return (\n        hashf(ivec2(samp + 0, channel))\n        + hashf(ivec2(samp + 1, channel))\n        + hashf(ivec2(samp + 2, channel))\n    )\n    / 3.;\n}\n\nvec2 render_audio(int samp)\n{\n    // stereo pinkish noise\n    vec2 v = vec2(\n        pinkish_noise(samp, 0),\n        pinkish_noise(samp, 1)\n    );\n    \n    // mono-ize a little\n    v = mix(v, vec2(dot(v, vec2(.5))), .7);\n    \n    // gain and return\n    return .1 * v;\n}\n\n// https://www.desmos.com/calculator/vakt3kgbqa\nvec2 render_audio_filtered(int samp, float resonant_freq)\n{\n    // distance between each pulse which ultimately depends on the length\n    // of the string.\n    float pulse_dist = .5 / resonant_freq;\n\n    // convolve\n    vec2 v = vec2(0);\n    for (int i = 0; i < 32; i++)\n    {\n        float time_offs = pulse_dist * float(i);\n        int samp_offs = time_to_samp(time_offs);\n        \n        float alternate_sign = (i % 2 == 0) ? 1. : -1.;\n        float decay_fac = exp(-time_offs * DECAY);\n        \n        v += render_audio(samp - samp_offs) * alternate_sign * decay_fac;\n    }\n    return v;\n}\n\nvec2 mainSound(int samp, float time)\n{\n    return render_audio_filtered(samp, resonant_frequnecy(time));\n}\n",
+     "name": "Sound",
+     "description": "",
+     "type": "sound"
     }
    ]
   }
