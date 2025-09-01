@@ -1,14 +1,14 @@
 {
  "userName": "beans_please",
- "date": "2025-08-02T02:59:31.225Z",
- "numShaders": 87,
+ "date": "2025-09-01T19:49:51.662Z",
+ "numShaders": 89,
  "shaders": [
   {
    "ver": "0.1",
    "info": {
     "id": "dsjcRR",
     "date": "1687371539",
-    "viewed": 481,
+    "viewed": 489,
     "name": "PBR with Ray Marching (WIP)",
     "description": "* Drag -> Look around\n* WASD -> Move\n* Shift -> Sprint\n* Alt -> Stealth?\n* R -> Reset\n",
     "likes": 7,
@@ -162,7 +162,7 @@
    "info": {
     "id": "dd2yDz",
     "date": "1687622059",
-    "viewed": 896,
+    "viewed": 916,
     "name": "flim - Filmic Color Transform",
     "description": "Experimental Port of flim (Film Emulation Transform)\n\nOriginal Repo:\nhttps://github.com/bean-mhm/flim\n",
     "likes": 19,
@@ -206,7 +206,7 @@
    "info": {
     "id": "mdScW1",
     "date": "1687653267",
-    "viewed": 435,
+    "viewed": 448,
     "name": "Interactive 2D Wave Simulation",
     "description": "*Drag your mouse, make a spiral or something.\n\nThis is a port of my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py\n",
     "likes": 6,
@@ -342,7 +342,7 @@
    "info": {
     "id": "md2yWh",
     "date": "1687678448",
-    "viewed": 183,
+    "viewed": 188,
     "name": "experimenting with colormaps",
     "description": "will use this in another shader of mine",
     "likes": 4,
@@ -374,7 +374,7 @@
    "info": {
     "id": "mdByWW",
     "date": "1687704350",
-    "viewed": 194,
+    "viewed": 198,
     "name": "Discrete Land",
     "description": "Playing with integer coordinates",
     "likes": 6,
@@ -417,7 +417,7 @@
    "info": {
     "id": "mdBcz3",
     "date": "1688036284",
-    "viewed": 597,
+    "viewed": 607,
     "name": "3D Wave Simulation",
     "description": "Check out my Interactive 2D Wave Simulation:\nhttps://www.shadertoy.com/view/mdScW1\n\nCheck out my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py",
     "likes": 24,
@@ -572,7 +572,7 @@
    "info": {
     "id": "csjfDh",
     "date": "1689671017",
-    "viewed": 222,
+    "viewed": 226,
     "name": "2D Occlusion Test",
     "description": "Drag to move the middle circle",
     "likes": 5,
@@ -614,7 +614,7 @@
    "info": {
     "id": "cdjfRc",
     "date": "1689964097",
-    "viewed": 101,
+    "viewed": 104,
     "name": "Deprecated,Bean's Default Shader",
     "description": "- My starting point for a new shader.\n\n- Helper \"modules\" can be enabled/disabled separately in the Common tab.\n\n- Each tab starts with a description of itself to make it easier to store local backups.\n\n- Feel free to copy and reuse.  :)",
     "likes": 2,
@@ -669,7 +669,7 @@
    "info": {
     "id": "dsjBDy",
     "date": "1690140863",
-    "viewed": 635,
+    "viewed": 647,
     "name": "2D Fourier Transform",
     "description": "(Not so fast) 2D Fourier Transform implemented in glsl\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the FFT resolution in the Common tab.",
     "likes": 3,
@@ -738,7 +738,7 @@
    "info": {
     "id": "mdjBWK",
     "date": "1690217266",
-    "viewed": 277,
+    "viewed": 282,
     "name": "Triangle Barycentric Coordinates",
     "description": "This started as a 4 AM question: \"How do vertex attributes get interpolated in a fragment shader?\"\nThe Wikipedia page for Barycentric Coordinates was too complicated for me, so hopefully this is easier to und.\nhttps://www.desmos.com/calculator/8g8xjejuox\n",
     "likes": 3,
@@ -784,7 +784,7 @@
    "info": {
     "id": "msjfDt",
     "date": "1690292056",
-    "viewed": 318,
+    "viewed": 324,
     "name": "Moving White Point",
     "description": "Random experiment\n\n- Drag to move the white point",
     "likes": 7,
@@ -827,7 +827,7 @@
    "info": {
     "id": "mlscWr",
     "date": "1690662251",
-    "viewed": 407,
+    "viewed": 415,
     "name": "Blinn-Phong Shading",
     "description": "Sphere",
     "likes": 5,
@@ -872,7 +872,7 @@
    "info": {
     "id": "dlfcD8",
     "date": "1692139870",
-    "viewed": 327,
+    "viewed": 334,
     "name": "Path Tracing name already in use",
     "description": "Good old naive path tracing",
     "likes": 7,
@@ -1014,7 +1014,7 @@
    "info": {
     "id": "ctfcD7",
     "date": "1690805466",
-    "viewed": 166,
+    "viewed": 170,
     "name": "colorful thing",
     "description": "random shader (i was bored)",
     "likes": 3,
@@ -1056,7 +1056,7 @@
    "info": {
     "id": "mlsyDj",
     "date": "1691237601",
-    "viewed": 270,
+    "viewed": 281,
     "name": "Balls Simulated (updated)",
     "description": "This is my first physics simulation, and I just followed my gut, so feel free to comment on how this can be improved\n\nUpdate: Implemented suggestions by @fenix (no more jittering + general improvements)",
     "likes": 12,
@@ -1156,7 +1156,7 @@
    "info": {
     "id": "cl2cRD",
     "date": "1691530674",
-    "viewed": 97,
+    "viewed": 101,
     "name": "Fixed FPS Experiment",
     "description": "Adjusting the amount of computation in order to keep the FPS constant.\nMight take up to 20 seconds to reach the target FPS.\nDoesn't work well on my phone, probably because of 16 bit precision.",
     "likes": 1,
@@ -1231,7 +1231,7 @@
    "info": {
     "id": "mtScWm",
     "date": "1691841683",
-    "viewed": 341,
+    "viewed": 346,
     "name": "Blue Noise Dithering vs OETF 2.2",
     "description": "Try commenting out the OETF to see how the dithered version and the clean version don't match in brightness anymore",
     "likes": 11,
@@ -1282,7 +1282,7 @@
    "info": {
     "id": "mtjyDw",
     "date": "1691962447",
-    "viewed": 206,
+    "viewed": 210,
     "name": "1D Continuous Function Graphing",
     "description": "Basically sample points on the function and connect them with line segments",
     "likes": 6,
@@ -1340,7 +1340,7 @@
    "info": {
     "id": "cljczd",
     "date": "1692189706",
-    "viewed": 121,
+    "viewed": 124,
     "name": "Mod of 01000001's FXAA Shader",
     "description": "Original shader: https://www.shadertoy.com/view/mljyzc",
     "likes": 1,
@@ -1399,7 +1399,7 @@
    "info": {
     "id": "DljyDG",
     "date": "1692469704",
-    "viewed": 225,
+    "viewed": 233,
     "name": "Breathing Fractal",
     "description": "Drag to explore the complex universe!\n",
     "likes": 6,
@@ -1438,7 +1438,7 @@
    "info": {
     "id": "DtfBRn",
     "date": "1692473050",
-    "viewed": 151,
+    "viewed": 155,
     "name": "Deprecated: My 2nd Def. Shader",
     "description": "My starting point for new shaders (not anymore)\nnew one coming soon",
     "likes": 1,
@@ -1480,7 +1480,7 @@
    "info": {
     "id": "DlfBzN",
     "date": "1692651978",
-    "viewed": 188,
+    "viewed": 193,
     "name": "Square Fourier Transform?",
     "description": "What if we used square waves instead of (co)sine waves in Fourier transforms?\nSee sqsin() and sqcos() at the end of Common.\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the resolution in the Common tab.",
     "likes": 5,
@@ -1551,7 +1551,7 @@
    "info": {
     "id": "mlfBR4",
     "date": "1692737129",
-    "viewed": 192,
+    "viewed": 199,
     "name": "Boids + Packed Voronoi Tracking",
     "description": "Finally learned Voronoi Tracking, read the explanations in Buffer A.",
     "likes": 3,
@@ -1706,7 +1706,7 @@
    "info": {
     "id": "clXBW4",
     "date": "1692902788",
-    "viewed": 106,
+    "viewed": 109,
     "name": "Fork polygon :D beans_plea 404",
     "description": "challenge shader",
     "likes": 0,
@@ -1740,7 +1740,7 @@
    "info": {
     "id": "dlsBDM",
     "date": "1693112135",
-    "viewed": 251,
+    "viewed": 258,
     "name": "Inverse Square Fourier Transform",
     "description": "0 = Input\n1 = 2D FFT\n2 = Inverse FFT\n\nSee use_sq at the top of Common.",
     "likes": 3,
@@ -1867,7 +1867,7 @@
    "info": {
     "id": "mtlfRs",
     "date": "1693363623",
-    "viewed": 161,
+    "viewed": 165,
     "name": "Local Sorting Challenge",
     "description": "What's the fastest way to sort a local float array? (in practice this array will be different for each pixel)\nKeep in mind we can't use recursion or dynamic memory allocation unless we emulate them which would probably slow things down more.",
     "likes": 1,
@@ -1899,7 +1899,7 @@
    "info": {
     "id": "DtSfzR",
     "date": "1693654314",
-    "viewed": 316,
+    "viewed": 322,
     "name": "Beach (Volume Absorption)",
     "description": "More or less: [code]col *= pow(absorption_col, depth)[/code]",
     "likes": 7,
@@ -1934,7 +1934,7 @@
    "info": {
     "id": "ctjfDc",
     "date": "1694574459",
-    "viewed": 456,
+    "viewed": 464,
     "name": "Fork Discoteq 3 (+ flim)",
     "description": "Discoteq 3\nadded flim ( https://www.shadertoy.com/view/dd2yDz )",
     "likes": 9,
@@ -2021,7 +2021,7 @@
    "info": {
     "id": "DdcyRf",
     "date": "1695281747",
-    "viewed": 223,
+    "viewed": 228,
     "name": "Exponential Colormap",
     "description": "See the Desmos graphs, play with v",
     "likes": 7,
@@ -2053,7 +2053,7 @@
    "info": {
     "id": "ds3fDM",
     "date": "1697312887",
-    "viewed": 465,
+    "viewed": 486,
     "name": "XPBD Rope",
     "description": "Finally implemented XPBD!\nWatch this amazing video: https://youtube.com/watch?v=jrociOAYqxA\n\n* Drag to move the tail\n\n* Long ish compile time (22 seconds for me), so be patient\n\n* Does not work well on my phone, presumably because of 16-bit floats.",
     "likes": 20,
@@ -2140,7 +2140,7 @@
    "info": {
     "id": "DsGBDy",
     "date": "1698577359",
-    "viewed": 158,
+    "viewed": 164,
     "name": "angle in [0, 2pi)",
     "description": "the",
     "likes": 3,
@@ -2172,7 +2172,7 @@
    "info": {
     "id": "Mcf3Dj",
     "date": "1703544197",
-    "viewed": 240,
+    "viewed": 245,
     "name": "FBM Voronoi",
     "description": "i like voronoi",
     "likes": 2,
@@ -2217,7 +2217,7 @@
    "info": {
     "id": "4fSGzR",
     "date": "1705547653",
-    "viewed": 97,
+    "viewed": 100,
     "name": "FBM Perlin",
     "description": "i like perlin noise",
     "likes": 0,
@@ -2261,7 +2261,7 @@
    "info": {
     "id": "lf23zW",
     "date": "1736235885",
-    "viewed": 118,
+    "viewed": 123,
     "name": "🌟NOISE SHOW🌟",
     "description": "procedural noise",
     "likes": 4,
@@ -2306,7 +2306,7 @@
    "info": {
     "id": "lclXWs",
     "date": "1705932695",
-    "viewed": 220,
+    "viewed": 226,
     "name": "Quantum physics or something",
     "description": "Extremely slow, use shadertoy browser extension to increase the number of iters/frame (paint calls) to 512 ish with inspect element!\n\nHelp: How do I calculate max dt (before it breaks) based on the parameters?\n\nhttps://www.desmos.com/calculator/ery45h4dzl",
     "likes": 1,
@@ -2395,7 +2395,7 @@
    "info": {
     "id": "MXSXRm",
     "date": "1710373949",
-    "viewed": 268,
+    "viewed": 274,
     "name": "3D Function/Volume Visualizer",
     "description": "just raymarching through a box and averaging the values we sampled along the way\n",
     "likes": 11,
@@ -2532,7 +2532,7 @@
    "info": {
     "id": "lXBXWz",
     "date": "1710447505",
-    "viewed": 226,
+    "viewed": 232,
     "name": "8-bit Blue Noise Dithering",
     "description": "dithering",
     "likes": 3,
@@ -2584,7 +2584,7 @@
    "info": {
     "id": "XX2XDd",
     "date": "1711246176",
-    "viewed": 196,
+    "viewed": 201,
     "name": "Run at 120+ Hz if possible",
     "description": "Alternating between red and cyan, which looks gray. Try moving your eyes across the screen really quickly to see the pattern (in full screen).",
     "likes": 1,
@@ -2618,12 +2618,12 @@
    "ver": "0.1",
    "info": {
     "id": "Xcd3zN",
-    "date": "0",
-    "viewed": 0,
-    "name": "Low Quality Digital Camera",
-    "description": "Applying a bayer filter to a render and then demosaicing it.",
-    "likes": 0,
-    "published": "Private",
+    "date": "1756753946",
+    "viewed": 13,
+    "name": "Crappy Digital Camera",
+    "description": "1. render scene with ray marching\n2. apply Bayer filter\n3. add noise on top\n4. apply uneven sensor clipping\n5. demoasic / de-Bayer\n6. bad color grading + clipping\n7. bad denoising\n8. oversharpen\n\nother ideas: blurry edges, rolling shutter, smeary bloom",
+    "likes": 1,
+    "published": "Public API",
     "usePreview": 0,
     "tags": [
      "3d",
@@ -2647,27 +2647,13 @@
     {
      "inputs": [
       {
-       "id": "4dXGR8",
-       "filepath": "/media/previz/buffer00.png",
+       "id": "4sXGR8",
+       "filepath": "/media/previz/buffer02.png",
        "type": "buffer",
        "channel": 0,
        "sampler": {
         "filter": "linear",
         "wrap": "clamp",
-        "vflip": "true",
-        "srgb": "false",
-        "internal": "byte"
-       },
-       "published": 1
-      },
-      {
-       "id": "XsBSR3",
-       "filepath": "/media/a/cb49c003b454385aa9975733aff4571c62182ccdda480aaba9a8d250014f00ec.png",
-       "type": "texture",
-       "channel": 1,
-       "sampler": {
-        "filter": "nearest",
-        "wrap": "repeat",
         "vflip": "true",
         "srgb": "false",
         "internal": "byte"
@@ -2681,7 +2667,7 @@
        "channel": 0
       }
      ],
-     "code": "// ASC CDL color grading\n// https://en.wikipedia.org/wiki/ASC_CDL\nvec3 asc_cdl(vec3 col, vec3 slope, vec3 offset, vec3 power)\n{\n    return pow(col * slope + offset, power);\n}\n\nvec3 view_transform(vec3 col)\n{\n    col = asc_cdl(\n        col,\n        1.1 * vec3(1, .903, .94),\n        vec3(0, 0, .007),\n        1.05 * vec3(1, .95, 1)\n    );\n\n    if (1 == 1)\n    {\n        col = flim_transform(col, 0.);\n    }\n    else\n    {\n        col = clamp(col, 0., 1.);\n\n        // OETF (Linear BT.709 I-D65 to sRGB 2.2)\n        col = pow(col, vec3(1. / 2.2));\n    }\n    \n    return col;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    ivec2 icoord = ivec2(frag_coord);\n\n    // demosaic\n    ivec2 icoord_bl = 2 * ivec2(floor(.5 * frag_coord));\n    vec3 bl_g = vec3(0, texelFetch(iChannel0, icoord_bl, 0).x, 0);\n    vec3 br_r = vec3(texelFetch(iChannel0, icoord_bl + ivec2(1, 0), 0).x, 0, 0);\n    vec3 tr_g = vec3(0, texelFetch(iChannel0, icoord_bl + ivec2(1), 0).x, 0);\n    vec3 tl_b = vec3(0, 0, texelFetch(iChannel0, icoord_bl + ivec2(0, 1), 0).x);\n    vec3 col = .5 * (bl_g + tr_g) + br_r + tl_b;\n\n/*\nG\n0       0.25    0\n0.25    1.00    0.25\n0       0.25    0\n\n\nR B\n0.25    0.50    0.25\n0.50    1.00    0.50\n0.25    0.50    0.25\n*/\n\n    //col = texelFetch(iChannel0, icoord, 0).rgb;\n\n    // view transform\n    col = view_transform(col);\n\n    // dither\n    float bn = texelFetch(\n        iChannel1,\n        icoord % textureSize(iChannel1, 0),\n        0\n    ).x;\n    col = clamp(col + (2. * bn - .5) / 254., 0., 1.);\n\n    // output\n    frag_col = vec4(col, 1.);\n}\n",
+     "code": "vec3 fetch(ivec2 icoord)\n{\n    if (icoord.x < 0 || icoord.y < 0\n        || icoord.x >= int(iResolution.x)\n        || icoord.y >= int(iResolution.y))\n    {\n        return vec3(0);\n    }\n    return texelFetch(iChannel0, icoord, 0).rgb;\n}\n\nvec3 view_transform(vec3 col)\n{\n    // OETF (Linear BT.709 I-D65 to sRGB 2.2)\n    return pow(clamp(col, 0., 1.), vec3(1. / 2.2));\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    ivec2 icoord = ivec2(frag_coord);\n    \n    vec3 col = fetch(icoord);\n    \n    // (over)sharpen\n    vec3 col_blurred = vec3(0);\n    float sum_weights = 0.;\n    for (int offs_y = -2; offs_y <= 2; offs_y++)\n    {\n        for (int offs_x = -2; offs_x <= 2; offs_x++)\n        {\n            ivec2 offs = ivec2(offs_x, offs_y);\n            vec3 neighbor_col = fetch(icoord + offs);\n            \n            float weight = gaussian(length(vec2(offs)) * .5);\n            \n            col_blurred += weight * neighbor_col;\n            sum_weights += weight;\n        }\n    }\n    col_blurred /= sum_weights;\n    col = mix(col, col_blurred, -1.);\n\n    // view transform\n    col = view_transform(col);\n\n    // output\n    frag_col = vec4(col, 1.);\n}\n",
      "name": "Image",
      "description": "",
      "type": "image"
@@ -2689,7 +2675,7 @@
     {
      "inputs": [],
      "outputs": [],
-     "code": "#define SHADERTOY 1\n\nprecision highp float;\nprecision highp int;\n\n\n\n/*_________________ math utils ________________*/\n\nconst float PI = 3.141592653589793238462643383;\nconst float TAU = 6.283185307179586476925286767;\nconst float PI_OVER_2 = 1.570796326794896619231321692;\nconst float INV_PI = .318309886183790671537767527;\n\n#define FUNC_LERP(T) \\\nT lerp(T a, T b, float t) \\\n{ \\\n    return a + t * (b - a); \\\n}\n\n#define FUNC_WRAP(T) \\\nT wrap(T inp, float start, float end) \\\n{ \\\n    return start + mod(inp - start, end - start); \\\n}\n\n#define FUNC_REMAP(T) \\\nT remap(T inp, float inp_start, float inp_end, float out_start, float out_end) \\\n{ \\\n    return out_start \\\n        + ((out_end - out_start) / (inp_end - inp_start)) * (inp - inp_start); \\\n}\n\n#define FUNC_REMAP_CLAMP(T) \\\nT remap_clamp( \\\n    T inp, \\\n    float inp_start, \\\n    float inp_end, \\\n    float out_start, \\\n    float out_end \\\n) \\\n{ \\\n    T t = clamp((inp - inp_start) / (inp_end - inp_start), 0.0, 1.0); \\\n    return out_start + t * (out_end - out_start); \\\n}\n\n#define FUNC_REMAP01(T) \\\nT remap01(T inp, float inp_start, float inp_end) \\\n{ \\\n    return clamp((inp - inp_start) / (inp_end - inp_start), 0.0, 1.0); \\\n}\n\nFUNC_LERP(float)\nFUNC_LERP(vec2)\nFUNC_LERP(vec3)\nFUNC_LERP(vec4)\n\nFUNC_WRAP(float)\nFUNC_WRAP(vec2)\nFUNC_WRAP(vec3)\nFUNC_WRAP(vec4)\n\nFUNC_REMAP(float)\nFUNC_REMAP(vec2)\nFUNC_REMAP(vec3)\nFUNC_REMAP(vec4)\n\nFUNC_REMAP_CLAMP(float)\nFUNC_REMAP_CLAMP(vec2)\nFUNC_REMAP_CLAMP(vec3)\nFUNC_REMAP_CLAMP(vec4)\n\nFUNC_REMAP01(float)\nFUNC_REMAP01(vec2)\nFUNC_REMAP01(vec3)\nFUNC_REMAP01(vec4)\n\nfloat min_component(vec2 inp)\n{\n    return min(inp.x, inp.y);\n}\n\nfloat min_component(vec3 inp)\n{\n    return min(min(inp.x, inp.y), inp.z);\n}\n\nfloat min_component(vec4 inp)\n{\n    return min(min(min(inp.x, inp.y), inp.z), inp.w);\n}\n\nfloat max_component(vec2 inp)\n{\n    return max(inp.x, inp.y);\n}\n\nfloat max_component(vec3 inp)\n{\n    return max(max(inp.x, inp.y), inp.z);\n}\n\nfloat max_component(vec4 inp)\n{\n    return max(max(max(inp.x, inp.y), inp.z), inp.w);\n}\n\n// |a| * |b| * sin(theta)\nfloat cross2d(vec2 a, vec2 b)\n{\n    return a.x * b.y - a.y * b.x;\n}\n\n// references for barycentric coordinates\n// https://www.desmos.com/calculator/8g8xjejuox\n// https://www.shadertoy.com/view/mdjBWK\n\nvec3 cartesian_to_barycentric(\n    vec2 p,\n    vec2 v0,\n    vec2 v1,\n    vec2 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        cross2d(v1 - p, v2 - p),\n        cross2d(v2 - p, v0 - p),\n        cross2d(v0 - p, v1 - p)\n    ) / cross2d(v1 - v0, v2 - v0);\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nvec3 cartesian_to_barycentric(\n    vec3 p,\n    vec3 v0,\n    vec3 v1,\n    vec3 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        length(cross(v1 - p, v2 - p)),\n        length(cross(v2 - p, v0 - p)),\n        length(cross(v0 - p, v1 - p))\n    ) / length(cross(v1 - v0, v2 - v0));\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nfloat barycentric_interpolate(vec3 b, float v0, float v1, float v2)\n{\n    return dot(b, vec3(v0, v1, v2));\n}\n\nvec2 barycentric_interpolate(vec3 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec3 barycentric_interpolate(vec3 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec4 barycentric_interpolate(vec3 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nfloat barycentric_interpolate(vec2 b, float v0, float v1, float v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec2 barycentric_interpolate(vec2 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec3 barycentric_interpolate(vec2 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec4 barycentric_interpolate(vec2 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nmat2 rotate_2d(float angle)\n{\n    float s = sin(angle);\n    float c = cos(angle);\n    return mat2(\n        c, s,\n        -s, c\n    );\n}\n\nvec3 spherical_to_cartesian(vec2 s)\n{\n    float sin_theta = sin(s.x);\n    return vec3(\n        sin_theta * cos(s.y),\n        sin_theta * sin(s.y),\n        cos(s.x)\n    );\n}\n\nvec2 screen_to_uv01(vec2 coord, vec2 res)\n{\n    return coord / res;\n}\n\nvec2 screen_to_uv_horizontal(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.x;\n}\n\nvec2 screen_to_uv_vertical(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.y;\n}\n\nvec2 screen_to_uv_fit(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / min_component(res);\n}\n\nvec2 screen_to_uv_fill(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / max_component(res);\n}\n\n#define idiv_ceil(x, y) ((x + y - 1) / y)\n\n// for some reason we can't use intBitsToFloat() or floatBitsToInt() to store\n// integers below this value in a buffer.\nconst int BUFFER_MIN_INTEGER = 8388608;\n\n// * x must not be higher than 4,286,578,688 (see BUFFER_MIN_INTEGER above)\n// * for your sanity, don't use negative values\nfloat encode_int_for_buffer(int x)\n{\n    return intBitsToFloat(x + BUFFER_MIN_INTEGER);\n}\n\nint decode_int_from_buffer(float x)\n{\n    return floatBitsToInt(x) - BUFFER_MIN_INTEGER;\n}\n\n// pack two 16-bit integers in a single 32-bit integer\n// * both arguments should be in the 0-65535 range\n// * a must be less than 65279 (see the functions above)\nint pack_i16(int a, int b)\n{\n    return (a << 16) | b;\n}\n\n// unpack two 16-bit integers from a single 32-bit integer\nvoid unpack_i16(int x, out int a, out int b)\n{\n    a = (x >> 16) & 65535;\n    b = x & 65535;\n}\n\n// unpack the first 16-bit integer from a 32-bit integer\nint unpack_i16_a(int x)\n{\n    return (x >> 16) & 65535;\n}\n\n// unpack the second 16-bit integer from a 32-bit integer\nint unpack_i16_b(int x)\n{\n    return x & 65535;\n}\n\n\n\n/*_______ pseudo-random number generator ______*/\n// source: https://www.shadertoy.com/view/WdSSRt\n// (heavily modified)\n\n/* usage example:\n    void mainImage(out vec4 frag_col, in vec2 frag_coord)\n    {\n        // initialize PRNG\n        prng_init(vec3(frag_coord / iResolution.y, iTime));\n    \n        // use the function\n        float a = random();\n        vec3 b = vec3(random(), random(), random());\n        \n        ...\n    }\n*/\n\nuint prng_state[2];\n\nuint prng_rot(uint x, int k)\n{\n    return (x << k) | (x >> (32 - k));\n}\n\n// random uint from 0 to 2^32-1\nuint randomui()\n{\n    uint s0 = prng_state[0];\n    uint s1 = prng_state[1];\n    uint result = prng_rot(s0 * 2654435771u, 5) * 5u;\n    s1 ^= s0;\n    prng_state[0] = prng_rot(s0, 26) ^ s1 ^ (s1 << 9);\n    prng_state[1] = prng_rot(s1, 13);\n    return result;\n}\n\n// random int from 0 to 2^31-1\nint randomi()\n{\n    return int(randomui() % 0x7FFFFFFFu);\n}\n\n// random float from 0 to 1\nfloat random()\n{\n    return float(randomui()) / float(0xffffffffu);\n}\n\n// generate two normally distributed random numbers using the\n// Box-Muller transform\n// https://www.baeldung.com/cs/uniform-to-normal-distribution\nvec2 random_gauss()\n{\n    float u1 = random();\n    float u2 = random() * TAU;\n    float temp = sqrt(-2. * log(u1));\n    return temp * vec2(cos(u2), sin(u2));\n    \n    // unoptimized version\n    //float u1 = random();\n    //float u2 = random();\n    //return vec2(cos(TAU * u2), sin(TAU * u2)) * sqrt(-2. * log(u1));\n}\n\nvec2 random_unit_vec2()\n{\n    vec2 v = vec2(1);\n    float lensqr;\n\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec2(2. * random() - 1., 2. * random() - 1.);\n        lensqr = dot(v, v);\n        if (lensqr == 0.)\n            i--;\n        else if (lensqr <= 1.)\n            break;\n    }\n    return v / sqrt(lensqr);\n}\n\nvec3 random_unit_vec3()\n{\n    vec3 v = vec3(1);\n    float lensqr;\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec3(2. * random() - 1., 2. * random() - 1., 2. * random() - 1.);\n        lensqr = dot(v, v);\n        if (lensqr == 0.)\n            i--;\n        else if (lensqr <= 1.)\n            break;\n    }\n    return v / sqrt(lensqr);\n}\n\nvec2 random_in_circle()\n{\n    vec2 v = vec2(1);\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec2(2. * random() - 1., 2. * random() - 1.);\n        if (dot(v, v) <= 1.)\n            return v;\n    }\n    return v;\n}\n\nvec3 random_in_sphere()\n{\n    vec3 v = vec3(1);\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec3(2. * random() - 1., 2. * random() - 1., 2. * random() - 1.);\n        if (dot(v, v) <= 1.)\n            return v;\n    }\n    return v;\n}\n\nvec3 random_in_hemisphere(vec3 normal)\n{\n    vec3 v = random_in_sphere();\n    return v * sign(dot(v, normal));\n}\n\n// initialize with uvec2\nvoid prng_init(uvec2 seed)\n{\n    seed += uvec2(1317, 944573125);\n    seed *= 464973573u;\n    prng_state[0] = seed.x;\n    prng_state[1] = seed.y;\n    randomi();\n}\n\n// initialize with uint\nvoid prng_init(uint seed)\n{\n    prng_init(uvec2(seed, 1));\n}\n\n// initialize with vec3\nvoid prng_init(vec3 seed)\n{\n    seed += 3.49276101561702;\n    seed.xy *= (seed.z + 10.258);\n    prng_state[0] = floatBitsToUint(seed.x);\n    prng_state[1] = floatBitsToUint(seed.y);\n    randomui();\n}\n\n// initialize with vec2\nvoid prng_init(vec2 seed)\n{\n    prng_init(vec3(seed, 1));\n}\n\n// initialize with float\nvoid prng_init(float seed)\n{\n    prng_init(vec3(seed, 1, 1));\n}\n\n\n\n/*______________ halton sequence ______________*/\n\n// * idx starts at 1\nfloat halton(int base, int idx)\n{\n    float result = 0.;\n    float digit_weight = 1.;\n    while (idx > 0)\n    {\n        digit_weight /= float(base);\n        result += float(idx % base) * digit_weight;\n        idx /= base;\n    }\n    return result;\n}\n\n// * idx starts at 1\nvec2 halton_2d(int idx)\n{\n    return vec2(halton(2, idx), halton(3, idx));\n}\n\n// * idx starts at 1\nvec3 halton_3d(int idx)\n{\n    return vec3(halton(2, idx), halton(3, idx), halton(5, idx));\n}\n\n// * idx starts at 1\nvec4 halton_4d(int idx)\n{\n    return vec4(\n        halton(2, idx),\n        halton(3, idx),\n        halton(5, idx),\n        halton(7, idx)\n    );\n}\n\n\n\n/*__________________ keyboard _________________*/\n\n// put this code in every buffer that uses the keyboard input:\n/*\n#if SHADERTOY\n// iChannelX must be set to Keyboard in Shadertoy\n#define SHADERTOY_KEYBOARD_CH iChannelX\n#else\n#iKeyboard\n#endif\n\ndefine_keyboard_utils\n*/\n\n#if SHADERTOY\n\n#define define_keyboard_utils \\\n \\\n/* https://github.com/stevensona/shader-toy/blob/c4833b972649d78a2ee090af60b79a3907e8e091/src/extensions/keyboard/keyboard_shader_extension.ts#L11 */ \\\nconst int \\\n    Key_Backspace = 8, Key_Tab = 9, Key_Enter = 13, Key_Shift = 16, \\\n    Key_Ctrl = 17, Key_Alt = 18, Key_Pause = 19, Key_Caps = 20, \\\n    Key_Escape = 27, Key_PageUp = 33, Key_PageDown = 34, Key_End = 35, \\\n    Key_Home = 36, Key_LeftArrow = 37, Key_UpArrow = 38, Key_RightArrow = 39, \\\n    Key_DownArrow = 40, Key_Insert = 45, Key_Delete = 46, Key_0 = 48, \\\n    Key_1 = 49, Key_2 = 50, Key_3 = 51, Key_4 = 52, Key_5 = 53, Key_6 = 54, \\\n    Key_7 = 55, Key_8 = 56, Key_9 = 57, Key_A = 65, Key_B = 66, Key_C = 67, \\\n    Key_D = 68, Key_E = 69, Key_F = 70, Key_G = 71, Key_H = 72, \\\n    Key_I = 73, Key_J = 74, Key_K = 75, Key_L = 76, Key_M = 77, Key_N = 78, \\\n    Key_O = 79, Key_P = 80, Key_Q = 81, Key_R = 82, Key_S = 83, Key_T = 84, \\\n    Key_U = 85, Key_V = 86, Key_W = 87, Key_X = 88, Key_Y = 89, Key_Z = 90, \\\n    Key_LeftWindow = 91, Key_RightWindows = 92, Key_Select = 93, \\\n    Key_Numpad0 = 96, Key_Numpad1 = 97, Key_Numpad2 = 98, Key_Numpad3 = 99, \\\n    Key_Numpad4 = 100, Key_Numpad5 = 101, Key_Numpad6 = 102, \\\n    Key_Numpad7 = 103, Key_Numpad8 = 104, Key_Numpad9 = 105, \\\n    Key_NumpadMultiply = 106, Key_NumpadAdd = 107, Key_NumpadSubtract = 109, \\\n    Key_NumpadPeriod = 110, Key_NumpadDivide = 111, Key_F1 = 112, \\\n    Key_F2 = 113, Key_F3 = 114, Key_F4 = 115, Key_F5 = 116, Key_F6 = 117, \\\n    Key_F7 = 118, Key_F8 = 119, Key_F9 = 120, Key_F10 = 121, Key_F11 = 122, \\\n    Key_F12 = 123, Key_NumLock = 144, Key_ScrollLock = 145, \\\n    Key_SemiColon = 186, Key_Equal = 187, Key_Comma = 188, Key_Dash = 189, \\\n    Key_Period = 190, Key_ForwardSlash = 191, Key_GraveAccent = 192, \\\n    Key_OpenBracket = 219, Key_BackSlash = 220, Key_CloseBraket = 221, \\\n    Key_SingleQuote = 222; \\\n \\\nbool is_key_pressed(int key) \\\n{ \\\n    return texelFetch(SHADERTOY_KEYBOARD_CH, ivec2(key, 1), 0).x > .5; \\\n} \\\n \\\nbool is_key_down(int key) \\\n{ \\\n    return texelFetch(SHADERTOY_KEYBOARD_CH, ivec2(key, 0), 0).x > .5; \\\n} \\\n \\\nbool is_key_toggled(int key) \\\n{ \\\n    return texelFetch(SHADERTOY_KEYBOARD_CH, ivec2(key, 2), 0).x > .5; \\\n}\n\n#else\n\n#define define_keyboard_utils \\\n \\\nbool is_key_pressed(int key) \\\n{ \\\n    return isKeyPressed(key); \\\n} \\\n \\\nbool is_key_down(int key) \\\n{ \\\n    return isKeyDown(key); \\\n} \\\n \\\nbool is_key_toggled(int key) \\\n{ \\\n    return isKeyToggled(key); \\\n}\n\n#endif\n\n\n\n/*________________ ray tracing ________________*/\n\nstruct Ray\n{\n    vec3 orig;\n    vec3 dir;\n};\n\nstruct OrthonormalBasis\n{\n    vec3 right;\n    vec3 forward;\n    vec3 up;\n};\n\n// * all three arguments must be normalized and perpendicular to each other\nOrthonormalBasis OrthonormalBasis_new(vec3 right, vec3 forward, vec3 up)\n{\n    OrthonormalBasis onb;\n    onb.right = right;\n    onb.forward = forward;\n    onb.up = up;\n    return onb;\n}\n\n// * forward must be normalized\nOrthonormalBasis OrthonormalBasis_from_forward_and_world_up(\n    vec3 forward,\n    vec3 world_up\n)\n{\n    OrthonormalBasis onb;\n    onb.forward = forward;\n    onb.right = normalize(cross(onb.forward, world_up));\n    onb.up = cross(onb.right, onb.forward);\n    return onb;\n}\n\nvec3 OrthonormalBasis_localize(in OrthonormalBasis self, vec3 p)\n{\n    return vec3(\n        dot(p, self.right),\n        dot(p, self.forward),\n        dot(p, self.up)\n    );\n}\n\nvec3 OrthonormalBasis_delocalize(in OrthonormalBasis self, vec3 p)\n{\n    return (p.x * self.right) + (p.y * self.forward) + (p.z * self.up);\n}\n\n// basic perspective camera\nstruct Camera\n{\n    vec3 pos;\n    float sensor_width;\n    float sensor_height;\n    float focal_length;\n\n    OrthonormalBasis _onb;\n};\n\n// Camera: adjust focal length based on horizontal FOV and sensor width\nvoid Camera_set_fov_horizontal(inout Camera self, float fov)\n{\n    self.focal_length = .5 * self.sensor_width / tan(.5 * fov);\n}\n\n// Camera: calculate the horizontal FOV\nfloat Camera_get_fov_horizontal(in Camera self)\n{\n    return 2. * atan(.5 * self.sensor_width / self.focal_length);\n}\n\n// Camera: adjust focal length based on vertical FOV and sensor height\nvoid Camera_set_fov_vertical(inout Camera self, float fov)\n{\n    self.focal_length = .5 * self.sensor_height / tan(.5 * fov);\n}\n\n// Camera: calculate the vertical FOV\nfloat Camera_get_fov_vertical(in Camera self)\n{\n    return 2. * atan(.5 * self.sensor_height / self.focal_length);\n}\n\n// Camera: adjust focal length based on diagonal FOV and sensor size\nvoid Camera_set_fov_diagonal(inout Camera self, float fov)\n{\n    float sensor_size = length(vec2(self.sensor_width, self.sensor_height));\n    self.focal_length = .5 * sensor_size / tan(.5 * fov);\n}\n\n// Camera: calculate the diagonal FOV\nfloat Camera_get_fov_diagonal(in Camera self)\n{\n    float sensor_size = length(vec2(self.sensor_width, self.sensor_height));\n    return 2. * atan(.5 * sensor_size / self.focal_length);\n}\n\n// Camera: look at a point\nvoid Camera_look_at(inout Camera self, vec3 target, vec3 world_up)\n{\n    self._onb = OrthonormalBasis_from_forward_and_world_up(\n        normalize(target - self.pos),\n        world_up\n    );\n}\n\n// Camera: look along a direction\n// * dir must be normalized\nvoid Camera_look_along(inout Camera self, vec3 dir, vec3 world_up)\n{\n    self._onb = OrthonormalBasis_from_forward_and_world_up(\n        dir,\n        world_up\n    );\n}\n\n// Camera: generate a camera ray for given UV coordinates\nRay Camera_gen_ray(in Camera self, vec2 uv01)\n{\n    Ray r;\n    r.orig = self.pos + OrthonormalBasis_delocalize(self._onb, vec3(\n        (uv01.x - .5) * self.sensor_width,\n        self.focal_length,\n        (uv01.y - .5) * self.sensor_height\n    ));\n    r.dir = normalize(r.orig - self.pos);\n    return r;\n}\n\n\n\n/*___________________ SDFs ____________________*/\n\nfloat sd_sphere(vec3 p, vec3 center, float radius)\n{\n    return distance(p, center) - radius;\n}\n\nfloat sd_box(vec3 p, vec3 center, vec3 bounds)\n{\n  vec3 q = abs(p - center) - bounds;\n  return length(max(q, 0.)) + min(max(q.x, max(q.y, q.z)), 0.);\n}\n\n\n\n/*_______________ bayer filter ________________*/\n\nconst int BAYER_RED = 0;\nconst int BAYER_GREEN = 1;\nconst int BAYER_BLUE = 2;\n\nint get_bayer(ivec2 icoord)\n{\n    bool even_col = (icoord.x % 2 == 0);\n    bool even_row = (icoord.y % 2 == 0);\n    return even_row\n        ? (even_col ? BAYER_GREEN : BAYER_RED)\n        : (even_col ? BAYER_BLUE : BAYER_GREEN);\n}\n\n\n\n/*-----------------------------------------------\n\nflim - Filmic Color Transform\n\nInput Color Space:   Linear BT.709 I-D65\nOutput Color Space:  sRGB 2.2\n\nDescription:\n  Experimental port of flim for GLSL/Shadertoy\n  matching flim v1.1.0.\n\nAuthor:\n  Bean (beans_please on Shadertoy)\n\nOriginal Repo:\n  https://github.com/bean-mhm/flim\n\nOriginal Shader:\n  https://www.shadertoy.com/view/dd2yDz\n\n-----------------------------------------------*/\n\n// parameters\n\nconst float flim_pre_exposure = 4.3;\nconst vec3 flim_pre_formation_filter = vec3(1.);\nconst float flim_pre_formation_filter_strength = 0.;\n\nconst float flim_extended_gamut_red_scale = 1.05;\nconst float flim_extended_gamut_green_scale = 1.12;\nconst float flim_extended_gamut_blue_scale = 1.045;\nconst float flim_extended_gamut_red_rot = .5;\nconst float flim_extended_gamut_green_rot = 2.;\nconst float flim_extended_gamut_blue_rot = .1;\nconst float flim_extended_gamut_red_mul = 1.;\nconst float flim_extended_gamut_green_mul = 1.;\nconst float flim_extended_gamut_blue_mul = 1.;\n\nconst float flim_sigmoid_log2_min = -10.;\nconst float flim_sigmoid_log2_max = 22.;\nconst float flim_sigmoid_toe_x = .44;\nconst float flim_sigmoid_toe_y = .28;\nconst float flim_sigmoid_shoulder_x = .591;\nconst float flim_sigmoid_shoulder_y = .779;\n\nconst float flim_negative_film_exposure = 6.;\nconst float flim_negative_film_density = 5.;\n\nconst vec3 flim_print_backlight = vec3(1);\nconst float flim_print_film_exposure = 6.;\nconst float flim_print_film_density = 27.5;\n\nconst float flim_black_point = -1.; // -1 = auto\nconst vec3 flim_post_formation_filter = vec3(1);\nconst float flim_post_formation_filter_strength = 0.;\nconst float flim_midtone_saturation = 1.02;\n\n//-----------------------------------------------\n\nfloat flim_wrap(float inp, float start, float end)\n{\n    return start + mod(inp - start, end - start);\n}\n\nfloat flim_remap(\n    float inp,\n    float inp_start,\n    float inp_end,\n    float out_start,\n    float out_end\n)\n{\n    return out_start\n        + ((out_end - out_start) / (inp_end - inp_start)) * (inp - inp_start);\n}\n\nfloat flim_remap_clamp(\n    float inp,\n    float inp_start,\n    float inp_end,\n    float out_start,\n    float out_end\n)\n{\n    float t = clamp((inp - inp_start) / (inp_end - inp_start), 0., 1.);\n    float v = out_start + t * (out_end - out_start);\n    return v;\n}\n\nfloat flim_remap01(\n    float inp,\n    float inp_start,\n    float inp_end\n)\n{\n    return clamp((inp - inp_start) / (inp_end - inp_start), 0., 1.);\n}\n\nvec3 flim_blender_rgb_to_hsv(vec3 rgb)\n{\n    float cmax, cmin, h, s, v, cdelta;\n    vec3 c;\n\n    cmax = max(rgb[0], max(rgb[1], rgb[2]));\n    cmin = min(rgb[0], min(rgb[1], rgb[2]));\n    cdelta = cmax - cmin;\n\n    v = cmax;\n    if (cmax != 0.)\n    {\n        s = cdelta / cmax;\n    }\n    else\n    {\n        s = 0.;\n        h = 0.;\n    }\n\n    if (s == 0.)\n    {\n        h = 0.;\n    }\n    else\n    {\n        c = (vec3(cmax) - rgb.xyz) / cdelta;\n\n        if (rgb.x == cmax)\n        {\n            h = c[2] - c[1];\n        }\n        else if (rgb.y == cmax)\n        {\n            h = 2. + c[0] - c[2];\n        }\n        else\n        {\n            h = 4. + c[1] - c[0];\n        }\n\n        h /= 6.;\n\n        if (h < 0.)\n        {\n            h += 1.;\n        }\n    }\n\n    return vec3(h, s, v);\n}\n\nvec3 flim_blender_hsv_to_rgb(vec3 hsv)\n{\n    float f, p, q, t, h, s, v;\n    vec3 rgb;\n\n    h = hsv[0];\n    s = hsv[1];\n    v = hsv[2];\n\n    if (s == 0.)\n    {\n        rgb = vec3(v, v, v);\n    }\n    else\n    {\n        if (h == 1.)\n        {\n            h = 0.;\n        }\n\n        h *= 6.;\n        int i = int(floor(h));\n        f = h - float(i);\n        rgb = vec3(f, f, f);\n        p = v * (1. - s);\n        q = v * (1. - (s * f));\n        t = v * (1. - (s * (1. - f)));\n\n        if (i == 0)\n        {\n            rgb = vec3(v, t, p);\n        }\n        else if (i == 1)\n        {\n            rgb = vec3(q, v, p);\n        }\n        else if (i == 2)\n        {\n            rgb = vec3(p, v, t);\n        }\n        else if (i == 3)\n        {\n            rgb = vec3(p, q, v);\n        }\n        else if (i == 4)\n        {\n            rgb = vec3(t, p, v);\n        }\n        else\n        {\n            rgb = vec3(v, p, q);\n        }\n    }\n\n    return rgb;\n}\n\nvec3 flim_blender_hue_sat(vec3 col, float hue, float sat, float value)\n{\n    vec3 hsv = flim_blender_rgb_to_hsv(col);\n\n    hsv[0] = fract(hsv[0] + hue + .5);\n    hsv[1] = clamp(hsv[1] * sat, 0., 1.);\n    hsv[2] = hsv[2] * value;\n\n    return flim_blender_hsv_to_rgb(hsv);\n}\n\nfloat flim_rgb_avg(vec3 inp)\n{\n    return (inp.x + inp.y + inp.z) / 3.;\n}\n\nfloat flim_rgb_sum(vec3 inp)\n{\n    return inp.x + inp.y + inp.z;\n}\n\nfloat flim_rgb_max(vec3 inp)\n{\n    return max(max(inp.x, inp.y), inp.z);\n}\n\nfloat flim_rgb_min(vec3 inp)\n{\n    return min(min(inp.x, inp.y), inp.z);\n}\n\nvec3 flim_rgb_uniform_offset(vec3 inp, float black_point, float white_point)\n{\n    float mono = flim_rgb_avg(inp);\n    float mono2 = flim_remap01(\n        mono, black_point / 1000.,\n        1. - (white_point / 1000.)\n    );\n    return inp * (mono2 / mono);\n}\n\nvec3 flim_rgb_sweep(float hue)\n{\n    hue = flim_wrap(hue * 360., 0., 360.);\n\n    vec3 col = vec3(1, 0, 0);\n    col = mix(col, vec3(1, 1, 0), flim_remap01(hue, 0., 60.));\n    col = mix(col, vec3(0, 1, 0), flim_remap01(hue, 60., 120.));\n    col = mix(col, vec3(0, 1, 1), flim_remap01(hue, 120., 180.));\n    col = mix(col, vec3(0, 0, 1), flim_remap01(hue, 180., 240.));\n    col = mix(col, vec3(1, 0, 1), flim_remap01(hue, 240., 300.));\n    col = mix(col, vec3(1, 0, 0), flim_remap01(hue, 300., 360.));\n    \n    return col;\n}\n\nvec3 flim_rgb_exposure_sweep_test(vec2 uv0to1)\n{\n    float hue = 1. - uv0to1.y;\n    float exposure = flim_remap(uv0to1.x, 0., 1., -5., 10.);\n    return flim_rgb_sweep(hue) * pow(2., exposure);\n}\n\n// https://www.desmos.com/calculator/khkztixyeu\nfloat flim_super_sigmoid(\n    float inp,\n    float toe_x,\n    float toe_y,\n    float shoulder_x,\n    float shoulder_y\n)\n{\n    // clip\n    inp = clamp(inp, 0., 1.);\n    toe_x = clamp(toe_x, 0., 1.);\n    toe_y = clamp(toe_y, 0., 1.);\n    shoulder_x = clamp(shoulder_x, 0., 1.);\n    shoulder_y = clamp(shoulder_y, 0., 1.);\n\n    // calculate straight line slope\n    float slope = (shoulder_y - toe_y) / (shoulder_x - toe_x);\n\n    // toe\n    if (inp < toe_x)\n    {\n        float toe_pow = slope * toe_x / toe_y;\n        return toe_y * pow(inp / toe_x, toe_pow);\n    }\n\n    // straight line\n    if (inp < shoulder_x)\n    {\n        float intercept = toe_y - (slope * toe_x);\n        return slope * inp + intercept;\n    }\n\n    // shoulder\n    float shoulder_pow =\n        -slope / (\n            ((shoulder_x - 1.) / pow(1. - shoulder_x, 2.))\n            * (1. - shoulder_y)\n        );\n    return\n        (1. - pow(1. - (inp - shoulder_x) / (1. - shoulder_x), shoulder_pow))\n        * (1. - shoulder_y)\n        + shoulder_y;\n}\n\nfloat flim_dye_mix_factor(float mono, float max_density)\n{\n    // log2 and map range\n    float offset = pow(2., flim_sigmoid_log2_min);\n    float fac = flim_remap01(\n        log2(mono + offset),\n        flim_sigmoid_log2_min,\n        flim_sigmoid_log2_max\n    );\n\n    // calculate amount of exposure from 0 to 1\n    fac = flim_super_sigmoid(\n        fac,\n        flim_sigmoid_toe_x,\n        flim_sigmoid_toe_y,\n        flim_sigmoid_shoulder_x,\n        flim_sigmoid_shoulder_y\n    );\n\n    // calculate dye density\n    fac *= max_density;\n\n    // mix factor\n    fac = pow(2., -fac);\n\n    // clip and return\n    return clamp(fac, 0., 1.);\n}\n\nvec3 flim_rgb_color_layer(\n    vec3 inp,\n    vec3 sensitivity_tone,\n    vec3 dye_tone,\n    float max_density\n)\n{\n    // normalize\n    vec3 sensitivity_tone_norm =\n        sensitivity_tone / flim_rgb_sum(sensitivity_tone);\n    vec3 dye_tone_norm = dye_tone / flim_rgb_max(dye_tone);\n\n    // dye mix factor\n    float mono = dot(inp, sensitivity_tone_norm);\n    float mix_fac = flim_dye_mix_factor(mono, max_density);\n\n    // dye mixing\n    return mix(dye_tone_norm, vec3(1), mix_fac);\n}\n\nvec3 flim_rgb_develop(vec3 inp, float exposure, float max_density)\n{\n    // exposure\n    inp *= pow(2., exposure);\n\n    // blue-sensitive layer\n    vec3 result = flim_rgb_color_layer(\n        inp,\n        vec3(0, 0, 1),\n        vec3(1, 1, 0),\n        max_density\n    );\n\n    // green-sensitive layer\n    result *= flim_rgb_color_layer(\n        inp,\n        vec3(0, 1, 0),\n        vec3(1, 0, 1),\n        max_density\n    );\n\n    // red-sensitive layer\n    result *= flim_rgb_color_layer(\n        inp,\n        vec3(1, 0, 0),\n        vec3(0, 1, 1),\n        max_density\n    );\n\n    return result;\n}\n\nvec3 flim_gamut_extension_mat_row(\n    float primary_hue,\n    float scale,\n    float rotate,\n    float mul\n)\n{\n    vec3 result = flim_blender_hsv_to_rgb(vec3(\n        flim_wrap(primary_hue + (rotate / 360.), 0., 1.),\n        1. / scale,\n        1.\n    ));\n    result /= flim_rgb_sum(result);\n    result *= mul;\n    return result;\n}\n\nmat3 flim_gamut_extension_mat(\n    float red_scale,\n    float green_scale,\n    float blue_scale,\n    float red_rot,\n    float green_rot,\n    float blue_rot,\n    float red_mul,\n    float green_mul,\n    float blue_mul\n)\n{\n    mat3 m;\n    m[0] = flim_gamut_extension_mat_row(\n        0.,\n        red_scale,\n        red_rot,\n        red_mul\n    );\n    m[1] = flim_gamut_extension_mat_row(\n        1. / 3.,\n        green_scale,\n        green_rot,\n        green_mul\n    );\n    m[2] = flim_gamut_extension_mat_row(\n        2. / 3.,\n        blue_scale,\n        blue_rot,\n        blue_mul\n    );\n    return m;\n}\n\nvec3 negative_and_print(vec3 inp, vec3 backlight_ext)\n{\n    // develop negative\n    inp = flim_rgb_develop(\n        inp,\n        flim_negative_film_exposure,\n        flim_negative_film_density\n    );\n\n    // backlight\n    inp *= backlight_ext;\n\n    // develop print\n    inp = flim_rgb_develop(\n        inp,\n        flim_print_film_exposure,\n        flim_print_film_density\n    );\n\n    return inp;\n}\n\n// -------------------------------\n\nvec3 flim_transform(vec3 inp, float exposure)\n{\n    // eliminate negative values\n    inp = max(inp, 0.);\n\n    // pre-Exposure\n    inp *= pow(2., flim_pre_exposure + exposure);\n\n    // clip very large values for float precision issues\n    inp = min(inp, 5000.);\n\n    // gamut extension matrix (Linear BT.709)\n    mat3 extend_mat = flim_gamut_extension_mat(\n        flim_extended_gamut_red_scale,\n        flim_extended_gamut_green_scale,\n        flim_extended_gamut_blue_scale,\n        flim_extended_gamut_red_rot,\n        flim_extended_gamut_green_rot,\n        flim_extended_gamut_blue_rot,\n        flim_extended_gamut_red_mul,\n        flim_extended_gamut_green_mul,\n        flim_extended_gamut_blue_mul\n    );\n    mat3 extend_mat_inv = inverse(extend_mat);\n\n    // backlight in the extended gamut\n    vec3 backlight_ext = flim_print_backlight * extend_mat;\n\n    // upper limit in the print (highlight cap)\n    const float big = 10000000.;\n    vec3 white_cap = negative_and_print(vec3(big, big, big), backlight_ext);\n\n    // pre-formation filter\n    inp = mix(\n        inp,\n        inp * flim_pre_formation_filter,\n        flim_pre_formation_filter_strength\n    );\n\n    // convert to the extended gamut\n    inp *= extend_mat;\n\n    // negative & print\n    inp = negative_and_print(inp, backlight_ext);\n\n    // convert from the extended gamut\n    inp *= extend_mat_inv;\n\n    // eliminate negative values\n    inp = max(inp, 0.);\n\n    // white cap\n    inp /= white_cap;\n\n    // black cap (-1 = auto)\n    if (flim_black_point == -1.)\n    {\n        vec3 black_cap = negative_and_print(vec3(0.), backlight_ext);\n        black_cap /= white_cap;\n        inp = flim_rgb_uniform_offset(\n            inp,\n            flim_rgb_avg(black_cap) * 1000.,\n            0.\n        );\n    }\n    else\n    {\n        inp = flim_rgb_uniform_offset(inp, flim_black_point, 0.);\n    }\n\n    // post-formation filter\n    inp = mix(\n        inp,\n        inp * flim_post_formation_filter,\n        flim_post_formation_filter_strength\n    );\n\n    // clip\n    inp = clamp(inp, 0., 1.);\n\n    // midtone saturation\n    float mono = flim_rgb_avg(inp);\n    float mix_fac =\n        (mono < .5)\n        ? flim_remap01(mono, .05, .5)\n        : flim_remap01(mono, .95, .5);\n    inp = mix(\n        inp,\n        flim_blender_hue_sat(inp, .5, flim_midtone_saturation, 1.),\n        mix_fac\n    );\n\n    // clip\n    inp = clamp(inp, 0., 1.);\n\n    // OETF\n    inp = pow(inp, vec3(1. / 2.2));\n\n    return inp;\n}\n\n/*____________________ end ____________________*/\n",
+     "code": "#define SHADERTOY 1\n\nprecision highp float;\nprecision highp int;\n\n\n\n/*_________________ math utils ________________*/\n\nconst float PI = 3.141592653589793238462643383;\nconst float TAU = 6.283185307179586476925286767;\nconst float PI_OVER_2 = 1.570796326794896619231321692;\nconst float INV_PI = .318309886183790671537767527;\n\n#define FUNC_LERP(T) \\\nT lerp(T a, T b, float t) \\\n{ \\\n    return a + t * (b - a); \\\n}\n\n#define FUNC_WRAP(T) \\\nT wrap(T inp, float start, float end) \\\n{ \\\n    return start + mod(inp - start, end - start); \\\n}\n\n#define FUNC_REMAP(T) \\\nT remap(T inp, float inp_start, float inp_end, float out_start, float out_end) \\\n{ \\\n    return out_start \\\n        + ((out_end - out_start) / (inp_end - inp_start)) * (inp - inp_start); \\\n}\n\n#define FUNC_REMAP_CLAMP(T) \\\nT remap_clamp( \\\n    T inp, \\\n    float inp_start, \\\n    float inp_end, \\\n    float out_start, \\\n    float out_end \\\n) \\\n{ \\\n    T t = clamp((inp - inp_start) / (inp_end - inp_start), 0.0, 1.0); \\\n    return out_start + t * (out_end - out_start); \\\n}\n\n#define FUNC_REMAP01(T) \\\nT remap01(T inp, float inp_start, float inp_end) \\\n{ \\\n    return clamp((inp - inp_start) / (inp_end - inp_start), 0.0, 1.0); \\\n}\n\nFUNC_LERP(float)\nFUNC_LERP(vec2)\nFUNC_LERP(vec3)\nFUNC_LERP(vec4)\n\nFUNC_WRAP(float)\nFUNC_WRAP(vec2)\nFUNC_WRAP(vec3)\nFUNC_WRAP(vec4)\n\nFUNC_REMAP(float)\nFUNC_REMAP(vec2)\nFUNC_REMAP(vec3)\nFUNC_REMAP(vec4)\n\nFUNC_REMAP_CLAMP(float)\nFUNC_REMAP_CLAMP(vec2)\nFUNC_REMAP_CLAMP(vec3)\nFUNC_REMAP_CLAMP(vec4)\n\nFUNC_REMAP01(float)\nFUNC_REMAP01(vec2)\nFUNC_REMAP01(vec3)\nFUNC_REMAP01(vec4)\n\nfloat min_component(vec2 inp)\n{\n    return min(inp.x, inp.y);\n}\n\nfloat min_component(vec3 inp)\n{\n    return min(min(inp.x, inp.y), inp.z);\n}\n\nfloat min_component(vec4 inp)\n{\n    return min(min(min(inp.x, inp.y), inp.z), inp.w);\n}\n\nfloat max_component(vec2 inp)\n{\n    return max(inp.x, inp.y);\n}\n\nfloat max_component(vec3 inp)\n{\n    return max(max(inp.x, inp.y), inp.z);\n}\n\nfloat max_component(vec4 inp)\n{\n    return max(max(max(inp.x, inp.y), inp.z), inp.w);\n}\n\nfloat gaussian(float x)\n{\n    return exp(-(x * x * .5));\n}\n\n// |a| * |b| * sin(theta)\nfloat cross2d(vec2 a, vec2 b)\n{\n    return a.x * b.y - a.y * b.x;\n}\n\n// references for barycentric coordinates\n// https://www.desmos.com/calculator/8g8xjejuox\n// https://www.shadertoy.com/view/mdjBWK\n\nvec3 cartesian_to_barycentric(\n    vec2 p,\n    vec2 v0,\n    vec2 v1,\n    vec2 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        cross2d(v1 - p, v2 - p),\n        cross2d(v2 - p, v0 - p),\n        cross2d(v0 - p, v1 - p)\n    ) / cross2d(v1 - v0, v2 - v0);\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nvec3 cartesian_to_barycentric(\n    vec3 p,\n    vec3 v0,\n    vec3 v1,\n    vec3 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        length(cross(v1 - p, v2 - p)),\n        length(cross(v2 - p, v0 - p)),\n        length(cross(v0 - p, v1 - p))\n    ) / length(cross(v1 - v0, v2 - v0));\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nfloat barycentric_interpolate(vec3 b, float v0, float v1, float v2)\n{\n    return dot(b, vec3(v0, v1, v2));\n}\n\nvec2 barycentric_interpolate(vec3 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec3 barycentric_interpolate(vec3 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec4 barycentric_interpolate(vec3 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nfloat barycentric_interpolate(vec2 b, float v0, float v1, float v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec2 barycentric_interpolate(vec2 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec3 barycentric_interpolate(vec2 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec4 barycentric_interpolate(vec2 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nmat2 rotate_2d(float angle)\n{\n    float s = sin(angle);\n    float c = cos(angle);\n    return mat2(\n        c, s,\n        -s, c\n    );\n}\n\nvec3 spherical_to_cartesian(vec2 s)\n{\n    float sin_theta = sin(s.x);\n    return vec3(\n        sin_theta * cos(s.y),\n        sin_theta * sin(s.y),\n        cos(s.x)\n    );\n}\n\nvec2 screen_to_uv01(vec2 coord, vec2 res)\n{\n    return coord / res;\n}\n\nvec2 screen_to_uv_horizontal(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.x;\n}\n\nvec2 screen_to_uv_vertical(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.y;\n}\n\nvec2 screen_to_uv_fit(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / min_component(res);\n}\n\nvec2 screen_to_uv_fill(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / max_component(res);\n}\n\n#define idiv_ceil(x, y) ((x + y - 1) / y)\n\n// for some reason we can't use intBitsToFloat() or floatBitsToInt() to store\n// integers below this value in a buffer.\nconst int BUFFER_MIN_INTEGER = 8388608;\n\n// * x must not be higher than 4,286,578,688 (see BUFFER_MIN_INTEGER above)\n// * for your sanity, don't use negative values\nfloat encode_int_for_buffer(int x)\n{\n    return intBitsToFloat(x + BUFFER_MIN_INTEGER);\n}\n\nint decode_int_from_buffer(float x)\n{\n    return floatBitsToInt(x) - BUFFER_MIN_INTEGER;\n}\n\n// pack two 16-bit integers in a single 32-bit integer\n// * both arguments should be in the 0-65535 range\n// * a must be less than 65279 (see the functions above)\nint pack_i16(int a, int b)\n{\n    return (a << 16) | b;\n}\n\n// unpack two 16-bit integers from a single 32-bit integer\nvoid unpack_i16(int x, out int a, out int b)\n{\n    a = (x >> 16) & 65535;\n    b = x & 65535;\n}\n\n// unpack the first 16-bit integer from a 32-bit integer\nint unpack_i16_a(int x)\n{\n    return (x >> 16) & 65535;\n}\n\n// unpack the second 16-bit integer from a 32-bit integer\nint unpack_i16_b(int x)\n{\n    return x & 65535;\n}\n\n\n\n/*_______ pseudo-random number generator ______*/\n// source: https://www.shadertoy.com/view/WdSSRt\n// (heavily modified)\n\n/* usage example:\n    void mainImage(out vec4 frag_col, in vec2 frag_coord)\n    {\n        // initialize PRNG\n        prng_init(vec3(frag_coord / iResolution.y, iTime));\n    \n        // use the function\n        float a = random();\n        vec3 b = vec3(random(), random(), random());\n        \n        ...\n    }\n*/\n\nuint prng_state[2];\n\nuint prng_rot(uint x, int k)\n{\n    return (x << k) | (x >> (32 - k));\n}\n\n// random uint from 0 to 2^32-1\nuint randomui()\n{\n    uint s0 = prng_state[0];\n    uint s1 = prng_state[1];\n    uint result = prng_rot(s0 * 2654435771u, 5) * 5u;\n    s1 ^= s0;\n    prng_state[0] = prng_rot(s0, 26) ^ s1 ^ (s1 << 9);\n    prng_state[1] = prng_rot(s1, 13);\n    return result;\n}\n\n// random int from 0 to 2^31-1\nint randomi()\n{\n    return int(randomui() % 0x7FFFFFFFu);\n}\n\n// random float from 0 to 1\nfloat random()\n{\n    return float(randomui()) / float(0xffffffffu);\n}\n\n// generate two normally distributed random numbers using the\n// Box-Muller transform\n// https://www.baeldung.com/cs/uniform-to-normal-distribution\nvec2 random_gauss()\n{\n    float u1 = random();\n    float u2 = random() * TAU;\n    float temp = sqrt(-2. * log(u1));\n    return temp * vec2(cos(u2), sin(u2));\n    \n    // unoptimized version\n    //float u1 = random();\n    //float u2 = random();\n    //return vec2(cos(TAU * u2), sin(TAU * u2)) * sqrt(-2. * log(u1));\n}\n\nvec2 random_unit_vec2()\n{\n    vec2 v = vec2(1);\n    float lensqr;\n\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec2(2. * random() - 1., 2. * random() - 1.);\n        lensqr = dot(v, v);\n        if (lensqr == 0.)\n            i--;\n        else if (lensqr <= 1.)\n            break;\n    }\n    return v / sqrt(lensqr);\n}\n\nvec3 random_unit_vec3()\n{\n    vec3 v = vec3(1);\n    float lensqr;\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec3(2. * random() - 1., 2. * random() - 1., 2. * random() - 1.);\n        lensqr = dot(v, v);\n        if (lensqr == 0.)\n            i--;\n        else if (lensqr <= 1.)\n            break;\n    }\n    return v / sqrt(lensqr);\n}\n\nvec2 random_in_circle()\n{\n    vec2 v = vec2(1);\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec2(2. * random() - 1., 2. * random() - 1.);\n        if (dot(v, v) <= 1.)\n            return v;\n    }\n    return v;\n}\n\nvec3 random_in_sphere()\n{\n    vec3 v = vec3(1);\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec3(2. * random() - 1., 2. * random() - 1., 2. * random() - 1.);\n        if (dot(v, v) <= 1.)\n            return v;\n    }\n    return v;\n}\n\nvec3 random_in_hemisphere(vec3 normal)\n{\n    vec3 v = random_in_sphere();\n    return v * sign(dot(v, normal));\n}\n\n// initialize with uvec2\nvoid prng_init(uvec2 seed)\n{\n    seed += uvec2(1317, 944573125);\n    seed *= 464973573u;\n    prng_state[0] = seed.x;\n    prng_state[1] = seed.y;\n    randomi();\n}\n\n// initialize with uint\nvoid prng_init(uint seed)\n{\n    prng_init(uvec2(seed, 1));\n}\n\n// initialize with vec3\nvoid prng_init(vec3 seed)\n{\n    seed += 3.49276101561702;\n    seed.xy *= (seed.z + 10.258);\n    prng_state[0] = floatBitsToUint(seed.x);\n    prng_state[1] = floatBitsToUint(seed.y);\n    randomui();\n}\n\n// initialize with vec2\nvoid prng_init(vec2 seed)\n{\n    prng_init(vec3(seed, 1));\n}\n\n// initialize with float\nvoid prng_init(float seed)\n{\n    prng_init(vec3(seed, 1, 1));\n}\n\n\n\n/*______________ halton sequence ______________*/\n\n// * idx starts at 1\nfloat halton(int base, int idx)\n{\n    float result = 0.;\n    float digit_weight = 1.;\n    while (idx > 0)\n    {\n        digit_weight /= float(base);\n        result += float(idx % base) * digit_weight;\n        idx /= base;\n    }\n    return result;\n}\n\n// * idx starts at 1\nvec2 halton_2d(int idx)\n{\n    return vec2(halton(2, idx), halton(3, idx));\n}\n\n// * idx starts at 1\nvec3 halton_3d(int idx)\n{\n    return vec3(halton(2, idx), halton(3, idx), halton(5, idx));\n}\n\n// * idx starts at 1\nvec4 halton_4d(int idx)\n{\n    return vec4(\n        halton(2, idx),\n        halton(3, idx),\n        halton(5, idx),\n        halton(7, idx)\n    );\n}\n\n\n\n/*__________________ keyboard _________________*/\n\n// put this code in every buffer that uses the keyboard input:\n/*\n#if SHADERTOY\n// iChannelX must be set to Keyboard in Shadertoy\n#define SHADERTOY_KEYBOARD_CH iChannelX\n#else\n#iKeyboard\n#endif\n\ndefine_keyboard_utils\n*/\n\n#if SHADERTOY\n\n#define define_keyboard_utils \\\n \\\n/* https://github.com/stevensona/shader-toy/blob/c4833b972649d78a2ee090af60b79a3907e8e091/src/extensions/keyboard/keyboard_shader_extension.ts#L11 */ \\\nconst int \\\n    Key_Backspace = 8, Key_Tab = 9, Key_Enter = 13, Key_Shift = 16, \\\n    Key_Ctrl = 17, Key_Alt = 18, Key_Pause = 19, Key_Caps = 20, \\\n    Key_Escape = 27, Key_PageUp = 33, Key_PageDown = 34, Key_End = 35, \\\n    Key_Home = 36, Key_LeftArrow = 37, Key_UpArrow = 38, Key_RightArrow = 39, \\\n    Key_DownArrow = 40, Key_Insert = 45, Key_Delete = 46, Key_0 = 48, \\\n    Key_1 = 49, Key_2 = 50, Key_3 = 51, Key_4 = 52, Key_5 = 53, Key_6 = 54, \\\n    Key_7 = 55, Key_8 = 56, Key_9 = 57, Key_A = 65, Key_B = 66, Key_C = 67, \\\n    Key_D = 68, Key_E = 69, Key_F = 70, Key_G = 71, Key_H = 72, \\\n    Key_I = 73, Key_J = 74, Key_K = 75, Key_L = 76, Key_M = 77, Key_N = 78, \\\n    Key_O = 79, Key_P = 80, Key_Q = 81, Key_R = 82, Key_S = 83, Key_T = 84, \\\n    Key_U = 85, Key_V = 86, Key_W = 87, Key_X = 88, Key_Y = 89, Key_Z = 90, \\\n    Key_LeftWindow = 91, Key_RightWindows = 92, Key_Select = 93, \\\n    Key_Numpad0 = 96, Key_Numpad1 = 97, Key_Numpad2 = 98, Key_Numpad3 = 99, \\\n    Key_Numpad4 = 100, Key_Numpad5 = 101, Key_Numpad6 = 102, \\\n    Key_Numpad7 = 103, Key_Numpad8 = 104, Key_Numpad9 = 105, \\\n    Key_NumpadMultiply = 106, Key_NumpadAdd = 107, Key_NumpadSubtract = 109, \\\n    Key_NumpadPeriod = 110, Key_NumpadDivide = 111, Key_F1 = 112, \\\n    Key_F2 = 113, Key_F3 = 114, Key_F4 = 115, Key_F5 = 116, Key_F6 = 117, \\\n    Key_F7 = 118, Key_F8 = 119, Key_F9 = 120, Key_F10 = 121, Key_F11 = 122, \\\n    Key_F12 = 123, Key_NumLock = 144, Key_ScrollLock = 145, \\\n    Key_SemiColon = 186, Key_Equal = 187, Key_Comma = 188, Key_Dash = 189, \\\n    Key_Period = 190, Key_ForwardSlash = 191, Key_GraveAccent = 192, \\\n    Key_OpenBracket = 219, Key_BackSlash = 220, Key_CloseBraket = 221, \\\n    Key_SingleQuote = 222; \\\n \\\nbool is_key_pressed(int key) \\\n{ \\\n    return texelFetch(SHADERTOY_KEYBOARD_CH, ivec2(key, 1), 0).x > .5; \\\n} \\\n \\\nbool is_key_down(int key) \\\n{ \\\n    return texelFetch(SHADERTOY_KEYBOARD_CH, ivec2(key, 0), 0).x > .5; \\\n} \\\n \\\nbool is_key_toggled(int key) \\\n{ \\\n    return texelFetch(SHADERTOY_KEYBOARD_CH, ivec2(key, 2), 0).x > .5; \\\n}\n\n#else\n\n#define define_keyboard_utils \\\n \\\nbool is_key_pressed(int key) \\\n{ \\\n    return isKeyPressed(key); \\\n} \\\n \\\nbool is_key_down(int key) \\\n{ \\\n    return isKeyDown(key); \\\n} \\\n \\\nbool is_key_toggled(int key) \\\n{ \\\n    return isKeyToggled(key); \\\n}\n\n#endif\n\n\n\n/*________________ ray tracing ________________*/\n\nstruct Ray\n{\n    vec3 orig;\n    vec3 dir;\n};\n\nstruct OrthonormalBasis\n{\n    vec3 right;\n    vec3 forward;\n    vec3 up;\n};\n\n// * all three arguments must be normalized and perpendicular to each other\nOrthonormalBasis OrthonormalBasis_new(vec3 right, vec3 forward, vec3 up)\n{\n    OrthonormalBasis onb;\n    onb.right = right;\n    onb.forward = forward;\n    onb.up = up;\n    return onb;\n}\n\n// * forward must be normalized\nOrthonormalBasis OrthonormalBasis_from_forward_and_world_up(\n    vec3 forward,\n    vec3 world_up\n)\n{\n    OrthonormalBasis onb;\n    onb.forward = forward;\n    onb.right = normalize(cross(onb.forward, world_up));\n    onb.up = cross(onb.right, onb.forward);\n    return onb;\n}\n\nvec3 OrthonormalBasis_localize(in OrthonormalBasis self, vec3 p)\n{\n    return vec3(\n        dot(p, self.right),\n        dot(p, self.forward),\n        dot(p, self.up)\n    );\n}\n\nvec3 OrthonormalBasis_delocalize(in OrthonormalBasis self, vec3 p)\n{\n    return (p.x * self.right) + (p.y * self.forward) + (p.z * self.up);\n}\n\n// basic perspective camera\nstruct Camera\n{\n    vec3 pos;\n    float sensor_width;\n    float sensor_height;\n    float focal_length;\n\n    OrthonormalBasis _onb;\n};\n\n// Camera: adjust focal length based on horizontal FOV and sensor width\nvoid Camera_set_fov_horizontal(inout Camera self, float fov)\n{\n    self.focal_length = .5 * self.sensor_width / tan(.5 * fov);\n}\n\n// Camera: calculate the horizontal FOV\nfloat Camera_get_fov_horizontal(in Camera self)\n{\n    return 2. * atan(.5 * self.sensor_width / self.focal_length);\n}\n\n// Camera: adjust focal length based on vertical FOV and sensor height\nvoid Camera_set_fov_vertical(inout Camera self, float fov)\n{\n    self.focal_length = .5 * self.sensor_height / tan(.5 * fov);\n}\n\n// Camera: calculate the vertical FOV\nfloat Camera_get_fov_vertical(in Camera self)\n{\n    return 2. * atan(.5 * self.sensor_height / self.focal_length);\n}\n\n// Camera: adjust focal length based on diagonal FOV and sensor size\nvoid Camera_set_fov_diagonal(inout Camera self, float fov)\n{\n    float sensor_size = length(vec2(self.sensor_width, self.sensor_height));\n    self.focal_length = .5 * sensor_size / tan(.5 * fov);\n}\n\n// Camera: calculate the diagonal FOV\nfloat Camera_get_fov_diagonal(in Camera self)\n{\n    float sensor_size = length(vec2(self.sensor_width, self.sensor_height));\n    return 2. * atan(.5 * sensor_size / self.focal_length);\n}\n\n// Camera: look at a point\nvoid Camera_look_at(inout Camera self, vec3 target, vec3 world_up)\n{\n    self._onb = OrthonormalBasis_from_forward_and_world_up(\n        normalize(target - self.pos),\n        world_up\n    );\n}\n\n// Camera: look along a direction\n// * dir must be normalized\nvoid Camera_look_along(inout Camera self, vec3 dir, vec3 world_up)\n{\n    self._onb = OrthonormalBasis_from_forward_and_world_up(\n        dir,\n        world_up\n    );\n}\n\n// Camera: generate a camera ray for given UV coordinates\nRay Camera_gen_ray(in Camera self, vec2 uv01)\n{\n    Ray r;\n    r.orig = self.pos + OrthonormalBasis_delocalize(self._onb, vec3(\n        (uv01.x - .5) * self.sensor_width,\n        self.focal_length,\n        (uv01.y - .5) * self.sensor_height\n    ));\n    r.dir = normalize(r.orig - self.pos);\n    return r;\n}\n\n\n\n/*___________________ SDFs ____________________*/\n\nfloat sd_sphere(vec3 p, vec3 center, float radius)\n{\n    return distance(p, center) - radius;\n}\n\nfloat sd_box(vec3 p, vec3 center, vec3 bounds)\n{\n  vec3 q = abs(p - center) - bounds;\n  return length(max(q, 0.)) + min(max(q.x, max(q.y, q.z)), 0.);\n}\n\n\n\n/*_______________ bayer filter ________________*/\n\nconst int BAYER_RED = 0;\nconst int BAYER_GREEN = 1;\nconst int BAYER_BLUE = 2;\n\nint get_bayer(ivec2 icoord)\n{\n    bool even_col = (icoord.x % 2 == 0);\n    bool even_row = (icoord.y % 2 == 0);\n    return even_row\n        ? (even_col ? BAYER_GREEN : BAYER_RED)\n        : (even_col ? BAYER_BLUE : BAYER_GREEN);\n}\n\n\n\n/*__________________ color ____________________*/\n\nfloat luminance(vec3 col)\n{\n    return dot(col, vec3(.3, .5, .2));\n}\n\nconst float LOG_BLACK_OFFS = .05;\n\n// logarithmic difference between two RGB triplets, preferably in Linear\n// BT.709 I-D65.\nfloat rgb_log_diff(vec3 a, vec3 b)\n{\n    // clip negative values and add a tiny offset to avoid infinity\n    a = max(a, 0.) + LOG_BLACK_OFFS;\n    b = max(b, 0.) + LOG_BLACK_OFFS;\n    \n    // logarithmic difference per channel\n    vec3 d = log(a / b);\n    \n    // take to the power of 2 and get luminance\n    return luminance(d * d);\n}\n\n// signed logarithmic difference between two RGB triplets, preferably in Linear\n// BT.709 I-D65.\nfloat rgb_log_diff_signed(vec3 a, vec3 b)\n{\n    // clip negative values and add a tiny offset to avoid infinity\n    a = max(a, 0.) + LOG_BLACK_OFFS;\n    b = max(b, 0.) + LOG_BLACK_OFFS;\n    \n    // logarithmic difference per channel\n    vec3 d = log(a / b);\n    \n    // take to the power of 2 and get luminance\n    float log_diff = luminance(d * d);\n    \n    // use luminance to determine which triplet is brighter (the sign)\n    float lum_a = luminance(a);\n    float lum_b = luminance(b);\n    return lum_a > lum_b ? log_diff : -log_diff;\n}\n",
      "name": "Common",
      "description": "",
      "type": "common"
@@ -2702,7 +2688,7 @@
        "channel": 0
       }
      ],
-     "code": "const int MAX_STEPS = 128;\nconst float MAX_DIST = 100.;\nconst float HIT_THRESHOLD = .001;\n\n// https://www.shadertoy.com/view/3sfyRB\nvec3 sky_gradient(float height01)\n{\n    const vec3 color = vec3(.0005, .015, .05);\n\n    vec3 blue = pow(color, vec3(height01 * 2.));\n    vec3 orange = 1. - blue;\n    vec3 sky = 16. * blue * pow(orange, vec3(8.));\n\n    sky = mix(\n        sky + vec3(.015, .01, .003),\n        sky,\n        min(1., 10. * height01)\n    );\n\n    return sky;\n}\n\n// sample the environment color\nvec3 get_env(vec3 dir)\n{\n    float vertical_angle = acos(.9999 * dir.z) * INV_PI;\n    float height01 = smoothstep(.51, .07, vertical_angle);\n    return sky_gradient(height01);\n}\n\nconst int OBJ_NONE = 0;\nconst int OBJ_FLOOR = 1;\nconst int OBJ_SPHERE = 2;\n\nfloat sd_scene(vec3 p, float time, out int obj_id)\n{\n    float min_dist = 1e9;\n    obj_id = OBJ_NONE;\n    \n    float d = sd_box(p, vec3(0, 0, -.051), vec3(1.5, 1.5, .05));\n    if (d < min_dist)\n    {\n        min_dist = d;\n        obj_id = OBJ_FLOOR;\n    }\n    \n    d = sd_sphere(p, vec3(0, 0, .5), .5);\n    if (d < min_dist)\n    {\n        min_dist = d;\n        obj_id = OBJ_SPHERE;\n    }\n    \n    return min_dist;\n}\n\nvec3 render(vec2 coord, in Camera cam, float time)\n{\n    vec2 uv01 = screen_to_uv01(coord, iResolution.xy);\n    Ray r = Camera_gen_ray(cam, uv01);\n    \n    float total_dist = 0.;\n    float dist;\n    int obj_id;\n    for (int i = 0; i < MAX_STEPS; i++)\n    {\n        dist = sd_scene(r.orig, time, obj_id);\n        if (dist < HIT_THRESHOLD || total_dist > MAX_DIST)\n        {\n            break;\n        }\n        r.orig += dist * r.dir;\n        total_dist += dist;\n    }\n    \n    if (dist > HIT_THRESHOLD)\n    {\n        return get_env(r.dir);\n    }\n    \n    const float eps = .0001;\n    int _;\n    vec3 normal = normalize(vec3(\n        sd_scene(r.orig + vec3(eps, 0, 0), time, _) - dist,\n        sd_scene(r.orig + vec3(0, eps, 0), time, _) - dist,\n        sd_scene(r.orig + vec3(0, 0, eps), time, _) - dist\n    ));\n\n    vec3 base_color = vec3(0);\n    if (obj_id == OBJ_FLOOR)\n    {\n        base_color = vec3(.6);\n    }\n    else if (obj_id == OBJ_SPHERE)\n    {\n        base_color = vec3(.1, .8, .05);\n    }\n    \n    vec3 light_dir = normalize(vec3(\n        1.3 * cos(-1.5 * time),\n        1.3 * sin(-1.5 * time),\n        1.\n    ));\n    float light_mul = pow(1. - acos(dot(normal, light_dir)) * INV_PI, 3.);\n    light_mul *= 3.;\n    light_mul += .05;\n    return light_mul * base_color;\n}\n\nCamera make_camera()\n{\n    Camera cam;\n    cam.pos = vec3(0, -3, .8);\n\n    // https://www.desmos.com/calculator/unhormazaq\n    cam.sensor_height = .035;\n    cam.sensor_width = cam.sensor_height * (iResolution.x / iResolution.y);\n    cam.focal_length = .025;\n\n    vec2 cam_dir_spherical = vec2(PI_OVER_2 + radians(7.), PI_OVER_2);\n    if (iMouse.z > .1)\n    {\n        vec2 mouse_uv = screen_to_uv_fit(iMouse.xy, iResolution.xy);\n        cam_dir_spherical -= .6 * mouse_uv.yx;\n    }\n    \n    vec3 cam_dir = spherical_to_cartesian(cam_dir_spherical);\n    Camera_look_along(cam, cam_dir, vec3(0, 0, 1));\n    \n    return cam;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // time\n    const float shutter_time = .06;\n    float time = floor(iTime / shutter_time) * shutter_time;\n    \n    // initialize PRNG\n    prng_init(vec3(frag_coord / iResolution.y, time));\n    \n    // camera\n    Camera cam = make_camera();\n\n    // render with jitter sampling\n    vec3 col = vec3(0);\n    const int n_samples = 23;\n    for (int i = 0; i < n_samples; i++)\n    {\n        vec2 offs = 2.5 * (halton_2d(i + 1) - .5);\n        col += render(frag_coord + offs, cam, time);\n    }\n    col /= float(n_samples);\n    \n    // bayer filter\n    col = vec3(col[get_bayer(ivec2(frag_coord))]);\n    \n    // add noise on top of bayer for color noise\n    col = max(vec3(0.), col + .03 * (random() - .5));\n    \n    // sensor clipping\n    col = clamp(col, 0., 1.5);\n    \n    frag_col = vec4(col, 1);\n}\n",
+     "code": "// this buffer renders the scene and applies a Bayer filter\n// with some noise added on top.\n\nconst int MAX_STEPS = 128;\nconst float MAX_DIST = 100.;\nconst float HIT_THRESHOLD = .001;\n\n// https://www.shadertoy.com/view/3sfyRB\nvec3 sky_gradient(float height01)\n{\n    const vec3 color = vec3(.0005, .015, .05);\n\n    vec3 blue = pow(color, vec3(height01 * 2.));\n    vec3 orange = 1. - blue;\n    vec3 sky = 16. * blue * pow(orange, vec3(8.));\n\n    sky = mix(\n        sky + vec3(.015, .01, .003),\n        sky,\n        min(1., 10. * height01)\n    );\n\n    return sky;\n}\n\n// sample the environment color\nvec3 get_env(vec3 dir)\n{\n    float vertical_angle = acos(.9999 * dir.z) * INV_PI;\n    float height01 = smoothstep(.51, .07, vertical_angle);\n    return sky_gradient(height01);\n}\n\nconst int OBJ_NONE = 0;\nconst int OBJ_FLOOR = 1;\nconst int OBJ_SPHERE = 2;\n\nfloat sd_scene(vec3 p, float time, out int obj_id)\n{\n    float min_dist = 1e9;\n    obj_id = OBJ_NONE;\n    \n    float d = sd_box(p, vec3(0, 0, -.051), vec3(1.5, 1.5, .05));\n    if (d < min_dist)\n    {\n        min_dist = d;\n        obj_id = OBJ_FLOOR;\n    }\n    \n    d = sd_sphere(p, vec3(0, 0, .5), .5);\n    if (d < min_dist)\n    {\n        min_dist = d;\n        obj_id = OBJ_SPHERE;\n    }\n    \n    return min_dist;\n}\n\nvec3 render(vec2 coord, in Camera cam, float time)\n{\n    vec2 uv01 = screen_to_uv01(coord, iResolution.xy);\n    Ray r = Camera_gen_ray(cam, uv01);\n    \n    float total_dist = 0.;\n    float dist;\n    int obj_id;\n    for (int i = 0; i < MAX_STEPS; i++)\n    {\n        dist = sd_scene(r.orig, time, obj_id);\n        if (dist < HIT_THRESHOLD || total_dist > MAX_DIST)\n        {\n            break;\n        }\n        r.orig += dist * r.dir;\n        total_dist += dist;\n    }\n    \n    if (dist > HIT_THRESHOLD)\n    {\n        return get_env(r.dir);\n    }\n    \n    const float eps = .0001;\n    int _;\n    vec3 normal = normalize(vec3(\n        sd_scene(r.orig + vec3(eps, 0, 0), time, _) - dist,\n        sd_scene(r.orig + vec3(0, eps, 0), time, _) - dist,\n        sd_scene(r.orig + vec3(0, 0, eps), time, _) - dist\n    ));\n\n    vec3 base_color = vec3(0);\n    if (obj_id == OBJ_FLOOR)\n    {\n        base_color = vec3(.6);\n    }\n    else if (obj_id == OBJ_SPHERE)\n    {\n        base_color = vec3(.1, .8, .05);\n    }\n    \n    vec3 light_dir = normalize(vec3(\n        1.3 * cos(-1.5 * time),\n        1.3 * sin(-1.5 * time),\n        1.\n    ));\n    float light_mul = pow(1. - acos(dot(normal, light_dir)) * INV_PI, 3.);\n    light_mul *= 3.;\n    light_mul += .05;\n    \n    return 1.2 * light_mul * base_color;\n}\n\nCamera make_camera()\n{\n    Camera cam;\n    cam.pos = vec3(0, -3, .8);\n\n    // https://www.desmos.com/calculator/unhormazaq\n    cam.sensor_height = .035;\n    cam.sensor_width = cam.sensor_height * (iResolution.x / iResolution.y);\n    cam.focal_length = .02;\n\n    vec2 cam_dir_spherical = vec2(PI_OVER_2 + radians(-1.), PI_OVER_2);\n    if (iMouse.z > .1)\n    {\n        vec2 mouse_uv = screen_to_uv_fit(iMouse.xy, iResolution.xy);\n        cam_dir_spherical -= .6 * mouse_uv.yx;\n    }\n    \n    vec3 cam_dir = spherical_to_cartesian(cam_dir_spherical);\n    Camera_look_along(cam, cam_dir, vec3(0, 0, 1));\n    \n    return cam;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // time\n    const float shutter_time = .05;\n    float time = floor(iTime / shutter_time) * shutter_time;\n    \n    // initialize PRNG\n    prng_init(vec3(frag_coord / iResolution.y, time));\n    \n    // camera\n    Camera cam = make_camera();\n\n    // render with jitter sampling\n    vec3 col = vec3(0);\n    const int n_samples = 20;\n    for (int i = 0; i < n_samples; i++)\n    {\n        vec2 offs = 2.5 * (halton_2d(i + 1) - .5);\n        col += render(frag_coord + offs, cam, time);\n    }\n    col /= float(n_samples);\n    \n    // bayer filter\n    int bayer_channel = get_bayer(ivec2(frag_coord));\n    col = vec3(col[bayer_channel]);\n    \n    // add noise on top of bayer for color noise\n    col = max(vec3(0.), col + .05 * (random() - .5));\n    \n    // sensor clipping (uneven channels)\n    col = clamp(col, 0., bayer_channel == BAYER_GREEN ? .85 : 1.2);\n    \n    frag_col = vec4(col, 1);\n}\n",
      "name": "Buffer A",
      "description": "",
      "type": "buffer"
@@ -2730,8 +2716,36 @@
        "channel": 0
       }
      ],
-     "code": "void mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    ivec2 icoord = ivec2(frag_coord);\n    float val = texture(iChannel0, frag_coord).x;\n    float val_e = texture(iChannel0, frag_coord + vec2(1, 0)).x;\n    float val_n = texture(iChannel0, frag_coord + vec2(0, 1)).x;\n    float val_w = texture(iChannel0, frag_coord + vec2(-1, 0)).x;\n    float val_s = texture(iChannel0, frag_coord + vec2(0, -1)).x;\n    frag_col = vec4(0, 0, 1, 1);\n}\n",
+     "code": "// this buffer performs demosaicing and color grading\n\nfloat fetch_raw(ivec2 icoord)\n{\n    if (icoord.x < 0 || icoord.y < 0\n        || icoord.x >= int(iResolution.x)\n        || icoord.y >= int(iResolution.y))\n    {\n        return 0.;\n    }\n    return texelFetch(iChannel0, icoord, 0).r;\n}\n\n// ASC CDL color grading\n// https://en.wikipedia.org/wiki/ASC_CDL\nvec3 asc_cdl(vec3 col, vec3 slope, vec3 offset, vec3 power)\n{\n    return pow(col * slope + offset, power);\n}\n\nvec3 grade(vec3 col)\n{\n    // clip\n    col = clamp(col, 0., 1.);\n\n    // color grade\n    col = asc_cdl(\n        col,\n        1.1 * vec3(1, .903, .94),\n        vec3(0, 0, .007),\n        1.05 * vec3(1, .95, 1)\n    );\n    \n    // horrible contrast and brightness\n    col = 1.01 * mix(col, smoothstep(0., 1., col), .3);\n    \n    // extreme black point\n    col -= .01;\n    \n    // clip\n    col = clamp(col, 0., 1.);\n\n    return col;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    ivec2 icoord = ivec2(frag_coord);\n    \n    float raw = texelFetch(iChannel0, icoord, 0).r;\n\n    // demosaic\n    vec3 col = vec3(0);\n    int col_parity = icoord.x % 2;\n    int row_parity = icoord.y % 2;\n    if (row_parity == 0 && col_parity == 0)\n    {\n        // green\n        col.g = raw;\n\n        col.r += fetch_raw(icoord + ivec2(1, 0));\n        col.r += fetch_raw(icoord + ivec2(-1, 0));\n        col.r /= 2.;\n\n        col.b += fetch_raw(icoord + ivec2(0, -1));\n        col.b += fetch_raw(icoord + ivec2(0, 1));\n        col.b /= 2.;\n    }\n    else if (row_parity == 0 && col_parity == 1)\n    {\n        // red\n        col.r = raw;\n        \n        col.g += fetch_raw(icoord + ivec2(0, -1));\n        col.g += fetch_raw(icoord + ivec2(1, 0));\n        col.g += fetch_raw(icoord + ivec2(0, 1));\n        col.g += fetch_raw(icoord + ivec2(-1, 0));\n        col.g /= 4.;\n\n        col.b += fetch_raw(icoord + ivec2(-1, -1));\n        col.b += fetch_raw(icoord + ivec2(1, -1));\n        col.b += fetch_raw(icoord + ivec2(1, 1));\n        col.b += fetch_raw(icoord + ivec2(-1, 1));\n        col.b /= 4.;\n    }\n    else if (row_parity == 1 && col_parity == 0)\n    {\n        // blue\n        col.b = raw;\n\n        col.r += fetch_raw(icoord + ivec2(-1, -1));\n        col.r += fetch_raw(icoord + ivec2(1, -1));\n        col.r += fetch_raw(icoord + ivec2(1, 1));\n        col.r += fetch_raw(icoord + ivec2(-1, 1));\n        col.r /= 4.;\n        \n        col.g += fetch_raw(icoord + ivec2(0, -1));\n        col.g += fetch_raw(icoord + ivec2(1, 0));\n        col.g += fetch_raw(icoord + ivec2(0, 1));\n        col.g += fetch_raw(icoord + ivec2(-1, 0));\n        col.g /= 4.;\n    }\n    else\n    {\n        // second green\n        col.g = raw;\n        \n        col.r += fetch_raw(icoord + ivec2(0, -1));\n        col.r += fetch_raw(icoord + ivec2(0, 1));\n        col.r /= 2.;\n        \n        col.b += fetch_raw(icoord + ivec2(1, 0));\n        col.b += fetch_raw(icoord + ivec2(-1, 0));\n        col.b /= 2.;\n    }\n\n    // color grade\n    col = grade(col);\n\n    // output\n    frag_col = vec4(col, 1.);\n}\n",
      "name": "Buffer B",
+     "description": "",
+     "type": "buffer"
+    },
+    {
+     "inputs": [
+      {
+       "id": "XsXGR8",
+       "filepath": "/media/previz/buffer01.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4sXGR8",
+       "channel": 0
+      }
+     ],
+     "code": "// this buffer performs denoising\n\nivec2[] outward_spiral_offsets = ivec2[](\n    ivec2(0, 1),\n    ivec2(1, 0),\n    ivec2(0, -1),\n    ivec2(-1, 0),\n    ivec2(-1, 1),\n    ivec2(1, 1),\n    ivec2(1, -1),\n    ivec2(-1, -1),\n    ivec2(-2, -1),\n    ivec2(-2, 0),\n    ivec2(-2, 1),\n    ivec2(-2, 2),\n    ivec2(-1, 2),\n    ivec2(0, 2),\n    ivec2(1, 2),\n    ivec2(2, 2),\n    ivec2(2, 1),\n    ivec2(2, 0),\n    ivec2(2, -1),\n    ivec2(2, -2),\n    ivec2(1, -2),\n    ivec2(0, -2),\n    ivec2(-1, -2),\n    ivec2(-2, -2)\n);\nint outward_spiral_offsets_size = outward_spiral_offsets.length();\n\nvec3 fetch(ivec2 icoord)\n{\n    if (icoord.x < 0 || icoord.y < 0\n        || icoord.x >= int(iResolution.x)\n        || icoord.y >= int(iResolution.y))\n    {\n        return vec3(0);\n    }\n    return texelFetch(iChannel0, icoord, 0).rgb;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    ivec2 icoord = ivec2(frag_coord);\n    \n    vec3 col = fetch(icoord);\n    float weight_sum = 1.;\n    for (int i = 0; i < outward_spiral_offsets_size; i++)\n    {\n        ivec2 offs = outward_spiral_offsets[i];\n        \n        vec3 neighbor_col = fetch(icoord + offs);\n        if (rgb_log_diff(col, neighbor_col) > .5)\n        {\n            break;\n        }\n        \n        // float weight = gaussian(length(vec2(offs)));\n        float weight = exp(-(dot(vec2(offs), vec2(offs)) * .5));\n        \n        col += weight * neighbor_col;\n        weight_sum += weight;\n    }\n    col /= weight_sum;\n    \n    frag_col = vec4(col, 1);\n}\n",
+     "name": "Buffer C",
      "description": "",
      "type": "buffer"
     }
@@ -2775,7 +2789,7 @@
    "info": {
     "id": "McdSzr",
     "date": "1713529681",
-    "viewed": 282,
+    "viewed": 289,
     "name": "Subpixel Anti-Aliasing",
     "description": "looks kinda weird tbh, am I doing something wrong?",
     "likes": 5,
@@ -2818,7 +2832,7 @@
    "info": {
     "id": "M3dGz8",
     "date": "1716107523",
-    "viewed": 113,
+    "viewed": 121,
     "name": "2x Temporal Upscaling",
     "description": "read my comments, the character limit is too low ..............................................................................................................................................................................................................",
     "likes": 1,
@@ -3216,7 +3230,7 @@
    "info": {
     "id": "lXy3zK",
     "date": "1717887783",
-    "viewed": 711,
+    "viewed": 722,
     "name": "Daft Punk (Audio Data Packing)",
     "description": "8-bit audio samples packed into ivec4 array(s) using a Python script, with some vinyl pixel art I made",
     "likes": 26,
@@ -3275,10 +3289,10 @@
    "info": {
     "id": "M3VGRK",
     "date": "1717936266",
-    "viewed": 267,
+    "viewed": 273,
     "name": "Attack-Decay-Sustain-Release",
     "description": "The ADSR curve is a fundamental tool used in all audio synthesizers.\nFeel free to play with the values (see custom_adsr_curve_1() in Common).\n\nRead more: [url]https://en.wikipedia.org/wiki/Envelope_(music)[/url]\n",
-    "likes": 11,
+    "likes": 12,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -3324,7 +3338,7 @@
    "info": {
     "id": "X3y3Rc",
     "date": "1717962362",
-    "viewed": 166,
+    "viewed": 173,
     "name": "Bean's Starting Point",
     "description": "Helper functions/structs/defines divided into sections.\nUse whichever section(s) you need:\n- math & integer utils\n- pseudo-random number generator\n- keyboard\n- flim\n",
     "likes": 0,
@@ -3408,7 +3422,7 @@
    "info": {
     "id": "M3tXWn",
     "date": "1718891537",
-    "viewed": 736,
+    "viewed": 744,
     "name": "Digital Logic Simulation",
     "description": "[url=https://www.shadertoy.com/view/X33XDN]UPDATE: NEW VERSION[/url]\nSee the first comment for tutorial and description.\n",
     "likes": 50,
@@ -3673,7 +3687,7 @@
    "info": {
     "id": "X33XDN",
     "date": "1719435553",
-    "viewed": 723,
+    "viewed": 735,
     "name": "DLS + Wire Cross + Clock + Rot",
     "description": "See the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\n",
     "likes": 27,
@@ -4070,7 +4084,7 @@
    "info": {
     "id": "M3ySRK",
     "date": "1720202475",
-    "viewed": 779,
+    "viewed": 810,
     "name": "Parallax Occlusion Mapping X",
     "description": "layer count depends on the ray-surface angle\n",
     "likes": 25,
@@ -4148,7 +4162,7 @@
    "info": {
     "id": "XcBBWW",
     "date": "1724905810",
-    "viewed": 208,
+    "viewed": 218,
     "name": "Follow Edge Antialiasing? (Bad)",
     "description": "[url=https://www.shadertoy.com/view/M33cD7]SEE BETTER VERSION[/url]\nidk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison\n",
     "likes": 2,
@@ -4262,7 +4276,7 @@
    "info": {
     "id": "MfjBDV",
     "date": "1725542638",
-    "viewed": 117,
+    "viewed": 120,
     "name": "Pretty Colormap (-1, +1)",
     "description": "See the Desmos graphs, play with v",
     "likes": 6,
@@ -4405,7 +4419,7 @@
    "info": {
     "id": "XXlBDH",
     "date": "1728333908",
-    "viewed": 151,
+    "viewed": 154,
     "name": "Diffraction Through 5 Slits",
     "description": "inspired by 3b1b's new video",
     "likes": 6,
@@ -4511,7 +4525,7 @@
    "info": {
     "id": "4cVcR1",
     "date": "1731504376",
-    "viewed": 165,
+    "viewed": 176,
     "name": "Color Transformation Utilities",
     "description": "The \"Image\" tab simply alternates between mixing different colors in Oklab vs Linear BT.709 I-D65.\n\nThe \"Common\" tab contains transformations for common gamuts, white points, and transfer functions. Also includes Oklab.\n",
     "likes": 4,
@@ -4594,7 +4608,7 @@
    "info": {
     "id": "lctBRn",
     "date": "1732646179",
-    "viewed": 214,
+    "viewed": 218,
     "name": "Springy Ball (Pos Vel Acc Jerk)",
     "description": "drag mouse.\nplay with INTEGRATION_MODE in Buffer A.",
     "likes": 5,
@@ -4686,10 +4700,10 @@
    "info": {
     "id": "4cyfRV",
     "date": "1734325673",
-    "viewed": 4069,
+    "viewed": 4151,
     "name": "Neural Cat",
     "description": "deep neural network trained to produce cat meme video",
-    "likes": 39,
+    "likes": 41,
     "published": "Public API",
     "usePreview": 1,
     "tags": [
@@ -4733,7 +4747,7 @@
    "info": {
     "id": "XX3cRn",
     "date": "1734644701",
-    "viewed": 377,
+    "viewed": 415,
     "name": "Film Halation",
     "description": "film halation",
     "likes": 10,
@@ -4819,7 +4833,7 @@
    "info": {
     "id": "M33cD7",
     "date": "1735165058",
-    "viewed": 194,
+    "viewed": 206,
     "name": "FXAA-ish",
     "description": "idk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison",
     "likes": 3,
@@ -4897,7 +4911,7 @@
    "info": {
     "id": "lX3cD7",
     "date": "1735261091",
-    "viewed": 228,
+    "viewed": 240,
     "name": "Film Emulation",
     "description": "Full on film emulation. Detailed explanation in the Common tab + comments throughout the code.",
     "likes": 10,
@@ -5080,7 +5094,7 @@
    "info": {
     "id": "XXcyDB",
     "date": "1735546355",
-    "viewed": 277,
+    "viewed": 287,
     "name": "Fork Fractal Explorer (+flim)",
     "description": " More fractal fun! This time with a single pass depth of field effect. MOUSE DRAG to turn WASD & cursor keys to move. SHIFT for speed up. SPACE for another speed up!\n",
     "likes": 1,
@@ -5249,7 +5263,7 @@
    "info": {
     "id": "lXGyDR",
     "date": "1736145027",
-    "viewed": 180,
+    "viewed": 204,
     "name": "Interleaved Gradient Noise ‌‍",
     "description": "Low discrepancy or something. I copied the formula form some article, I don't know how it's actually derived.",
     "likes": 3,
@@ -5316,7 +5330,7 @@
    "info": {
     "id": "X3KcDh",
     "date": "1736180148",
-    "viewed": 109,
+    "viewed": 112,
     "name": "High Pass White Noise (Failed)",
     "description": "failed attempt to get blue noise from white noise\n\nsuccessful attempt: [url]https://www.shadertoy.com/view/lXycWt[/url]",
     "likes": 3,
@@ -5364,7 +5378,7 @@
    "info": {
     "id": "MXGyDD",
     "date": "1736256150",
-    "viewed": 205,
+    "viewed": 213,
     "name": "Perlinary",
     "description": "procedural noise",
     "likes": 11,
@@ -5455,7 +5469,7 @@
    "info": {
     "id": "lXycWt",
     "date": "1736801004",
-    "viewed": 150,
+    "viewed": 157,
     "name": "Getting Blue Noise from White",
     "description": "high passing white noise to get blue noise. one important detail is that you should map the original input from [0, 1] to [-1, +1] by performing [code](x * 2. - 1.)[/code] and undo it at the very end by doing [code](x * .5 + .5)[/code]",
     "likes": 6,
@@ -5626,7 +5640,7 @@
    "info": {
     "id": "MX3BR8",
     "date": "1736931744",
-    "viewed": 203,
+    "viewed": 215,
     "name": "Single Function Semi Blue Noise",
     "description": "Convolution with a white noise.\n\nHold mouse to see Shadertoy's default blue noise texture.",
     "likes": 9,
@@ -5745,17 +5759,20 @@
    "ver": "0.1",
    "info": {
     "id": "43tBWs",
-    "date": "0",
-    "viewed": 0,
-    "name": "Blue Noise Bloom",
-    "description": "Helper functions/structs/defines divided into sections.\nUse whichever section(s) you need:\n- math & integer utils\n- pseudo-random number generator\n- keyboard\n- flim\n",
-    "likes": 0,
-    "published": "Private",
+    "date": "1756750760",
+    "viewed": 22,
+    "name": "Blue Noise Stochastic Bloom",
+    "description": "yeah",
+    "likes": 2,
+    "published": "Public API",
     "usePreview": 0,
     "tags": [
-     "utility",
-     "functions",
-     "helper"
+     "noise",
+     "bloom",
+     "blue",
+     "stochastic",
+     "pdf",
+     "cdf"
     ]
    },
    "renderpass": [
@@ -5796,7 +5813,7 @@
        "channel": 0
       }
      ],
-     "code": "#define CH_INPUT iChannel0\n#define CH_BLUE_NOISE iChannel1\n\nfloat blue_noise(ivec2 icoord, int idx)\n{\n    return hashf(ivec3(icoord, idx));\n    float v = texelFetch(\n        CH_BLUE_NOISE,\n        icoord % textureSize(CH_BLUE_NOISE, 0),\n        0\n    ).x;\n    return fract(v + PHI * float(idx));\n}\n\nvec3 fetch(vec2 coord)\n{\n    return texture(CH_INPUT, coord / iResolution.xy).rgb;\n}\n\n// extremely approximate inverse CDF of a fractal gaussian bloom kernel\n// https://www.desmos.com/calculator/9ijvvyqdhp\nfloat bloom_inv_cdf(float x)\n{\n    x = clamp(x, 0., 1.);\n    return .65 * spow(tan(3.1 * (x - .5)), 1.2);\n}\n\nvec3 render(vec2 coord)\n{\n    ivec2 icoord = ivec2(coord);\n\n    vec3 col = vec3(0);\n    const int N_SAMPLES = 1024;\n    for (int i = 0; i < N_SAMPLES; i++)\n    {\n        #if 0\n            float angle = TAU * blue_noise(icoord, i * 2);\n            float radius = bloom_inv_cdf(blue_noise(icoord, i * 2 + 1));\n            vec2 offs = radius * vec2(cos(angle), sin(angle));\n        #else\n            const float a = 1.6;\n            const int n_bloom_fbm = 14;\n            \n            float r = blue_noise(icoord, i * 4);\n            float std = exp2(-floor(\n                log(1. - (1. - pow(.5 * a, float(n_bloom_fbm + 1))) * blue_noise(icoord, i * 4 + 1))\n                / log(.5 * a)\n            ));\n            \n            float u0 = blue_noise(icoord, i * 4 + 2);\n            float u1 = TAU * blue_noise(icoord, i * 4 + 3);\n            vec2 offs = std * sqrt(-2. * log(u0)) * vec2(cos(u1), sin(u1));\n        #endif\n        offs *= .1 * min(iResolution.x, iResolution.y);\n        col += fetch(coord + offs);\n    }\n    return col / float(N_SAMPLES);\n}\n\nvec3 view_transform(vec3 col)\n{\n    // avoid any negative values before using power functions\n    col = max(col, 0.);\n    \n    // flim\n    col = flim_transform(col, 0., false);\n\n    // OETF (Linear BT.709 I-D65 to sRGB 2.2)\n    col = pow(col, vec3(1. / 2.2));\n    col = clamp(col, 0., 1.);\n\n    return col;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    frag_col = vec4(view_transform(render(frag_coord)), 1);\n}\n",
+     "code": "#define CH_INPUT iChannel0\n#define CH_BLUE_NOISE iChannel1\n\nfloat blue_noise(ivec2 icoord, int idx)\n{\n    return hashf(ivec3(icoord, idx));\n    float v = texelFetch(\n        CH_BLUE_NOISE,\n        icoord % textureSize(CH_BLUE_NOISE, 0),\n        0\n    ).x;\n    return fract(v + PHI * float(idx));\n}\n\nvec3 fetch(vec2 coord)\n{\n    return texture(CH_INPUT, coord / iResolution.xy).rgb;\n}\n\n// extremely approximate inverse CDF of a fractal gaussian bloom kernel\n// https://www.desmos.com/calculator/9ijvvyqdhp\nfloat bloom_inv_cdf(float x)\n{\n    x = clamp(x, 0., 1.);\n    return .65 * spow(tan(3.1 * (x - .5)), 1.2);\n}\n\nvec3 render(vec2 coord)\n{\n    ivec2 icoord = ivec2(coord);\n\n    vec3 col = vec3(0);\n    const int N_SAMPLES = 32;\n    for (int i = 0; i < N_SAMPLES; i++)\n    {\n        #if 0\n            float angle = TAU * blue_noise(icoord, i * 2);\n            float radius = bloom_inv_cdf(blue_noise(icoord, i * 2 + 1));\n            vec2 offs = radius * vec2(cos(angle), sin(angle));\n        #else\n            const float a = 1.6;\n            const int n_bloom_fbm = 14;\n            \n            float r = blue_noise(icoord, i * 4);\n            float std = exp2(-floor(\n                log(1. - (1. - pow(.5 * a, float(n_bloom_fbm + 1))) * blue_noise(icoord, i * 4 + 1))\n                / log(.5 * a)\n            ));\n            \n            float u0 = blue_noise(icoord, i * 4 + 2);\n            float u1 = TAU * blue_noise(icoord, i * 4 + 3);\n            vec2 offs = std * sqrt(-2. * log(u0)) * vec2(cos(u1), sin(u1));\n        #endif\n        offs *= .1 * min(iResolution.x, iResolution.y);\n        col += fetch(coord + offs);\n    }\n    return col / float(N_SAMPLES);\n}\n\nvec3 view_transform(vec3 col)\n{\n    // avoid any negative values before using power functions\n    col = max(col, 0.);\n    \n    // flim\n    col = flim_transform(col, 0., false);\n\n    // OETF (Linear BT.709 I-D65 to sRGB 2.2)\n    col = pow(col, vec3(1. / 2.2));\n    col = clamp(col, 0., 1.);\n\n    return col;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    frag_col = vec4(view_transform(render(frag_coord)), 1);\n}\n",
      "name": "Image",
      "description": "",
      "type": "image"
@@ -6264,7 +6281,7 @@
    "info": {
     "id": "lXGfWt",
     "date": "1745672318",
-    "viewed": 123,
+    "viewed": 131,
     "name": "Pause Menu Background Effect",
     "description": "proof of concept for an idea I had for a pause menu background effect to use in video games",
     "likes": 5,
@@ -6432,7 +6449,7 @@
    "info": {
     "id": "WcsSRH",
     "date": "1740643773",
-    "viewed": 94,
+    "viewed": 100,
     "name": "Subpixel Anti-Aliasing 2",
     "description": "looks kinda weird tbh, am I doing something wrong?",
     "likes": 5,
@@ -6475,7 +6492,7 @@
    "info": {
     "id": "3clXzN",
     "date": "1740690643",
-    "viewed": 123,
+    "viewed": 128,
     "name": "smooth downscale without mipmap",
     "description": "needed this for a project",
     "likes": 0,
@@ -6523,7 +6540,7 @@
    "info": {
     "id": "3cSSRR",
     "date": "1741469568",
-    "viewed": 100,
+    "viewed": 106,
     "name": "Double-Pass DFT",
     "description": "2D Discrete Fourier Transform\n\nhold mouse to see input\n",
     "likes": 5,
@@ -6678,7 +6695,7 @@
    "info": {
     "id": "Wc3GD4",
     "date": "1747077935",
-    "viewed": 4,
+    "viewed": 12,
     "name": "Water Optimizer",
     "description": "check out the Desmos graph for details:\n[url]https://www.desmos.com/calculator/eflrvqjufv[/url]\n",
     "likes": 0,
@@ -6717,7 +6734,7 @@
    "info": {
     "id": "Wfd3RX",
     "date": "1747980811",
-    "viewed": 162,
+    "viewed": 171,
     "name": "2D Vector Field Wave Sim",
     "description": "You could treat this as the electric field or the magnetic field on its own, the other one could also be simulated using the time derivative of this field.",
     "likes": 11,
@@ -6806,12 +6823,12 @@
    "ver": "0.1",
    "info": {
     "id": "wf3XDH",
-    "date": "0",
-    "viewed": 0,
+    "date": "1754134215",
+    "viewed": 103,
     "name": "Send Text over Sound",
-    "description": "Transmit binary data over sound. This is supposed to be used with [url=https://www.shadertoy.com/view/tfdXW4]the receiver shader[/url] running on another device or browser tab.",
-    "likes": 0,
-    "published": "Private",
+    "description": "Transmit binary data over sound. [url=https://www.shadertoy.com/view/tfdXW4]See receiver.[/url]\n\n[b]NOTE: This is a failed experiment! Shadertoy's Microphone input has lots of aliasing and ambiguous sample rate and count. The receiver is broken.[/b]",
+    "likes": 2,
+    "published": "Public API",
     "usePreview": 0,
     "tags": [
      "audio",
@@ -6856,7 +6873,7 @@
     {
      "inputs": [],
      "outputs": [],
-     "code": "#define RES iResolution.xy\n\nconst float PI = 3.14159265;\nconst float TAU = 6.28318530;\n\n// uppercase letters\nconst int A = 65;\nconst int B = 66;\nconst int C = 67;\nconst int D = 68;\nconst int E = 69;\nconst int F = 70;\nconst int G = 71;\nconst int H = 72;\nconst int I = 73;\nconst int J = 74;\nconst int K = 75;\nconst int L = 76;\nconst int M = 77;\nconst int N = 78;\nconst int O = 79;\nconst int P = 80;\nconst int Q = 81;\nconst int R = 82;\nconst int S = 83;\nconst int T = 84;\nconst int U = 85;\nconst int V = 86;\nconst int W = 87;\nconst int X = 88;\nconst int Y = 89;\nconst int Z = 90;\n\n// lowercase letters\nconst int a = 97;\nconst int b = 98;\nconst int c = 99;\nconst int d = 100;\nconst int e = 101;\nconst int f = 102;\nconst int g = 103;\nconst int h = 104;\nconst int i = 105;\nconst int j = 106;\nconst int k = 107;\nconst int l = 108;\nconst int m = 109;\nconst int n = 110;\nconst int o = 111;\nconst int p = 112;\nconst int q = 113;\nconst int r = 114;\nconst int s = 115;\nconst int t = 116;\nconst int u = 117;\nconst int v = 118;\nconst int w = 119;\nconst int x = 120;\nconst int y = 121;\nconst int z = 122;\n\n// digits\nconst int _0 = 48;\nconst int _1 = 49;\nconst int _2 = 50;\nconst int _3 = 51;\nconst int _4 = 52;\nconst int _5 = 53;\nconst int _6 = 54;\nconst int _7 = 55;\nconst int _8 = 56;\nconst int _9 = 57;\n\n// common punctuation\nconst int SPACE = 32;\nconst int EXCLAMATION = 33; // !\nconst int QUOTE = 34;       // \"\nconst int HASH = 35;        // #\nconst int DOLLAR = 36;      // $\nconst int PERCENT = 37;     // %\nconst int AMPERSAND = 38;   // &\nconst int APOSTROPHE = 39;  // '\nconst int LEFT_PAREN = 40;\nconst int RIGHT_PAREN = 41;\nconst int ASTERISK = 42;\nconst int PLUS = 43;\nconst int COMMA = 44;\nconst int MINUS = 45;\nconst int PERIOD = 46;\nconst int SLASH = 47;\n\nconst int COLON = 58;\nconst int SEMICOLON = 59;\nconst int LESS = 60;\nconst int EQUAL = 61;\nconst int GREATER = 62;\nconst int QUESTION = 63;\nconst int AT = 64;\n\nconst int LEFT_BRACKET = 91;\nconst int BACKSLASH = 92;\nconst int RIGHT_BRACKET = 93;\nconst int CARET = 94;\nconst int UNDERSCORE = 95;\nconst int BACKTICK = 96;\n\nconst int LEFT_BRACE = 123;\nconst int PIPE = 124;\nconst int RIGHT_BRACE = 125;\nconst int TILDE = 126;\n\n// --- TEXT MESSAGE TO SEND ---\nint CHARS[] = int[](\n    H,e,l,l,o, SPACE, W,o,r,l,d, EXCLAMATION\n);\n\n// number of characters and symbols\nconst int N_CHARS = CHARS.length();\nconst int N_SYMS = N_CHARS * 9;\n\n// NOTE: a symbol is basically a bit except we also emit a certain\n// different frequency at the start of a character, so each character\n// is 9 symbols: one for the starting frequency, and 8 for the 8 bits\n// in that character.\n\n// how long to transmit each bit for (seconds)\nconst float SYMBOL_DURATION = .8;\n\n// which frequencies to use for 0 and 1 (Hz)\nconst float FREQ_LOW = 1200.;\nconst float FREQ_LOW_ALT = 1800.;\nconst float FREQ_HIGH = 2700.;\nconst float FREQ_HIGH_ALT = 4050.;\n\n// which frequency to emit at the first bit of a character\nconst float FREQ_CHAR_START = 6075.;\n\n// total transmit duration (seconds)\nconst float TOTAL_DURATION = float(N_SYMS) * SYMBOL_DURATION;\n\n// initial delay to show volume warning\nconst float VOLUME_WARNING_DURATION = 3.;\n\n// window function. basically fade in and out each symbol to avoid clicks.\nfloat window(float t)\n{\n    return min(\n        smoothstep(0., .1, t),\n        smoothstep(1., .9, t)\n    );\n}\n",
+     "code": "#define RES iResolution.xy\n\nconst float PI = 3.14159265;\nconst float TAU = 6.28318530;\n\n// uppercase letters\nconst int A = 65;\nconst int B = 66;\nconst int C = 67;\nconst int D = 68;\nconst int E = 69;\nconst int F = 70;\nconst int G = 71;\nconst int H = 72;\nconst int I = 73;\nconst int J = 74;\nconst int K = 75;\nconst int L = 76;\nconst int M = 77;\nconst int N = 78;\nconst int O = 79;\nconst int P = 80;\nconst int Q = 81;\nconst int R = 82;\nconst int S = 83;\nconst int T = 84;\nconst int U = 85;\nconst int V = 86;\nconst int W = 87;\nconst int X = 88;\nconst int Y = 89;\nconst int Z = 90;\n\n// lowercase letters\nconst int a = 97;\nconst int b = 98;\nconst int c = 99;\nconst int d = 100;\nconst int e = 101;\nconst int f = 102;\nconst int g = 103;\nconst int h = 104;\nconst int i = 105;\nconst int j = 106;\nconst int k = 107;\nconst int l = 108;\nconst int m = 109;\nconst int n = 110;\nconst int o = 111;\nconst int p = 112;\nconst int q = 113;\nconst int r = 114;\nconst int s = 115;\nconst int t = 116;\nconst int u = 117;\nconst int v = 118;\nconst int w = 119;\nconst int x = 120;\nconst int y = 121;\nconst int z = 122;\n\n// digits\nconst int _0 = 48;\nconst int _1 = 49;\nconst int _2 = 50;\nconst int _3 = 51;\nconst int _4 = 52;\nconst int _5 = 53;\nconst int _6 = 54;\nconst int _7 = 55;\nconst int _8 = 56;\nconst int _9 = 57;\n\n// common punctuation\nconst int SPACE = 32;\nconst int EXCLAMATION = 33; // !\nconst int QUOTE = 34;       // \"\nconst int HASH = 35;        // #\nconst int DOLLAR = 36;      // $\nconst int PERCENT = 37;     // %\nconst int AMPERSAND = 38;   // &\nconst int APOSTROPHE = 39;  // '\nconst int LEFT_PAREN = 40;\nconst int RIGHT_PAREN = 41;\nconst int ASTERISK = 42;\nconst int PLUS = 43;\nconst int COMMA = 44;\nconst int MINUS = 45;\nconst int PERIOD = 46;\nconst int SLASH = 47;\n\nconst int COLON = 58;\nconst int SEMICOLON = 59;\nconst int LESS = 60;\nconst int EQUAL = 61;\nconst int GREATER = 62;\nconst int QUESTION = 63;\nconst int AT = 64;\n\nconst int LEFT_BRACKET = 91;\nconst int BACKSLASH = 92;\nconst int RIGHT_BRACKET = 93;\nconst int CARET = 94;\nconst int UNDERSCORE = 95;\nconst int BACKTICK = 96;\n\nconst int LEFT_BRACE = 123;\nconst int PIPE = 124;\nconst int RIGHT_BRACE = 125;\nconst int TILDE = 126;\n\n// --- TEXT MESSAGE TO SEND ---\nint CHARS[] = int[](\n    H,e,l,l,o, SPACE, W,o,r,l,d, EXCLAMATION\n);\n\n// number of characters and symbols\nconst int N_CHARS = CHARS.length();\nconst int N_SYMS = N_CHARS * 9;\n\n// NOTE: a symbol is basically a bit except we also emit a certain\n// different frequency at the start of a character, so each character\n// is 9 symbols: one for the starting frequency, and 8 for the 8 bits\n// in that character.\n\n// how long to transmit each bit for (seconds)\nconst float SYMBOL_DURATION = .8;\n\n// which frequencies to use for 0 and 1 (Hz)\nconst float FREQ_LOW = 1200.;\nconst float FREQ_LOW_ALT = 1800.;\nconst float FREQ_HIGH = 2700.;\nconst float FREQ_HIGH_ALT = 4050.;\n\n// which frequency to emit at the first bit of a character\nconst float FREQ_CHAR_START = 6075.;\n\n// total transmit duration (seconds)\nconst float TOTAL_DURATION = float(N_SYMS) * SYMBOL_DURATION;\n\n// initial delay to show volume warning\nconst float VOLUME_WARNING_DURATION = 4.;\n\n// window function. basically fade in and out each symbol to avoid clicks.\nfloat window(float t)\n{\n    return min(\n        smoothstep(0., .1, t),\n        smoothstep(1., .9, t)\n    );\n}\n",
      "name": "Common",
      "description": "",
      "type": "common"
@@ -6864,7 +6881,7 @@
     {
      "inputs": [],
      "outputs": [],
-     "code": "vec2 mainSound(int samp, float _time_unused)\n{\n    int n_samps_volume_warning_delay = int(VOLUME_WARNING_DURATION * iSampleRate);\n    if (samp < n_samps_volume_warning_delay)\n    {\n        return vec2(0);\n    }\n    samp -= n_samps_volume_warning_delay;\n\n    // NOTE: we use samp and ignore time because a single-precision float\n    // does NOT have enough precision to represent time for a high\n    // frequency wave. to handle this, we mod samp by the number of\n    // samples in a single symbol and divide it by the sample rate to\n    // effectively get time mod symbol duration. since this is always\n    // kept between 0 and the symbol duration, it's always a small value\n    // and doesn't reach the precision limit of floats. if we use time\n    // directly, we'll get strong aliasing especially as time increases.\n\n    // number of samples in a symbol\n    int n_samps_in_sym = int(floor(SYMBOL_DURATION * iSampleRate));\n\n    // symbol index\n    int sym_idx = samp / n_samps_in_sym;\n    \n    // character index\n    int char_idx = sym_idx / 9;\n    if (char_idx < 0 || char_idx >= N_CHARS)\n    {\n        return vec2(0);\n    }\n    int char = CHARS[char_idx];\n    \n    // bit index. if this is negative, we are at the starting symbol of a\n    // new character.\n    int bit_idx = (sym_idx % 9) - 1;\n    \n    // frequency to emit\n    float freq = 0.;\n\n    if (bit_idx < 0)\n    {\n        freq = FREQ_CHAR_START;\n    }\n    else\n    {\n        // bit\n        int bit = (char >> bit_idx) & 1;\n        \n        // emit alternate frequencies at even bit indices\n        bool alt = (bit_idx % 2 == 0);\n        \n        // frequency\n        freq =\n            alt\n            ? ((bit == 1) ? FREQ_HIGH_ALT : FREQ_LOW_ALT)\n            : ((bit == 1) ? FREQ_HIGH : FREQ_LOW);\n    }\n\n    // recalculate {time mod symbol duration} to avoid precision loss\n    float time_mod_sym_duration = float(samp % n_samps_in_sym) / iSampleRate;\n\n    // generate signal\n    vec2 v = .5 * vec2(cos(TAU * freq * time_mod_sym_duration));\n    \n    // apply window\n    v *= window(time_mod_sym_duration / SYMBOL_DURATION);\n    \n    return v;\n}\n",
+     "code": "vec2 mainSound(int samp, float _time_unused)\n{\n    int n_samps_volume_warning_delay = int(VOLUME_WARNING_DURATION * iSampleRate);\n    if (samp < n_samps_volume_warning_delay)\n    {\n        return vec2(0);\n    }\n    samp -= n_samps_volume_warning_delay;\n\n    // NOTE: we use samp and ignore time because a single-precision float\n    // does NOT have enough precision to represent time for a high\n    // frequency wave. to handle this, we mod samp by the number of\n    // samples in a single symbol and divide it by the sample rate to\n    // effectively get time mod symbol duration. since this is always\n    // kept between 0 and the symbol duration, it's always a small value\n    // and doesn't reach the precision limit of floats. if we use time\n    // directly, we'll get strong aliasing especially as time increases.\n\n    // number of samples in a symbol\n    int n_samps_in_sym = int(floor(SYMBOL_DURATION * iSampleRate));\n\n    // symbol index\n    int sym_idx = samp / n_samps_in_sym;\n    \n    // character index\n    int char_idx = sym_idx / 9;\n    if (char_idx < 0 || char_idx >= N_CHARS)\n    {\n        return vec2(0);\n    }\n    int char = CHARS[char_idx];\n    \n    // bit index. if this is negative, we are at the starting symbol of a\n    // new character.\n    int bit_idx = (sym_idx % 9) - 1;\n    \n    // frequency to emit\n    float freq = 0.;\n\n    if (bit_idx < 0)\n    {\n        freq = FREQ_CHAR_START;\n    }\n    else\n    {\n        // bit\n        int bit = (char >> bit_idx) & 1;\n        \n        // emit alternate frequencies at even bit indices\n        bool alt = (bit_idx % 2 == 0);\n        \n        // frequency\n        freq =\n            alt\n            ? ((bit == 1) ? FREQ_HIGH_ALT : FREQ_LOW_ALT)\n            : ((bit == 1) ? FREQ_HIGH : FREQ_LOW);\n    }\n\n    // recalculate {time mod symbol duration} to avoid precision loss\n    float time_mod_sym_duration = float(samp % n_samps_in_sym) / iSampleRate;\n\n    // generate signal\n    vec2 v = .5 * vec2(cos(TAU * freq * time_mod_sym_duration));\n    \n    // apply window\n    v *= window(time_mod_sym_duration / SYMBOL_DURATION);\n    \n    return v * .5;\n}\n",
      "name": "Sound",
      "description": "",
      "type": "sound"
@@ -6875,12 +6892,12 @@
    "ver": "0.1",
    "info": {
     "id": "tfdXW4",
-    "date": "0",
-    "viewed": 0,
+    "date": "1754134243",
+    "viewed": 93,
     "name": "Receive Text over Sound",
-    "description": "Receive binary data over sound. This is supposed to be used with [url=https://www.shadertoy.com/view/wf3XDH]the transmitter shader[/url] running on another device or browser tab.",
-    "likes": 0,
-    "published": "Private",
+    "description": "Receive binary data over sound. [url=https://www.shadertoy.com/view/wf3XDH]See transmitter.[/url]\n\n[b]NOTE: This is a failed experiment! Shadertoy's Microphone input has lots of aliasing and ambiguous sample rate and count. The receiver is broken.[/b]",
+    "likes": 1,
+    "published": "Public API",
     "usePreview": 0,
     "tags": [
      "audio",
@@ -7041,10 +7058,10 @@
    "info": {
     "id": "3fySDG",
     "date": "1750596185",
-    "viewed": 153,
+    "viewed": 166,
     "name": "1D String Impulse Response",
     "description": "[url]https://www.desmos.com/calculator/vakt3kgbqa[/url]\n\nrealistically you would use a more interesting exciter sound (like plucking a guitar string or blowing or whatever else) instead of noise.\n",
-    "likes": 5,
+    "likes": 6,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -7082,6 +7099,235 @@
      "name": "Sound",
      "description": "",
      "type": "sound"
+    }
+   ]
+  },
+  {
+   "ver": "0.1",
+   "info": {
+    "id": "WcjyzG",
+    "date": "1756752441",
+    "viewed": 11,
+    "name": "Better Screen-Space Antialiasing",
+    "description": "hold mouse for before/after comparison",
+    "likes": 1,
+    "published": "Public API",
+    "usePreview": 0,
+    "tags": [
+     "antialiasing",
+     "edge",
+     "aa",
+     "fxaa",
+     "smaa",
+     "mlaa"
+    ]
+   },
+   "renderpass": [
+    {
+     "inputs": [
+      {
+       "id": "4dXGR8",
+       "filepath": "/media/previz/buffer00.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4dfGRr",
+       "channel": 0
+      }
+     ],
+     "code": "#define CH_INPUT iChannel0\n\nfloat luminance(vec3 col)\n{\n    return dot(col, vec3(.3, .5, .2));\n}\n\nvec3 fetch(vec2 coord)\n{\n    return texture(CH_INPUT, coord / iResolution.xy).rgb;\n}\n\n// signed logarithmic difference between two RGB triplets, preferably in Linear\n// BT.709 I-D65.\nfloat rgb_log_diff(vec3 a, vec3 b)\n{\n    // clip negative values and add a tiny offset to avoid infinity\n    a = max(a, 0.) + .001;\n    b = max(b, 0.) + .001;\n    \n    // logarithmic difference per channel\n    vec3 d = log(a / b);\n    \n    // take to the power of 2 and get luminance\n    float log_diff = luminance(d * d);\n    \n    // use luminance to determine which triplet is brighter (the sign)\n    float lum_a = luminance(a);\n    float lum_b = luminance(b);\n    return lum_a > lum_b ? log_diff : -log_diff;\n}\n\nvec3 screen_space_antialiasing(vec2 coord)\n{\n    // skip if we're on the edges\n    ivec2 input_size = textureSize(CH_INPUT, 0);\n    if (coord.x < 3. || coord.x > float(input_size.x - 3)\n        || coord.y < 3. || coord.y > float(input_size.y - 3))\n    {\n        return fetch(coord);\n    }\n\n    // calculate the gradient\n    vec2 grad = vec2(\n        rgb_log_diff(\n            fetch(coord + vec2(1, 0)),\n            fetch(coord + vec2(-1, 0))\n        ),\n        rgb_log_diff(\n            fetch(coord + vec2(0, 1)),\n            fetch(coord + vec2(0, -1))\n        )\n    );\n    \n    // skip if the gradient is too small\n    if (dot(grad, grad) < .01)\n    {\n        return fetch(coord);\n    }\n    \n    //return vec3(1, 0, 0);\n    \n    // tangent (rotate the gradient 90 deg)\n    vec2 tang = .5 * normalize(vec2(-grad.y, grad.x));\n\n    // keep following the tangent on both sides and average out the\n    // colors along the path. note that we average in log space so\n    // that very bright colors don't introduce aliasing.\n    vec3 col_log = vec3(0);\n    for (int i = -6; i <= 6; i++)\n    {\n        vec3 v = fetch(coord + float(i) * tang);\n        col_log += log(max(v, 0.) + .1);\n    }\n    col_log /= 13.;\n    return max(exp(col_log) - .1, 0.);\n}\n\nvec3 view_transform(vec3 col)\n{\n    // avoid any negative values before using power functions\n    col = max(col, 0.);\n    \n    // OETF (Linear BT.709 I-D65 to sRGB 2.2)\n    col = pow(col, vec3(1. / 2.2));\n    col = clamp(col, 0., 1.);\n\n    return col;\n}\n\nvec3 render(vec2 coord)\n{\n    // before / after divider\n    if (iMouse.z > .5)\n    {\n        if (abs(coord.x - iMouse.x) < 1.1)\n        {\n            return vec3(.8, .05, .02);\n        }\n        if (coord.x < iMouse.x)\n        {\n            return fetch(coord);\n        }\n    }\n    \n    return screen_space_antialiasing(coord);\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    frag_col = vec4(view_transform(render(frag_coord)), 1);\n}\n",
+     "name": "Image",
+     "description": "",
+     "type": "image"
+    },
+    {
+     "inputs": [],
+     "outputs": [
+      {
+       "id": "4dXGR8",
+       "channel": 0
+      }
+     ],
+     "code": "// this buffer renders some basic 2D shapes with no AA\n\nvec3 render(vec2 coord)\n{\n    vec2 uv = (2. * coord - iResolution.xy) / min(iResolution.x, iResolution.y);\n    \n    vec3 col = vec3(.015, .02, .04);\n    if (abs(dot(uv, normalize(vec2(-.06, 1))) - .6) < .01)\n    {\n        col = vec3(.3, .5, .7);\n    }\n    if (abs(sin(uv.x * 6.2831853) - 32. * (uv.y - .1)) < .5)\n    {\n        col = vec3(.8, .6, .2);\n    }\n    \n    if (abs(dot(uv, uv) - .2) < .03)\n    {\n        col = vec3(.3, .6, .1);\n    }\n    if (max(abs(uv.x), abs(uv.y + .15)) < .15)\n    {\n        col = vec3(.8);\n    }\n    \n    return col;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    vec3 col = render(frag_coord);\n    frag_col = vec4(col, 1);\n}\n",
+     "name": "Buffer A",
+     "description": "",
+     "type": "buffer"
+    }
+   ]
+  },
+  {
+   "ver": "0.1",
+   "info": {
+    "id": "3c2czG",
+    "date": "1756755092",
+    "viewed": 7,
+    "name": "Crappy Digital Camera v2",
+    "description": "This is a merge of [url=https://www.shadertoy.com/view/Xcd3zN]Crappy Digital Camera[/url] by beans_please (me) and [url=https://www.shadertoy.com/view/lcKBzW]Raymarching template v4[/url] by FrederickAmpsUp published with his consent.",
+    "likes": 1,
+    "published": "Public API",
+    "usePreview": 0,
+    "tags": [
+     "3d",
+     "raymarching",
+     "noise",
+     "raymarch",
+     "filter",
+     "color",
+     "camera",
+     "effect",
+     "template",
+     "old",
+     "digital",
+     "bayer",
+     "tape",
+     "artifacts",
+     "demosaic"
+    ]
+   },
+   "renderpass": [
+    {
+     "inputs": [
+      {
+       "id": "XdfGR8",
+       "filepath": "/media/previz/buffer03.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4dfGRr",
+       "channel": 0
+      }
+     ],
+     "code": "vec3 fetch(ivec2 icoord)\n{\n    if (icoord.x < 0 || icoord.y < 0\n        || icoord.x >= int(iResolution.x)\n        || icoord.y >= int(iResolution.y))\n    {\n        return vec3(0);\n    }\n    return texelFetch(iChannel0, icoord, 0).rgb;\n}\n\nvec3 view_transform(vec3 col)\n{\n    // OETF (Linear BT.709 I-D65 to sRGB 2.2)\n    return pow(clamp(col, 0., 1.), vec3(1. / 2.2));\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    ivec2 icoord = ivec2(frag_coord);\n    \n    vec3 col = fetch(icoord);\n    \n    // (over)sharpen\n    vec3 col_blurred = vec3(0);\n    float sum_weights = 0.;\n    for (int offs_y = -3; offs_y <= 3; offs_y++)\n    {\n        for (int offs_x = -3; offs_x <= 3; offs_x++)\n        {\n            ivec2 offs = ivec2(offs_x, offs_y);\n            vec3 neighbor_col = fetch(icoord + offs);\n            \n            float weight = gaussian(length(vec2(offs)) * .5);\n            \n            col_blurred += weight * neighbor_col;\n            sum_weights += weight;\n        }\n    }\n    col_blurred /= sum_weights;\n    col = mix(col, col_blurred, -1.);\n\n    // view transform\n    col = view_transform(col);\n\n    // output\n    frag_col = vec4(col, 1.);\n}\n",
+     "name": "Image",
+     "description": "",
+     "type": "image"
+    },
+    {
+     "inputs": [],
+     "outputs": [],
+     "code": "// TODO:\n// - voronoi tracking for more efficient rendering of lights\n\n#define PI 3.1415926535\n#define UP vec3(0,0,1)\n\n#define MARCH_STEPS 512\n#define MARCH_SURF 0.001\n#define MARCH_MISS 1000.\n\n#define RAY_BOUNCES 2\n\n#define VFOV 60.0\n\n#define SKY_TOP vec3(.46, .84, .92)*0.01\n#define SKY_BOTTOM (SKY_TOP * 2.0)\n#define SKY_HORIZ vec3(.5, .1, .1)\n\n    // integrate the sky function\n#define AMBIENT ((SKY_BOTTOM - SKY_TOP + PI*SKY_TOP/2.0 + SKY_HORIZ/9.0) * (2.0 / PI))\n\nstruct Camera {\n    vec3 eye;\n    vec3 forward, right, up;\n};\n\nstruct Ray {\n    vec3 origin, direction;\n};\n\nstruct Material {\n    vec3 albedo;\n    float specular, ior;\n};\n\nstruct Hit {\n    vec3 position, normal;\n    float rayt;\n    Material mat;\n};\n\n// point light\nstruct Light {\n    vec3 position, emission;\n    float radius;\n};\n\n\n// functions from https://www.shadertoy.com/view/Xds3zN\n// for about the next 300 lines\nfloat dot2( in vec2 v ) { return dot(v,v); }\nfloat dot2( in vec3 v ) { return dot(v,v); }\nfloat ndot( in vec2 a, in vec2 b ) { return a.x*b.x - a.y*b.y; }\n\nfloat sdPlane( vec3 p )\n{\n\treturn p.y;\n}\n\nfloat sdSphere( vec3 p, float s )\n{\n    return length(p)-s;\n}\n\nfloat sdBox( vec3 p, vec3 b )\n{\n    vec3 d = abs(p) - b;\n    return min(max(d.x,max(d.y,d.z)),0.0) + length(max(d,0.0));\n}\n\nfloat sdBoxFrame( vec3 p, vec3 b, float e )\n{\n       p = abs(p  )-b;\n  vec3 q = abs(p+e)-e;\n\n  return min(min(\n      length(max(vec3(p.x,q.y,q.z),0.0))+min(max(p.x,max(q.y,q.z)),0.0),\n      length(max(vec3(q.x,p.y,q.z),0.0))+min(max(q.x,max(p.y,q.z)),0.0)),\n      length(max(vec3(q.x,q.y,p.z),0.0))+min(max(q.x,max(q.y,p.z)),0.0));\n}\nfloat sdEllipsoid( in vec3 p, in vec3 r ) // approximated\n{\n    float k0 = length(p/r);\n    float k1 = length(p/(r*r));\n    return k0*(k0-1.0)/k1;\n}\n\nfloat sdTorus( vec3 p, vec2 t )\n{\n    return length( vec2(length(p.xz)-t.x,p.y) )-t.y;\n}\n\nfloat sdCappedTorus(in vec3 p, in vec2 sc, in float ra, in float rb)\n{\n    p.x = abs(p.x);\n    float k = (sc.y*p.x>sc.x*p.y) ? dot(p.xy,sc) : length(p.xy);\n    return sqrt( dot(p,p) + ra*ra - 2.0*ra*k ) - rb;\n}\n\nfloat sdHexPrism( vec3 p, vec2 h )\n{\n    vec3 q = abs(p);\n\n    const vec3 k = vec3(-0.8660254, 0.5, 0.57735);\n    p = abs(p);\n    p.xy -= 2.0*min(dot(k.xy, p.xy), 0.0)*k.xy;\n    vec2 d = vec2(\n       length(p.xy - vec2(clamp(p.x, -k.z*h.x, k.z*h.x), h.x))*sign(p.y - h.x),\n       p.z-h.y );\n    return min(max(d.x,d.y),0.0) + length(max(d,0.0));\n}\n\nfloat sdOctogonPrism( in vec3 p, in float r, float h )\n{\n  const vec3 k = vec3(-0.9238795325,   // sqrt(2+sqrt(2))/2 \n                       0.3826834323,   // sqrt(2-sqrt(2))/2\n                       0.4142135623 ); // sqrt(2)-1 \n  // reflections\n  p = abs(p);\n  p.xy -= 2.0*min(dot(vec2( k.x,k.y),p.xy),0.0)*vec2( k.x,k.y);\n  p.xy -= 2.0*min(dot(vec2(-k.x,k.y),p.xy),0.0)*vec2(-k.x,k.y);\n  // polygon side\n  p.xy -= vec2(clamp(p.x, -k.z*r, k.z*r), r);\n  vec2 d = vec2( length(p.xy)*sign(p.y), p.z-h );\n  return min(max(d.x,d.y),0.0) + length(max(d,0.0));\n}\n\nfloat sdCapsule( vec3 p, vec3 a, vec3 b, float r )\n{\n\tvec3 pa = p-a, ba = b-a;\n\tfloat h = clamp( dot(pa,ba)/dot(ba,ba), 0.0, 1.0 );\n\treturn length( pa - ba*h ) - r;\n}\n\nfloat sdRoundCone( in vec3 p, in float r1, float r2, float h )\n{\n    vec2 q = vec2( length(p.xz), p.y );\n    \n    float b = (r1-r2)/h;\n    float a = sqrt(1.0-b*b);\n    float k = dot(q,vec2(-b,a));\n    \n    if( k < 0.0 ) return length(q) - r1;\n    if( k > a*h ) return length(q-vec2(0.0,h)) - r2;\n        \n    return dot(q, vec2(a,b) ) - r1;\n}\n\nfloat sdRoundCone(vec3 p, vec3 a, vec3 b, float r1, float r2)\n{\n    // sampling independent computations (only depend on shape)\n    vec3  ba = b - a;\n    float l2 = dot(ba,ba);\n    float rr = r1 - r2;\n    float a2 = l2 - rr*rr;\n    float il2 = 1.0/l2;\n    \n    // sampling dependant computations\n    vec3 pa = p - a;\n    float y = dot(pa,ba);\n    float z = y - l2;\n    float x2 = dot2( pa*l2 - ba*y );\n    float y2 = y*y*l2;\n    float z2 = z*z*l2;\n\n    // single square root!\n    float k = sign(rr)*rr*rr*x2;\n    if( sign(z)*a2*z2 > k ) return  sqrt(x2 + z2)        *il2 - r2;\n    if( sign(y)*a2*y2 < k ) return  sqrt(x2 + y2)        *il2 - r1;\n                            return (sqrt(x2*a2*il2)+y*rr)*il2 - r1;\n}\n\nfloat sdTriPrism( vec3 p, vec2 h )\n{\n    const float k = sqrt(3.0);\n    h.x *= 0.5*k;\n    p.xy /= h.x;\n    p.x = abs(p.x) - 1.0;\n    p.y = p.y + 1.0/k;\n    if( p.x+k*p.y>0.0 ) p.xy=vec2(p.x-k*p.y,-k*p.x-p.y)/2.0;\n    p.x -= clamp( p.x, -2.0, 0.0 );\n    float d1 = length(p.xy)*sign(-p.y)*h.x;\n    float d2 = abs(p.z)-h.y;\n    return length(max(vec2(d1,d2),0.0)) + min(max(d1,d2), 0.);\n}\n\n// vertical\nfloat sdCylinder( vec3 p, vec2 h )\n{\n    vec2 d = abs(vec2(length(p.xz),p.y)) - h;\n    return min(max(d.x,d.y),0.0) + length(max(d,0.0));\n}\n\n// arbitrary orientation\nfloat sdCylinder(vec3 p, vec3 a, vec3 b, float r)\n{\n    vec3 pa = p - a;\n    vec3 ba = b - a;\n    float baba = dot(ba,ba);\n    float paba = dot(pa,ba);\n\n    float x = length(pa*baba-ba*paba) - r*baba;\n    float y = abs(paba-baba*0.5)-baba*0.5;\n    float x2 = x*x;\n    float y2 = y*y*baba;\n    float d = (max(x,y)<0.0)?-min(x2,y2):(((x>0.0)?x2:0.0)+((y>0.0)?y2:0.0));\n    return sign(d)*sqrt(abs(d))/baba;\n}\n\n// vertical\nfloat sdCone( in vec3 p, in vec2 c, float h )\n{\n    vec2 q = h*vec2(c.x,-c.y)/c.y;\n    vec2 w = vec2( length(p.xz), p.y );\n    \n\tvec2 a = w - q*clamp( dot(w,q)/dot(q,q), 0.0, 1.0 );\n    vec2 b = w - q*vec2( clamp( w.x/q.x, 0.0, 1.0 ), 1.0 );\n    float k = sign( q.y );\n    float d = min(dot( a, a ),dot(b, b));\n    float s = max( k*(w.x*q.y-w.y*q.x),k*(w.y-q.y)  );\n\treturn sqrt(d)*sign(s);\n}\n\nfloat sdCappedCone( in vec3 p, in float h, in float r1, in float r2 )\n{\n    vec2 q = vec2( length(p.xz), p.y );\n    \n    vec2 k1 = vec2(r2,h);\n    vec2 k2 = vec2(r2-r1,2.0*h);\n    vec2 ca = vec2(q.x-min(q.x,(q.y < 0.0)?r1:r2), abs(q.y)-h);\n    vec2 cb = q - k1 + k2*clamp( dot(k1-q,k2)/dot2(k2), 0.0, 1.0 );\n    float s = (cb.x < 0.0 && ca.y < 0.0) ? -1.0 : 1.0;\n    return s*sqrt( min(dot2(ca),dot2(cb)) );\n}\n\nfloat sdCappedCone(vec3 p, vec3 a, vec3 b, float ra, float rb)\n{\n    float rba  = rb-ra;\n    float baba = dot(b-a,b-a);\n    float papa = dot(p-a,p-a);\n    float paba = dot(p-a,b-a)/baba;\n\n    float x = sqrt( papa - paba*paba*baba );\n\n    float cax = max(0.0,x-((paba<0.5)?ra:rb));\n    float cay = abs(paba-0.5)-0.5;\n\n    float k = rba*rba + baba;\n    float f = clamp( (rba*(x-ra)+paba*baba)/k, 0.0, 1.0 );\n\n    float cbx = x-ra - f*rba;\n    float cby = paba - f;\n    \n    float s = (cbx < 0.0 && cay < 0.0) ? -1.0 : 1.0;\n    \n    return s*sqrt( min(cax*cax + cay*cay*baba,\n                       cbx*cbx + cby*cby*baba) );\n}\n\n// c is the sin/cos of the desired cone angle\nfloat sdSolidAngle(vec3 pos, vec2 c, float ra)\n{\n    vec2 p = vec2( length(pos.xz), pos.y );\n    float l = length(p) - ra;\n\tfloat m = length(p - c*clamp(dot(p,c),0.0,ra) );\n    return max(l,m*sign(c.y*p.x-c.x*p.y));\n}\n\nfloat sdOctahedron(vec3 p, float s)\n{\n    p = abs(p);\n    float m = p.x + p.y + p.z - s;\n\n    // exact distance\n    #if 0\n    vec3 o = min(3.0*p - m, 0.0);\n    o = max(6.0*p - m*2.0 - o*3.0 + (o.x+o.y+o.z), 0.0);\n    return length(p - s*o/(o.x+o.y+o.z));\n    #endif\n    \n    // exact distance\n    #if 1\n \tvec3 q;\n         if( 3.0*p.x < m ) q = p.xyz;\n    else if( 3.0*p.y < m ) q = p.yzx;\n    else if( 3.0*p.z < m ) q = p.zxy;\n    else return m*0.57735027;\n    float k = clamp(0.5*(q.z-q.y+s),0.0,s); \n    return length(vec3(q.x,q.y-s+k,q.z-k)); \n    #endif\n    \n    // bound, not exact\n    #if 0\n\treturn m*0.57735027;\n    #endif\n}\n\nfloat sdPyramid( in vec3 p, in float h )\n{\n    float m2 = h*h + 0.25;\n    \n    // symmetry\n    p.xz = abs(p.xz);\n    p.xz = (p.z>p.x) ? p.zx : p.xz;\n    p.xz -= 0.5;\n\t\n    // project into face plane (2D)\n    vec3 q = vec3( p.z, h*p.y - 0.5*p.x, h*p.x + 0.5*p.y);\n   \n    float s = max(-q.x,0.0);\n    float t = clamp( (q.y-0.5*p.z)/(m2+0.25), 0.0, 1.0 );\n    \n    float a = m2*(q.x+s)*(q.x+s) + q.y*q.y;\n\tfloat b = m2*(q.x+0.5*t)*(q.x+0.5*t) + (q.y-m2*t)*(q.y-m2*t);\n    \n    float d2 = min(q.y,-q.x*m2-q.y*0.5) > 0.0 ? 0.0 : min(a,b);\n    \n    // recover 3D and scale, and add sign\n    return sqrt( (d2+q.z*q.z)/m2 ) * sign(max(q.z,-p.y));;\n}\n\n// la,lb=semi axis, h=height, ra=corner\nfloat sdRhombus(vec3 p, float la, float lb, float h, float ra)\n{\n    p = abs(p);\n    vec2 b = vec2(la,lb);\n    float f = clamp( (ndot(b,b-2.0*p.xz))/dot(b,b), -1.0, 1.0 );\n\tvec2 q = vec2(length(p.xz-0.5*b*vec2(1.0-f,1.0+f))*sign(p.x*b.y+p.z*b.x-b.x*b.y)-ra, p.y-h);\n    return min(max(q.x,q.y),0.0) + length(max(q,0.0));\n}\n\nfloat sdHorseshoe( in vec3 p, in vec2 c, in float r, in float le, vec2 w )\n{\n    p.x = abs(p.x);\n    float l = length(p.xy);\n    p.xy = mat2(-c.x, c.y, \n              c.y, c.x)*p.xy;\n    p.xy = vec2((p.y>0.0 || p.x>0.0)?p.x:l*sign(-c.x),\n                (p.x>0.0)?p.y:l );\n    p.xy = vec2(p.x,abs(p.y-r))-vec2(le,0.0);\n    \n    vec2 q = vec2(length(max(p.xy,0.0)) + min(0.0,max(p.x,p.y)),p.z);\n    vec2 d = abs(q) - w;\n    return min(max(d.x,d.y),0.0) + length(max(d,0.0));\n}\n\nfloat sdU( in vec3 p, in float r, in float le, vec2 w )\n{\n    p.x = (p.y>0.0) ? abs(p.x) : length(p.xy);\n    p.x = abs(p.x-r);\n    p.y = p.y - le;\n    float k = max(p.x,p.y);\n    vec2 q = vec2( (k<0.0) ? -k : length(max(p.xy,0.0)), abs(p.z) ) - w;\n    return length(max(q,0.0)) + min(max(q.x,q.y),0.0);\n}\n\nfloat checkerboardPattern(vec2 uv) {\n    int checker = int(floor(uv.x)) + int(floor(uv.y));\n    \n    return checker%2 == 0 ? 1.0 : 0.0;\n}\n\nvoid opUnion(inout float d1, inout Material m1, in float d2, in Material m2) {\n    if (d2 < d1) {\n        d1 = d2; m1 = m2;\n    }\n}\n\n#define map(p, mat) _map_impl(p, mat, iTime)\nfloat _map_impl(in vec3 p, out Material mat, in float iTime) {\n    float ground = p.z;\n    float checker = checkerboardPattern(p.xy)*exp(-dot(p.xy,p.xy)/200.0);\n    mat.albedo = mix(vec3(.2, .2, .2), vec3(.9, .9, .9), checker);\n    mat.specular = mix(0.9, 0.2, checker);\n    mat.ior = 1.45;\n    float dist = ground;\n    \n    float frame = sdBoxFrame(p-vec3(0,0,1), vec3(1, 1, 1), 0.1);\n    Material box_mat;\n    box_mat.albedo = vec3(0,1,0);\n    box_mat.specular = 0.0;\n    \n    opUnion(dist, mat, frame, box_mat);\n    \n    \n    return dist;\n}\n\n#define N_LIGHTS 1\n#define get_lights(lights) _get_lights_impl(lights, iTime)\nvoid _get_lights_impl(out Light[N_LIGHTS] lights, in float iTime) {\n    lights[0].position = vec3(0.0, -2.0, 2.0);\n    lights[0].emission = vec3(1,1,1) * 100.0;\n    lights[0].radius = 0.1;\n}\n\n#define map_grad(pos) _map_grad_impl(pos, iTime)\nvec3 _map_grad_impl(in vec3 pos, in float iTime) {\n    Material _m;\n    vec2 e = vec2(1.0,-1.0)*0.5773*0.0005;\n    return normalize( e.xyy*map( pos + e.xyy, _m ) + \n\t\t\t\t\t  e.yyx*map( pos + e.yyx, _m ) + \n\t\t\t\t\t  e.yxy*map( pos + e.yxy, _m ) + \n\t\t\t\t\t  e.xxx*map( pos + e.xxx, _m ) );\n}\n\n#define march(r, hit) _march_impl(r, hit, iTime)\nbool _march_impl(in Ray r, out Hit hit, in float iTime) {\n    float t = 0.0, s;\n    \n    for (int i = 0; i < MARCH_STEPS; ++i) {\n        s = map(r.origin + r.direction*t, hit.mat);\n        \n        if (s < 0.0) ++i; // take less steps if we're in a surface\n        if (abs(s) < MARCH_SURF || s > MARCH_MISS || t > MARCH_MISS) break;\n        \n        t += s;\n    }\n    hit.position = r.origin + r.direction*t;\n    hit.rayt = t;\n    hit.normal = map_grad(hit.position);\n    \n    return (s < MARCH_SURF) && (t < MARCH_MISS);\n}\n\nvec3 sky_color(vec3 rd) {\n    vec3 atmos = mix(SKY_BOTTOM, SKY_TOP, rd.z);\n    atmos += SKY_HORIZ * pow(1.0 - rd.z, 8.0);\n    \n    vec3 col = atmos * step(-0.1, rd.z);\n    \n    return col;\n}\n\n#define shadow(shadedPos, lightPos, lightSize) _shadow_impl(shadedPos, lightPos, lightSize, iTime)\nfloat _shadow_impl(in vec3 ro, in vec3 lightPos, in float w, in float iTime)\n{\n    vec3 rd = normalize(lightPos-ro);\n    float maxt = length(lightPos-ro) - w;\n    float res = 1.0;\n    float t = 0.01;\n    Material _m;\n    for( int i=0; i<256 && t<maxt; i++ )\n    {\n        float h = map(ro + t*rd, _m);\n        res = min( res, h/(w*t) );\n        t += clamp(h, 0.005, 0.50);\n        if( res<-1.0 || t>maxt ) break;\n    }\n    res = max(res,-1.0);\n    return 0.25*(1.0+res)*(1.0+res)*(2.0-res);\n}\n\n#define sky_occlusion(point, norm) _sky_occlusion_impl(point, norm, iTime)\nfloat _sky_occlusion_impl(vec3 point, vec3 norm, float iTime) {\n    return shadow(point, point + norm * 1000.0, 1.0);\n}\n\nfloat fresnel(vec3 normal, vec3 view_dir, float ior) {\n    float F0 = pow((1.0-ior)/(1.0+ior), 2.0);\n    float cos_theta = clamp(dot(normalize(normal), normalize(view_dir)), 0.0, 1.0);\n    return F0 + (1.0 - F0) * pow(1.0 - cos_theta, 5.0);\n}\n\nbool ray_sphere(Ray r, vec3 center, float radius, out float t) {\n    vec3 oc = center - r.origin;\n    float a = dot(r.direction, r.direction);\n    float h = dot(r.direction, oc);\n    float c = dot(oc, oc) - radius * radius;\n    float discriminant = h * h - a * c;\n\n    if (discriminant < 0.0) {\n        t = 0.0;\n        return false;\n    } else {\n        t = (h - sqrt(discriminant)) / a;\n        return t > 0.0;\n    }\n}\n\n#define shade(r) _shade_impl(r, iTime)\nvec3 _shade_impl(Ray r, in float iTime) {\n    Hit hit;\n    \n    vec3 reflectance = vec3(1);\n    vec3 light = vec3(0);\n    \n    Light lights[N_LIGHTS];\n    get_lights(lights);\n    \n    for (int bounce = 0; bounce < RAY_BOUNCES; ++bounce) {\n        bool scene_hit = march(r, hit);\n        \n        bool light_hit = false;\n        Light closest;\n        float mint = hit.rayt;    \n        for (int i = 0; i < N_LIGHTS; ++i) {\n            Light light = lights[i];\n            float t;\n            if (ray_sphere(r, light.position, light.radius, t)) {\n                if (t < mint) {\n                    light_hit = true;\n                    closest = light;\n                }\n            }\n        }\n        \n        if (!(scene_hit || light_hit)) {\n            light += sky_color(r.direction) * reflectance;\n            break;\n        }\n        \n        if (light_hit) {\n            light += reflectance * closest.emission;\n            break;\n        }\n        \n        vec3 incoming_light = AMBIENT * sky_occlusion(hit.position, hit.normal);\n        \n        for (int i = 0; i < N_LIGHTS; ++i) {\n            Light light = lights[i];\n            float occlusion = shadow(hit.position, light.position, light.radius);\n            \n            float d2 = dot2(light.position - hit.position);\n            float cos_theta = max(0.00001, dot(normalize(light.position-hit.position), hit.normal));\n            float A = 2.0 * PI * light.radius*light.radius;\n            float solid_angle = (cos_theta * A) / d2;\n            \n            incoming_light += occlusion * light.emission * solid_angle;\n        }\n        \n        light += reflectance * incoming_light * hit.mat.albedo * (1.0 - hit.mat.specular);\n        \n        if (hit.mat.specular < 0.01) {\n            break;\n        }\n        \n        r.origin = hit.position + hit.normal * MARCH_SURF * 2.0;\n        r.direction = reflect(r.direction, hit.normal);\n        \n        float f = fresnel(hit.normal, r.direction, hit.mat.ior);\n        \n        reflectance *= hit.mat.specular * f;\n    }\n    \n    return light;\n}\n\n// saw this #define trick in a different shader, i don't remember where but it's really cool\n#define gen_camera(cam) _gen_camera_impl(cam, iTime, iResolution.xy)\nvoid _gen_camera_impl(out Camera cam, float iTime, vec2 iResolution) {\n    cam.eye = vec3(3.0*cos(iTime/2.0),3.0*sin(iTime/2.0),1.1+sin(iTime/PI));\n    \n    cam.forward = -normalize(cam.eye);\n    cam.right = normalize(cross(cam.forward, UP));\n    cam.up = cross(cam.right, cam.forward);\n    \n    cam.right *= iResolution.x / iResolution.y;\n    \n    float focal = 1.0 / (2.0 * tan(radians(VFOV)/2.0));\n    cam.forward *= focal;\n}\n\nvoid camera_ray(out Ray r, in vec2 uv, in Camera cam) {\n    r.origin = cam.eye;\n    \n    r.direction = normalize(cam.forward + uv.x * cam.right + uv.y * cam.up);\n}\n\n/*\n * FBCT - Fred's Basic Color Transform\n */\n \nconst float FBCT_DESATURATION = 0.02;\nconst float FBCT_EXPOSURE = 1.0;\n\nconst float FBCT_RED_BIAS = 1.0;\nconst float FBCT_GRN_BIAS = 1.0;\nconst float FBCT_BLU_BIAS = 1.0;\n\nconst mat4 fbct_color_matrix = \nmat4(\n    FBCT_RED_BIAS, FBCT_GRN_BIAS*FBCT_DESATURATION, FBCT_BLU_BIAS*FBCT_DESATURATION, 0.00,\n    FBCT_RED_BIAS*FBCT_DESATURATION, FBCT_GRN_BIAS, FBCT_BLU_BIAS*FBCT_DESATURATION, 0.00,\n    FBCT_RED_BIAS*FBCT_DESATURATION, FBCT_GRN_BIAS*FBCT_DESATURATION, FBCT_BLU_BIAS, 0.00,\n    0.0, 0.0, 0.0, FBCT_EXPOSURE\n\n);\n\nvec3 fbct_transform(vec3 color) {\n    vec4 mmr = (vec4(color, 1) * fbct_color_matrix);\n    vec3 cc = mmr.xyz * mmr.w;\n    \n    cc = cc / (cc + 1.0);\n    \n    // modification by beans_please: remove OETF because we'll do it in Image\n    //cc = pow(cc, vec3(1.0 / 2.2));\n\n    return cc;\n}\n\n// End FBCT\n\n\n\n\n\n\n\n\n// the following is merged from \"Crappy Digital Camera\" by beans_please\n\n/*_________________ math utils ________________*/\n\nconst float TAU = 6.283185307179586476925286767;\nconst float PI_OVER_2 = 1.570796326794896619231321692;\nconst float INV_PI = .318309886183790671537767527;\n\n#define FUNC_LERP(T) \\\nT lerp(T a, T b, float t) \\\n{ \\\n    return a + t * (b - a); \\\n}\n\n#define FUNC_WRAP(T) \\\nT wrap(T inp, float start, float end) \\\n{ \\\n    return start + mod(inp - start, end - start); \\\n}\n\n#define FUNC_REMAP(T) \\\nT remap(T inp, float inp_start, float inp_end, float out_start, float out_end) \\\n{ \\\n    return out_start \\\n        + ((out_end - out_start) / (inp_end - inp_start)) * (inp - inp_start); \\\n}\n\n#define FUNC_REMAP_CLAMP(T) \\\nT remap_clamp( \\\n    T inp, \\\n    float inp_start, \\\n    float inp_end, \\\n    float out_start, \\\n    float out_end \\\n) \\\n{ \\\n    T t = clamp((inp - inp_start) / (inp_end - inp_start), 0.0, 1.0); \\\n    return out_start + t * (out_end - out_start); \\\n}\n\n#define FUNC_REMAP01(T) \\\nT remap01(T inp, float inp_start, float inp_end) \\\n{ \\\n    return clamp((inp - inp_start) / (inp_end - inp_start), 0.0, 1.0); \\\n}\n\nFUNC_LERP(float)\nFUNC_LERP(vec2)\nFUNC_LERP(vec3)\nFUNC_LERP(vec4)\n\nFUNC_WRAP(float)\nFUNC_WRAP(vec2)\nFUNC_WRAP(vec3)\nFUNC_WRAP(vec4)\n\nFUNC_REMAP(float)\nFUNC_REMAP(vec2)\nFUNC_REMAP(vec3)\nFUNC_REMAP(vec4)\n\nFUNC_REMAP_CLAMP(float)\nFUNC_REMAP_CLAMP(vec2)\nFUNC_REMAP_CLAMP(vec3)\nFUNC_REMAP_CLAMP(vec4)\n\nFUNC_REMAP01(float)\nFUNC_REMAP01(vec2)\nFUNC_REMAP01(vec3)\nFUNC_REMAP01(vec4)\n\nfloat min_component(vec2 inp)\n{\n    return min(inp.x, inp.y);\n}\n\nfloat min_component(vec3 inp)\n{\n    return min(min(inp.x, inp.y), inp.z);\n}\n\nfloat min_component(vec4 inp)\n{\n    return min(min(min(inp.x, inp.y), inp.z), inp.w);\n}\n\nfloat max_component(vec2 inp)\n{\n    return max(inp.x, inp.y);\n}\n\nfloat max_component(vec3 inp)\n{\n    return max(max(inp.x, inp.y), inp.z);\n}\n\nfloat max_component(vec4 inp)\n{\n    return max(max(max(inp.x, inp.y), inp.z), inp.w);\n}\n\nfloat gaussian(float x)\n{\n    return exp(-(x * x * .5));\n}\n\n// |a| * |b| * sin(theta)\nfloat cross2d(vec2 a, vec2 b)\n{\n    return a.x * b.y - a.y * b.x;\n}\n\n// references for barycentric coordinates\n// https://www.desmos.com/calculator/8g8xjejuox\n// https://www.shadertoy.com/view/mdjBWK\n\nvec3 cartesian_to_barycentric(\n    vec2 p,\n    vec2 v0,\n    vec2 v1,\n    vec2 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        cross2d(v1 - p, v2 - p),\n        cross2d(v2 - p, v0 - p),\n        cross2d(v0 - p, v1 - p)\n    ) / cross2d(v1 - v0, v2 - v0);\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nvec3 cartesian_to_barycentric(\n    vec3 p,\n    vec3 v0,\n    vec3 v1,\n    vec3 v2,\n    bool clamp_,\n    out bool p_is_outside\n)\n{\n    vec3 b = vec3(\n        length(cross(v1 - p, v2 - p)),\n        length(cross(v2 - p, v0 - p)),\n        length(cross(v0 - p, v1 - p))\n    ) / length(cross(v1 - v0, v2 - v0));\n    p_is_outside = min(min(b.x, b.y), b.z) < 0.;\n    if (clamp_)\n    {\n        b = max(b, 0.);\n        b /= (b.x + b.y + b.z);\n    }\n    return b;\n}\n\nfloat barycentric_interpolate(vec3 b, float v0, float v1, float v2)\n{\n    return dot(b, vec3(v0, v1, v2));\n}\n\nvec2 barycentric_interpolate(vec3 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec3 barycentric_interpolate(vec3 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nvec4 barycentric_interpolate(vec3 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return b.x * v0 + b.y * v1 + b.z * v2;\n}\n\nfloat barycentric_interpolate(vec2 b, float v0, float v1, float v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec2 barycentric_interpolate(vec2 b, vec2 v0, vec2 v1, vec2 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec3 barycentric_interpolate(vec2 b, vec3 v0, vec3 v1, vec3 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nvec4 barycentric_interpolate(vec2 b, vec4 v0, vec4 v1, vec4 v2)\n{\n    return barycentric_interpolate(\n        vec3(b.x, b.y, 1. - b.x - b.y),\n        v0, v1, v2\n    );\n}\n\nmat2 rotate_2d(float angle)\n{\n    float s = sin(angle);\n    float c = cos(angle);\n    return mat2(\n        c, s,\n        -s, c\n    );\n}\n\nvec3 spherical_to_cartesian(vec2 s)\n{\n    float sin_theta = sin(s.x);\n    return vec3(\n        sin_theta * cos(s.y),\n        sin_theta * sin(s.y),\n        cos(s.x)\n    );\n}\n\nvec2 screen_to_uv01(vec2 coord, vec2 res)\n{\n    return coord / res;\n}\n\nvec2 screen_to_uv_horizontal(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.x;\n}\n\nvec2 screen_to_uv_vertical(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / res.y;\n}\n\nvec2 screen_to_uv_fit(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / min_component(res);\n}\n\nvec2 screen_to_uv_fill(vec2 coord, vec2 res)\n{\n    return (2. * coord - res) / max_component(res);\n}\n\n#define idiv_ceil(x, y) ((x + y - 1) / y)\n\n// for some reason we can't use intBitsToFloat() or floatBitsToInt() to store\n// integers below this value in a buffer.\nconst int BUFFER_MIN_INTEGER = 8388608;\n\n// * x must not be higher than 4,286,578,688 (see BUFFER_MIN_INTEGER above)\n// * for your sanity, don't use negative values\nfloat encode_int_for_buffer(int x)\n{\n    return intBitsToFloat(x + BUFFER_MIN_INTEGER);\n}\n\nint decode_int_from_buffer(float x)\n{\n    return floatBitsToInt(x) - BUFFER_MIN_INTEGER;\n}\n\n// pack two 16-bit integers in a single 32-bit integer\n// * both arguments should be in the 0-65535 range\n// * a must be less than 65279 (see the functions above)\nint pack_i16(int a, int b)\n{\n    return (a << 16) | b;\n}\n\n// unpack two 16-bit integers from a single 32-bit integer\nvoid unpack_i16(int x, out int a, out int b)\n{\n    a = (x >> 16) & 65535;\n    b = x & 65535;\n}\n\n// unpack the first 16-bit integer from a 32-bit integer\nint unpack_i16_a(int x)\n{\n    return (x >> 16) & 65535;\n}\n\n// unpack the second 16-bit integer from a 32-bit integer\nint unpack_i16_b(int x)\n{\n    return x & 65535;\n}\n\n\n\n/*_______ pseudo-random number generator ______*/\n// source: https://www.shadertoy.com/view/WdSSRt\n// (heavily modified)\n\n/* usage example:\n    void mainImage(out vec4 frag_col, in vec2 frag_coord)\n    {\n        // initialize PRNG\n        prng_init(vec3(frag_coord / iResolution.y, iTime));\n    \n        // use the function\n        float a = random();\n        vec3 b = vec3(random(), random(), random());\n        \n        ...\n    }\n*/\n\nuint prng_state[2];\n\nuint prng_rot(uint x, int k)\n{\n    return (x << k) | (x >> (32 - k));\n}\n\n// random uint from 0 to 2^32-1\nuint randomui()\n{\n    uint s0 = prng_state[0];\n    uint s1 = prng_state[1];\n    uint result = prng_rot(s0 * 2654435771u, 5) * 5u;\n    s1 ^= s0;\n    prng_state[0] = prng_rot(s0, 26) ^ s1 ^ (s1 << 9);\n    prng_state[1] = prng_rot(s1, 13);\n    return result;\n}\n\n// random int from 0 to 2^31-1\nint randomi()\n{\n    return int(randomui() % 0x7FFFFFFFu);\n}\n\n// random float from 0 to 1\nfloat random()\n{\n    return float(randomui()) / float(0xffffffffu);\n}\n\n// generate two normally distributed random numbers using the\n// Box-Muller transform\n// https://www.baeldung.com/cs/uniform-to-normal-distribution\nvec2 random_gauss()\n{\n    float u1 = random();\n    float u2 = random() * TAU;\n    float temp = sqrt(-2. * log(u1));\n    return temp * vec2(cos(u2), sin(u2));\n    \n    // unoptimized version\n    //float u1 = random();\n    //float u2 = random();\n    //return vec2(cos(TAU * u2), sin(TAU * u2)) * sqrt(-2. * log(u1));\n}\n\nvec2 random_unit_vec2()\n{\n    vec2 v = vec2(1);\n    float lensqr;\n\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec2(2. * random() - 1., 2. * random() - 1.);\n        lensqr = dot(v, v);\n        if (lensqr == 0.)\n            i--;\n        else if (lensqr <= 1.)\n            break;\n    }\n    return v / sqrt(lensqr);\n}\n\nvec3 random_unit_vec3()\n{\n    vec3 v = vec3(1);\n    float lensqr;\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec3(2. * random() - 1., 2. * random() - 1., 2. * random() - 1.);\n        lensqr = dot(v, v);\n        if (lensqr == 0.)\n            i--;\n        else if (lensqr <= 1.)\n            break;\n    }\n    return v / sqrt(lensqr);\n}\n\nvec2 random_in_circle()\n{\n    vec2 v = vec2(1);\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec2(2. * random() - 1., 2. * random() - 1.);\n        if (dot(v, v) <= 1.)\n            return v;\n    }\n    return v;\n}\n\nvec3 random_in_sphere()\n{\n    vec3 v = vec3(1);\n    for (int i = 0; i < 20; i++)\n    {\n        v = vec3(2. * random() - 1., 2. * random() - 1., 2. * random() - 1.);\n        if (dot(v, v) <= 1.)\n            return v;\n    }\n    return v;\n}\n\nvec3 random_in_hemisphere(vec3 normal)\n{\n    vec3 v = random_in_sphere();\n    return v * sign(dot(v, normal));\n}\n\n// initialize with uvec2\nvoid prng_init(uvec2 seed)\n{\n    seed += uvec2(1317, 944573125);\n    seed *= 464973573u;\n    prng_state[0] = seed.x;\n    prng_state[1] = seed.y;\n    randomi();\n}\n\n// initialize with uint\nvoid prng_init(uint seed)\n{\n    prng_init(uvec2(seed, 1));\n}\n\n// initialize with vec3\nvoid prng_init(vec3 seed)\n{\n    seed += 3.49276101561702;\n    seed.xy *= (seed.z + 10.258);\n    prng_state[0] = floatBitsToUint(seed.x);\n    prng_state[1] = floatBitsToUint(seed.y);\n    randomui();\n}\n\n// initialize with vec2\nvoid prng_init(vec2 seed)\n{\n    prng_init(vec3(seed, 1));\n}\n\n// initialize with float\nvoid prng_init(float seed)\n{\n    prng_init(vec3(seed, 1, 1));\n}\n\n\n\n/*_______________ bayer filter ________________*/\n\nconst int BAYER_RED = 0;\nconst int BAYER_GREEN = 1;\nconst int BAYER_BLUE = 2;\n\nint get_bayer(ivec2 icoord)\n{\n    bool even_col = (icoord.x % 2 == 0);\n    bool even_row = (icoord.y % 2 == 0);\n    return even_row\n        ? (even_col ? BAYER_GREEN : BAYER_RED)\n        : (even_col ? BAYER_BLUE : BAYER_GREEN);\n}\n\n\n\n/*__________________ color ____________________*/\n\nfloat luminance(vec3 col)\n{\n    return dot(col, vec3(.3, .5, .2));\n}\n\nconst float LOG_BLACK_OFFS = .05;\n\n// logarithmic difference between two RGB triplets, preferably in Linear\n// BT.709 I-D65.\nfloat rgb_log_diff(vec3 a, vec3 b)\n{\n    // clip negative values and add a tiny offset to avoid infinity\n    a = max(a, 0.) + LOG_BLACK_OFFS;\n    b = max(b, 0.) + LOG_BLACK_OFFS;\n    \n    // logarithmic difference per channel\n    vec3 d = log(a / b);\n    \n    // take to the power of 2 and get luminance\n    return luminance(d * d);\n}\n\n// signed logarithmic difference between two RGB triplets, preferably in Linear\n// BT.709 I-D65.\nfloat rgb_log_diff_signed(vec3 a, vec3 b)\n{\n    // clip negative values and add a tiny offset to avoid infinity\n    a = max(a, 0.) + LOG_BLACK_OFFS;\n    b = max(b, 0.) + LOG_BLACK_OFFS;\n    \n    // logarithmic difference per channel\n    vec3 d = log(a / b);\n    \n    // take to the power of 2 and get luminance\n    float log_diff = luminance(d * d);\n    \n    // use luminance to determine which triplet is brighter (the sign)\n    float lum_a = luminance(a);\n    float lum_b = luminance(b);\n    return lum_a > lum_b ? log_diff : -log_diff;\n}\n",
+     "name": "Common",
+     "description": "",
+     "type": "common"
+    },
+    {
+     "inputs": [],
+     "outputs": [
+      {
+       "id": "4dXGR8",
+       "channel": 0
+      }
+     ],
+     "code": "void mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n    vec2 uv = (fragCoord/iResolution.xy) * 2.0 - 1.0;\n    Camera cam;\n    gen_camera(cam);\n    \n    Ray cam_ray;\n    camera_ray(cam_ray, uv, cam);\n    \n    vec3 col = vec3(0);\n\n    col = shade(cam_ray);\n\n    col = abs(col) * 4.;\n    col = fbct_transform(col);\n    \n    fragColor = vec4(col, 1.0);\n}",
+     "name": "Buffer A",
+     "description": "",
+     "type": "buffer"
+    },
+    {
+     "inputs": [
+      {
+       "id": "4dXGR8",
+       "filepath": "/media/previz/buffer00.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "XsXGR8",
+       "channel": 0
+      }
+     ],
+     "code": "// https://www.shadertoy.com/view/XlVGRz\n\nconst float FXAA_SPAN_MAX = 8.0;\nconst float FXAA_REDUCE_MUL = 1.0/8.0;\nconst float FXAA_REDUCE_MIN = 1.0/128.0;\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // time\n    const float shutter_time = .05;\n    float time = floor(iTime / shutter_time) * shutter_time;\n    \n    // initialize PRNG\n    prng_init(vec3(frag_coord / iResolution.y, time));\n\n    vec2 offset = 1.0/iResolution.xy;\n    vec2 uv = frag_coord.xy / iResolution.xy;\n    \n    vec3 nw = texture(iChannel0, uv + vec2(-1.0, -1.0) * offset).rgb;\n    vec3 ne = texture(iChannel0, uv + vec2( 1.0, -1.0) * offset).rgb;\n    vec3 sw = texture(iChannel0, uv + vec2(-1.0,  1.0) * offset).rgb;\n    vec3 se = texture(iChannel0, uv + vec2( 1.0,  1.0) * offset).rgb;\n    vec3 m  = texture(iChannel0, uv).rgb;\n\n    vec3 luma = vec3(0.299, 0.587, 0.114);\n    float lumaNW = dot(nw, luma);\n    float lumaNE = dot(ne, luma);\n    float lumaSW = dot(sw, luma);\n    float lumaSE = dot(se, luma);\n    float lumaM  = dot(m,  luma);\n\n    float lumaMin = min(lumaM, min(min(lumaNW, lumaNE), min(lumaSW, lumaSE)));\n    float lumaMax = max(lumaM, max(max(lumaNW, lumaNE), max(lumaSW, lumaSE)));\n    vec2 dir = vec2(\n        -((lumaNW + lumaNE) - (lumaSW + lumaSE)),\n        ((lumaNW + lumaSW) - (lumaNE + lumaSE)));\n\n    float dirReduce = max((lumaNW + lumaNE + lumaSW + lumaSE) * (0.25 * FXAA_REDUCE_MUL), FXAA_REDUCE_MIN);\n    float rcpDirMin = 1.0 / (min(abs(dir.x), abs(dir.y)) + dirReduce);\n    dir = min(vec2(FXAA_SPAN_MAX), max(vec2(-FXAA_SPAN_MAX), dir * rcpDirMin)) * offset;\n\n    vec3 rgbA = 0.5 * (texture(iChannel0, uv + dir * (1.0 / 3.0 - 0.5)).xyz + texture(iChannel0, uv + dir * (2.0 / 3.0 - 0.5)).xyz);\n    vec3 rgbB = rgbA * 0.5 + 0.25 * (texture(iChannel0, uv + dir * -0.5).xyz + texture(iChannel0, uv + dir * 0.5).xyz);\n    float lumaB = dot(rgbB, luma);\n    vec3 col = rgbB;\n    if (lumaB < lumaMin || lumaB > lumaMax)\n    {\n        col = rgbA;\n    }\n    \n    \n    \n    // the following is merged from \"Crappy Digital Camera\" by beans_please\n    \n    // bayer filter\n    int bayer_channel = get_bayer(ivec2(frag_coord));\n    col = vec3(col[bayer_channel]);\n    \n    // add noise on top of bayer for color noise\n    col = max(vec3(0.), col + .03 * (random() - .5));\n    \n    // sensor clipping (uneven channels)\n    col = clamp(col, 0., bayer_channel == BAYER_GREEN ? .85 : 1.2);\n    \n    frag_col = vec4(col, 1);\n}\n",
+     "name": "Buffer B",
+     "description": "",
+     "type": "buffer"
+    },
+    {
+     "inputs": [
+      {
+       "id": "XsXGR8",
+       "filepath": "/media/previz/buffer01.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4sXGR8",
+       "channel": 0
+      }
+     ],
+     "code": "// this buffer performs demosaicing and color grading\n\nfloat fetch_raw(ivec2 icoord)\n{\n    if (icoord.x < 0 || icoord.y < 0\n        || icoord.x >= int(iResolution.x)\n        || icoord.y >= int(iResolution.y))\n    {\n        return 0.;\n    }\n    return texelFetch(iChannel0, icoord, 0).r;\n}\n\n// ASC CDL color grading\n// https://en.wikipedia.org/wiki/ASC_CDL\nvec3 asc_cdl(vec3 col, vec3 slope, vec3 offset, vec3 power)\n{\n    return pow(col * slope + offset, power);\n}\n\nvec3 grade(vec3 col)\n{\n    // clip\n    col = clamp(col, 0., 1.);\n\n    // color grade\n    col = asc_cdl(\n        col,\n        1.1 * vec3(1, .903, .94),\n        vec3(0, 0, .007),\n        1.05 * vec3(1, .95, 1)\n    );\n    \n    // horrible contrast and brightness\n    col = 1.5 * mix(col, smoothstep(0., 1., col), .3);\n    \n    // extreme black point\n    col -= .03;\n    \n    // clip\n    col = clamp(col, 0., 1.);\n\n    return col;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    ivec2 icoord = ivec2(frag_coord);\n    \n    float raw = texelFetch(iChannel0, icoord, 0).r;\n\n    // demosaic\n    vec3 col = vec3(0);\n    int col_parity = icoord.x % 2;\n    int row_parity = icoord.y % 2;\n    if (row_parity == 0 && col_parity == 0)\n    {\n        // green\n        col.g = raw;\n\n        col.r += fetch_raw(icoord + ivec2(1, 0));\n        col.r += fetch_raw(icoord + ivec2(-1, 0));\n        col.r /= 2.;\n\n        col.b += fetch_raw(icoord + ivec2(0, -1));\n        col.b += fetch_raw(icoord + ivec2(0, 1));\n        col.b /= 2.;\n    }\n    else if (row_parity == 0 && col_parity == 1)\n    {\n        // red\n        col.r = raw;\n        \n        col.g += fetch_raw(icoord + ivec2(0, -1));\n        col.g += fetch_raw(icoord + ivec2(1, 0));\n        col.g += fetch_raw(icoord + ivec2(0, 1));\n        col.g += fetch_raw(icoord + ivec2(-1, 0));\n        col.g /= 4.;\n\n        col.b += fetch_raw(icoord + ivec2(-1, -1));\n        col.b += fetch_raw(icoord + ivec2(1, -1));\n        col.b += fetch_raw(icoord + ivec2(1, 1));\n        col.b += fetch_raw(icoord + ivec2(-1, 1));\n        col.b /= 4.;\n    }\n    else if (row_parity == 1 && col_parity == 0)\n    {\n        // blue\n        col.b = raw;\n\n        col.r += fetch_raw(icoord + ivec2(-1, -1));\n        col.r += fetch_raw(icoord + ivec2(1, -1));\n        col.r += fetch_raw(icoord + ivec2(1, 1));\n        col.r += fetch_raw(icoord + ivec2(-1, 1));\n        col.r /= 4.;\n        \n        col.g += fetch_raw(icoord + ivec2(0, -1));\n        col.g += fetch_raw(icoord + ivec2(1, 0));\n        col.g += fetch_raw(icoord + ivec2(0, 1));\n        col.g += fetch_raw(icoord + ivec2(-1, 0));\n        col.g /= 4.;\n    }\n    else\n    {\n        // second green\n        col.g = raw;\n        \n        col.r += fetch_raw(icoord + ivec2(0, -1));\n        col.r += fetch_raw(icoord + ivec2(0, 1));\n        col.r /= 2.;\n        \n        col.b += fetch_raw(icoord + ivec2(1, 0));\n        col.b += fetch_raw(icoord + ivec2(-1, 0));\n        col.b /= 2.;\n    }\n\n    // color grade\n    col = grade(col);\n\n    // output\n    frag_col = vec4(col, 1.);\n}\n",
+     "name": "Buffer C",
+     "description": "",
+     "type": "buffer"
+    },
+    {
+     "inputs": [
+      {
+       "id": "4sXGR8",
+       "filepath": "/media/previz/buffer02.png",
+       "type": "buffer",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "XdfGR8",
+       "channel": 0
+      }
+     ],
+     "code": "// this buffer performs denoising\n\nivec2[] outward_spiral_offsets = ivec2[](\n    ivec2(0, 1),\n    ivec2(1, 0),\n    ivec2(0, -1),\n    ivec2(-1, 0),\n    ivec2(-1, 1),\n    ivec2(1, 1),\n    ivec2(1, -1),\n    ivec2(-1, -1),\n    ivec2(-2, -1),\n    ivec2(-2, 0),\n    ivec2(-2, 1),\n    ivec2(-2, 2),\n    ivec2(-1, 2),\n    ivec2(0, 2),\n    ivec2(1, 2),\n    ivec2(2, 2),\n    ivec2(2, 1),\n    ivec2(2, 0),\n    ivec2(2, -1),\n    ivec2(2, -2),\n    ivec2(1, -2),\n    ivec2(0, -2),\n    ivec2(-1, -2),\n    ivec2(-2, -2)\n);\nint outward_spiral_offsets_size = outward_spiral_offsets.length();\n\nvec3 fetch(ivec2 icoord)\n{\n    if (icoord.x < 0 || icoord.y < 0\n        || icoord.x >= int(iResolution.x)\n        || icoord.y >= int(iResolution.y))\n    {\n        return vec3(0);\n    }\n    return texelFetch(iChannel0, icoord, 0).rgb;\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    ivec2 icoord = ivec2(frag_coord);\n    \n    vec3 col = fetch(icoord);\n    float weight_sum = 1.;\n    for (int i = 0; i < outward_spiral_offsets_size; i++)\n    {\n        ivec2 offs = outward_spiral_offsets[i];\n        \n        vec3 neighbor_col = fetch(icoord + offs);\n        if (rgb_log_diff(col, neighbor_col) > .5)\n        {\n            break;\n        }\n        \n        // float weight = gaussian(length(vec2(offs)));\n        float weight = exp(-(dot(vec2(offs), vec2(offs)) * .5));\n        \n        col += weight * neighbor_col;\n        weight_sum += weight;\n    }\n    col /= weight_sum;\n    \n    frag_col = vec4(col, 1);\n}\n",
+     "name": "Buffer D",
+     "description": "",
+     "type": "buffer"
     }
    ]
   }
