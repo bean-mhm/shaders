@@ -1,6 +1,6 @@
 {
  "userName": "beans_please",
- "date": "2025-09-01T19:49:51.662Z",
+ "date": "2025-09-02T12:38:56.624Z",
  "numShaders": 89,
  "shaders": [
   {
@@ -162,7 +162,7 @@
    "info": {
     "id": "dd2yDz",
     "date": "1687622059",
-    "viewed": 916,
+    "viewed": 917,
     "name": "flim - Filmic Color Transform",
     "description": "Experimental Port of flim (Film Emulation Transform)\n\nOriginal Repo:\nhttps://github.com/bean-mhm/flim\n",
     "likes": 19,
@@ -206,7 +206,7 @@
    "info": {
     "id": "mdScW1",
     "date": "1687653267",
-    "viewed": 448,
+    "viewed": 449,
     "name": "Interactive 2D Wave Simulation",
     "description": "*Drag your mouse, make a spiral or something.\n\nThis is a port of my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py\n",
     "likes": 6,
@@ -417,7 +417,7 @@
    "info": {
     "id": "mdBcz3",
     "date": "1688036284",
-    "viewed": 607,
+    "viewed": 608,
     "name": "3D Wave Simulation",
     "description": "Check out my Interactive 2D Wave Simulation:\nhttps://www.shadertoy.com/view/mdScW1\n\nCheck out my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py",
     "likes": 24,
@@ -572,7 +572,7 @@
    "info": {
     "id": "csjfDh",
     "date": "1689671017",
-    "viewed": 226,
+    "viewed": 227,
     "name": "2D Occlusion Test",
     "description": "Drag to move the middle circle",
     "likes": 5,
@@ -669,7 +669,7 @@
    "info": {
     "id": "dsjBDy",
     "date": "1690140863",
-    "viewed": 647,
+    "viewed": 649,
     "name": "2D Fourier Transform",
     "description": "(Not so fast) 2D Fourier Transform implemented in glsl\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the FFT resolution in the Common tab.",
     "likes": 3,
@@ -1551,7 +1551,7 @@
    "info": {
     "id": "mlfBR4",
     "date": "1692737129",
-    "viewed": 199,
+    "viewed": 200,
     "name": "Boids + Packed Voronoi Tracking",
     "description": "Finally learned Voronoi Tracking, read the explanations in Buffer A.",
     "likes": 3,
@@ -2619,10 +2619,10 @@
    "info": {
     "id": "Xcd3zN",
     "date": "1756753946",
-    "viewed": 13,
+    "viewed": 64,
     "name": "Crappy Digital Camera",
     "description": "1. render scene with ray marching\n2. apply Bayer filter\n3. add noise on top\n4. apply uneven sensor clipping\n5. demoasic / de-Bayer\n6. bad color grading + clipping\n7. bad denoising\n8. oversharpen\n\nother ideas: blurry edges, rolling shutter, smeary bloom",
-    "likes": 1,
+    "likes": 5,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -3230,7 +3230,7 @@
    "info": {
     "id": "lXy3zK",
     "date": "1717887783",
-    "viewed": 722,
+    "viewed": 724,
     "name": "Daft Punk (Audio Data Packing)",
     "description": "8-bit audio samples packed into ivec4 array(s) using a Python script, with some vinyl pixel art I made",
     "likes": 26,
@@ -3338,7 +3338,7 @@
    "info": {
     "id": "X3y3Rc",
     "date": "1717962362",
-    "viewed": 173,
+    "viewed": 175,
     "name": "Bean's Starting Point",
     "description": "Helper functions/structs/defines divided into sections.\nUse whichever section(s) you need:\n- math & integer utils\n- pseudo-random number generator\n- keyboard\n- flim\n",
     "likes": 0,
@@ -3422,7 +3422,7 @@
    "info": {
     "id": "M3tXWn",
     "date": "1718891537",
-    "viewed": 744,
+    "viewed": 745,
     "name": "Digital Logic Simulation",
     "description": "[url=https://www.shadertoy.com/view/X33XDN]UPDATE: NEW VERSION[/url]\nSee the first comment for tutorial and description.\n",
     "likes": 50,
@@ -3687,7 +3687,7 @@
    "info": {
     "id": "X33XDN",
     "date": "1719435553",
-    "viewed": 735,
+    "viewed": 737,
     "name": "DLS + Wire Cross + Clock + Rot",
     "description": "See the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\n",
     "likes": 27,
@@ -4084,7 +4084,7 @@
    "info": {
     "id": "M3ySRK",
     "date": "1720202475",
-    "viewed": 810,
+    "viewed": 813,
     "name": "Parallax Occlusion Mapping X",
     "description": "layer count depends on the ray-surface angle\n",
     "likes": 25,
@@ -4525,7 +4525,7 @@
    "info": {
     "id": "4cVcR1",
     "date": "1731504376",
-    "viewed": 176,
+    "viewed": 177,
     "name": "Color Transformation Utilities",
     "description": "The \"Image\" tab simply alternates between mixing different colors in Oklab vs Linear BT.709 I-D65.\n\nThe \"Common\" tab contains transformations for common gamuts, white points, and transfer functions. Also includes Oklab.\n",
     "likes": 4,
@@ -4700,7 +4700,7 @@
    "info": {
     "id": "4cyfRV",
     "date": "1734325673",
-    "viewed": 4151,
+    "viewed": 4153,
     "name": "Neural Cat",
     "description": "deep neural network trained to produce cat meme video",
     "likes": 41,
@@ -4747,7 +4747,7 @@
    "info": {
     "id": "XX3cRn",
     "date": "1734644701",
-    "viewed": 415,
+    "viewed": 417,
     "name": "Film Halation",
     "description": "film halation",
     "likes": 10,
@@ -4833,7 +4833,7 @@
    "info": {
     "id": "M33cD7",
     "date": "1735165058",
-    "viewed": 206,
+    "viewed": 207,
     "name": "FXAA-ish",
     "description": "idk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison",
     "likes": 3,
@@ -5760,12 +5760,12 @@
    "info": {
     "id": "43tBWs",
     "date": "1756750760",
-    "viewed": 22,
+    "viewed": 77,
     "name": "Blue Noise Stochastic Bloom",
     "description": "yeah",
-    "likes": 2,
+    "likes": 6,
     "published": "Public API",
-    "usePreview": 0,
+    "usePreview": 1,
     "tags": [
      "noise",
      "bloom",
@@ -6281,7 +6281,7 @@
    "info": {
     "id": "lXGfWt",
     "date": "1745672318",
-    "viewed": 131,
+    "viewed": 132,
     "name": "Pause Menu Background Effect",
     "description": "proof of concept for an idea I had for a pause menu background effect to use in video games",
     "likes": 5,
@@ -6695,7 +6695,7 @@
    "info": {
     "id": "Wc3GD4",
     "date": "1747077935",
-    "viewed": 12,
+    "viewed": 14,
     "name": "Water Optimizer",
     "description": "check out the Desmos graph for details:\n[url]https://www.desmos.com/calculator/eflrvqjufv[/url]\n",
     "likes": 0,
@@ -6824,7 +6824,7 @@
    "info": {
     "id": "wf3XDH",
     "date": "1754134215",
-    "viewed": 103,
+    "viewed": 104,
     "name": "Send Text over Sound",
     "description": "Transmit binary data over sound. [url=https://www.shadertoy.com/view/tfdXW4]See receiver.[/url]\n\n[b]NOTE: This is a failed experiment! Shadertoy's Microphone input has lots of aliasing and ambiguous sample rate and count. The receiver is broken.[/b]",
     "likes": 2,
@@ -7107,10 +7107,10 @@
    "info": {
     "id": "WcjyzG",
     "date": "1756752441",
-    "viewed": 11,
+    "viewed": 42,
     "name": "Better Screen-Space Antialiasing",
     "description": "hold mouse for before/after comparison",
-    "likes": 1,
+    "likes": 3,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -7171,10 +7171,10 @@
    "info": {
     "id": "3c2czG",
     "date": "1756755092",
-    "viewed": 7,
+    "viewed": 57,
     "name": "Crappy Digital Camera v2",
     "description": "This is a merge of [url=https://www.shadertoy.com/view/Xcd3zN]Crappy Digital Camera[/url] by beans_please (me) and [url=https://www.shadertoy.com/view/lcKBzW]Raymarching template v4[/url] by FrederickAmpsUp published with his consent.",
-    "likes": 1,
+    "likes": 3,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
