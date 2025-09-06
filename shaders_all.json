@@ -1,14 +1,14 @@
 {
  "userName": "beans_please",
- "date": "2025-09-02T12:38:56.624Z",
- "numShaders": 89,
+ "date": "2025-09-06T19:55:26.778Z",
+ "numShaders": 90,
  "shaders": [
   {
    "ver": "0.1",
    "info": {
     "id": "dsjcRR",
     "date": "1687371539",
-    "viewed": 489,
+    "viewed": 495,
     "name": "PBR with Ray Marching (WIP)",
     "description": "* Drag -> Look around\n* WASD -> Move\n* Shift -> Sprint\n* Alt -> Stealth?\n* R -> Reset\n",
     "likes": 7,
@@ -162,10 +162,10 @@
    "info": {
     "id": "dd2yDz",
     "date": "1687622059",
-    "viewed": 917,
+    "viewed": 942,
     "name": "flim - Filmic Color Transform",
     "description": "Experimental Port of flim (Film Emulation Transform)\n\nOriginal Repo:\nhttps://github.com/bean-mhm/flim\n",
-    "likes": 19,
+    "likes": 20,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -206,7 +206,7 @@
    "info": {
     "id": "mdScW1",
     "date": "1687653267",
-    "viewed": 449,
+    "viewed": 453,
     "name": "Interactive 2D Wave Simulation",
     "description": "*Drag your mouse, make a spiral or something.\n\nThis is a port of my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py\n",
     "likes": 6,
@@ -342,7 +342,7 @@
    "info": {
     "id": "md2yWh",
     "date": "1687678448",
-    "viewed": 188,
+    "viewed": 191,
     "name": "experimenting with colormaps",
     "description": "will use this in another shader of mine",
     "likes": 4,
@@ -374,7 +374,7 @@
    "info": {
     "id": "mdByWW",
     "date": "1687704350",
-    "viewed": 198,
+    "viewed": 202,
     "name": "Discrete Land",
     "description": "Playing with integer coordinates",
     "likes": 6,
@@ -417,7 +417,7 @@
    "info": {
     "id": "mdBcz3",
     "date": "1688036284",
-    "viewed": 608,
+    "viewed": 611,
     "name": "3D Wave Simulation",
     "description": "Check out my Interactive 2D Wave Simulation:\nhttps://www.shadertoy.com/view/mdScW1\n\nCheck out my Python wave simulation project:\nhttps://github.com/bean-mhm/wave-simulation-py",
     "likes": 24,
@@ -572,7 +572,7 @@
    "info": {
     "id": "csjfDh",
     "date": "1689671017",
-    "viewed": 227,
+    "viewed": 230,
     "name": "2D Occlusion Test",
     "description": "Drag to move the middle circle",
     "likes": 5,
@@ -614,7 +614,7 @@
    "info": {
     "id": "cdjfRc",
     "date": "1689964097",
-    "viewed": 104,
+    "viewed": 106,
     "name": "Deprecated,Bean's Default Shader",
     "description": "- My starting point for a new shader.\n\n- Helper \"modules\" can be enabled/disabled separately in the Common tab.\n\n- Each tab starts with a description of itself to make it easier to store local backups.\n\n- Feel free to copy and reuse.  :)",
     "likes": 2,
@@ -669,7 +669,7 @@
    "info": {
     "id": "dsjBDy",
     "date": "1690140863",
-    "viewed": 649,
+    "viewed": 652,
     "name": "2D Fourier Transform",
     "description": "(Not so fast) 2D Fourier Transform implemented in glsl\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the FFT resolution in the Common tab.",
     "likes": 3,
@@ -738,7 +738,7 @@
    "info": {
     "id": "mdjBWK",
     "date": "1690217266",
-    "viewed": 282,
+    "viewed": 285,
     "name": "Triangle Barycentric Coordinates",
     "description": "This started as a 4 AM question: \"How do vertex attributes get interpolated in a fragment shader?\"\nThe Wikipedia page for Barycentric Coordinates was too complicated for me, so hopefully this is easier to und.\nhttps://www.desmos.com/calculator/8g8xjejuox\n",
     "likes": 3,
@@ -784,7 +784,7 @@
    "info": {
     "id": "msjfDt",
     "date": "1690292056",
-    "viewed": 324,
+    "viewed": 327,
     "name": "Moving White Point",
     "description": "Random experiment\n\n- Drag to move the white point",
     "likes": 7,
@@ -827,7 +827,7 @@
    "info": {
     "id": "mlscWr",
     "date": "1690662251",
-    "viewed": 415,
+    "viewed": 418,
     "name": "Blinn-Phong Shading",
     "description": "Sphere",
     "likes": 5,
@@ -872,7 +872,7 @@
    "info": {
     "id": "dlfcD8",
     "date": "1692139870",
-    "viewed": 334,
+    "viewed": 338,
     "name": "Path Tracing name already in use",
     "description": "Good old naive path tracing",
     "likes": 7,
@@ -1014,7 +1014,7 @@
    "info": {
     "id": "ctfcD7",
     "date": "1690805466",
-    "viewed": 170,
+    "viewed": 173,
     "name": "colorful thing",
     "description": "random shader (i was bored)",
     "likes": 3,
@@ -1056,7 +1056,7 @@
    "info": {
     "id": "mlsyDj",
     "date": "1691237601",
-    "viewed": 281,
+    "viewed": 285,
     "name": "Balls Simulated (updated)",
     "description": "This is my first physics simulation, and I just followed my gut, so feel free to comment on how this can be improved\n\nUpdate: Implemented suggestions by @fenix (no more jittering + general improvements)",
     "likes": 12,
@@ -1156,7 +1156,7 @@
    "info": {
     "id": "cl2cRD",
     "date": "1691530674",
-    "viewed": 101,
+    "viewed": 104,
     "name": "Fixed FPS Experiment",
     "description": "Adjusting the amount of computation in order to keep the FPS constant.\nMight take up to 20 seconds to reach the target FPS.\nDoesn't work well on my phone, probably because of 16 bit precision.",
     "likes": 1,
@@ -1231,7 +1231,7 @@
    "info": {
     "id": "mtScWm",
     "date": "1691841683",
-    "viewed": 346,
+    "viewed": 350,
     "name": "Blue Noise Dithering vs OETF 2.2",
     "description": "Try commenting out the OETF to see how the dithered version and the clean version don't match in brightness anymore",
     "likes": 11,
@@ -1282,7 +1282,7 @@
    "info": {
     "id": "mtjyDw",
     "date": "1691962447",
-    "viewed": 210,
+    "viewed": 213,
     "name": "1D Continuous Function Graphing",
     "description": "Basically sample points on the function and connect them with line segments",
     "likes": 6,
@@ -1340,7 +1340,7 @@
    "info": {
     "id": "cljczd",
     "date": "1692189706",
-    "viewed": 124,
+    "viewed": 126,
     "name": "Mod of 01000001's FXAA Shader",
     "description": "Original shader: https://www.shadertoy.com/view/mljyzc",
     "likes": 1,
@@ -1399,7 +1399,7 @@
    "info": {
     "id": "DljyDG",
     "date": "1692469704",
-    "viewed": 233,
+    "viewed": 236,
     "name": "Breathing Fractal",
     "description": "Drag to explore the complex universe!\n",
     "likes": 6,
@@ -1438,7 +1438,7 @@
    "info": {
     "id": "DtfBRn",
     "date": "1692473050",
-    "viewed": 155,
+    "viewed": 158,
     "name": "Deprecated: My 2nd Def. Shader",
     "description": "My starting point for new shaders (not anymore)\nnew one coming soon",
     "likes": 1,
@@ -1480,7 +1480,7 @@
    "info": {
     "id": "DlfBzN",
     "date": "1692651978",
-    "viewed": 193,
+    "viewed": 196,
     "name": "Square Fourier Transform?",
     "description": "What if we used square waves instead of (co)sine waves in Fourier transforms?\nSee sqsin() and sqcos() at the end of Common.\n\n- Enable fft_preview_input in the Common tab to see the input shapes.\n\n- You can also change the resolution in the Common tab.",
     "likes": 5,
@@ -1551,7 +1551,7 @@
    "info": {
     "id": "mlfBR4",
     "date": "1692737129",
-    "viewed": 200,
+    "viewed": 203,
     "name": "Boids + Packed Voronoi Tracking",
     "description": "Finally learned Voronoi Tracking, read the explanations in Buffer A.",
     "likes": 3,
@@ -1706,7 +1706,7 @@
    "info": {
     "id": "clXBW4",
     "date": "1692902788",
-    "viewed": 109,
+    "viewed": 111,
     "name": "Fork polygon :D beans_plea 404",
     "description": "challenge shader",
     "likes": 0,
@@ -1740,7 +1740,7 @@
    "info": {
     "id": "dlsBDM",
     "date": "1693112135",
-    "viewed": 258,
+    "viewed": 261,
     "name": "Inverse Square Fourier Transform",
     "description": "0 = Input\n1 = 2D FFT\n2 = Inverse FFT\n\nSee use_sq at the top of Common.",
     "likes": 3,
@@ -1867,7 +1867,7 @@
    "info": {
     "id": "mtlfRs",
     "date": "1693363623",
-    "viewed": 165,
+    "viewed": 168,
     "name": "Local Sorting Challenge",
     "description": "What's the fastest way to sort a local float array? (in practice this array will be different for each pixel)\nKeep in mind we can't use recursion or dynamic memory allocation unless we emulate them which would probably slow things down more.",
     "likes": 1,
@@ -1899,7 +1899,7 @@
    "info": {
     "id": "DtSfzR",
     "date": "1693654314",
-    "viewed": 322,
+    "viewed": 326,
     "name": "Beach (Volume Absorption)",
     "description": "More or less: [code]col *= pow(absorption_col, depth)[/code]",
     "likes": 7,
@@ -1934,7 +1934,7 @@
    "info": {
     "id": "ctjfDc",
     "date": "1694574459",
-    "viewed": 464,
+    "viewed": 467,
     "name": "Fork Discoteq 3 (+ flim)",
     "description": "Discoteq 3\nadded flim ( https://www.shadertoy.com/view/dd2yDz )",
     "likes": 9,
@@ -2021,7 +2021,7 @@
    "info": {
     "id": "DdcyRf",
     "date": "1695281747",
-    "viewed": 228,
+    "viewed": 231,
     "name": "Exponential Colormap",
     "description": "See the Desmos graphs, play with v",
     "likes": 7,
@@ -2053,7 +2053,7 @@
    "info": {
     "id": "ds3fDM",
     "date": "1697312887",
-    "viewed": 486,
+    "viewed": 490,
     "name": "XPBD Rope",
     "description": "Finally implemented XPBD!\nWatch this amazing video: https://youtube.com/watch?v=jrociOAYqxA\n\n* Drag to move the tail\n\n* Long ish compile time (22 seconds for me), so be patient\n\n* Does not work well on my phone, presumably because of 16-bit floats.",
     "likes": 20,
@@ -2140,7 +2140,7 @@
    "info": {
     "id": "DsGBDy",
     "date": "1698577359",
-    "viewed": 164,
+    "viewed": 167,
     "name": "angle in [0, 2pi)",
     "description": "the",
     "likes": 3,
@@ -2172,7 +2172,7 @@
    "info": {
     "id": "Mcf3Dj",
     "date": "1703544197",
-    "viewed": 245,
+    "viewed": 248,
     "name": "FBM Voronoi",
     "description": "i like voronoi",
     "likes": 2,
@@ -2217,7 +2217,7 @@
    "info": {
     "id": "4fSGzR",
     "date": "1705547653",
-    "viewed": 100,
+    "viewed": 102,
     "name": "FBM Perlin",
     "description": "i like perlin noise",
     "likes": 0,
@@ -2261,7 +2261,7 @@
    "info": {
     "id": "lf23zW",
     "date": "1736235885",
-    "viewed": 123,
+    "viewed": 125,
     "name": "🌟NOISE SHOW🌟",
     "description": "procedural noise",
     "likes": 4,
@@ -2306,7 +2306,7 @@
    "info": {
     "id": "lclXWs",
     "date": "1705932695",
-    "viewed": 226,
+    "viewed": 229,
     "name": "Quantum physics or something",
     "description": "Extremely slow, use shadertoy browser extension to increase the number of iters/frame (paint calls) to 512 ish with inspect element!\n\nHelp: How do I calculate max dt (before it breaks) based on the parameters?\n\nhttps://www.desmos.com/calculator/ery45h4dzl",
     "likes": 1,
@@ -2395,7 +2395,7 @@
    "info": {
     "id": "MXSXRm",
     "date": "1710373949",
-    "viewed": 274,
+    "viewed": 278,
     "name": "3D Function/Volume Visualizer",
     "description": "just raymarching through a box and averaging the values we sampled along the way\n",
     "likes": 11,
@@ -2532,7 +2532,7 @@
    "info": {
     "id": "lXBXWz",
     "date": "1710447505",
-    "viewed": 232,
+    "viewed": 235,
     "name": "8-bit Blue Noise Dithering",
     "description": "dithering",
     "likes": 3,
@@ -2584,7 +2584,7 @@
    "info": {
     "id": "XX2XDd",
     "date": "1711246176",
-    "viewed": 201,
+    "viewed": 204,
     "name": "Run at 120+ Hz if possible",
     "description": "Alternating between red and cyan, which looks gray. Try moving your eyes across the screen really quickly to see the pattern (in full screen).",
     "likes": 1,
@@ -2619,10 +2619,10 @@
    "info": {
     "id": "Xcd3zN",
     "date": "1756753946",
-    "viewed": 64,
+    "viewed": 94,
     "name": "Crappy Digital Camera",
     "description": "1. render scene with ray marching\n2. apply Bayer filter\n3. add noise on top\n4. apply uneven sensor clipping\n5. demoasic / de-Bayer\n6. bad color grading + clipping\n7. bad denoising\n8. oversharpen\n\nother ideas: blurry edges, rolling shutter, smeary bloom",
-    "likes": 5,
+    "likes": 6,
     "published": "Public API",
     "usePreview": 0,
     "tags": [
@@ -2789,7 +2789,7 @@
    "info": {
     "id": "McdSzr",
     "date": "1713529681",
-    "viewed": 289,
+    "viewed": 293,
     "name": "Subpixel Anti-Aliasing",
     "description": "looks kinda weird tbh, am I doing something wrong?",
     "likes": 5,
@@ -2832,7 +2832,7 @@
    "info": {
     "id": "M3dGz8",
     "date": "1716107523",
-    "viewed": 121,
+    "viewed": 125,
     "name": "2x Temporal Upscaling",
     "description": "read my comments, the character limit is too low ..............................................................................................................................................................................................................",
     "likes": 1,
@@ -3230,10 +3230,10 @@
    "info": {
     "id": "lXy3zK",
     "date": "1717887783",
-    "viewed": 724,
+    "viewed": 732,
     "name": "Daft Punk (Audio Data Packing)",
     "description": "8-bit audio samples packed into ivec4 array(s) using a Python script, with some vinyl pixel art I made",
-    "likes": 26,
+    "likes": 27,
     "published": "Public API",
     "usePreview": 1,
     "tags": [
@@ -3289,7 +3289,7 @@
    "info": {
     "id": "M3VGRK",
     "date": "1717936266",
-    "viewed": 273,
+    "viewed": 277,
     "name": "Attack-Decay-Sustain-Release",
     "description": "The ADSR curve is a fundamental tool used in all audio synthesizers.\nFeel free to play with the values (see custom_adsr_curve_1() in Common).\n\nRead more: [url]https://en.wikipedia.org/wiki/Envelope_(music)[/url]\n",
     "likes": 12,
@@ -3338,7 +3338,7 @@
    "info": {
     "id": "X3y3Rc",
     "date": "1717962362",
-    "viewed": 175,
+    "viewed": 180,
     "name": "Bean's Starting Point",
     "description": "Helper functions/structs/defines divided into sections.\nUse whichever section(s) you need:\n- math & integer utils\n- pseudo-random number generator\n- keyboard\n- flim\n",
     "likes": 0,
@@ -3422,7 +3422,7 @@
    "info": {
     "id": "M3tXWn",
     "date": "1718891537",
-    "viewed": 745,
+    "viewed": 747,
     "name": "Digital Logic Simulation",
     "description": "[url=https://www.shadertoy.com/view/X33XDN]UPDATE: NEW VERSION[/url]\nSee the first comment for tutorial and description.\n",
     "likes": 50,
@@ -3687,10 +3687,10 @@
    "info": {
     "id": "X33XDN",
     "date": "1719435553",
-    "viewed": 737,
+    "viewed": 742,
     "name": "DLS + Wire Cross + Clock + Rot",
     "description": "See the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\nSee the first comment for tutorial and description.\n",
-    "likes": 27,
+    "likes": 28,
     "published": "Public API",
     "usePreview": 1,
     "tags": [
@@ -4084,7 +4084,7 @@
    "info": {
     "id": "M3ySRK",
     "date": "1720202475",
-    "viewed": 813,
+    "viewed": 818,
     "name": "Parallax Occlusion Mapping X",
     "description": "layer count depends on the ray-surface angle\n",
     "likes": 25,
@@ -4162,7 +4162,7 @@
    "info": {
     "id": "XcBBWW",
     "date": "1724905810",
-    "viewed": 218,
+    "viewed": 222,
     "name": "Follow Edge Antialiasing? (Bad)",
     "description": "[url=https://www.shadertoy.com/view/M33cD7]SEE BETTER VERSION[/url]\nidk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison\n",
     "likes": 2,
@@ -4276,7 +4276,7 @@
    "info": {
     "id": "MfjBDV",
     "date": "1725542638",
-    "viewed": 120,
+    "viewed": 122,
     "name": "Pretty Colormap (-1, +1)",
     "description": "See the Desmos graphs, play with v",
     "likes": 6,
@@ -4419,7 +4419,7 @@
    "info": {
     "id": "XXlBDH",
     "date": "1728333908",
-    "viewed": 154,
+    "viewed": 157,
     "name": "Diffraction Through 5 Slits",
     "description": "inspired by 3b1b's new video",
     "likes": 6,
@@ -4525,7 +4525,7 @@
    "info": {
     "id": "4cVcR1",
     "date": "1731504376",
-    "viewed": 177,
+    "viewed": 186,
     "name": "Color Transformation Utilities",
     "description": "The \"Image\" tab simply alternates between mixing different colors in Oklab vs Linear BT.709 I-D65.\n\nThe \"Common\" tab contains transformations for common gamuts, white points, and transfer functions. Also includes Oklab.\n",
     "likes": 4,
@@ -4608,7 +4608,7 @@
    "info": {
     "id": "lctBRn",
     "date": "1732646179",
-    "viewed": 218,
+    "viewed": 222,
     "name": "Springy Ball (Pos Vel Acc Jerk)",
     "description": "drag mouse.\nplay with INTEGRATION_MODE in Buffer A.",
     "likes": 5,
@@ -4700,7 +4700,7 @@
    "info": {
     "id": "4cyfRV",
     "date": "1734325673",
-    "viewed": 4153,
+    "viewed": 4164,
     "name": "Neural Cat",
     "description": "deep neural network trained to produce cat meme video",
     "likes": 41,
@@ -4747,7 +4747,7 @@
    "info": {
     "id": "XX3cRn",
     "date": "1734644701",
-    "viewed": 417,
+    "viewed": 430,
     "name": "Film Halation",
     "description": "film halation",
     "likes": 10,
@@ -4833,7 +4833,7 @@
    "info": {
     "id": "M33cD7",
     "date": "1735165058",
-    "viewed": 207,
+    "viewed": 212,
     "name": "FXAA-ish",
     "description": "idk if this is FXAA or SMAA or whatever but screen space methods are still better than TAA\nhold mouse for before/after comparison",
     "likes": 3,
@@ -4911,7 +4911,7 @@
    "info": {
     "id": "lX3cD7",
     "date": "1735261091",
-    "viewed": 240,
+    "viewed": 244,
     "name": "Film Emulation",
     "description": "Full on film emulation. Detailed explanation in the Common tab + comments throughout the code.",
     "likes": 10,
@@ -5094,7 +5094,7 @@
    "info": {
     "id": "XXcyDB",
     "date": "1735546355",
-    "viewed": 287,
+    "viewed": 291,
     "name": "Fork Fractal Explorer (+flim)",
     "description": " More fractal fun! This time with a single pass depth of field effect. MOUSE DRAG to turn WASD & cursor keys to move. SHIFT for speed up. SPACE for another speed up!\n",
     "likes": 1,
@@ -5263,7 +5263,7 @@
    "info": {
     "id": "lXGyDR",
     "date": "1736145027",
-    "viewed": 204,
+    "viewed": 211,
     "name": "Interleaved Gradient Noise ‌‍",
     "description": "Low discrepancy or something. I copied the formula form some article, I don't know how it's actually derived.",
     "likes": 3,
@@ -5330,7 +5330,7 @@
    "info": {
     "id": "X3KcDh",
     "date": "1736180148",
-    "viewed": 112,
+    "viewed": 114,
     "name": "High Pass White Noise (Failed)",
     "description": "failed attempt to get blue noise from white noise\n\nsuccessful attempt: [url]https://www.shadertoy.com/view/lXycWt[/url]",
     "likes": 3,
@@ -5378,7 +5378,7 @@
    "info": {
     "id": "MXGyDD",
     "date": "1736256150",
-    "viewed": 213,
+    "viewed": 217,
     "name": "Perlinary",
     "description": "procedural noise",
     "likes": 11,
@@ -5469,7 +5469,7 @@
    "info": {
     "id": "lXycWt",
     "date": "1736801004",
-    "viewed": 157,
+    "viewed": 160,
     "name": "Getting Blue Noise from White",
     "description": "high passing white noise to get blue noise. one important detail is that you should map the original input from [0, 1] to [-1, +1] by performing [code](x * 2. - 1.)[/code] and undo it at the very end by doing [code](x * .5 + .5)[/code]",
     "likes": 6,
@@ -5640,7 +5640,7 @@
    "info": {
     "id": "MX3BR8",
     "date": "1736931744",
-    "viewed": 215,
+    "viewed": 218,
     "name": "Single Function Semi Blue Noise",
     "description": "Convolution with a white noise.\n\nHold mouse to see Shadertoy's default blue noise texture.",
     "likes": 9,
@@ -5760,7 +5760,7 @@
    "info": {
     "id": "43tBWs",
     "date": "1756750760",
-    "viewed": 77,
+    "viewed": 120,
     "name": "Blue Noise Stochastic Bloom",
     "description": "yeah",
     "likes": 6,
@@ -6281,7 +6281,7 @@
    "info": {
     "id": "lXGfWt",
     "date": "1745672318",
-    "viewed": 132,
+    "viewed": 135,
     "name": "Pause Menu Background Effect",
     "description": "proof of concept for an idea I had for a pause menu background effect to use in video games",
     "likes": 5,
@@ -6449,7 +6449,7 @@
    "info": {
     "id": "WcsSRH",
     "date": "1740643773",
-    "viewed": 100,
+    "viewed": 103,
     "name": "Subpixel Anti-Aliasing 2",
     "description": "looks kinda weird tbh, am I doing something wrong?",
     "likes": 5,
@@ -6492,7 +6492,7 @@
    "info": {
     "id": "3clXzN",
     "date": "1740690643",
-    "viewed": 128,
+    "viewed": 130,
     "name": "smooth downscale without mipmap",
     "description": "needed this for a project",
     "likes": 0,
@@ -6540,7 +6540,7 @@
    "info": {
     "id": "3cSSRR",
     "date": "1741469568",
-    "viewed": 106,
+    "viewed": 108,
     "name": "Double-Pass DFT",
     "description": "2D Discrete Fourier Transform\n\nhold mouse to see input\n",
     "likes": 5,
@@ -6695,7 +6695,7 @@
    "info": {
     "id": "Wc3GD4",
     "date": "1747077935",
-    "viewed": 14,
+    "viewed": 17,
     "name": "Water Optimizer",
     "description": "check out the Desmos graph for details:\n[url]https://www.desmos.com/calculator/eflrvqjufv[/url]\n",
     "likes": 0,
@@ -6714,7 +6714,7 @@
        "channel": 0
       }
      ],
-     "code": "// check out the Desmos graph for details:\n// https://www.desmos.com/calculator/eflrvqjufv\n\n// angle from 0 to 180 degrees is mapped to this temperature range\nconst float MIN_TEMP = -45.;\nconst float MAX_TEMP = 120.;\n\n// temperature range for the color map\nconst float MIN_TEMP_CMAP = -25.;\nconst float MAX_TEMP_CMAP = 100.;\n\n// the color map takes in a temperature and returns a color\nvec3 cmap(float temp)\n{\n    return mix(\n        vec3(0, .05, 1),\n        vec3(1, .04, .01),\n        smoothstep(MIN_TEMP_CMAP, MAX_TEMP_CMAP, temp)\n    );\n}\n\nvec3 render(vec2 coord)\n{\n    // temperature and maximum pressure of the cold and warm water pipes\n    // measured by sensors.\n    float cold_temp = 10.;\n    float warm_temp = 60.;\n    float cold_pressure = 45.;\n    float warm_pressure = 30.;\n\n    // UV coordinates. (0, 0) is the center. both the X and Y components are\n    // guaranteed to at least span the [-1, 1] range.\n    vec2 uv = screen_to_uv_fit(coord, iResolution.xy);\n    \n    // translate everything down\n    uv.y += .6;\n    \n    // zoom out\n    uv *= 7. * sqrt(cold_pressure + warm_pressure);\n\n    // the angle of UV relative to the +X axis represents the temperature of the\n    // mixed (output) water.\n    float mixed_temp = remap(\n        get_angle(uv) / PI,\n        0.,\n        1.,\n        MIN_TEMP,\n        MAX_TEMP\n    );\n    \n    // the distance of UV from the origin represents the pressure of the mixed\n    // (output) water.\n    float mixed_pressure = length(uv);\n    \n    // to find how open the valves are for the cold and warm water pipes, a\n    // quadratic equation was derived which you can check out in the Desmos link\n    // at the top.\n    \n    float quadratic_a =\n        pow(warm_pressure, 3.) * cold_temp\n        - cold_pressure * pow(warm_pressure, 2.) * cold_temp\n        - pow(warm_pressure, 2.) * cold_pressure * warm_temp\n        + pow(cold_pressure, 2.) * warm_pressure * warm_temp\n        - mixed_temp * pow(warm_pressure, 3.)\n        + 2. * mixed_temp * pow(warm_pressure, 2.) * cold_pressure\n        - mixed_temp * pow(cold_pressure, 2.) * warm_pressure;\n    \n    float quadratic_b =\n        - mixed_pressure * cold_temp * pow(warm_pressure, 2.)\n        + cold_pressure * warm_pressure * mixed_pressure * cold_temp\n        - mixed_pressure * pow(warm_pressure, 2.) * cold_temp\n        - 2. * mixed_temp * cold_pressure * warm_pressure * mixed_pressure\n        + 2. * mixed_temp * pow(warm_pressure, 2.) * mixed_pressure\n        + mixed_pressure * cold_pressure * warm_pressure * warm_temp;\n    \n    float quadratic_c =\n        pow(mixed_pressure, 2.) * cold_temp * warm_pressure\n        - mixed_temp * pow(mixed_pressure, 2.) * warm_pressure;\n    \n    float discriminant =\n        (quadratic_b * quadratic_b)\n        - (4. * quadratic_a * quadratic_c);\n    \n    float sqrt_discriminant = sqrt(discriminant);\n    \n    float quadratic_2a = 2. * quadratic_a;\n    \n    float warm_factor_a = (-quadratic_b + sqrt_discriminant) / quadratic_2a;\n    float warm_factor_b = (-quadratic_b - sqrt_discriminant) / quadratic_2a;\n    \n    float warm_factor = warm_factor_a;\n    if (abs(warm_factor - .5) > .5 && abs(warm_factor_b - .5) <= .5)\n    {\n        warm_factor = warm_factor_b;\n    }\n    \n    float cold_factor =\n        (mixed_pressure - warm_factor * warm_pressure)\n        / cold_pressure;\n    \n    // now we just check if both the cold and warm valve opening factors are in\n    // the correct range of [0, 1] and return the background color if not.\n    if (abs(cold_factor - .5) > .5 || abs(warm_factor - .5) > .5)\n    {\n        return vec3(.8);\n    }\n    \n    // if the valve opening factors are in the correct range, we return the\n    // color we get from the color map.\n    return cmap(mixed_temp) * remap01(\n        log(mixed_pressure + .01),\n        -2.,\n        4.\n    );\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // render\n    vec3 col = render(frag_coord);\n\n    // view transform (OETF) (Linear BT.709 I-D65 to sRGB 2.2)\n    col = pow(clamp(col, 0., 1.), vec3(1. / 2.2));\n\n    // output\n    frag_col = vec4(col, 1);\n}\n",
+     "code": "// check out the Desmos graph for details:\n// https://www.desmos.com/calculator/eflrvqjufv\n\n// angle from 0 to 180 degrees is mapped to this temperature range\nconst float MIN_TEMP = -45.;\nconst float MAX_TEMP = 120.;\n\n// temperature range for the color map\nconst float MIN_TEMP_CMAP = -25.;\nconst float MAX_TEMP_CMAP = 100.;\n\n// the color map takes in a temperature and returns a color\nvec3 cmap(float temp)\n{\n    return mix(\n        vec3(0, .05, 1),\n        vec3(1, .04, .01),\n        smoothstep(MIN_TEMP_CMAP, MAX_TEMP_CMAP, temp)\n    );\n}\n\nvec3 render(vec2 coord)\n{\n    // temperature and maximum pressure of the cold and warm water pipes\n    // measured by sensors.\n    float cold_temp = 10.;\n    float warm_temp = 65.;\n    float cold_pressure = 45.;\n    float warm_pressure = 25.;\n    \n    // fixing a minor glitch\n    if (abs(warm_pressure - cold_pressure) < .002)\n    {\n        if (warm_pressure > cold_pressure)\n        {\n            warm_pressure += .002;\n        }\n        else\n        {\n            cold_pressure += .002;\n        }\n    }\n\n    // UV coordinates. (0, 0) is the center. both the X and Y components are\n    // guaranteed to at least span the [-1, 1] range.\n    vec2 uv = screen_to_uv_fit(coord, iResolution.xy);\n    \n    // translate everything down\n    uv.y += .6;\n    \n    // zoom out\n    uv *= 7. * sqrt(cold_pressure + warm_pressure);\n\n    // the angle of UV relative to the +X axis represents the temperature of the\n    // mixed (output) water.\n    float mixed_temp = remap(\n        get_angle(uv) / PI,\n        0.,\n        1.,\n        MIN_TEMP,\n        MAX_TEMP\n    );\n    \n    // the distance of UV from the origin represents the pressure of the mixed\n    // (output) water.\n    float mixed_pressure = length(uv);\n    \n    // to find how open the valves are for the cold and warm water pipes, a\n    // quadratic equation was derived which you can check out in the Desmos link\n    // at the top.\n    \n    float quadratic_a =\n        pow(warm_pressure, 3.) * cold_temp\n        - cold_pressure * pow(warm_pressure, 2.) * cold_temp\n        - pow(warm_pressure, 2.) * cold_pressure * warm_temp\n        + pow(cold_pressure, 2.) * warm_pressure * warm_temp\n        - mixed_temp * pow(warm_pressure, 3.)\n        + 2. * mixed_temp * pow(warm_pressure, 2.) * cold_pressure\n        - mixed_temp * pow(cold_pressure, 2.) * warm_pressure;\n    \n    float quadratic_b =\n        - mixed_pressure * cold_temp * pow(warm_pressure, 2.)\n        + cold_pressure * warm_pressure * mixed_pressure * cold_temp\n        - mixed_pressure * pow(warm_pressure, 2.) * cold_temp\n        - 2. * mixed_temp * cold_pressure * warm_pressure * mixed_pressure\n        + 2. * mixed_temp * pow(warm_pressure, 2.) * mixed_pressure\n        + mixed_pressure * cold_pressure * warm_pressure * warm_temp;\n    \n    float quadratic_c =\n        pow(mixed_pressure, 2.) * cold_temp * warm_pressure\n        - mixed_temp * pow(mixed_pressure, 2.) * warm_pressure;\n    \n    float discriminant =\n        (quadratic_b * quadratic_b)\n        - (4. * quadratic_a * quadratic_c);\n    \n    float sqrt_discriminant = sqrt(discriminant);\n    \n    float quadratic_2a = 2. * quadratic_a;\n    \n    float warm_factor_a = (-quadratic_b + sqrt_discriminant) / quadratic_2a;\n    float warm_factor_b = (-quadratic_b - sqrt_discriminant) / quadratic_2a;\n    \n    float warm_factor = warm_factor_a;\n    if (abs(warm_factor - .5) > .5 && abs(warm_factor_b - .5) <= .5)\n    {\n        warm_factor = warm_factor_b;\n    }\n    \n    float cold_factor =\n        (mixed_pressure - warm_factor * warm_pressure)\n        / cold_pressure;\n    \n    // now we just check if both the cold and warm valve opening factors are in\n    // the correct range of [0, 1] and return the background color if not.\n    if (abs(cold_factor - .5) > .5 || abs(warm_factor - .5) > .5)\n    {\n        return vec3(.8);\n    }\n    \n    // if the valve opening factors are in the correct range, we return the\n    // color we get from the color map.\n    return cmap(mixed_temp) * remap01(\n        log(mixed_pressure + .01),\n        -2.,\n        4.\n    );\n}\n\nvoid mainImage(out vec4 frag_col, in vec2 frag_coord)\n{\n    // render\n    vec3 col = render(frag_coord);\n\n    // view transform (OETF) (Linear BT.709 I-D65 to sRGB 2.2)\n    col = pow(clamp(col, 0., 1.), vec3(1. / 2.2));\n\n    // output\n    frag_col = vec4(col, 1);\n}\n",
      "name": "Image",
      "description": "",
      "type": "image"
@@ -6734,7 +6734,7 @@
    "info": {
     "id": "Wfd3RX",
     "date": "1747980811",
-    "viewed": 171,
+    "viewed": 176,
     "name": "2D Vector Field Wave Sim",
     "description": "You could treat this as the electric field or the magnetic field on its own, the other one could also be simulated using the time derivative of this field.",
     "likes": 11,
@@ -6824,7 +6824,7 @@
    "info": {
     "id": "wf3XDH",
     "date": "1754134215",
-    "viewed": 104,
+    "viewed": 109,
     "name": "Send Text over Sound",
     "description": "Transmit binary data over sound. [url=https://www.shadertoy.com/view/tfdXW4]See receiver.[/url]\n\n[b]NOTE: This is a failed experiment! Shadertoy's Microphone input has lots of aliasing and ambiguous sample rate and count. The receiver is broken.[/b]",
     "likes": 2,
@@ -6893,7 +6893,7 @@
    "info": {
     "id": "tfdXW4",
     "date": "1754134243",
-    "viewed": 93,
+    "viewed": 98,
     "name": "Receive Text over Sound",
     "description": "Receive binary data over sound. [url=https://www.shadertoy.com/view/wf3XDH]See transmitter.[/url]\n\n[b]NOTE: This is a failed experiment! Shadertoy's Microphone input has lots of aliasing and ambiguous sample rate and count. The receiver is broken.[/b]",
     "likes": 1,
@@ -7058,7 +7058,7 @@
    "info": {
     "id": "3fySDG",
     "date": "1750596185",
-    "viewed": 166,
+    "viewed": 172,
     "name": "1D String Impulse Response",
     "description": "[url]https://www.desmos.com/calculator/vakt3kgbqa[/url]\n\nrealistically you would use a more interesting exciter sound (like plucking a guitar string or blowing or whatever else) instead of noise.\n",
     "likes": 6,
@@ -7107,7 +7107,7 @@
    "info": {
     "id": "WcjyzG",
     "date": "1756752441",
-    "viewed": 42,
+    "viewed": 68,
     "name": "Better Screen-Space Antialiasing",
     "description": "hold mouse for before/after comparison",
     "likes": 3,
@@ -7171,7 +7171,7 @@
    "info": {
     "id": "3c2czG",
     "date": "1756755092",
-    "viewed": 57,
+    "viewed": 88,
     "name": "Crappy Digital Camera v2",
     "description": "This is a merge of [url=https://www.shadertoy.com/view/Xcd3zN]Crappy Digital Camera[/url] by beans_please (me) and [url=https://www.shadertoy.com/view/lcKBzW]Raymarching template v4[/url] by FrederickAmpsUp published with his consent.",
     "likes": 3,
@@ -7328,6 +7328,135 @@
      "name": "Buffer D",
      "description": "",
      "type": "buffer"
+    }
+   ]
+  },
+  {
+   "ver": "0.1",
+   "info": {
+    "id": "tc2yzt",
+    "date": "1756988651",
+    "viewed": 5,
+    "name": "Fork fourier tr beans_plea 074",
+    "description": "a set of tools to do things with fourier transforms. It should be quite useful for prototyping quickly without having to build all the systems from scratch.",
+    "likes": 0,
+    "published": "Unlisted",
+    "usePreview": 0,
+    "tags": [
+     "fft",
+     "utility",
+     "tool",
+     "dft",
+     "ift",
+     "ft"
+    ]
+   },
+   "renderpass": [
+    {
+     "inputs": [
+      {
+       "id": "4dX3Rr",
+       "filepath": "/media/a//media/previz/cubemap00.png",
+       "type": "cubemap",
+       "channel": 0,
+       "sampler": {
+        "filter": "linear",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4dfGRr",
+       "channel": 0
+      }
+     ],
+     "code": "      ///////////////////////////////\n     /// fourier transform tools ///\n    ///////////////////////////////\n   /////                     /////\n  //       by Ahsen Khan       //\n //           GPLv3           //\n/////                     /////\n\n// heavily inspired by fad's unpublished work\n// to quote Inigo Quilez, \"You cannot sell this Work and you cannot mint an NFTs of it or train a neural network with it without permission.\"\n\n\n// how to use:\n// At the bottom of Cube A, you will find a block of easy to read code you can modify and rewrite to do various things\n// The function documentation is at the top of Cube A\n// There is also a custom function called custom0() in which you can easily write your own code within the specified code block\n    // All uniforms should be available for you to use. uint regSize is the resolution of the register you write to\n\n// The source for the functions is in Common if you want to learn more about the functions or modify them.\n// There is also an example function provided which you can modify or duplicate to create your own functions as needed\n\nvoid mainImage( out vec4 O, vec2 U ){\n\n    vec2 r = iResolution.xy;\n    vec2 uv = (2.*U-r.xy)/r.y;\n    vec2 mv = iMouse.xy==vec2(0)?vec2(pi/2.,0):(2.*iMouse.xy-r.xy)/r.y;\n\n    float z = mv.y*pi*0.5;\n    vec3 camDir = normalize(vec3(sin(mv.x)*cos(z), cos(mv.x)*cos(z), sin(z)));\n    vec3 ri = vec3(cos(-mv.x), sin(-mv.x), 0);\n    vec3 up = normalize(cross(ri, camDir));\n    vec3 dir = normalize(camDir + ri * uv.x + up * uv.y);\n\n    O = texture(iChannel0, dir);\n    //O = abs(O);\n    \n    if (\n        U.x < float(regSize) \n        && U.y < float(regSize) \n        && iMouse.z < 0.\n        //&& all(lessThan(sampleRegister(numRegisters-1u, uvec2(U)), vec4(1.-2./float(numRegisters))))\n    ) O = sampleRegister(numRegisters-1u, uvec2(U));\n    \n    O = pow(O, vec4(1./2.2));\n}",
+     "name": "Image",
+     "description": "",
+     "type": "image"
+    },
+    {
+     "inputs": [
+      {
+       "id": "XdfGRn",
+       "filepath": "/media/a/e6e5631ce1237ae4c05b3563eda686400a401df4548d0f9fad40ecac1659c46c.jpg",
+       "type": "texture",
+       "channel": 1,
+       "sampler": {
+        "filter": "nearest",
+        "wrap": "repeat",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      },
+      {
+       "id": "4dfGRn",
+       "filepath": "/media/a/8de3a3924cb95bd0e95a443fff0326c869f9d4979cd1d5b6e94e2a01f5be53e9.jpg",
+       "type": "texture",
+       "channel": 3,
+       "sampler": {
+        "filter": "nearest",
+        "wrap": "repeat",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      },
+      {
+       "id": "XdX3Rn",
+       "filepath": "/media/a/52d2a8f514c4fd2d9866587f4d7b2a5bfa1a11a0e772077d7682deb8b3b517e5.jpg",
+       "type": "texture",
+       "channel": 2,
+       "sampler": {
+        "filter": "nearest",
+        "wrap": "repeat",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      },
+      {
+       "id": "4dX3Rr",
+       "filepath": "/media/a//media/previz/cubemap00.png",
+       "type": "cubemap",
+       "channel": 0,
+       "sampler": {
+        "filter": "nearest",
+        "wrap": "clamp",
+        "vflip": "true",
+        "srgb": "false",
+        "internal": "byte"
+       },
+       "published": 1
+      }
+     ],
+     "outputs": [
+      {
+       "id": "4dX3Rr",
+       "channel": 0
+      }
+     ],
+     "code": "/* \n    --- Available functions ---\n    write your custom code at the bottom of this tab\n    implementation and more comments in Common\n\n        Image loadImage(sampler2D iChannel1..3, vec2 uv, uint numChannels, bool complex); --- complex will be forced to 2 channels\n        Image loadImage(sampler2D iChannel1..3, ivec2 uv, uint numChannels, bool complex);\n\n        Image copy(Image a);\n        Image multiply(Image a, Image b);\n        Image multiply(Image a, vec2 b); --- b is a complex vector. If you just want to do real multiplication (e.g. exposure), use vec2(x, 0)\n            note: multiply() modifies one of the inputs rather than creating a new Image. use copy() if you need to keep something separate\n\n        Image dft(Image a);\n        Image ift(Image a); --- Image A must be complex. Even though it mathematically works it has been intentionally disabled for clarity. \n\n        Image real(Image a); --- take the real components of complex Image and put them into a single real Image\n        Image imaginary(Image a); --- same as real() but for imaginary components\n        Image magnitude(Image a); --- gives the length of the complex vectors\n        Image phase(Image a); --- gives the angle of the imaginary vector\n\n        Image recentre(Image a); --- offset by half the image size\n        void displa(Image a); --- display input at pixel scale\n        void display(Image a, float exposure); --- same as above but with exposure control\n\n        vec4 sampleRegister(uint register, uvec2 uv);\n        vec2 cmul(vec2 a, vec2 b); --- complex multiplication. x component is real, y component is imaginary\n\n\n    some notes about the code:\n        if you run out of memory, you can increment regOrder to get more registers at lower resolution \n\n        nesting functions does not work (yet)\n        \n        multiply modifies existing memory. It is not technically mandatory to assign the function output to a variable, because\n        the memory location that is chosen to be modified should be fairly logical. I could have chosen to just give an error colour \n        if the input order was wrong, but decided that would be more difficult to use without error messages. Simplest use case is to\n        store the output (e.g. y = multiply(y, dft0);), but if you can predict the order it is not completely necessary\n        (e.g. multiply(y, dft0); functions the same). Generally speaking, priority is given to complex registers and more channels. \n        \n        feel free to offer suggestions, point out discrepancies and other issues, request addtional features, etc. \n\n\n\n    todo:\n        fix all the things\n        figure out why the image has the corner offset issue -- recentre is a bandaid for now\n        figure out why the matrix based cmul doesn't work\n        add memory overflow detection\n        figure out why nesting the custom functions doesn't work. I _think_ it's a property of glsl that I can't control but maybe it's my fault?\n        Image normalize(Image a) --- multiply all channels of a real input such that the integral over the image matches that of the identity kernel\n        if anyone wants to help with these things it would be greatly appreciated :)\n*/\n\nfloat sdPolygon( in vec2 p, in float r, in int n/*, in float m*/){\n    // next 4 lines can be precomputed for a given shape\n    float an = 3.141593/float(n);\n    //float en = 3.141593/m;  // m is between 2 and n\n    vec2  acs = vec2(cos(an),sin(an));\n    vec2  ecs = vec2(0, 1);//vec2(cos(en),sin(en)); // ecs=vec2(0,1) for regular polygon\n\n    float bn = mod(atan(p.x,p.y),2.0*an) - an;\n    p = length(p)*vec2(cos(bn),abs(sin(bn)));\n    p -= r*acs;\n    p += ecs*clamp( -dot(p,ecs), 0.0, r*acs.y/ecs.y);\n    return length(p)*sign(p.x);\n}\n\nImage apertureF(inout vec4 O, inout uint registerCounter, uint register, uvec2 U,\n    uint size,\n    bool complex\n){\n    if (register != registerCounter) {\n        Image img = Image(registerCounter, size, complex);\n        registerCounter += 1u;\n        return img;\n    }\n    \n    if (size > 1u && complex){\n        O = vec4(1,0,0,1);\n        return Image(register, size, complex);\n    } // only allowed to use 1 register. you can only do 1 channel complex or up to 4 channels real\n    \n    { // [ body start ] //\n    \n        vec2 uv = vec2(U)/float(regSize);\n        vec2 cuv = uv*2. - 1.;\n\n        /* // gaussian\n        float thingy = exp(-float(regOrder)/4.)*7.; // VERY VERY CURSED and has no basis other than curve fitting subjective points in desmos\n        float scale = (cos(iTime)*.5+.53);\n        O = vec4(\n            exp(\n                -pow(length(cuv)/scale*thingy, 2.)\n                // /(iMouse.y/iResolution.y)\n            )\n        )*vec4(1,1,.5,1);\n        O /= scale*scale*pi * thingy;\n        //*/\n\n        /* // circle\n        float scale = (cos(iTime)*.5+.56);\n        O.x = float(length(cuv) < scale);\n        O.x /= scale*scale*float(regSize);\n        //*/\n\n        //* // polygon\n        float scale = (cos(iTime)*.5+.55);\n        O.x = smoothstep(2./float(regSize), 0., sdPolygon(cuv, scale, 6));\n        O.x /= scale*scale * float(regSize) / 2.;\n        //*/\n\n        // identity kernel\n        //O = vec4(0); if (U == uvec2(regSize/2u)) O = vec4(float(regSize));\n    \n    } // [ body end ] //\n    \n    registerCounter += 1u;\n    return Image(register, size, complex);\n}\n#define aperture(a, b) apertureF(O, regCounter, reg, uvec2(U), a, b)\n\nvoid mainCubemap( out vec4 O, in vec2 U, in vec3 ro, in vec3 rd ){\n\n    uint f;\n    float mx = max(abs(rd.x), max(abs(rd.y), abs(rd.z)));\n    if (mx == abs(rd.x)) f = rd.x>0.?0u:3u;\n    if (mx == abs(rd.y)) f = rd.y>0.?1u:4u;\n    if (mx == abs(rd.z)) f = rd.z>0.?2u:5u;\n\n    uint i = uint(U.x) + (uint(U.y)<<10) + (f<<20);\n\n    uint reg = f*registersPerFace;\n    \n    uvec2 cell = uvec2(floor(U/1024.*float(registersPerSide)));\n    reg += cell.x + cell.y * registersPerSide;\n    vec2 uv = fract(U/1024. * float(registersPerSide));\n    U = uv * 1024./float(registersPerSide);\n\n    O = vec4(\n        float(reg)/float(numRegisters)\n    );\n    \n    uint regCounter = 0u;\n\n    { // Your code goes here\n    \n        Image source0 = loadImage(iChannel3, uv, 3u, false, true);\n        \n        if (iFrame % 2 == 0)\n        {\n            Image apr = aperture(1u, false);\n            Image diff_pattern = magnitude(recentre(dft(apr)));\n\n            displa(source0);\n        }\n        else\n        {\n            Image diff_pattern = copy(Image(2u, 1u, false));\n            \n            // FFT convolve diff_pattern with source0\n            Image x = dft(diff_pattern);\n            Image y = dft(source0);\n            \n            y = multiply(x, y);\n                    \n            y = ift(y);\n            y = real(y);\n            y = recentre(y);\n            \n            displa(y);\n        }\n        \n    } // enjoy :D\n}",
+     "name": "Cube A",
+     "description": "",
+     "type": "cubemap"
+    },
+    {
+     "inputs": [],
+     "outputs": [],
+     "code": "const uint regOrder = 2u;\nconst uint registersPerSide = 1u<<regOrder;\nconst uint registersPerFace = registersPerSide<<regOrder;\nconst uint numRegisters = 6u<<regOrder<<regOrder;\n\nconst uint regSize = 1024u>>regOrder;\n\nconst float pi = 3.1415926;\nconst float tau = 2.*pi;\n\n#ifndef HW_PERFORMANCE\n    uniform samplerCube iChannel0;\n#endif\n\nstruct Image {\n    uint reg;      // register index\n    uint size;     // number of registers : max 4. 0 is error\n                  // if complex, indicates how many registers are in use (1 register per colour channel), and therefore memory size\n                 // if real, indicates how many colour channels are in use (but only 1 register is used)\n    bool complex;  // is the data complex?\n};\n\nvec3 sfi(uint i){ // sample from index\n    uint f = i>>20;\n    if (i >= 6u<<20) return vec3(0);\n    float x = float(i&1023u) - 511.5;\n    float y = float((i>>10)&1023u) - 511.5;\n    \n    if (f==0u) return vec3( 512,-y,-x); \n    if (f==1u) return vec3( x, 512, y); \n    if (f==2u) return vec3( x,-y, 512);\n    if (f==3u) return vec3(-512,-y, x);\n    if (f==4u) return vec3( x,-512,-y);\n    if (f==5u) return vec3(-x,-y,-512);\n}\n\nuint ifrc(uint reg, uvec2 uv){ // index from register and coordinate\n\n    return (reg/registersPerFace)*(1024u*1024u) // face\n        + ((reg/registersPerSide)%registersPerSide)*(regSize*1024u) // register row\n        + (reg%registersPerSide)*regSize // register column\n        + uv.y * 1024u // uv row\n        + uv.x // uv column\n        ;\n}\n\nvec4 sampleRegister(uint register, uvec2 uv){\n    return texture(iChannel0, sfi(ifrc(register, uv)));\n}\n\nmat2 rotmat(float t){\n    return mat2(\n        cos(t), sin(t),\n        -sin(t), cos(t)\n    );\n}\n\n//*\nvec2 cmul(vec2 a, vec2 b){\n    return vec2(\n        a.x * b.x - a.y * b.y,\n        a.x * b.y + a.y * b.x\n    );\n}\n/*/\nvec2 cmul(vec2 a, vec2 b){\n    return (a*rotmat(b.y))*b.x;\n} // I would like an explanation for why this doesn't work. I'm confused\n//*/\n\n\n\n// --- FUNCTION TEMPLATE --- // \nImage exampleF(inout vec4 O, inout uint registerCounter, uint register, uvec2 U,\n    Image a // optional arguments. update corresponding macro as well\n){\n    if (a.complex){\n        if (register < registerCounter || register >= registerCounter + a.size) {\n            Image img = Image(registerCounter, a.size, true);\n            registerCounter += a.size;\n            return img;\n        }\n\n        uint registerIndex = register - registerCounter;\n        \n        O = vec4(0,0,1,1);\n        registerCounter += a.size;\n        return Image(register, a.size, false);\n\n    } else {\n        if (register != registerCounter) {\n            Image img = Image(registerCounter, a.size, false);\n            registerCounter += 1u;\n            return img;\n        }\n        \n        O = vec4(0,1,0,1);\n        registerCounter += 1u;\n        return Image(register, a.size, false);\n    }\n}\n#define example(a) exampleF(O, regCounter, reg, uvec2(U), a)\n// ------------------------- //\n\n\n\nImage loadImageF(inout vec4 O, inout uint registerCounter, uint register, \n    sampler2D channel, \n    vec2 uv, \n    uint channelCount,\n    bool complex,\n    bool srgb // yes I know it's not actual srgb, it's good enough.\n){\n\n    if (register != registerCounter) {\n        Image img = Image(registerCounter, complex?1u:channelCount, complex);\n        registerCounter += 1u;\n        return img;\n    }\n    \n    if (complex) channelCount = 2u;\n    \n    if (srgb){\n        switch(channelCount){\n            case 1u: \n                O.x = pow(texture(channel, uv).x, 2.2);\n                break;\n            case 2u:\n                O.xy = pow(texture(channel, uv).xy, vec2(2.2));\n                break;\n            case 3u:\n                O.xyz = pow(texture(channel, uv).xyz, vec3(2.2));\n                break;\n            case 4u:\n                O = pow(texture(channel, uv), vec4(2.2));\n                break;\n            default: \n                // uh.... what did you do\n                O = vec4(1,0,0,1); // error\n        }\n    } else {\n        switch(channelCount){\n            case 1u: \n                O.x = texture(channel, uv).x;\n                break;\n            case 2u:\n                O.xy = texture(channel, uv).xy;\n                break;\n            case 3u:\n                O.xyz = texture(channel, uv).xyz;\n                break;\n            case 4u:\n                O = texture(channel, uv);\n                break;\n            default: \n                // uh.... what did you do\n                O = vec4(1,0,0,1); // error\n        }\n    }\n    \n    registerCounter += 1u;\n    return Image(register, complex?1u:channelCount, complex);\n}\n\nImage loadImageF(inout vec4 O, inout uint registerCounter, uint register,\n    sampler2D channel,\n    ivec2 U,\n    uint channelCount, // number of colour channels to use : max 4\n    bool complex,\n    bool srgb\n){ // was tempted to make arbitrary dimensions but if you're doing more than 3, this is tool is probably not powerful enough for you\n\n    if (register != registerCounter) {\n        Image img = Image(registerCounter, complex?1u:channelCount, complex);\n        registerCounter += 1u;\n        return img;\n    }\n    \n    if (complex) channelCount = 2u;\n    if (srgb) {\n        switch(channelCount){\n            case 1u: \n                O.x = pow(texelFetch(channel, U, 0).x, 2.2);\n                break;\n            case 2u:\n                O.xy = pow(texelFetch(channel, U, 0).xy, vec2(2.2));\n                break;\n            case 3u:\n                O.xyz = pow(texelFetch(channel, U, 0).xyz, vec3(2.2));\n                break;\n            case 4u:\n                O = pow(texelFetch(channel, U, 0), vec4(2.2));\n                break;\n            default: \n                // uh.... what did you do\n                O = vec4(1,0,0,1); // error\n        }\n    } else {\n        switch(channelCount){\n            case 1u: \n                O.x = texelFetch(channel, U, 0).x;\n                break;\n            case 2u:\n                O.xy = texelFetch(channel, U, 0).xy;\n                break;\n            case 3u:\n                O.xyz = texelFetch(channel, U, 0).xyz;\n                break;\n            case 4u:\n                O = texelFetch(channel, U, 0);\n                break;\n            default: \n                // uh.... what did you do\n                O = vec4(1,0,0,1); // error\n        }\n    }\n    \n    registerCounter += 1u;\n    return Image(register, complex?1u:channelCount, complex);\n}\n#define loadImage(a, b, c, d, e) loadImageF(O, regCounter, reg, a, b, c, d, e)\n\n\n\nImage copyF(inout vec4 O, inout uint registerCounter, uint register, uvec2 U, \n    Image a // target to copy\n){\n    if (a.complex){\n        if (register < registerCounter || register >= registerCounter + a.size) {\n            Image img = Image(registerCounter, a.size, true);\n            registerCounter += a.size;\n            return img;\n        }\n\n        uint registerIndex = register - registerCounter;\n        \n        O = sampleRegister(a.reg + registerIndex, U);\n\n        Image img = Image(registerCounter, a.size, true);\n        registerCounter += a.size;\n        return img;\n\n    } else {\n        if (register != registerCounter) {\n            Image img = Image(registerCounter, a.size, false);\n            registerCounter += 1u;\n            return img;\n        }\n        \n        O = sampleRegister(a.reg, U);\n        registerCounter += 1u;\n        return Image(register, a.size, false);\n    }\n}\n#define copy(a) copyF(O, regCounter, reg, uvec2(U), a)\n\n\n\n/*\n    Allowed functionality:\n    0: real * real\n    1: complex * complex\n    2: real * complex\n    2: complex * real\n        last two are an equivalent third case since complex multiplication is commutative\n\n    Also complex images spanning multiple registers. \n    \n    Must match:\n        for real inputs, number of channels\n        for complex inputs, number of registers\n        OR number of channels or registers of at least one of the inputs is 1\n    \n    outputs:\n        0: r*r = real (1 reg)\n        1: c*c = complex (num reg)\n        2: c*r = complex (num reg (= num channels))\n    \n*/\nImage multiplyF(inout vec4 O, inout uint registerCounter, uint register, uvec2 U,\n    Image a,\n    Image b\n){\n    if (!a.complex && !b.complex) { // both real\n            \n        if (b.size > a.size){\n            Image c = a;\n            a = b;\n            b = c;\n        }\n            \n        if (register != a.reg) {\n            return Image(a.reg, a.size, false);\n        }\n        \n        if (a.size != b.size && b.size != 1u) {\n            O = vec4(1,0,0,1);\n            return Image(a.reg, 0u, false);\n        } // error\n\n        vec4 bTex = sampleRegister(b.reg, U);\n        \n        if (b.size == 1u) bTex = vec4(bTex.x);\n        \n        O *= (b.reg==a.reg?O:bTex);\n        \n        return Image(a.reg, a.size, false);\n    \n    } else if (a.complex && b.complex) { // both complex\n        \n        if (b.size > a.size){\n            Image c = a;\n            a = b;\n            b = c;\n        }\n        \n        if (register < a.reg || register >= a.reg + a.size) {\n            return Image(a.reg, a.size, true);\n        }\n                \n        if (a.size != b.size && b.size != 1u) {\n            O = vec4(1,0,0,1);\n            return Image(a.reg, 0u, true);\n        } // error\n        \n        uint registerIndex = register - a.reg;\n        \n        vec4 bTex = sampleRegister(b.reg + (b.size==1u?0u:registerIndex), U);\n        \n        O.xy = cmul(O.xy, bTex.xy);\n        \n        return Image(a.reg, a.size, true);\n\n    } else { // mix\n    \n        Image c;\n        if (b.complex){\n            c = b;\n            b = a;\n            a = c;\n        } // sets a to complex, b to real\n        \n        // 4 cases:\n        // complex single channel, real single channel              | e.g. single channel blur\n        // complex single channel, real multichannel.               | e.g. direct multiplication of complex components. why? idk. it's possible.\n        // complex multichannel, real single channel                | e.g. rgb image blur\n        // complex multichannel, real multichannel. channels match  | e.g. rgb image blur but differing blur per channel by multiplication of complex components\n        \n        if (register < a.reg || register >= a.reg + a.size) {\n            Image img = Image(a.reg, a.size, true);\n            return img;\n        }\n\n        if (a.size != b.size && a.size != 1u && b.size != 1u){ // eliminates channel not matching condition \n            O = vec4(1,0,0,1);\n            return Image(a.size, 0u, true);\n        } // error\n\n        uint registerIndex = register - a.reg;\n        \n        vec4 bTex = sampleRegister(b.reg, U);\n        \n        vec2 bMul = vec2(bTex[b.size == 1u?0u:registerIndex], 0);\n                \n        O.xy = cmul(O.xy, bMul);\n        \n        Image img = Image(a.reg, a.size, true);\n        return img;\n        \n    }\n    \n    return Image(0u,0u,false);\n}\n\n\n/*\n\n0: Image real, vector real\n1: Image real, vector complex -> not implemented because I saw no use for it\n2: Image complex, vector real\n3: Image complex, vector complex -> same implementation as 2\n\n*/\nImage multiplyF(inout vec4 O, inout uint registerCounter, uint register, uvec2 U,\n    Image a,\n    vec2 b\n){\n    if (!a.complex) {\n    \n        if (b.y != 0.){ // case 1\n            O = vec4(1,0,0,1);\n            return Image(a.reg, 0u, false);\n        }\n                \n        if (register != a.reg) {\n            Image img = Image(a.reg, a.size, false);\n            return img;\n        }\n        \n        O *= b.x;\n        \n        return Image(a.reg, a.size, false);\n        \n    } else { \n    \n        if (register < a.reg || register >= a.reg + a.size) {\n           return Image(a.reg, a.size, true);\n        }\n        \n        uint registerIndex = register - a.reg;\n                \n        O.xy = cmul(O.xy, b);\n        \n        return Image(a.reg, a.size, true);\n\n    }\n    \n    return Image(0u,0u,false);\n}\n#define multiply(a, b) multiplyF(O, regCounter, reg, uvec2(U), a, b)\n\n\n\nImage dftF(inout vec4 O, inout uint registerCounter, uint register, uvec2 uv,\n    Image a\n){\n\n    if (register < registerCounter || register >= registerCounter + a.size) {\n        Image img = Image(registerCounter, a.size, true);\n        registerCounter += a.size;\n        return img;\n    }\n    uint registerIndex = register - registerCounter;\n\n    float fres = float(regSize);\n    float hfres = fres/2.;\n    hfres = 0.;\n\n    vec2 U = floor(vec2(uv)) - hfres;\n    vec4 sum = vec4(0);\n    float x;\n    for (int i = 0; i < int(regSize); i++){\n        x = mod(float(i)/fres + hfres, fres);\n\n        vec2 s = a.complex\n            ?vec2(sampleRegister(a.reg + registerIndex, uvec2(i, U.y + hfres)))\n            :vec2(sampleRegister(a.reg, uvec2(i, U.y + hfres))[int(registerIndex)], 0);\n        sum.zw += cmul(\n            vec2(\n                cos( x * U.x * tau),\n                sin( x * U.x * tau)\n            ),\n            s\n        );\n\n\n        s = sampleRegister(register, uvec2(U.x + hfres, i)).zw;\n        sum.xy += cmul(\n            vec2(\n                cos( x * U.y * tau),\n                sin( x * U.y * tau)\n            ),\n            s\n        );\n\n    }\n\n    O = sum / vec4(1,1,fres,fres);\n\n    //O = vec4(0,1,0,1);\n    Image img = Image(registerCounter, a.size, true);\n    registerCounter += a.size;\n    return img;\n}\n#define dft(a) dftF(O, regCounter, reg, uvec2(U), a)\n\n\n\nImage iftF(inout vec4 O, inout uint registerCounter, uint register, uvec2 U,\n    Image a\n){\n    if (a.complex){\n\n        if (register < registerCounter || register >= registerCounter + a.size) {\n            Image img = Image(registerCounter, a.size, true);\n            registerCounter += a.size;\n            return img;\n        }\n        uint registerIndex = register - registerCounter;\n\n\n        float fres = float(regSize);\n        float hfres = fres/2.;\n        hfres = 0.;\n\n        vec2 U = floor(vec2(U));\n        vec4 sum = vec4(0);\n        float x;\n        for (int i = 0; i < int(regSize); i++){\n            x = mod(float(i)/fres + hfres, fres);\n\n            vec2 s = vec2(sampleRegister(a.reg + registerIndex, uvec2(i, U.y)));\n            sum.zw += cmul(\n                vec2(\n                    cos(-x * U.x * tau),\n                    sin(-x * U.x * tau)\n                ),\n                s\n            );\n\n            s = sampleRegister(register, uvec2(U.x, i)).zw;\n            sum.xy += cmul(\n                vec2(\n                    cos(-x * U.y * tau),\n                    sin(-x * U.y * tau)\n                ),\n                s\n            );\n\n        }\n\n        O = sum / vec4(1,1,fres,fres);\n        //O.xy *= float((int(U.x)%2)^(int(U.y)%2))*-2.+1.;\n        \n        //O = vec4(1,0,0,1);\n        Image img = Image(registerCounter, a.size, true);\n        registerCounter += a.size;\n        return img;\n    } else {\n    \n        if (register < registerCounter || register >= registerCounter + a.size) {\n            Image img = Image(registerCounter, 0u, true);\n            registerCounter += a.size;\n            return img;\n        }\n        uint registerIndex = register - registerCounter;\n        \n        // requires complex input. real is not acceptable.\n        \n        O = vec4(1,0,0,1);\n        Image img = Image(registerCounter, 0u, true);\n        registerCounter += a.size;\n        return img;\n    }\n}\n#define ift(a) iftF(O, regCounter, reg, uvec2(U), a)\n\n\n\nImage realF(inout vec4 O, inout uint registerCounter, uint register, uvec2 U,\n    Image a \n){\n    if (a.complex){\n        if (register != registerCounter) {\n            Image img = Image(registerCounter, a.size, false);\n            registerCounter += 1u;\n            return img;\n        }\n\n        O = vec4(0);\n        if (a.size > 0u) O.x = sampleRegister(a.reg + 0u, U).x;\n        if (a.size > 1u) O.y = sampleRegister(a.reg + 1u, U).x;\n        if (a.size > 2u) O.z = sampleRegister(a.reg + 2u, U).x;\n        if (a.size > 3u) O.w = sampleRegister(a.reg + 3u, U).x;        \n        \n        registerCounter += 1u;\n        return Image(register, a.size, false);\n\n    } else {\n    \n        if (register < registerCounter || register >= registerCounter + a.size) {\n            Image img = Image(registerCounter, 0u, true);\n            registerCounter += 1u;\n            return img;\n        }\n        uint registerIndex = register - registerCounter;\n        \n        // requires complex input. real is not acceptable.\n        \n        O = vec4(1,0,0,1);\n        Image img = Image(registerCounter, 0u, true);\n        registerCounter += 1u;\n        return img;\n    }\n}\n#define real(a) realF(O, regCounter, reg, uvec2(U), a)\n\n\n\nImage imaginaryF(inout vec4 O, inout uint registerCounter, uint register, uvec2 U,\n    Image a \n){\n    if (a.complex){\n        if (register != registerCounter) {\n            Image img = Image(registerCounter, a.size, false);\n            registerCounter += 1u;\n            return img;\n        }\n\n        O = vec4(0);\n        if (a.size > 0u) O.x = sampleRegister(a.reg + 0u, U).y;\n        if (a.size > 1u) O.y = sampleRegister(a.reg + 1u, U).y;\n        if (a.size > 2u) O.z = sampleRegister(a.reg + 2u, U).y;\n        if (a.size > 3u) O.w = sampleRegister(a.reg + 3u, U).y;        \n        \n        registerCounter += 1u;\n        return Image(register, a.size, false);\n\n    } else {\n    \n        if (register < registerCounter || register >= registerCounter + a.size) {\n            Image img = Image(registerCounter, 0u, true);\n            registerCounter += 1u;\n            return img;\n        }\n        uint registerIndex = register - registerCounter;\n        \n        // requires complex input. real is not acceptable.\n        \n        O = vec4(1,0,0,1);\n        Image img = Image(registerCounter, 0u, true);\n        registerCounter += 1u;\n        return img;\n    }\n}\n#define imaginary(a) imaginaryF(O, regCounter, reg, uvec2(U), a)\n\n\n\nImage magnitudeF(inout vec4 O, inout uint registerCounter, uint register, uvec2 U,\n    Image a \n){\n    if (a.complex){\n        if (register != registerCounter) {\n            Image img = Image(registerCounter, a.size, false);\n            registerCounter += 1u;\n            return img;\n        }\n\n        O = vec4(0);\n        if (a.size > 0u) O.x = length(sampleRegister(a.reg + 0u, U));\n        if (a.size > 1u) O.y = length(sampleRegister(a.reg + 1u, U));\n        if (a.size > 2u) O.z = length(sampleRegister(a.reg + 2u, U));\n        if (a.size > 3u) O.w = length(sampleRegister(a.reg + 3u, U));        \n        \n        registerCounter += 1u;\n        return Image(register, a.size, false);\n\n    } else {\n    \n        if (register < registerCounter || register >= registerCounter + a.size) {\n            Image img = Image(registerCounter, 0u, true);\n            registerCounter += 1u;\n            return img;\n        }\n        uint registerIndex = register - registerCounter;\n        \n        // requires complex input. real is not acceptable.\n        \n        O = vec4(1,0,0,1);\n        Image img = Image(registerCounter, 0u, true);\n        registerCounter += 1u;\n        return img;\n    }\n}\n#define magnitude(a) magnitudeF(O, regCounter, reg, uvec2(U), a)\n\n\n\nImage phaseF(inout vec4 O, inout uint registerCounter, uint register, uvec2 U,\n    Image a \n){\n    if (a.complex){\n        if (register != registerCounter) {\n            Image img = Image(registerCounter, a.size, false);\n            registerCounter += 1u;\n            return img;\n        }\n\n        O = vec4(0);\n        vec4 t;\n        if (a.size > 0u){\n            t = sampleRegister(a.reg + 0u, U);\n            O.x = atan(t.y, t.x);\n        }\n        if (a.size > 1u){\n            t = sampleRegister(a.reg + 1u, U);\n            O.y = atan(t.y, t.x);\n        }\n        if (a.size > 2u){\n            t = sampleRegister(a.reg + 2u, U);\n            O.z = atan(t.y, t.x);\n        }\n        if (a.size > 3u){\n            t = sampleRegister(a.reg + 3u, U);\n            O.w = atan(t.y, t.x);\n        }\n        \n        registerCounter += 1u;\n        return Image(register, a.size, false);\n\n    } else {\n    \n        if (register < registerCounter || register >= registerCounter + a.size) {\n            Image img = Image(registerCounter, 0u, true);\n            registerCounter += 1u;\n            return img;\n        }\n        uint registerIndex = register - registerCounter;\n        \n        // requires complex input. real is not acceptable.\n        \n        O = vec4(1,0,0,1);\n        Image img = Image(registerCounter, 0u, true);\n        registerCounter += 1u;\n        return img;\n    }\n}\n#define phase(a) phaseF(O, regCounter, reg, uvec2(U), a)\n\n\n\nImage recentreF(inout vec4 O, inout uint registerCounter, uint register, uvec2 U,\n    Image a\n){\n    if (a.complex){\n        if (register < registerCounter || register >= registerCounter + a.size) {\n            Image img = Image(registerCounter, a.size, true);\n            registerCounter += a.size;\n            return img;\n        }\n\n        uint registerIndex = register - registerCounter;\n        \n        O = sampleRegister(a.reg + registerIndex, (U-(regSize>>1))&(regSize-1u));\n\n        Image img = Image(registerCounter, a.size, true);\n        registerCounter += a.size;\n        return img;\n\n    } else {\n        if (register != registerCounter) {\n            Image img = Image(registerCounter, a.size, false);\n            registerCounter += 1u;\n            return img;\n        }\n        \n        O = sampleRegister(a.reg, (U-(regSize>>1))&(regSize-1u));\n        registerCounter += 1u;\n        return Image(register, a.size, false);\n    }\n}\n#define recentre(a) recentreF(O, regCounter, reg, uvec2(U), a)\n\n\n\nvoid displayF(inout vec4 O, inout uint registerCounter, uint register, uvec2 U,\n    Image a,\n    float exposure\n){ // should support all number of channels for both complex and real\n    if (a.complex){\n    \n        if (register != numRegisters-1u) {\n            return;\n        }\n\n        O = vec4(0);\n        \n        if (a.size == 1u){\n            O.xy = sampleRegister(a.reg, U).xy;\n            return;\n        }\n        \n        O.x = length(sampleRegister(a.reg + 0u, U).xy);\n        if (a.size > 1u) O.y = length(sampleRegister(a.reg + 1u, U).xy);\n        if (a.size > 2u) O.z = length(sampleRegister(a.reg + 2u, U).xy);\n        if (a.size > 3u) O.w = length(sampleRegister(a.reg + 3u, U).xy);\n\n    } else {\n    \n        if (register != numRegisters-1u) {\n            return;\n        }\n        \n        O = sampleRegister(a.reg, U);\n    }\n    \n    O *= exposure;\n}\n#define display(a, b) displayF(O, regCounter, reg, uvec2(U), a, b)\n#define displa(a) displayF(O, regCounter, reg, uvec2(U), a, 1.)\n\n\n\n",
+     "name": "Common",
+     "description": "",
+     "type": "common"
     }
    ]
   }
